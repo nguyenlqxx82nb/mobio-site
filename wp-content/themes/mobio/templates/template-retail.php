@@ -11,20 +11,12 @@
 get_header();
 ?> 
 <!-- header -->
-<?php get_template_part('template-parts/header-page',null,
+<?php get_template_part('template-parts/header-product',null,
   array( 
-    'title' => 'industry | retail',
-    'name' => 'Grow Customer Loyalty and Build Brand Love for your Business',
-    'name-class' => 'w-750 f-b f-60 mr-t-25',
+    'title' => 'Grow Customer Loyalty and Build Brand Love for your Business',
+    'desc' => "Do you know that Retailers are those benefit most from customer data. Mastering the data flow, Retailers can create a seamless customer experience that increases revenue and embraces customer loyalty.",
+    'header-img' => get_template_directory_uri(). '/images/industry-retail/header.png'
   ));
-?>
-
-<?php 
-  get_template_part('template-parts/feature-image', null,
-    array(
-      'class' => 'mr-t-50',
-      'img-src' => get_template_directory_uri(). '/images/industry-retail/header.png'
-    ));
 ?>
 
 <?php 
@@ -79,7 +71,7 @@ get_header();
     array(
       'classExtend' => 'mr-t-200',
       'title-sm' => 'how can we help?',
-      'title' => 'How Mobio Upgrades Your Buyer Experience', 
+      'title' => 'How Mobio upgrades your Buyer Experience', 
     )
   );
 ?>
@@ -88,7 +80,7 @@ get_header();
   array(
     'classExtend' => 'mr-t-150',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
-    'title' => 'solutions for fintech',
+    'title' => 'o2o data collection',
     // 'title-class' => 'f-18 c-1-b',
     'name' => 'Understand your customers with <strong>O2O Data Collection</strong>',
     // 'classColContent' => 'mo-col-5',
@@ -99,7 +91,7 @@ get_header();
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/industry-retail/o2o-data-collection.png',
-    'desc' => "<p>By using MOBIO CDP, retailers not only gather customer feedback but also make it easy to create customer-centric roadmaps based on 
+    'desc' => "<p>By using MOBIO CDP, Retailers not only gather customer feedback but also make it easy to create customer-centric roadmaps based on 
       the feedback and help connect data to create an excellent customer experience.  </p>",
     'next' => 'Explore our possibilities >>',
     'next-url' => '#'
@@ -187,7 +179,7 @@ get_header();
 							'title-sub' => '26% increase in voucher redeem',
 							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did they succeed in managing operations and optimizing customer experience with Mobio Platform?',
 							'url' => '#',
-							'img-src' => get_template_directory_uri().'/images/home/use-cases.jpg'
+							'img-src' => get_template_directory_uri().'/images/home/guardian.png'
 						),
 						array(
 							'tab-img-s' => get_template_directory_uri() . '/images/tenant/routine.png',

@@ -36,7 +36,7 @@ get_header();
                         array( 
                           'classExtend' => 'mr-t-250',
                           'title-sm' => 'trigger-based campaign',
-                          'title' => 'Types Of Trigger-Based Campaign'
+                          'title' => 'Types Of Trigger Campaign'
                         )); ?>
 
   <?php get_template_part('template-parts/tab-images',null,
@@ -114,7 +114,7 @@ get_header();
                         array( 
                           'classExtend' => 'mr-t-200',
                           'title-sm' => 'trigger in action',
-                          'title' => 'See How Trigger Campaigns Can Be A Game Changer',
+                          'title' => 'See how Trigger Campaigns can be a Game Changer',
                         )); ?>
 
     <?php get_template_part('template-parts/row-content-two',null,
@@ -174,7 +174,7 @@ get_header();
 
   <?php get_template_part('template-parts/footer-contact', null,
       array( 
-        'title' => 'Curious about Trigger Campaign? There’re a lot more to explore!'
+        'title' => 'Curious about Trigger Campaign? There’re lots more to explore!'
       )
     ); ?>
 

@@ -37,7 +37,7 @@ get_header();
 <?php 
   get_template_part('template-parts/feature-image', null, 
     array(
-      'img-src' => get_template_directory_uri(). '/images/product/marketing/jb-visual_interface.png'
+      'img-src' => get_template_directory_uri(). '/images/product/marketing/journey-builder-visual-interface.png'
     )
   )
 ?>
@@ -186,18 +186,18 @@ get_header();
       'items' => array(
         array(
           'icon-src' => get_template_directory_uri().'/images/icon-digital.png',
-          'name' => 'You Own The Journey',
-          'desc' => '<strong>The magic wand</strong> for success is in figuring out how to bring in the profits and ensure the capacity needed to sustain that growth for posterity.'
+          'name' => 'You own the Journey',
+          'desc' => '<strong>Customer journey</strong> is no longer the unpredicted prospect that you have to follow. Now businesses create and decide the way customers interact, what messages they get, and all the steps they take.'
         ),
         array(
           'icon-src' => get_template_directory_uri().'/images/icon-loyalty.png',
-          'name' => 'Personalized At Scale',
-          'desc' => 'A potential customer, once lost, is hard to retain back. But <strong>keeping some critical</strong> factors in mind, we can, for sure, use these loyalty programs as customer retention tools.'
+          'name' => 'Personalized at Scale',
+          'desc' => 'Messages to customers are <strong>customized for each individual</strong>, making them feel that those messages are unique and sent personally, boosting CTR, ROI, and conversion in your marketing campaign.'
         ),
         array(
           'icon-src' => get_template_directory_uri().'/images/icon-personal.png',
           'name' => 'Everything Tracked',
-          'desc' => 'We know how we candevelop deep, trust-based relationships with our clients, and work together more collaboratively'
+          'desc' => 'Every customer touchpoints and digital footprint across the journey are tracked, collected, and stored in CDP, achieving the goal of every business: a single source of truth.'
         ),
       )
     )
@@ -231,7 +231,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-contact', null,
     array(
-      'title' => 'Curious about Journey Builder? There’re a lot more to explore!'
+      'title' => 'Curious about Journey Builder? There’re lots more to explore!'
     ))
 ?>
 

@@ -15,7 +15,7 @@ get_header();
 <?php get_template_part('template-parts/header-page',null,
   array( 
     'title' => 'Mobio cdp',
-    'name' => 'Streamline your data platform and centralize customer data infrastructure',
+    'name' => 'Streamline your Data Platform and Centralize Customer Data Infrastructure',
     'name-class' => 'f-b f-60 mr-t-25',
   ));
 ?>
@@ -24,8 +24,8 @@ get_header();
   get_template_part('template-parts/section-title', null, 
     array(
       'classExtend' => 'mr-t-100',
-      'title-sm' => '360 degree customer view',
-      'title' => 'See A Complete View Of Customer: From Lead To Advocacy', 
+      'title-sm' => '360-degree customer view',
+      'title' => 'See a Complete View of Customer: From Lead to Advocacy', 
       'desc' => 'MOBIO CDP allows businesses to use accurate customer data in real-time to access, active, and orchestrate the customer journey, create a 360-degree customer view from O2O data sources.',
       'desc-w' => 'w-900'
     )
@@ -36,7 +36,7 @@ get_header();
   get_template_part('template-parts/feature-image', null,
     array(
       'classExtend' => 'mr-t-100',
-      'img-src' => get_template_directory_uri(). '/images/product/cdp/customer-360-viewng.png'
+      'img-src' => get_template_directory_uri(). '/images/product/cdp/customer-360.png'
     ));
 ?>
 
@@ -44,8 +44,8 @@ get_header();
   get_template_part('template-parts/section-title', null, 
     array(
       'classExtend' => 'mr-t-300',
-      'title-sm' => 'cdp functions',
-      'title' => 'Easier And Faster To Access And Manage Your Data'
+      'title-sm' => 'operation cdp functions',
+      'title' => 'Easier and Faster to Access and Manage your Data'
     )
   );
 ?>
@@ -54,7 +54,7 @@ get_header();
   get_template_part('template-parts/cdp-function', null, 
     array(
       'classExtend' => 'mr-t-90',
-      'img-src' => '',
+      'img-src' => get_template_directory_uri().'/images/product/cdp/cdp-data-collection.png',
       'items' => array(
         array(
           'title' => 'Data collection',
@@ -92,8 +92,58 @@ get_header();
   get_template_part('template-parts/section-title', null, 
     array(
       'classExtend' => 'mr-t-300',
-      'title-sm' => 'cdp architercture',
-      'title' => 'The Perfect Chore For Your Data Harmony', 
+      'title-sm' => 'mobio CDP’s additional functions',
+      'title' => 'Collect, Store, Unify and other Capabilities', 
+    )
+  );
+?>
+
+<?php 
+  get_template_part('template-parts/content-three', null, 
+    array(
+      'classExtend' => 'mr-t-50',
+      'items' => array(
+        array(
+          'icon-src' => get_template_directory_uri().'/images/icon-digital.png',
+          'name' => 'Realtime Audience',
+          'desc' => 'Collect and update profile information in real-time, immediately activate for the operating system.'
+        ),
+        array(
+          'icon-src' => get_template_directory_uri().'/images/icon-loyalty.png',
+          'name' => '360-degree view',
+          'desc' => 'All collected information is saved and shown in CDP to create a full and detailed picture of each customer, including their activities, sentiment, transactions, ticket.'
+        ),
+        array(
+          'icon-src' => get_template_directory_uri().'/images/icon-personal.png',
+          'name' => 'Auto Collection',
+          'desc' => 'Automatically recognize and store phone numbers and emails in Customer’s comments on social channels or private messages.'
+        ),
+        array(
+          'icon-src' => get_template_directory_uri().'/images/icon-digital.png',
+          'name' => 'Dynamic Fields',
+          'desc' => 'Allow users to create and define new data fields as per business characteristics and automatically create the corresponding filter criteria.'
+        ),
+        array(
+          'icon-src' => get_template_directory_uri().'/images/icon-loyalty.png',
+          'name' => 'AI Sentiment Predict',
+          'desc' => 'Read customers’ sentiment through social comments and divide it into 3 types: Positive, Neutral, and Negative.'
+        ),
+        array(
+          'icon-src' => get_template_directory_uri().'/images/icon-personal.png',
+          'name' => 'Data Enrichment',
+          'desc' => 'Analyze from existing data, Facebook data & web interaction behavior to enrich profile information about their gender, age, location, and interests.'
+        )
+      )
+    )
+  );
+?>
+
+<?php 
+  get_template_part('template-parts/section-title', null, 
+    array(
+      'classExtend' => 'mr-t-300',
+      'title-sm' => 'mobio cdp architercture',
+      'title' => 'The Perfect Chore for your Data Harmony', 
       'desc' => 'Data are the cornerstone upon which companies are launching their digital transformations—investing in analytics capabilities, machine learning, robotics, and other technologies to boost their odds of success.',
       'desc-w' => 'w-1000'
     )
@@ -107,57 +157,6 @@ get_header();
       'img-src' => get_template_directory_uri(). '/images/product/cdp/cdp-2.png'
     ));
 ?>
-
-<?php 
-  get_template_part('template-parts/section-title', null, 
-    array(
-      'classExtend' => 'mr-t-300',
-      'title-sm' => 'the benefits of a cdp',
-      'title' => 'Collect, Store, Unify And Other Capabilities', 
-    )
-  );
-?>
-
-<?php 
-  get_template_part('template-parts/content-three', null, 
-    array(
-      'classExtend' => 'mr-t-50',
-      'items' => array(
-        array(
-          'icon-src' => get_template_directory_uri().'/images/icon-digital.png',
-          'name' => 'Realtime Audience',
-          'desc' => '<strong>The magic wand</strong> for success is in figuring out how to bring in the profits and ensure the capacity needed to sustain that growth for posterity.'
-        ),
-        array(
-          'icon-src' => get_template_directory_uri().'/images/icon-loyalty.png',
-          'name' => 'Event Forwarding',
-          'desc' => 'A potential customer, once lost, is hard to retain back. But <strong>keeping some critical</strong> factors in mind, we can, for sure, use these loyalty programs as customer retention tools.'
-        ),
-        array(
-          'icon-src' => get_template_directory_uri().'/images/icon-personal.png',
-          'name' => 'Group Management',
-          'desc' => 'We know how we candevelop deep, trust-based relationships with our clients, and work together more collaboratively'
-        ),
-        array(
-          'icon-src' => get_template_directory_uri().'/images/icon-digital.png',
-          'name' => 'Dynamic Fields',
-          'desc' => '<strong>The magic wand</strong> for success is in figuring out how to bring in the profits and ensure the capacity needed to sustain that growth for posterity.'
-        ),
-        array(
-          'icon-src' => get_template_directory_uri().'/images/icon-loyalty.png',
-          'name' => 'Data Integration',
-          'desc' => 'A potential customer, once lost, is hard to retain back. But <strong>keeping some critical</strong> factors in mind, we can, for sure, use these loyalty programs as customer retention tools.'
-        ),
-        array(
-          'icon-src' => get_template_directory_uri().'/images/icon-personal.png',
-          'name' => 'Touchpoint Trackingt',
-          'desc' => 'We know how we candevelop deep, trust-based relationships with our clients, and work together more collaboratively'
-        )
-      )
-    )
-  );
-?>
-
 
 <?php 
   get_template_part('template-parts/cdp-guideline', null, 
@@ -245,7 +244,7 @@ get_header();
     array(
       'classExtend' => 'mr-t-200',
       'title' => 'Getting interested?',
-      'desc' => 'Talk to our experts to get more insights about your own business case'
+      'desc' => 'Talk to our consultants to get more insights about your own business case'
     )
   );
 ?>

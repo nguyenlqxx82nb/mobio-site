@@ -13,39 +13,45 @@ get_header();
 <!-- header -->
 <?php get_template_part('template-parts/header-page',null,
         array( 
-          'name' => 'Why choose Mobio?',
-          'desc' => 'You might have heard a lot about CDP. But have you ever heard of Operation CDP and did you ever try it? 
-            Mobio CDP is an Operation CDP that provides all business operation tools, from collecting data from various sources to activating data for marketing, sales, and service activities.',
+          'name' => 'What makes us different?',
+          'desc' => 'You might have heard a lot about CDP. But have you ever heard of Operation CDP, and did you ever try it? Mobio CDP is an Operation CDP that provides all business operation tools, from collecting data from various sources to activating data for marketing, sales, and service activities.',
           'desc-class' => 'f-n f-18'
         )); ?>
 
 <?php get_template_part('template-parts/section-title',null,
   array( 
     'classExtend' => 'mr-t-100',
-    'title-sm' => 'ticketing system',
-    'title' => 'Organize, Prioritize, And Consolidate Support Requests',
-    'desc' => 'Ticketing systems enable organizations to quickly assign inquiries to the most relevant agent, provide context to customer interactions, and track inquiries from customers. The system also provides a shared inbox which helps support staff coordinate their efforts.',
+    'title-sm' => 'data at the heart of our system',
+    'title' => 'How Data plays its role in the Customer Journey',
+    'desc' => 'You often hear about the importance of knowing your customers. It’s crucial to learn about their needs, interests, pain points, affinities, and more. Customer Journey Mapping gives you insights into these areas as well as how your customers interact with your company’s products or services.',
     'desc-w' => 'w-1250'
   )); ?>
 
 <?php get_template_part('template-parts/feature-image',null,
-  array( 
+  array( 'img-src' => get_template_directory_uri(). '/images/why-mobio/mobio_customer-360-degree.png',
     'classExtend' => '',
   )); ?>
 
-<?php get_template_part('template-parts/section-title',null,
-  array( 
-    'classExtend' => 'mr-t-200',
-    'title-sm' => 'mobio platform',
-    'title' => 'How Mobio System works?',
-  )); ?>
-
-<?php get_template_part('template-parts/feature-image',null,
-  array( 
-    'classExtend' => '',
-  )); ?>
-
-
+<?php get_template_part('template-parts/row-content-two',null,
+  array(
+    'classExtend' => 'mr-t-300',
+    'imageLeft' => '1',
+    // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'title' => 'MOBIO SYSTEM',
+    // 'title-class' => 'f-18 c-1-b',
+    'name' => '<strong>How Mobio System works?</strong>',
+    'classColContent' => 'mo-col-6',
+    'classColImage' => 'mo-col-6',
+    'nameClass' => 'f-n f-48',
+    // 'classImage' => 'b-r-10',
+    'classImageContainer' => 'pa-0',
+    'classImageRatio' => 'rt-3-4',
+    'divider' => 1,
+    'img-src' => get_template_directory_uri(). '/images/why-mobio/mobio-platform.png',
+    'desc' => "<p>Mobio Platform is a comprehensive system that includes Marketing, Sales, Service operation tools with CDP to collect and manage data. 
+    <br><br>The Platform is a self-closing process that collects every customer's digital footprint across channels and uses that to run a customization marketing campaign, close deals, and provide customer service, then the data of customer behavior interacted with the business will go back and enrich the CDP. 
+    <br><br>A cycle keeps going on to build a 360-degree customer view.</p>",
+      )); ?>
 
 <!-- PLATFORM -->
 <?php 
@@ -56,48 +62,48 @@ get_header();
           array(
             'title' => 'CDP',
             'content' => array(
-              'img-src' => get_template_directory_uri(). '/images/product/sales/sale-1.png',
+              'img-src' => get_template_directory_uri(). '/images/why-mobio/why-us-cdp.png',
               'title' => 'mobio platform',
               'name' => 'Customer Data Platform',
               'desc' => 'Mobio Operation CDP is a comprehensive customer data platform that expends from collecting and managing data, to activating data for marketing, 
-                    sales, and service activities. All customer touchpoints and digital footprint are tracked and stored in data storage to create a 360 degree customer view.',
-              'next_url' => '#',
+                    sales, and service activities. All customer touchpoints and digital footprint are tracked and stored in data storage to create a 360-degree customer view.',
+              'next-url' => get_site_url() . '/products-cdp',
               'next' => 'Learn more'
             )
           ),
           array(
             'title' => 'marketing management',
             'content' => array(
-              'img-src' => get_template_directory_uri(). '/images/product/sales/sale-1.png',
+              'img-src' => get_template_directory_uri(). '/images/why-mobio/why-us-marketing-management.png',
               'title' => 'mobio platform',
-              'name' => 'Customer Data Platform',
-              'desc' => 'Mobio Operation CDP is a comprehensive customer data platform that expends from collecting and managing data, to activating data for marketing, 
-                    sales, and service activities. All customer touchpoints and digital footprint are tracked and stored in data storage to create a 360 degree customer view.',
-              'next_url' => '#',
+              'name' => 'Marketing Management',
+              'desc' => 'Create end-to-end and personalized digital campaigns, deliver meaningful messages at the right time, in the right channel, to the right customer. 
+              Reach customers across every channel your company owns, increasing customer interaction, engagement, and retention.',
+              'next-url' => get_site_url() . '/products-marketing',
               'next' => 'Learn more'
             )
           ),
           array(
             'title' => 'sales management',
             'content' => array(
-              'img-src' => get_template_directory_uri(). '/images/product/sales/sale-1.png',
+              'img-src' => get_template_directory_uri(). '/images/why-mobio/why-us-sales-management.png',
               'title' => 'mobio platform',
-              'name' => 'Customer Data Platform',
-              'desc' => 'Mobio Operation CDP is a comprehensive customer data platform that expends from collecting and managing data, to activating data for marketing, 
-                    sales, and service activities. All customer touchpoints and digital footprint are tracked and stored in data storage to create a 360 degree customer view.',
-              'next_url' => '#',
+              'name' => 'Sales Management',
+              'desc' => 'Gather information and contact details of potential leads, and provide lead scoring to analyze leads quality. Help sales managers track team member performance and ensure KPI progress. 
+              Sales Management also helps teams manage personal tasks to stay on track, and include communication tools to contact customers directly from the platform.',
+              'next-url' => get_site_url() . '/products-sale',
               'next' => 'Learn more'
             )
           ),
           array(
             'title' => 'service management',
             'content' => array(
-              'img-src' => get_template_directory_uri(). '/images/product/sales/sale-1.png',
+              'img-src' => get_template_directory_uri(). '/images/why-mobio/why-us-service-management.png',
               'title' => 'mobio platform',
-              'name' => 'Customer Data Platform',
-              'desc' => 'Mobio Operation CDP is a comprehensive customer data platform that expends from collecting and managing data, to activating data for marketing, 
-                    sales, and service activities. All customer touchpoints and digital footprint are tracked and stored in data storage to create a 360 degree customer view.',
-              'next_url' => '#',
+              'name' => 'Service Management',
+              'desc' => 'This module was built specifically for the Customer Success team to connect and interact with customers in real-time via social channels and web live chat. 
+              Build Loyalty program to engage customers and expand purchasing lifecycle. Left no customer issues behind with Ticket Management System.',
+              'next-url' => get_site_url() . '/products-services-management',
               'next' => 'Learn more'
             )
           ),

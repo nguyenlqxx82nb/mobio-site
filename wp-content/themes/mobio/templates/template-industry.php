@@ -26,7 +26,7 @@ get_header();
     array(
       'classExtend' => 'mr-t-200',
       'title-sm' => 'customer industries',
-      'title' => 'Gain New Insights About Your Customers',
+      'title' => 'Gain New Insights about your Customers',
       'desc' => 'MOBIO CDP is designed to conquer to challenges of every industry and company has to deal with. 
       We understand that each business has its problems and requires different solutions. 
       Our experimental experts are here to help you get deeper insights about your industry and customers and how Mobio Platform can resolve your current and future business needs.',
@@ -41,19 +41,19 @@ get_header();
     'classExtend' => 'mr-t-50',
     'items' => array(
       array(
-        'name' => 'financial services',
+        'name' => 'Financial Services',
         'url' => get_site_url(). '/industry-fsi',
       ),
       array(
-        'name' => 'retail',
+        'name' => 'Retail',
         'url' => get_site_url(). '/industry-retail',
       ),
       array(
-        'name' => 'Real estate',
+        'name' => 'Real Estate',
         'url' => get_site_url(). '/industry-real_estate',
       ),
       array(
-        'name' => 'healthcare',
+        'name' => 'Healthcare',
         'url' => get_site_url(). '/industry-healthcare',
       )
     )
@@ -124,6 +124,26 @@ get_header();
       'img-src' => get_template_directory_uri(). '/images/industry/healthcare.png',
       'desc' => '<p>Collect and store all customer data to let you know your customer better than they know themselves. Provide deeper customer insights to meet your customer requirements and give them the best services. 
       <br><br>Complete solutions for Healthcare businesses to boost sales and increase customer engagement. </p>',
+      // 'next' => 'learn how to manage your workspace >>',
+      'next-button' => 'Learn More',
+      'next-url' => '#'
+    )); ?>
+
+<?php get_template_part('template-parts/row-content-two',null,
+    array( 
+      //'imageLeft' => 1,
+      'icon' => get_template_directory_uri(). '/images/item-icon.png',
+      'title' => 'real estate investor',
+      'title-class' => 'f-18 c-1-b',
+      'name' => 'Real Estate',
+      'nameClass' => 'f-b f-56',
+      'classExtend' => 'mr-t-250',
+      'classImageContainer' => 'b-sd-n',
+      'classImageRatio' => 'rt-3-4',
+      // 'divider' => 1,
+      'img-src' => get_template_directory_uri(). '/images/industry/real-estate.png',
+      'desc' => '<p>Help Real Estate Agents to run marketing campaigns and close deals faster, as weel as manage deep connection with customers.
+      <br><br>Complete solutions for Real Estate agents to boost sales and increase customer engagement. </p>',
       // 'next' => 'learn how to manage your workspace >>',
       'next-button' => 'Learn More',
       'next-url' => '#'

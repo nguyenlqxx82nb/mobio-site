@@ -26,7 +26,7 @@
       array(
         'icon-src' =>get_template_directory_uri(). '/images/icon-loyalty.png',
         'name' => 'Customization',
-        'desc' => 'We offer personal consulting to get your business issues and develop features based on your desires. We have a fulfill process that easy to follow and support team to guide you step-by-step. '
+        'desc' => 'We offer personal consulting to get your business issues and develop features based on your desires. We have a complete process that is easy to follow and implement.'
       ),
       array(
         'icon-src' =>get_template_directory_uri(). '/images/icon-personal.png',

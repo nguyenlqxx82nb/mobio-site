@@ -13,7 +13,7 @@ get_header();
 
 <?php get_template_part('template-parts/header-page',null,
     array( 
-      'name' => 'Get inspired by our customers’ success stories',
+      'name' => 'Get inspired by our Customers’ Success Stories',
       'name-class' => 'w-600 f-b f-60 mr-t-25',
       'desc' => 'See how top enterprises tackle business challenges and achieve their goals with Mobio Platform.'
     )); ?>
@@ -50,7 +50,7 @@ get_header();
       'title-sm' => 'success stories',
       'title' => 'Top pick case Studies',
       'title-class' => 'f-b f-48 c-0-b',
-      'desc' => 'Here we choose our best cases that showed meaningful results. These are all our trusted customers and loyal advocacies.'
+      'desc' => 'Here we choose our best cases that showed meaningful results.<br>These are all our trusted customers and loyal advocacies.'
     )
   );
 ?>

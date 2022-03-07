@@ -38,7 +38,7 @@
             <input class="" placeholder="Enter your email address" />
           </div>
           <a href="<?php echo get_site_url(). '/contact' ?>">
-            <button class="mo-btn-white mr-t-20 c-5">Contact Us</button>
+            <button class="mo-btn-white mr-t-20 c-5">CONTACT US</button>
           </a>
         <?php } ?>
       </div>

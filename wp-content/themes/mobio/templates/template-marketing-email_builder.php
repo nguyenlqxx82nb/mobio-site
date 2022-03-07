@@ -22,7 +22,7 @@ get_header();
   <?php get_template_part('template-parts/row-content-two',null,
       array( 
         'imageLeft' => 1,
-        'name' => 'Your email is a part of the seamless journey.',
+        'name' => 'Your email is a part of the <strong>seamless journey</strong>.',
         'nameClass' => 'f-48',
         'classExtend' => 'mr-t-150',
         'classColContent' => 'mo-col-5',
@@ -49,7 +49,7 @@ get_header();
   <?php get_template_part('template-parts/section-title',null,
       array( 
         'classExtend' => 'mr-t-250',
-        'title' => 'Or Start With Our Premade Templates',
+        'title' => 'Or start with our Premade Templates',
         'desc' => 'Our templates are trusted by top enterprises and proven to be user-friendly and effective, help you to optimize open and conversion rate'
       )); ?>
   
@@ -111,7 +111,7 @@ get_header();
                 &nbsp; &bull; &nbsp; Add Behavior Tag to see customer interests <br>
                 &nbsp; &bull; &nbsp; Track link to see how well your campaign performs. </p>',
           'img-src' => get_template_directory_uri() .'/images/product/marketing/email-builder-4.png',
-            'next-button' => 'TALK TO OUR EXPERT',
+            'next-button' => 'REQUEST A DEMO',
             'next-url' => '#'
         )); ?>
 
@@ -119,7 +119,7 @@ get_header();
       array( 
         'classExtend' => 'mr-t-150',
         'title-sm' => 'email reports',
-        'title' => 'Detail Report That Show Insights',
+        'title' => 'Detail Reports that show Insights',
       )); ?>
   
   <?php get_template_part('template-parts/feature-image',null,
@@ -133,8 +133,8 @@ get_header();
       'classExtend' => 'mr-t-250',
       'color' => 'c-000',
       'classContainer' => 'b-sd auto b-fff b-r-10',
-      'desc' => '“Mobio Email Builder is my dream tool. Why have I never use this before?”',
-      'name' => 'Mr. Nguyen Van Dzung - Marketer at BIDV Bank / at one of the biggest banks in Vietnam',
+      'desc' => '“Mobio Email Builder is my dream tool."',
+      'name' => 'Mr. Nguyen Van Dzung - Marketing Executive at BIDV',
     )); ?>
   <!-- <div class="mo-row mr-t-250 mr-b-160 mr-l-40 mr-r-40 b-sd auto pa-t-80 pa-b-80 b-r-15">
     <div class="mr-auto avatar-container">
@@ -160,7 +160,7 @@ get_header();
 
   <?php get_template_part('template-parts/footer-contact', null,
       array( 
-        'title' => 'Curious about Email Builder? There’re a lot more to explore!'
+        'title' => 'Curious about Email Builder? There’re lots more to explore!'
       )
     ); ?>
 

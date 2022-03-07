@@ -24,7 +24,7 @@ get_header();
     array(
       'classExtend' => 'mr-t-120',
       'title-sm' => 'Mobio marketing management',
-      'title' => 'Connect Every Interaction Into A Seamless Customer Journey', 
+      'title' => 'Connect every interaction into a seamless Customer Journey', 
     )
   );
 ?>
@@ -42,7 +42,7 @@ get_header();
   get_template_part('template-parts/top-tenant-enterprise', null, 
     array(
       'classExtend' => 'mr-t-120',
-      'title' => 'trusted by top enterprises in asian market', 
+      'title' => 'trusted by top enterprises in Vietnam', 
     )
   );
 ?>
@@ -52,7 +52,7 @@ get_header();
     array(
       'classExtend' => 'mr-t-200',
       'title-sm' => 'how it helps',
-      'title' => 'Create A Marketing Campaign That <span style="color: #4BBFEB; text-decoration: underline;">Actually Works</span>', 
+      'title' => 'Create a Marketing Campaign that <span style="color: #4BBFEB; text-decoration: underline;">actually works</span>', 
     )
   );
 ?>
@@ -99,7 +99,7 @@ get_header();
     'desc' => "<p>Easy-to-use email marketing tool to engage your customers list and boost conversion rate. We also provide advanced features and step-by-step 
       guideline to help increase your email sender reputation and let your message goes straight to your customers’ main mailbox. </p>",
     'next-button' => 'Learn More',
-    'next-url' => '#'
+    'next-url' => get_site_url().'/mkt-email-builder'
   )); ?>
 
 <?php get_template_part('template-parts/row-content-two',null,
@@ -309,7 +309,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-contact', null,
     array(
-      'title' => 'Curious about MMM? There’re a lot more to explore!'
+      'title' => 'Curious about MMM? There’re lots more to explore!'
     ))
 
 ?>

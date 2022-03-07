@@ -19,14 +19,11 @@ get_header();
       'title' => 'about us',
       'name' => 'MOBIO 100%',
       'name-class' => 'f-b f-90 mr-t-30',
-      'desc' => 'A great workplace with exceptional people and unlimited ideas. 
-          A great workplace where everybody’s opinions are listened
-          A workplace where unique / superb / superior / exquisite ideas are created and exeptional people are born',
+      'desc' => 'At Mobio, we promote mutual respect among colleagues and consider everyone’s opinions equally important. We are proud of the diligent, progressive, and responsible work culture that has gone deep into each employee.<br><br>This is a place where the growth of each individual is the growth of the whole company.',
       'desc-class' => 'f-n f-18 mr-t-5-s1',
       'ignoreContact' => 1,
       'top' => 'mr-t-100 mr-t-0-s1', 
-      'video-id'=> '3aCflnMjvCQ',
-      
+      'video-id'=> 'jzmXYDTDw3M',
     )); ?>
 
 
@@ -40,11 +37,13 @@ get_header();
       'classImageRatio' => 'rt-3-4',
       'classImage' => '',
       'divider' => 1,
-      'desc' => '<p>Catching up with global digital trends, Mobio was established to create a comprehensive CDP & CEM Platform, enable businesses to effectively implement marketing campaigns and optimize the customer experience. 
+      'desc' => '<p>Catching up with global digital trends, 
+      Mobio was established to create a comprehensive CDP & CEM Platform, enable businesses to effectively implement marketing campaigns and optimize the customer experience. 
       <br><br>Our goals are to help customers get the most from their data and operate business activation <strong>all in one place:</strong> A comprehensive platform that meets the goals of all Marketing, Sales, Services team. We’re just getting started, and we’re so grateful for all our trusted tenants and partners that are joining in this journey with us.   
       </p>',
+      'img-src'=> get_template_directory_uri().'/images/Mobio-platform-cdp-cem.png',
       'next-button' => 'become our partner',
-      'next-url' => '#'
+      'next-url' => get_site_url().'/contact'
     )); ?>
 
   <?php
@@ -61,7 +60,7 @@ get_header();
       array(
         'classExtend' => 'mr-t-200',
         'title-sm' => 'our milestone',
-        'title' => 'A Journey That Means The World To Us',
+        'title' => 'A Journey that means The World to us',
         'items' => array(
           array(
             'members' => 6,

@@ -57,9 +57,9 @@ get_header();
                           'classImageContainer' => 'pa-20 b-sd b-r-10',
                           'divider' => 1,
                           'desc' => '<p>Intelligence algorithms helps sales manager determine which lead is a good fit for their team, thereby, sales manager can distribute lead themselves. Plus, the lead quality is being updated and upgraded constantly by CDP and Marketing modules, helps sales team know which lead is qualified and is ready to sales.</p>',
-                          'img-src' => get_template_directory_uri(). '/images/product/sales/sale-2.png',
+                          'img-src' => get_template_directory_uri(). '/images/product/sales/lead-distribution.png',
                           'next-button' => 'LEARN MORE',
-                          'next_url' => '#'
+                          'next_url' => get_site_url(). '/sales-lead-distribution'
                         )); ?>
     
   <?php get_template_part('template-parts/row-content-two',null,
@@ -74,8 +74,8 @@ get_header();
                         'divider' => 1,
                         'desc' => '<p>Sales pipelines show you how many deals salespeople are expected to close in a given week, month or year and how close a rep is to reaching their sales quota.</p>',
                         'next-button' => 'LEARN MORE',
-                        'next_url' => '#',
-                        'img-src' => get_template_directory_uri(). '/images/product/sales/sale-3.png',
+                        'next_url' => get_site_url(). '/sales-pipeline',
+                        'img-src' => get_template_directory_uri(). '/images/product/sales/sales-pipeline.png',
                       )); ?>
   
   <?php get_template_part('template-parts/row-content-two',null,
@@ -87,7 +87,7 @@ get_header();
                           'classImageRatio' => 'rt-3-4',
                           'classImageContainer' => 'pa-20 b-sd b-r-10',
                           'divider' => 1,
-                          'img-src' => get_template_directory_uri(). '/images/product/sales/sale-3.png',
+                          'img-src' => get_template_directory_uri(). '/images/product/sales/deal-automation.png',
                           'desc' => '<p>An if-then-structure tool for sales team to automate their sales process, cut down prolix steps and let sales team focus on connecting with customers and closing deals. Add, manage, categorize, track properties, prepare contracts, and everything else are done automatically at every stage. </p>',
                         )); ?>
   
@@ -101,7 +101,8 @@ get_header();
                         'divider' => 1,
                         'desc' => '<p>A comprehensive platform for sales team to grow relationship with customers through Call Center, Email Management, Meeting Schedule through Calendar and Task Management. Every interaction between sales and customers is tracking and stored on the Deal History, helps sales and manager can look it up every time, every where in need.</p>',
                         'next-button' => 'LEARN MORE',
-                        'next_url' => '#',
+                        'next_url' => get_site_url(). '/sales-task-manger',
+                        'img-src' => get_template_directory_uri(). '/images/product/sales/task-management.png',
                       )); ?>
     
   <?php get_template_part('template-parts/row-content-two',null,
@@ -112,6 +113,7 @@ get_header();
                           'classExtend' => 'mr-t-150',
                           'divider' => 1,
                           'desc' => '<p>Every deal and process are attached to one or many products or services. Imagine salesman land a deal something and couldn’t find the right contact for your deal. // There are plenty of document for each type of contract and it’s hard to manage them all by yourself</p>',
+                          'img-src' => get_template_directory_uri(). '/images/product/sales/product-library.png',
                         )); ?>
 
   <?php get_template_part('template-parts/section-title',null,
@@ -130,13 +132,13 @@ get_header();
               array(
                 'title' => 'Deal Distribution',
                 'content' => array(
-                  'img-src' => get_template_directory_uri(). '/images/product/sales/sale-2.png'
+                  'img-src' => get_template_directory_uri(). '/images/product/sales/feature-list-sales-lead-distribution.png'
                 )
               ),
               array(
                 'title' => 'Sales Pipeline',
                 'content' => array(
-                  'img-src' => get_template_directory_uri(). '/images/product/sales/sale-2.png'
+                  'img-src' => get_template_directory_uri(). '/images/product/sales/feature-list-sales-sales-pipeline.png'
                 )
               ),
               array(
@@ -179,7 +181,7 @@ get_header();
 
   <?php get_template_part('template-parts/footer-contact', null,
       array( 
-        'title' => 'Curious about Mobio Sales Management? There are a lot to explore!'
+        'title' => 'Curious about Mobio Sales Management? There are lots more to explore!'
       )
     ); ?>
 

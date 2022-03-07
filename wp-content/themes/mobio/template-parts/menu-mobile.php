@@ -15,14 +15,14 @@
     </div>
 
     <div class="menu-mobile-container f-n f-16 pa-b-30 pa-l-25 pa-r-25">
-      <div class="menu-mobile-item d-flex justify-content-between align-items-center f-b f-18"><p>Customer</p> <i class="menu-mobile-item-arrow"></i></div>
+      <div class="menu-mobile-item d-flex justify-content-between align-items-center f-b f-16"><p>Customer</p> <i class="menu-mobile-item-arrow"></i></div>
         <div class="customer-sub-menu sub-menu d-n">
           <a href="<?php echo get_site_url()."/customer-cases" ?>"><div class="f-b f-16 upper-case pa-t-15 pa-b-10"><p>Use Cases</p></div></a>
           <div class="menu-mobile-divider mr-t-10 mr-b-10"></div>
           <a href="<?php  echo get_site_url() ?>/industry"><div class="f-b f-16 upper-case"><p class="pa-t-10 pa-b-10 c-000">industries</p></div></a>
-          <a href="<?php  echo get_site_url() ?>/coming-soon"><div class="c-000"><p class="pa-t-10 pa-b-10">Real Estate</p></div></a>
           <a href="<?php  echo get_site_url() ?>/industry-fsi"><div class="c-000"><p class="pa-t-10 pa-b-10">Financial Services</p></div></a>
           <a href="<?php  echo get_site_url() ?>/industry-retail"><div class="c-000"><p class="pa-t-10 pa-b-10">Retail</p></div></a>
+          <a href="<?php  echo get_site_url() ?>/coming-soon"><div class="c-000"><p class="pa-t-10 pa-b-10">Real Estate</p></div></a>
           <a href="<?php  echo get_site_url() ?>/coming-soon"><div class="c-000"><p class="pa-t-10 pa-b-20">Healthcare</p></div></a>
         </div>
       <div class="menu-mobile-item d-flex justify-content-between align-items-center f-b f-16"><p>Product</p><i class="menu-mobile-item-arrow"></i></div>
@@ -66,7 +66,7 @@
       <div class="mr-t-25 d-flex justify-content-center">
         <a href="<?php  echo get_site_url() ?>/contact">
           <div class="menu-button talkto-btn-blue ">
-            <p class="f-b f-14 c-0" >TALK TO OUR EXPERT</p>
+            <p class="f-b f-14 c-0" >REQUEST A DEMO</p>
           </div>
         </a>
       </div>

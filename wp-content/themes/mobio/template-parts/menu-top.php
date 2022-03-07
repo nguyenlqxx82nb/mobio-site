@@ -123,7 +123,7 @@
               </div>
 
               <div class="mo-col-4"> 
-                <a class="c-1" href="<?php echo get_site_url() ?>/products-services-management"><p class="f-b f-14 c-1 upper-case">services management</p></a>
+                <a class="c-1" href="<?php echo get_site_url() ?>/products-services-management"><p class="f-b f-14 c-1 upper-case">service management</p></a>
                 <div class="w-100 mr-t-15 auto">
                   <a href="<?php echo get_site_url() ?>/service-customer-response" class="d-b mr-b-20">
                     <div class="d-flex align-items-center">
@@ -254,7 +254,7 @@
 
       <a class="t-d-n" href="<?php  echo get_site_url() ?>/contact">
         <div class="menu-button d-none-s1">
-            <p class="f-b f-16 c-0 t-d-n" >TALK TO OUR EXPERT</p>
+            <p class="f-b f-16 c-0 t-d-n" >REQUEST A DEMO</p>
         </div>
       </a>
       <div class="d-n d-block-s1 flex-grow-1"></div>

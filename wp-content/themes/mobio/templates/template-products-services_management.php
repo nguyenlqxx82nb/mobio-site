@@ -48,14 +48,14 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
     array( 
       'title' => 'loyalty management',
-      'name' => 'Build your <strong>loyalty program</strong> that engage customers',
+      'name' => 'Build your <strong>loyalty program</strong> that engages customers',
       'nameClass' => 'f-n f-56',
       'classExtend' => 'mr-t-100',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => 'pa-20 b-sd b-r-10',
       'classImage' => 'b-r-10',
       'divider' => 1,
-      'desc' => '<p>Drag-and-drop, one-to-one interface to help you create a personalized journey for your customer. Connect every interaction across website, mobile, email, social media channel, and advertising — along with Sales and Service — into a seamless customer experience. Workflow management is our strongest point. </p>',
+      'desc' => '<p>Drag-and-drop, one-to-one interface to help you create a personalized journey for your customers. Connect every interaction across website, mobile, email, social media channels, and advertising — along with Sales and Service — into a seamless customer experience. Workflow management is our strongest point. </p>',
       'next' => 'See loyalty management >>',
       'next-url' => '#'
     )); ?>
@@ -102,7 +102,7 @@ get_header();
       'classImageContainer' => 'pa-20 b-sd b-r-10',
       'classImage' => 'b-r-10',
       'divider' => 1,
-      'desc' => '<p>Easy-to-use Email Builder tool to engage your customers list and boost conversion rate. We also provide additional features and step-by-step guideline to help increase your email sender reputation and let your mail goes straight to your customer main mailbox. </p>',
+      'desc' => '<p>Ease-of-use Email Builder tool to engage your customers list and boost conversion rate. We also provide additional features and step-by-step guideline to help increase your email sender reputation and let your mails go straight to your customer main mailbox. </p>',
       'next' => 'See ticket management >>',
       'next-url' => '#'
     )); ?>
