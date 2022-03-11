@@ -12,7 +12,7 @@
   position: absolute;
   top:0px;
   z-index: -1;
-  background-image: url('./images/header-bg.png');
+  background-image: url('./images/home/header-bg.png');
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -313,12 +313,12 @@
 
 .menu-top {
   position: absolute;
-  top: 58px;
+  top: 0px;
   width: 100%;
   z-index: 100;
 }
 .menu-top, .menu-top-container {
-  height: 111px;
+  height: 100px;
   transition: background-color 150ms ease;
 }
 

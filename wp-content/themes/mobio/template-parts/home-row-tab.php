@@ -5,15 +5,16 @@
       <?php 
         for ($i = 0; $i < count($args['items']); $i++) {
       ?>
-
           <div class="mo-row-2 mo-row row w-100 tab-content-item <?php echo $i === 0 ? '' : 'd-n opa-0'  ?>">
             <?php 
               if ($args["img-left"]) {
             ?>
               <div class="mo-col-7 mo-col d-none-s1">
-                <div class="b-r-10 pa-30 b-sd w-100 col-img-container">
-                  <div class="rt-9-16 w-100">
-                    <img class="img-full w-100 object-fit-contain" src="<?php echo $args['items'][$i]['img-src'] ?>" />
+                <div class="b-r-10w-100 col-img-container">
+                  <div class=" w-100 <?php echo $args['items'][$i]['classImgRatio'] ? $args['items'][$i]['classImgRatio'] : 'rt-9-16' ?>">
+                    <div class="full-container">
+                      <img class="w-100 h-100 object-fit-contain" src="<?php echo $args['items'][$i]['img-src'] ?>" />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -31,9 +32,11 @@
               if (!$args["img-left"]) {
             ?>
               <div class="mo-col-7 mo-col d-none-s1">
-                <div class="b-r-10 b-sd w-100 col-img-container pa-30">
-                  <div class="rt-9-16 w-100">
-                    <img class="img-full w-100 object-fit-contain" src="<?php echo $args['items'][$i]['img-src'] ?>" />
+                <div class="b-r-10 w-100 col-img-container">
+                  <div class=" w-100 <?php echo $args['items'][$i]['classImgRatio'] ? $args['items'][$i]['classImgRatio'] : 'rt-9-16' ?>">
+                    <div class="full-container">
+                      <img class="h-100 w-100 object-fit-contain" src="<?php echo $args['items'][$i]['img-src'] ?>" />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -90,7 +93,9 @@
         <div class="tab-item-image pa-t-20-s1 pa-b-30-s1 pa-l-20-s1 pa-r-20-s1 <?php echo $i === 0 ? 'd-n d-block-s1' : 'd-n opa-0'  ?>">
           <div class="b-fff b-r-10 b-sd w-100 col-img-container pa-10">
             <div class="rt-9-16 w-100">
-              <img class="img-full w-100 object-fit-contain" src="<?php echo $args['items'][$i]['img-src'] ?>" />
+              <div class="full-container">
+                <img class="h-100 w-100 object-fit-contain" src="<?php echo $args['items'][$i]['img-src'] ?>" />
+              </div>
             </div>
           </div>
         </div>

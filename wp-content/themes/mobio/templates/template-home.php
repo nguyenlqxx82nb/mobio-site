@@ -76,7 +76,8 @@
 						'name' => '<p>End-to-end Customer Journey</p>',
 						'desc' => '<p>Journey Builder is our highlight marketing feature that designed to help marketers build a cross-cutting script for digital marketing campaigns and capture every customer touchpoint along the way.</p>',
 						'url' => get_site_url().'/mkt-journey-builder',
-						'img-src' => get_template_directory_uri() . '/images/home/marketing-journey-builder-visual.png'
+						'img-src' => get_template_directory_uri() . '/images/home/marketing-journey-builder-visual.png',
+						'classImgRatio' => 'rt-3-4'
 					),
 					array(
 						'tab-title' => 'Email Marketing',
@@ -84,7 +85,8 @@
 						'name' => '<p>Personalized Messages Direct to Mailbox</p>',
 						'desc' => '<p>Create unique email style for your brand and deliver 1-to-1 messages to your customers. Upgrade your email sender reputation with our email strategy toolkit.</p>',
 						'url' => get_site_url().'/mkt-journey-builder',
-						'img-src' => get_template_directory_uri() . '/images/home/marketing-email-builder.png'
+						'img-src' => get_template_directory_uri() . '/images/home/marketing-email-builder.png',
+						'classImgRatio' => 'rt-3-4'
 					),
 					array(
 						'tab-title' => 'Trigger Campaign',
@@ -92,7 +94,8 @@
 						'name' => '<p>Meaningful Reaction for all User Interaction</p>',
 						'desc' => '<p>Engage customer at every step of user lifecycle and deliver the right messages, at the right time in an one-to-one journey. </p>',
 						'url' => get_site_url().'/mkt-trigger-campaign',
-						'img-src' => get_template_directory_uri() . '/images/home/marketing-trigger-campaign.png'
+						'img-src' => get_template_directory_uri() . '/images/home/marketing-trigger-campaign.png',
+						'classImgRatio' => 'rt-3-4'
 					)
 				)
 			));

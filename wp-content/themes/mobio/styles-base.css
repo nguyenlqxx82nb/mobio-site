@@ -915,3 +915,11 @@ button {
 .flex-40 {flex: 0 0 40% !important;}
 .flex-70 {flex: 0 0 70% !important;}
 .flex-grow-1 {flex-grow: 1 !important;}
+
+.full-container {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
