@@ -4,7 +4,7 @@
   height: 49px;
 }
 .header-home {
-  padding-top: 158px;
+  padding-top: 140px;
 }
 .header-bg {
   width: 100%;
@@ -318,7 +318,7 @@
   z-index: 100;
 }
 .menu-top, .menu-top-container {
-  height: 100px;
+  height: 90px;
   transition: background-color 150ms ease;
 }
 

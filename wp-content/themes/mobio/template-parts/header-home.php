@@ -12,7 +12,7 @@
   </div>
 
 <?php 
-	get_template_part('template-parts/menu-top', null);
+	get_template_part('template-parts/menu-top', null, array('classExtend'=> 'menu-fixed'));
 ?>	
 
 <!-- HEADER -->
