@@ -22,14 +22,14 @@ get_header();
 
 <?php get_template_part('template-parts/top-tenant-enterprise',null,
   	array(
-			'classExtend' => 'mr-t-175'
+			'classExtend' => 'mr-t-175 mr-t-125-s4'
 		)); ?>
 
 
 <?php 
   get_template_part('template-parts/customer-case', null,
     array(
-      'classExtend' => 'mr-t-150 mr-t-90-s1',
+      'classExtend' => 'mr-t-150 mr-t-90-s1 mr-t-125-s4',
       'cols' => 1,
       'items' => array(
         array(
@@ -48,7 +48,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200',
+      'classExtend' => 'mr-t-200 mr-t-150-s4',
       'title-sm' => 'success stories',
       'title' => 'Top pick case Studies',
       'title-class' => 'f-b f-48 c-0-b',
@@ -89,7 +89,24 @@ get_header();
   );
 ?>
 
-
+<?php 
+  get_template_part('template-parts/customer-case', null,
+    array(
+      'classExtend' => 'mr-t-50',
+      'cols' => 1,
+      'items' => array(
+        array(
+          'title-sub' => 'Retail',
+          'img-top' => get_template_directory_uri(). '/images/tenant/phongvu.png',
+          'img-top-class' => 'h-50',
+          'desc' => 'Collect data in real-time from mortal-and-brick stores, to every online channels you own. Never miss a customer touchpoint.',
+          'next-url' => '#',
+          'img-src' => get_template_directory_uri() . '/images/industry-fsi/digital-banking.png',
+        ),
+      )
+    )  
+  );
+?>
 
 <?php 
   get_template_part('template-parts/customer-case', null,
@@ -123,13 +140,13 @@ get_header();
         array(
           'colClass' => 'mo-col-8',
           'title-sub' => 'entertainment',
-          'img-top' => get_template_directory_uri(). '/images/tenant/vnshop.png',
+          'img-top' => get_template_directory_uri(). '/images/tenant/sunworld.png',
           'desc' => 'Collect data in real-time from mortal-and-brick stores, to every online channels you own. Never miss a customer touchpoint.',
           'next-url' => '#'
         ),
         array(
           'colClass' => 'mo-col-4',
-          'img-top' => get_template_directory_uri(). '/images/tenant/sunworld.png',
+          'img-top' => get_template_directory_uri(). '/images/tenant/vnlife.png',
           'desc' => 'Collect data in real-time from mortal-and-brick stores, to every online channels you own. Never miss a customer touchpoint.',
           'next-url' => '#'
         ),
@@ -186,7 +203,8 @@ get_header();
 
 <?php get_template_part('template-parts/footer-contact', null,
     array (
-      'title' => 'Curious to see how it works for your business?'
+      'title' => 'Curious to see how it works for your business?',
+      'next-url' => '#'
     )
   ); ?>
 

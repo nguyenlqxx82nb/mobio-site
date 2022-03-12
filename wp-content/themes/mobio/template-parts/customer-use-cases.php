@@ -2,7 +2,7 @@
 <div class="use-case-wrapper <?php echo $args['classExtend'] ? $args['classExtend'] : 'mr-t-250 mr-t-200-s4' ?> b-g-b mr-t-70-s1">
 	<div class="auto-container auto">
 		<div class="pa-l-30 pa-r-30">
-			<p class="title-sm c-fff text-center mr-t-120 opa-5 mr-t-40-s1 f-16-s4 f-14-s1"><?php echo $args['title'] ?></p>
+			<p class="title-sm c-fff text-center mr-t-120 mr-t-80-s4 opa-5 mr-t-40-s1 f-16-s4 f-14-s1"><?php echo $args['title'] ?></p>
 			<p class="f-b f-56 f-36-s4 f-36-s1 text-center c-fff mr-t-15 mr-t-11-s1"><?php echo $args['name'] ?></p>
 		</div>
 		
@@ -62,7 +62,7 @@
 			
 		</div>
 		
-		<div class="d-flex align-items-center justify-content-between use-case-tab mr-t-30 mr-l-120 mr-r-120 mr-b-100 d-none-s1">
+		<div class="d-flex align-items-center justify-content-between use-case-tab mr-t-30 mr-l-120 mr-r-120 mr-b-100 mr-b-80-s4 d-none-s1">
 			<?php 
 				for($i = 0 ; $i < count($args["items"]); $i++) {
 			?>

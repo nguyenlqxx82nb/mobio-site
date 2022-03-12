@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Retail Template
+ * Template Name: Real Estate Template
  * Template Post Type: post, page
  *
  * @package WordPress
@@ -13,9 +13,9 @@ get_header();
 <!-- header -->
 <?php get_template_part('template-parts/header-product',null,
   array( 
-    'title-sub' => 'industry | retail',
-    'title' => 'Grow Customer Loyalty and Build Brand Love for your Business',
-    'desc' => "Do you know that Retailers are those benefit most from customer data. Mastering the data flow, Retailers can create a seamless customer experience that increases revenue and embraces customer loyalty.",
+    'title-sub' => 'industry | real estate',
+    'title' => 'Collect High Quality Leads and Close Deals Faster',
+    'desc' => "Marketing and Sales in Real Estate Industry are easier said than done since it requires a huga amount of time to find the right buyers for every new project launched. With the help from MOBIO CDP, agents can find it truly easy to collect high quality leads and seal the deals faster.",
     'header-img' => get_template_directory_uri(). '/images/industry-retail/header.png'
   ));
 ?>
@@ -23,7 +23,8 @@ get_header();
 <?php 
   get_template_part('template-parts/top-tenant-retail', null,
     array(
-      'classExtend' => 'mr-t-150 mr-t-120-s4'
+      'classExtend' => 'mr-t-150 mr-t-120-s4',
+      'title' => 'trusted by most innovative corporates in vietnam'
     )
   )
 ?>

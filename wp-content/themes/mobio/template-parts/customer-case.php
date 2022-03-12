@@ -7,11 +7,13 @@
         <div class="mo-row row">
           <div class="mo-col-6 pa-r-20 pa-r-0-s1 mo-col-12-s1">
             <div class="d-flex flex-column justify-content-center h-100">
-              <?php if ($args["items"][$i]['title-sub']) { ?> 
-                <div class="f-b f-18 c-4 f-16-s4 opa-5 upper-case"><p><?php echo $args["items"][$i]['title-sub'] ?></p></div> 
+              <?php if ($args["items"][0]['title-sub']) { ?> 
+                <div class="f-b f-18 c-4 f-16-s4 opa-5 upper-case mr-b-20"><p><?php echo $args["items"][0]['title-sub'] ?></p></div> 
               <?php } ?>
-              <?php if ($args["items"][$i]['img-top']) { ?> 
-                <img class=" mr-t-2- <?php echo $args["items"][$i]['img-top-class'] ? $args["items"][$i]['img-top-class'] : 'h-50' ?>" src="<?php echo $args["items"][$i]['img-top']; ?>" />
+              <?php if ($args["items"][0]['img-top']) { ?> 
+                <div>
+                  <img class="<?php echo $args["items"][0]['img-top-class'] ? $args["items"][0]['img-top-class'] : 'h-50' ?>" src="<?php echo $args["items"][0]['img-top']; ?>" />
+                </div>
               <?php } ?>
               <?php if ($args["items"][0]['title']) { ?>
                 <div class="f-b f-18 f-16-s4 f-12-s1 upper-case"><p><?php echo $args["items"][0]['title'] ?></p></div>
@@ -48,10 +50,10 @@
             <div class="mo-col-4 mo-col-12-s1  mr-b-20-s1">
               <div class="customer-case b-sd b-r-10 pa-l-50 pa-r-50 pa-t-75 pa-b-75 pa-40-s4 mr-r-20 mr-l-20 h-100 mr-l-0-s1 mr-r-0-s1 pa-30-s1">
                 <?php if ($args["items"][$i]['title-sub']) { ?> 
-                  <div class="f-b f-18 c-4 f-16-s4 opa-5 upper-case"><p><?php echo $args["items"][$i]['title-sub'] ?></p></div> 
+                  <div class="f-b f-18 c-4 f-16-s4 opa-5 upper-case mr-b-20"><p><?php echo $args["items"][$i]['title-sub'] ?></p></div> 
                 <?php } ?>
                 <?php if ($args["items"][$i]['img-top']) { ?> 
-                  <img class="mr-t-20 <?php echo $args["items"][$i]['img-top-class'] ? $args["items"][$i]['img-top-class'] : 'h-50' ?>" src="<?php echo $args["items"][$i]['img-top']; ?>" />
+                  <img class="<?php echo $args["items"][$i]['img-top-class'] ? $args["items"][$i]['img-top-class'] : 'h-50' ?>" src="<?php echo $args["items"][$i]['img-top']; ?>" />
                 <?php } ?>
                 <div class="f-n f-20 f-16-s4 mr-t-30 f-14-s1 mr-t-20-s1 w-450"><p><?php echo $args["items"][$i]['desc'] ?></p></div>
 
@@ -73,10 +75,10 @@
             <div class="<?php echo $args['items'][$i]['colClass'] ? $args['items'][$i]['colClass'] : 'mo-col-6' ?> mo-col-12-s1 mr-b-20-s1">
               <div class="customer-case b-sd b-r-10 pa-l-50 pa-r-50 pa-t-75 pa-b-75 pa-50-s4 mr-r-20 mr-l-20 h-100 mr-l-0-s1 mr-r-0-s1 pa-30-s1">
                 <?php if ($args["items"][$i]['title-sub']) { ?> 
-                  <div class="f-b f-18 c-4 f-16-s4 opa-5 upper-case"><p><?php echo $args["items"][$i]['title-sub'] ?></p></div> 
+                  <div class="f-b f-18 c-4 f-16-s4 opa-5 upper-case mr-b-20"><p><?php echo $args["items"][$i]['title-sub'] ?></p></div> 
                 <?php } ?>
                 <?php if ($args["items"][$i]['img-top']) { ?> 
-                  <img class=" mr-t-2- <?php echo $args["items"][$i]['img-top-class'] ? $args["items"][$i]['img-top-class'] : 'h-50' ?>" src="<?php echo $args["items"][$i]['img-top']; ?>" />
+                  <img class=" <?php echo $args["items"][$i]['img-top-class'] ? $args["items"][$i]['img-top-class'] : 'h-50' ?>" src="<?php echo $args["items"][$i]['img-top']; ?>" />
                 <?php } ?>
                 <div class="f-n f-20 f-16-s4 f-14-s1 mr-t-30 mr-t-20-s1 w-450"><p><?php echo $args["items"][$i]['desc'] ?></p></div>
 

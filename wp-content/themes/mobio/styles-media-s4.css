@@ -340,8 +340,14 @@
 .w-175-s4 { max-width: 175px !important;}
 .w-150-s4 { max-width: 150px !important;}
 .w-m-100-s4 {max-width: 100% !important;}
+
 .h-100-s4 {height: 100%;}
 
+
+.h-95-s4 { height: 95px !important;}
+.h-90-s4 { height: 90px !important;}
+.h-85-s4 { height: 85px !important;}
+.h-80-s4 { height: 80px !important;}
 .h-75-s4 { height: 75px !important;}
 .h-60-s4 { height: 60px !important;}
 .h-50-s4 { height: 50px !important;}
@@ -513,6 +519,22 @@ h6, .h6 {font-size: 14px;}
 
   .header-bg-page, .header-page {
     height: 700px;
+  }
+
+  .header-bg-products, .header-page-products {
+    height: 750px;
+  }
+
+  .section-contact-sale {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin-bottom: -120px;
+  }
+
+  .tab-button button {
+    width: 250px ;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
 }

@@ -22,8 +22,8 @@
           <a href="<?php  echo get_site_url() ?>/industry"><div class="f-b f-16 upper-case"><p class="pa-t-10 pa-b-10 c-000">industries</p></div></a>
           <a href="<?php  echo get_site_url() ?>/industry-fsi"><div class="c-000"><p class="pa-t-10 pa-b-10">Financial Services</p></div></a>
           <a href="<?php  echo get_site_url() ?>/industry-retail"><div class="c-000"><p class="pa-t-10 pa-b-10">Retail</p></div></a>
-          <a href="<?php  echo get_site_url() ?>/coming-soon"><div class="c-000"><p class="pa-t-10 pa-b-10">Real Estate</p></div></a>
-          <a href="<?php  echo get_site_url() ?>/coming-soon"><div class="c-000"><p class="pa-t-10 pa-b-20">Healthcare</p></div></a>
+          <a href="<?php  echo get_site_url() ?>/real-estate"><div class="c-000"><p class="pa-t-10 pa-b-10">Real Estate</p></div></a>
+          <a href="<?php  echo get_site_url() ?>/healthcare"><div class="c-000"><p class="pa-t-10 pa-b-20">Healthcare</p></div></a>
         </div>
       <div class="menu-mobile-item d-flex justify-content-between align-items-center f-b f-16"><p>Product</p><i class="menu-mobile-item-arrow"></i></div>
         <div class="product-sub-menu sub-menu d-n">

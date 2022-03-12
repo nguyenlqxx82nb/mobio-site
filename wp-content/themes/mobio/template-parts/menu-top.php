@@ -30,7 +30,7 @@
               <div class="w-100 mr-t-15 auto">
 
                 <div class="mo-col-8">
-                  <a href="<?php  echo get_site_url() ?>/coming-soon" class="d-b mr-b-20">
+                  <a href="<?php  echo get_site_url() ?>/real-estate" class="d-b mr-b-20">
                     <div class="d-flex align-items-center">
                       <img src="<?php  echo get_template_directory_uri() ?>/images/menu/customer-Enterprise.png" class="menu-list-item-img mr-r-5" /><p class="f-n f-13 c-000 opa-5">Real Estate</p>
                     </div>
@@ -48,7 +48,7 @@
                       <img src="<?php  echo get_template_directory_uri() ?>/images/menu/customer-retail.png" class="menu-list-item-img mr-r-5" /> <p class="f-n f-13 c-000 opa-5">Retail</p>
                     </div>
                   </a>
-                  <a href="<?php  echo get_site_url() ?>/coming-soon" class="d-b mr-b-20">
+                  <a href="<?php  echo get_site_url() ?>/healthcare" class="d-b mr-b-20">
                     <div class="d-flex align-items-center">
                       <img src="<?php  echo get_template_directory_uri() ?>/images/menu/customer-healthcare.png" class="menu-list-item-img mr-r-5" /><p class="f-n f-13 c-000 opa-5">Healthcare</p>
                     </div>

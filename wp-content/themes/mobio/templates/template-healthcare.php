@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Retail Template
+ * Template Name: Healthcare Template
  * Template Post Type: post, page
  *
  * @package WordPress
@@ -13,9 +13,10 @@ get_header();
 <!-- header -->
 <?php get_template_part('template-parts/header-product',null,
   array( 
-    'title-sub' => 'industry | retail',
-    'title' => 'Grow Customer Loyalty and Build Brand Love for your Business',
-    'desc' => "Do you know that Retailers are those benefit most from customer data. Mastering the data flow, Retailers can create a seamless customer experience that increases revenue and embraces customer loyalty.",
+    'title-sub' => 'industry | healthcare',
+    'title' => 'Customer Engagement to Heal the Pain of Healthcare Services',
+    'desc' => "Consumers today are more and more aware of personal care and health services. If you are running a healthcare business, 
+      this is the perfect time to leverage your game and become the cock of the walk. ",
     'header-img' => get_template_directory_uri(). '/images/industry-retail/header.png'
   ));
 ?>
@@ -23,7 +24,8 @@ get_header();
 <?php 
   get_template_part('template-parts/top-tenant-retail', null,
     array(
-      'classExtend' => 'mr-t-150 mr-t-120-s4'
+      'classExtend' => 'mr-t-150 mr-t-120-s4',
+      'title' => 'trusted by large firms in vietnam'
     )
   )
 ?>
