@@ -12,6 +12,6 @@
 <?php if (!$args['isMobile']) { ?>
   <div class="input-wrap input-wrap-action d-none-s1 <?php echo $args['classExtend'] ?>">
     <input placeholder="Enter your email address" /> 
-    <div class="input-action f-b f-20 c-fff"><p><?php echo $args['submit'] ?  $args['submit'] : 'Submit' ?></p></div>
+    <div class="input-action f-b f-20 c-fff f-16-s4 d-flex align-items-center justify-content-center h-100 cursor-pointer"><p><?php echo $args['submit'] ?  $args['submit'] : 'Submit' ?></p></div>
   </div>
 <?php } ?>

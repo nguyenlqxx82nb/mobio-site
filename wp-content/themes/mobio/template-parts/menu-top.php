@@ -11,9 +11,9 @@
       </a>
 
       <div class="d-flex d-none-s1 flex-grow-1 justify-content-center">
-        <div class="menu-item customer-menu">
-          <div class="d-flex align-items-center mr-t-10 menu-top-item">	
-            <p class="f-b f-16 c-fff">Customer</p>
+        <div class="menu-item customer-menu d-flex align-items-center">
+          <div class="d-flex align-items-center menu-top-item">	
+            <h6 class="c-fff">Customer</h6>
             <i class="arrow mr-l-5"></i>
           </div>
           
@@ -64,9 +64,9 @@
           </div>
 
         </div>
-        <div class="menu-item product-menu">
-          <div class="d-flex align-items-center mr-t-10 menu-top-item">
-            <p class="f-b f-16 c-fff">Product</p>
+        <div class="menu-item product-menu d-flex align-items-center">
+          <div class="d-flex align-items-center menu-top-item">
+            <h6 class="c-fff">Product</h6>
             <i class="arrow mr-l-5"></i>
           </div>
           <div class="menu-divider"></div>
@@ -152,9 +152,9 @@
           </div>
 
         </div>
-        <div class="menu-item library-menu">
-          <div class="d-flex align-items-center mr-t-10 menu-top-item">
-            <p class="f-b f-16 c-fff">Library</p>
+        <div class="menu-item library-menu  d-flex align-items-center">
+          <div class="d-flex align-items-center menu-top-item">
+            <h6 class=" c-fff">Library</h6>
             <i class="arrow mr-l-5"></i>
           </div>
           <div class="menu-divider"></div>
@@ -210,9 +210,9 @@
           </div>
 
         </div>
-        <div class="menu-item company-menu">
-          <div class="d-flex align-items-center mr-t-10 menu-top-item">
-            <p class="f-b f-16 c-fff">Company</p>
+        <div class="menu-item company-menu  d-flex align-items-center">
+          <div class="d-flex align-items-center menu-top-item">
+            <h6 class="c-fff">Company</h6>
             <i class="arrow mr-l-5"></i>
           </div>
           <div class="menu-divider"></div>
@@ -254,7 +254,7 @@
 
       <a class="t-d-n" href="<?php  echo get_site_url() ?>/contact">
         <div class="menu-button d-none-s1">
-            <p class="f-b f-16 c-0 t-d-n" >REQUEST A DEMO</p>
+            <h6 class="c-0 t-d-n" >REQUEST A DEMO</h6>
         </div>
       </a>
       <div class="d-n d-block-s1 flex-grow-1"></div>

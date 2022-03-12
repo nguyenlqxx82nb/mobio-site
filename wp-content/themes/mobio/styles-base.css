@@ -636,8 +636,6 @@ button {
 
 .input-action p {
 	color: #fff;
-	line-height: 50px;
-	text-align: center;
 }
 
 .input-gray input {
@@ -721,6 +719,18 @@ button {
 .h-m-100 { min-height: 100px !important;}
 .h-m-75 { min-height: 75px !important;}
 .h-m-50 { min-height: 50px !important;}
+
+.h-100 { height: 100px !important;}
+.h-95 { height: 95px !important;}
+.h-90 { height: 905px !important;}
+.h-85 { height: 85px !important;}
+.h-75 { height: 75px !important;}
+.h-60 { height: 60px !important;}
+.h-50 { height: 50px !important;}
+.h-40 { height: 40px !important; }
+.h-35 { height: 35px !important; }
+.h-30 { height: 30px !important; }
+.h-20 { height: 20px !important; }
 
 .mr-auto { margin: 0 auto;}
 .h-auto { height: auto !important; }
@@ -923,3 +933,28 @@ button {
 	left: 0px;
 	right: 0px;
 }
+
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+	font-weight: 700;
+	line-height: 125%;
+	font-family: 'DM Sans';
+	padding: 0px;
+}
+
+h1, .h1 { font-size: 62px;}
+h2, .h2 { font-size: 56px;}
+h3, .h3 { font-size: 48px;}
+h4, .h4 { font-size: 30px;}
+h5, .h5 {font-size: 20px;}
+h6, .h6 {font-size: 16px;}
+
+.f-n-lg, .f-n-md, .f-n-sm, .f-n-xl {
+	font-weight: 400;
+	line-height: 180%;
+	font-family: 'DM Sans';
+}
+.f-n-lg { font-size: 20px; }
+.f-n-xl { font-size: 22px; }
+.f-n-md { font-size: 18px; }
+.f-n-sm { font-size: 16px; }

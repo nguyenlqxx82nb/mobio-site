@@ -4,10 +4,10 @@
 	
   $(window).on('scroll', function(e){
     const top  = window.pageYOffset || document.documentElement.scrollTop;
-    if (top > 58) {
-      $('.menu-top').addClass('menu-top-fixed');
+    if (top > 10) {
+      $('.menu-fixed').addClass('menu-top-fixed');
     } else {
-      $('.menu-top').removeClass('menu-top-fixed');
+      $('.menu-fixed').removeClass('menu-top-fixed');
     }
   });
 

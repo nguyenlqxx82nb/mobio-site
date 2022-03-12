@@ -16,14 +16,14 @@
 
 	<?php get_template_part('template-parts/top-tenant-enterprise',null,
   	array(
-			'classExtend' => 'mr-t-175',
+			'classExtend' => 'mr-t-175 mr-t-150-s4',
 			'title' => 'We help Enterprises achieve their goals!'
 		)); ?>
 
 	<?php 
 		get_template_part('template-parts/section-title',null,
 			array(
-				'classExtend' => 'mr-t-175',
+				'classExtend' => 'mr-t-175 mr-t-150-s4',
 				'classMedia' => 'mr-t-120-s1',
 				'title-sm' => 'Core Value',
 				'title' => 'Customer Data Platform',
@@ -56,7 +56,7 @@
 	<?php 
 		get_template_part('template-parts/section-title',null,
 			array(
-				'classExtend' => 'mr-t-250',
+				'classExtend' => 'mr-t-250 mr-t-200-s4',
 				'title-sm' => 'Product',
 				'title' => 'Our Operating System',
 				'desc' => 'We know the right solutions for your business problems.',
@@ -105,7 +105,7 @@
 	<?php 
 		get_template_part('template-parts/home-row-tab',null,
 			array(
-				'classExtend' => 'mr-t-300',
+				'classExtend' => 'mr-t-300 mr-t-250-s4',
 				'img-left' => 1,
 				'anchor' => 'tab-sales',
 				'items' => array(
@@ -141,7 +141,7 @@
 	<?php 
 		get_template_part('template-parts/home-row-tab',null,
 			array(
-				'classExtend' => 'mr-t-300',
+				'classExtend' => 'mr-t-300 mr-t-250-s4',
 				'anchor' => 'tab-service',
 				'items' => array(
 					array(
@@ -243,7 +243,7 @@
 
 <?php get_template_part('template-parts/section-title',null,
     array( 
-      'classExtend' => 'mr-t-175',
+      'classExtend' => 'mr-t-175 mr-t-150-s4',
       'title-sm' => 'library',
       'title' => 'Most Helpful Paper selected by our Customers',
     )); ?>
@@ -279,7 +279,7 @@
 
 	<?php get_template_part('template-parts/breaking-case',null,
     array( 
-      'classExtend' => 'mr-t-50 mr-b-300 mr-b-70-s1',
+      'classExtend' => 'mr-t-50 mr-b-300 mr-b-70-s1 mr-b-200-s4',
 			'title' => 'Banking cases',
 			'title-sub' => 'CDP use case: Banking sector',
 			'desc' => '<p>In Banking industry, data security and privacy are top of mind. Banks hold the most sensitive data and have the highest security requirements. Even sharing data accross organization could be a challenge as its stricted surrounding regulations. <br> <br>To learn how banks use MOBIO CDP to deal with their data complexity challenges, please contact us for private documents and consulting.</p>',
