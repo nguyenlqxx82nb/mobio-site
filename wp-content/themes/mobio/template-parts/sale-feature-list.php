@@ -1,7 +1,7 @@
 <div class="tab-wrapper <?php echo $args['classExtend']; ?>  mr-t-30-s1">
   <div class="auto-container">
     <div class="b-sd b-fff auto mr-b-40 pa-l-100 pa-r-100 b-r-10 tab-feature mr-l-20-s1 mr-r-20-s1 pa-l-15-s1 pa-r-15-s1 mr-t-0-s1">
-      <div class="scroll-tab f-b f-22 c-2 f-16-s1 mr-t-45 mr-b-45 justify-content-between mr-t-25-s1 mr-b-25-s1">
+      <div class="scroll-tab f-b f-22 f-18-s4 c-2 f-16-s1 mr-t-45 mr-b-45 justify-content-between mr-t-25-s1 mr-b-25-s1">
         <?php 
           for ($i = 0; $i < count($args['items']); $i++) {
         ?>
@@ -18,7 +18,9 @@
               for ($i = 0; $i < count($args['items']); $i++) {
             ?> 
               <div class="slide-item rt-9-16 position-relative">
-                <img class="img-full object-fit-cover" src="<?php echo $args['items'][$i]['content']['img-src'] ? $args['items'][$i]['content']['img-src'] : get_template_directory_uri() . '/images/empty-image.png' ?>" />
+                <div class="full-container">
+                  <img class="w-100 h-100 object-fit-cover" src="<?php echo $args['items'][$i]['content']['img-src'] ? $args['items'][$i]['content']['img-src'] : get_template_directory_uri() . '/images/empty-image.png' ?>" />
+                </div>
               </div>
             <?php } ?>
           </div>

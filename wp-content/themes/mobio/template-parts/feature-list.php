@@ -3,7 +3,7 @@
   <div class="auto-container">
     <div class="b-sd b-fff auto mr-l-40 mr-r-40 mr-b-40 mr-t-70 pa-l-100 pa-r-80 b-r-10 mr-l-20-s1 mr-r-20-s1 pa-l-15-s1 pa-r-15-s1 mr-t-0-s1">
         
-        <div class="scroll-tab mr-b-10 f-b f-22 f-16-s1 c-2 mr-t-45 mr-b-45 mr-t-25-s1 mr-b-25-s1 justify-content-between "> 
+        <div class="scroll-tab mr-b-10 f-b f-22 f-16-s4 f-16-s1 c-2 mr-t-45 mr-b-45 mr-t-25-s1 mr-b-25-s1 justify-content-between "> 
           <?php 
             for($i=0; $i<count($args['items']); $i++) {
           ?>
@@ -29,7 +29,7 @@
                       <div class="mo-col-6 mo-col-12-s1">
                         <div class="d-flex align-items-center mr-b-60 mr-b-15-s1">
                           <div class="icon-bg mr-l-10"></div>
-                          <div class="f-n f-18 f-14-s1  mr-l-10-s1 mr-l-20"><p><?php echo $feature ?></p></div>
+                          <div class="f-n f-18 f-14-s4 f-14-s1  mr-l-10-s1 mr-l-20"><p><?php echo $feature ?></p></div>
                         </div>
                       </div>
                     <?php } ?>

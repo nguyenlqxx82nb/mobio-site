@@ -15,7 +15,8 @@ get_header();
                           array( 
                             'title' => 'Mobio marketing management',
                             'name' => 'Meet Trigger Campaign',
-                            'desc' => 'Build more effective and personalized customer experience. Engage customers at every step of the user lifecycle.'
+                            'desc' => 'Build more effective and personalized customer experience. Engage customers at every step of the user lifecycle.',
+                            'img-src' => get_template_directory_uri(). '/images/product/marketing/jb-visual_interface.png'
                           )); ?>
 
 <div class="auto-container">
@@ -34,87 +35,82 @@ get_header();
 
   <?php get_template_part('template-parts/section-title',null,
                         array( 
-                          'classExtend' => 'mr-t-250',
-                          'title-sm' => 'trigger-based campaign',
-                          'title' => 'Types Of Trigger Campaign'
+                          'classExtend' => 'mr-t-250 mr-t-150-s4',
+                          'title-sm' => 'default trigger',
+                          'title' => '<span class="hl-text c-4-b">30+ Triggers</span> to Optimize your Marketing Campaign',
+                          'desc' => 'Mobio Trigger feature makes it possible for you to automatically display your campaigns just when the time is right. 
+                          This helps to lessen the chances of irritating your visitors, thus ensuring you capture as many leads as possible.'
                         )); ?>
 
-  <?php get_template_part('template-parts/tab-images',null,
-                        array( 
-                          'items' => array(
-                            array(
-                              'title' => 'Campaign Activity',
-                              'img-src' =>  get_template_directory_uri() .  '/images/home/mkt-jb.png',
-                            ),
-                            array(
-                              'title' => 'Audience Management',
-                              'img-src' =>  get_template_directory_uri() .  '/images/home/mkt-email.png',
-                            ),
-                            array(
-                              'title' => 'Workflow Activity',
-                              'img-src' => get_template_directory_uri() .  '/images/home/sales-pipeline.png',
-                            ),
-                            array(
-                              'title' => 'E-Commerce',
-                              'img-src' => get_template_directory_uri() .  '/images/home/service-loyalty.png',
-                            ),
-                            array(
-                              'title' => 'Integrations',
-                              'img-src' => get_template_directory_uri() .  '/images/home/service-ticket.png',
-                            ),
-                            array(
-                              'title' => 'Data-based',
-                              'img-src' =>get_template_directory_uri() .  '/images/home/use-cases.jpg',
-                            ),
-                          ),
-                        )); ?>
-
-  <?php get_template_part('template-parts/section-title',null,
-                        array( 
-                          'classExtend' => 'mr-t-250',
-                          'title-sm' => 'how it works?',
-                          'title' => 'How Trigger Campaign Works?',
-                          'desc-w' => 'w-1100',
-                          'desc' => 'Mobio trigger feature makes it possible for you to automatically display your campaigns just when the time is right. This helps to lessen the chances of irritating your visitors, thus ensuring you capture as many leads as possible.'
-                        )); ?>
-  
   <?php get_template_part('template-parts/campaign-works',null,
                         array( 
                           'items' => array(
                             array(
-                              'title' => 'Welcome Message'
+                              'title' => 'Special Day',
+                              'img-src' => get_template_directory_uri() .  '/images/product/sales/deal-automation.png'
                             ),
                             array(
-                              'title' => 'Onbroading',
-                              'img-src' => get_template_directory_uri() .  '/images/home/service-loyalty.png'
+                              'title' => 'Website Interaction',
+                              'img-src' => get_template_directory_uri() .  '/images/product/sales/product-library.png'
                             ),
                             array(
-                              'title' => 'Early Activation'
+                              'title' => 'E-commerce',
+                              'img-src' => get_template_directory_uri() .  '/images/product/sales/lead-distribution.png'
                             ),
                             array(
-                              'title' => 'Reactivation'
+                              'title' => 'Social Media',
+                              'img-src' => get_template_directory_uri() .  '/images/product/sales/sale-1.png'
                             ),
                             array(
-                              'title' => 'Transactional'
+                              'title' => 'Profile Update',
+                              'img-src' => get_template_directory_uri() .  '/images/product/sales/sales-pipeline.png'
                             ),
                             array(
-                              'title' => 'Account Notification'
-                            ),
-                            array(
-                              'title' => 'Personal Events'
-                            ),
-                            array(
-                              'title' => 'Milestones'
+                              'title' => 'Transaction',
+                              'img-src' => get_template_directory_uri() .  '/images/product/sales/sales-reports.png'
                             ),
                           ),
                         )); ?>
 
+  <?php 
+    get_template_part('template-parts/section-title', null, 
+      array(
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'title-sm' => 'customized trigger',
+        'title' => 'Trigger Bespoked to each Industry?', 
+      )
+    );
+  ?>
+    <?php 
+      get_template_part('template-parts/content-three', null, 
+        array(
+          'classExtend' => 'mr-t-50',
+          'items' => array(
+            array(
+              'icon-src' => get_template_directory_uri().'/images/icon-digital.png',
+              'name' => 'Banking Service',
+              'desc' => '<strong>Customer journey</strong> is no longer the unpredicted prospect that you have to follow. Now businesses create and decide the way customers interact, what messages they get, and all the steps they take.'
+            ),
+            array(
+              'icon-src' => get_template_directory_uri().'/images/icon-loyalty.png',
+              'name' => 'Digital Wallet',
+              'desc' => 'Messages to customers are <strong>customized for each individual</strong>, making them feel that those messages are unique and sent personally, boosting CTR, ROI, and conversion in your marketing campaign.'
+            ),
+            array(
+              'icon-src' => get_template_directory_uri().'/images/icon-personal.png',
+              'name' => 'Retail',
+              'desc' => 'Every customer touchpoints and digital footprint across the journey are tracked, collected, and stored in CDP, achieving the goal of every business: a single source of truth.'
+            ),
+          )
+        )
+      );
+    ?>
   
     <?php get_template_part('template-parts/section-title',null,
                         array( 
-                          'classExtend' => 'mr-t-200',
+                          'classExtend' => 'mr-t-200 mr-t-150-s4',
                           'title-sm' => 'trigger in action',
-                          'title' => 'See how Trigger Campaigns can be a Game Changer',
+                          'title' => 'See how Trigger Campaigns can <br>be a <span class="hl-text">Game Changer for Business</span>',
                         )); ?>
 
     <?php get_template_part('template-parts/row-content-two',null,
@@ -122,45 +118,57 @@ get_header();
                           'title' => 'e-commerce',
                           'name' => 'Reduce <strong>Cart Abandonment</strong> and convert to Sales',
                           'nameClass' => 'f-n f-56',
-                          'classExtend' => 'mr-t-150',
+                          'classExtend' => 'mr-t-100',
                           'classImageRatio' => 'rt-3-4',
+                          'classContent'=>'pa-r-120 pa-l-40',
                           'divider' => 1,
                           'desc' => '<p>Throughout the e-commerce lifecycle, there is a large number of triggers waiting which, with the right direct marketing measures, can be used to activate, retain and emotionalise customers.
-                          One of the most critical trigger in e-commerce is Cart Abandonment, which can be reduced effective with our trigger-build campaigns. </p>',
+                          <br><br>One of the most critical trigger in e-commerce is Cart Abandonment, which can be reduced effective with our trigger-build campaigns. </p>',
                           'next-button' => 'see in action',
                           'next_url' => '#'
                         )); ?>
     
     <?php get_template_part('template-parts/row-content-two',null,
                         array( 
-                          'title' => 'Social Media',
-                          'name' => '<strong>Catch customers</strong> every time they interact with your social channels',
-                          'nameClass' => 'f-n f-56',
-                          'classExtend' => 'mr-t-200',
-                          'classImageRatio' => 'rt-3-4',
-                          'divider' => 1,
-                          'desc' => '<p>Of all the metrics you pour over, social media engagement has to rank among the top in terms of importance, because engagement leads to sales. If you have your engagement strategy down, it means you’re losing huge potential of reaching leads and making new deals. Fortunately, our platform allows you to automatically engage with customers every time they make a move.</p>',
-                          'next-button' => 'see in action',
-                          'next_url' => '#'
-                        )); ?>
-     <?php get_template_part('template-parts/row-content-two',null,
-                        array( 
+                          'imageLeft' => '1',
                           'title' => 'date-based',
-                          'name' => '<strong>Miss no special days</strong> to send meaningful messages  ',
+                          'name' => '<strong>Miss no special days</strong> to send meaningful messages',
                           'nameClass' => 'f-n f-56',
-                          'classExtend' => 'mr-t-200',
-                          'classImageRatio' => 'rt-3-4',
-                          'divider' => 1,
-                          'desc' => '<p>Customers’ birthday, anniversary, first purchase, date of import, etc. A lot of important days to remember and take action which it’s getting harder to manage when your customer data increases. Don’t worry, with trigger-based campaign, every special days will be store in the database and messages and gifts will be sent automatically to your customers in time.</p>',
-                          'next-button' => 'see in action',
-                          'next_url' => '#'
+                          'classExtend' => 'mr-t-250 mr-t-150-s4',
+                          'classImageRatio' => 'rt-9-16',
+                          'classColContent' => 'mo-col-5',
+                          'classColImage' => 'mo-col-7',
+                          'divider' => '1',
+                          'desc' => '<p>Customers’ birthday, anniversary, first purchase, date of import, etc. A lot of important days to remember and take action which it’s getting harder to manage when your customer data increases. Don’t worry, with trigger-based campaigns, 
+                            every special day will be stored in the database, and messages and gifts will be sent automatically to your customers in time.  </p>',
+                          // 'next-button' => 'see in action',
+                          // 'next_url' => '#'
                         )); ?>
+
+  <?php get_template_part('template-parts/section-title',null,
+                        array( 
+                          'classExtend' => 'mr-t-200 mr-t-150-s4',
+                          'title-sm' => 'transaction',
+                          'title' => 'Easier <strong>Upsell & Cross-sell</strong> for digital monetary product',
+                          'title-class' => 'f-n f-48',
+                          'desc' => 'Customer journey for banking services and other FSI businesses can be hard to manage since it required highly personalized messages and a 
+                          long complicated journey, not to mention its surrounding regulatory about security.
+                           Fortunately, our platform allows you to create a sophisticated journey that automatically engages with customers every time they make a move.',
+                           'desc-w' => 'w-1000'
+                        )); ?>
+  <?php 
+  get_template_part('template-parts/feature-image', null, 
+    array(
+      'img-src' => get_template_directory_uri(). '/images/product/marketing/journey-builder-visual-interface.png'
+    )
+  )
+?>
 
   <?php
       get_template_part('template-parts/customer-stories', null,
         array(
           'no-title' => false,
-          'classExtend' => 'mr-t-250'
+          'classExtend' => 'mr-t-250 mr-t-150-s4'
         ));
     ?>
 
@@ -168,7 +176,7 @@ get_header();
       get_template_part('template-parts/document-library', null,
         array(
           'no-title' => false,
-          'classExtend' => 'mr-t-250'
+          'classExtend' => 'mr-t-250 mr-t-150-s4'
         ));
     ?>
 

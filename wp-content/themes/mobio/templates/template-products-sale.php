@@ -11,29 +11,15 @@
 get_header();
 ?> 
 <!-- header -->
-<?php 
-  get_template_part('template-parts/header-page',null,
-                          array( 
-                            'title' => 'Mobio sales management',
-                            'name' => 'Growing relationships and closing deals - anytime, anywhere',
-                          )); 
+<?php  
+get_template_part('template-parts/header-product',null,
+  array( 
+    'title-sub'=> 'Mobio sales management',
+    'title' => 'Growing Relationships and <br> Closing Deals - Anytime, Anywhere',
+    'contact' => "1",
+    'header-img' => get_template_directory_uri(). '/images/Mobio-platform-cdp-cem.png'
+  ));
 ?>
-
-
-
-
-  <?php get_template_part('template-parts/section-title',null,
-                        array( 
-                          'classExtend' => 'mr-t-150',
-                          'title-sm' => 'Mobio sales management',
-                          'title' => 'Meet Mini CRM: A Minimal System To Minimize Your Effort'
-                        )); ?>
-
-  <?php get_template_part('template-parts/feature-image',null,
-                        array( 
-                          'img-src' => get_template_directory_uri(). '/images/product/sales/sale-1.png'
-
-                         )); ?>
   
   <?php get_template_part('template-parts/top-tenant-enterprise',null,
                         array( 
@@ -42,9 +28,9 @@ get_header();
   
   <?php get_template_part('template-parts/section-title',null,
                         array( 
-                          'classExtend' => 'mr-t-200',
+                          'classExtend' => 'mr-t-200 mr-t-150-s4',
                           'title-sm' => 'how it helps',
-                          'title' => 'Sales Toolkit That Focus On <span style="color: #4BBFEB; text-decoration: underline;">What Matters Most</span>',
+                          'title' => 'Sales Toolkit That Focus On <span class="hl-text">What Matters Most</span>',
                         )); ?>
 
   <?php get_template_part('template-parts/row-content-two',null,
@@ -52,9 +38,8 @@ get_header();
                           'title' => 'lead distribution',
                           'name' => 'Auto <strong>distribute qualify leads</strong> to the right sales team ',
                           'nameClass' => 'f-n f-56',
-                          'classExtend' => 'mr-t-150',
+                          'classExtend' => 'mr-t-150 mr-t-100-s4',
                           'classImageRatio' => 'rt-3-4',
-                          'classImageContainer' => 'pa-20 b-sd b-r-10',
                           'divider' => 1,
                           'desc' => '<p>Intelligence algorithms helps sales manager determine which lead is a good fit for their team, thereby, sales manager can distribute lead themselves. Plus, the lead quality is being updated and upgraded constantly by CDP and Marketing modules, helps sales team know which lead is qualified and is ready to sales.</p>',
                           'img-src' => get_template_directory_uri(). '/images/product/sales/lead-distribution.png',
@@ -68,9 +53,8 @@ get_header();
                         'title' => 'Sales pipeline',
                         'name' => 'Manage your own <strong>sales process</strong> efficently',
                         'nameClass' => 'f-n f-56',
-                        'classExtend' => 'mr-t-250',
+                        'classExtend' => 'mr-t-250 mr-t-150-s4',
                         'classImageRatio' => 'rt-3-4',
-                        'classImageContainer' => 'pa-20 b-sd b-r-10',
                         'divider' => 1,
                         'desc' => '<p>Sales pipelines show you how many deals salespeople are expected to close in a given week, month or year and how close a rep is to reaching their sales quota.</p>',
                         'next-button' => 'LEARN MORE',
@@ -81,11 +65,10 @@ get_header();
   <?php get_template_part('template-parts/row-content-two',null,
                         array( 
                           'title' => 'deal automation',
-                          'name' => 'Just focus on closing deals, everything else is automatically done',
+                          'name' => 'Just focus on closing deals, everything else is <strong>automatically done</strong>',
                           'nameClass' => 'f-n f-56',
-                          'classExtend' => 'mr-t-150',
+                          'classExtend' => 'mr-t-250 mr-t-150-s4',
                           'classImageRatio' => 'rt-3-4',
-                          'classImageContainer' => 'pa-20 b-sd b-r-10',
                           'divider' => 1,
                           'img-src' => get_template_directory_uri(). '/images/product/sales/deal-automation.png',
                           'desc' => '<p>An if-then-structure tool for sales team to automate their sales process, cut down prolix steps and let sales team focus on connecting with customers and closing deals. Add, manage, categorize, track properties, prepare contracts, and everything else are done automatically at every stage. </p>',
@@ -97,7 +80,7 @@ get_header();
                         'title' => 'Personal task management',
                         'name' => 'Keep every task off your plate and <strong> miss no deadline </strong>',
                         'nameClass' => 'f-n f-56',
-                        'classExtend' => 'mr-t-250',
+                        'classExtend' => 'mr-t-250 mr-t-150-s4',
                         'divider' => 1,
                         'desc' => '<p>A comprehensive platform for sales team to grow relationship with customers through Call Center, Email Management, Meeting Schedule through Calendar and Task Management. Every interaction between sales and customers is tracking and stored on the Deal History, helps sales and manager can look it up every time, every where in need.</p>',
                         'next-button' => 'LEARN MORE',
@@ -110,15 +93,27 @@ get_header();
                           'title' => 'product library',
                           'name' => 'Store all your files and agreements <strong>in one place</strong>',
                           'nameClass' => 'f-n f-56',
-                          'classExtend' => 'mr-t-150',
+                          'classExtend' => 'mr-t-250 mr-t-150-s4',
                           'divider' => 1,
                           'desc' => '<p>Every deal and process are attached to one or many products or services. Imagine salesman land a deal something and couldn’t find the right contact for your deal. // There are plenty of document for each type of contract and it’s hard to manage them all by yourself</p>',
                           'img-src' => get_template_directory_uri(). '/images/product/sales/product-library.png',
                         )); ?>
 
+<?php get_template_part('template-parts/row-content-two',null,
+                      array( 
+                        'imageLeft' => 1,
+                        'title' => 'reports and dashboards',
+                        'name' => 'Manage your team performance and ensure <strong>KPIs goals</strong>',
+                        'nameClass' => 'f-n f-56',
+                        'classExtend' => 'mr-t-250 mr-t-150-s4',
+                        'divider' => 1,
+                        'desc' => '<p>Comprehensive dashboards for sales manager to keep control of member productivity, speed of deal closing, KPIs performance and revenue by different caterogies so each member and leader can have a clear picture of how sales process is running. </p>',
+                        'img-src' => get_template_directory_uri(). '/images/product/sales/task-management.png',
+                      )); ?>
+
   <?php get_template_part('template-parts/section-title',null,
                       array( 
-                        'classExtend' => 'mr-t-300',
+                        'classExtend' => 'mr-t-300 mr-t-150-s4',
                         'title-sm' => 'mini crm',
                         'title' => 'Sales Management Feature list',
                       )); ?>
@@ -132,31 +127,31 @@ get_header();
               array(
                 'title' => 'Deal Distribution',
                 'content' => array(
-                  'img-src' => get_template_directory_uri(). '/images/product/sales/feature-list-sales-lead-distribution.png'
+                  
                 )
               ),
               array(
                 'title' => 'Sales Pipeline',
                 'content' => array(
-                  'img-src' => get_template_directory_uri(). '/images/product/sales/feature-list-sales-sales-pipeline.png'
+                  
                 )
               ),
               array(
                 'title' => 'Personal Task',
                 'content' => array(
-                  'img-src' => get_template_directory_uri(). '/images/product/sales/sale-3.png'
+                 
                 )
               ),
               array(
                 'title' => 'Product Library',
                 'content' => array(
-                  'img-src' => get_template_directory_uri(). '/images/product/sales/sale-1.png'
+                 
                 )
               ),
               array(
                 'title' => 'Reports',
                 'content' => array(
-                  'img-src' => get_template_directory_uri(). '/images/product/sales/sale-2.png'
+                 
                 )
               ),
             )
@@ -167,7 +162,7 @@ get_header();
     get_template_part('template-parts/customer-stories', null,
       array(
         'no-title' => false,
-        'classExtend' => 'mr-t-250'
+        'classExtend' => 'mr-t-250 mr-t-150-s4'
       ));
   ?>
 
@@ -175,7 +170,7 @@ get_header();
     get_template_part('template-parts/document-library', null,
       array(
         'no-title' => false,
-        'classExtend' => 'mr-t-250'
+        'classExtend' => 'mr-t-250 mr-t-150-s4'
       ));
   ?>
 

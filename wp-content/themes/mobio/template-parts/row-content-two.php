@@ -25,13 +25,13 @@
         <?php } ?>
         
         <?php if ($args['name']) { ?>
-          <div class="mr-b-30 w-650  f-36-s4 f-30-s1 mr-b-10-s1 <?php echo $args['nameClass'] ? $args['nameClass'] : 'f-b f-56' ?> lh2">
+          <div class="mr-b-30 w-650  w-550-s4 f-36-s4 f-30-s1 mr-b-10-s1 <?php echo $args['nameClass'] ? $args['nameClass'] : 'f-b f-56' ?> lh2">
             <p><?php echo $args['name'] ?></p>
           </div>
         <?php }?>
 
         <?php echo $args['divider'] ? '<div class="divider-item mr-b-30 b-pri b-r-5"></div>' : ''  ?>
-        <div class="f-n f-20 f-14-s1  f-16-s4 <?php echo $args['desc-w'] ? $args['desc-w'] : 'w-550' ?> ">
+        <div class="f-n f-20 f-14-s1  f-16-s4 <?php echo $args['desc-w'] ? $args['desc-w'] : 'w-550' ?> w-450-s4 ">
           <?php echo $args['desc'] ?>
         </div>
 

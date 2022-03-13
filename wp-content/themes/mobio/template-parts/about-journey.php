@@ -4,8 +4,8 @@
     
   <div class="auto-container">
     <div class="mr-l-40 mr-l-20-s1 mr-r-20-s1">
-      <div class="f-b f-18 f-14-s1 c-4 opa-5 upper-case t-c-s1"><p><?php echo $args['title-sm'] ?></p></div>
-      <div class="f-b f-56 f-36-s1 w-650 mr-t-25 t-c-s1"><p><?php echo $args['title'] ?></p></div>
+      <div class="f-b f-18 f-16-s4 f-14-s1 c-4 opa-5 upper-case t-c-s1"><p><?php echo $args['title-sm'] ?></p></div>
+      <div class="f-b f-56 f-36-s4 f-36-s1 w-650 w-750-s4 mr-t-25 t-c-s1"><p><?php echo $args['title'] ?></p></div>
     </div>
     
 
@@ -19,10 +19,10 @@
 
             <div class="b-sd b-fff b-r-10 pa-20 pa-t-50 pa-b-30 journey-year-item-info">
               <?php if($item['isBorn']) { ?>
-                <div><span class="f-30">&#127775;</span></div>
+                <div><span class="f-30 f-20-s4">&#127775;</span></div>
               <?php } ?>
-              <div class="f-b f-48 c-5-b"><?php echo $item['years'] ?></div>
-              <div class="f-n f-20"><p><?php echo $item['desc'] ?></p></div>
+              <div class="f-b f-48 f-36-s4 c-5-b"><?php echo $item['years'] ?></div>
+              <div class="f-n f-20 f-16-s4"><p><?php echo $item['desc'] ?></p></div>
             </div>
           </div>
       <?php } ?>
