@@ -561,7 +561,7 @@ input[type='submit']:hover{
 button {
 	border: none;
 	outline: none !important;
-	background-color: #4ABFED;
+	background-color: #55CBF5;
 	font-size: 18px;
 	line-height: 150%;
 	font-weight: 700;
@@ -569,18 +569,33 @@ button {
 	border-radius: 10px;
 	text-align: center;
 	cursor: pointer;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	padding-left: 43px;
 	padding-right: 43px;
 	color: #fff;
 }
 
+button:hover {
+	background-color: #4CC1EE !important; 
+	color: #fff !important;
+}
+
+.btn-white {
+	background-color: #fff !important;
+	color: #0F9CD8 !important;
+}
+
+.btn-white:hover {
+	color: #55CBF5 !important;
+	background-color: #fff !important;
+}
+
 .btn-small {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 21px;
-	padding-right: 21px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 18px;
+	padding-right: 18px;
 }
 
 .btn-tab {

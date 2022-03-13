@@ -71,15 +71,17 @@ get_header();
           'title' => 'Data collection',
           'desc' => '<p>Mobio CDP collects 1st-party data, including basic profile data, engagement data, and transaction data. 
           These datas comes from various sources: web, mobile, email, marketing campaigns, CRM, surveys, ecommerce systems, and more. 
-          The data comes in many formats, structured and unstructured. <br/> <br/> The data is ingested in real-time, continually feeding the CDP with current customer data.</p>',
+          The data comes in many formats, structured and unstructured. </p>
+          <p class="mr-t-10">The data is ingested in real-time, continually feeding the CDP with current customer data.</p>',
           'img-src' => get_template_directory_uri().'/images/product/cdp/cdp-data-collection.png',
         ),
         array(
           'title' => 'profile unification',
           'desc' => '<p>This is the process of turning raw data from multiple sources, which might be incomplete, conflicting, unclean, and discordant into a set of unified profiles (or golden records), 
-          that you trust and rely on consistently in every service you use.<br/><br/>Unifying data involves merging a company’s many fragmented data sources into one, 
-          single central view that uses the best available information for every single User or Account you reference in your systems.
-          <br>The benefit of Data Unification is that it provides a more holistic and accurate view of your many data sources.</p>',
+          that you trust and rely on consistently in every service you use.<p/>
+          <p class="mr-t-10">Unifying data involves merging a company’s many fragmented data sources into one, 
+          single central view that uses the best available information for every single User or Account you reference in your systems</p>
+          <p class="mr-t-10">The benefit of Data Unification is that it provides a more holistic and accurate view of your many data sources.</p>',
           'img-src' => get_template_directory_uri().'/images/product/cdp/cdp-2.png',
         ),
         array(
@@ -87,8 +89,11 @@ get_header();
           'desc' => '<p>MOBIO CDP provides tools to define audience segments based on attributes and behaviors. 
           Segmentation can improve targeting and personalization. 
           Segments are rules-based, or they are built using machine learning and AI. </p>
-          <br/><p>Using the customer segmentation capabilities of a customer data platform, you can do things like:<br>-	
-          Identify Advocates<br>-	Predict Customer Churn<br>-	Identify potential Upsell and Cross-sell opportunities<br>-	Identify Top-Performing Customers</p>',
+          <p class="mr-t-10">Using the customer segmentation capabilities of a customer data platform, you can do things like:
+            <br>-Identify Advocates
+            <br>-	Predict Customer Churn
+            <br>-	Identify potential Upsell and Cross-sell opportunities
+            <br>-	Identify Top-Performing Customers</p>',
           'img-src' => get_template_directory_uri().'/images/product/cdp/customer-360.png',
         ),
         array(

@@ -47,12 +47,12 @@
         <?php 
           if (!$args['ignoreContact']) {
         ?>
-          <div class="input-wrap mr-t-30 w-500 w-400-s4 mr-t-30-s1">
-            <input class="" placeholder="Enter your email address" />
+          <div class="email-submit">
+            <div class="input-wrap mr-t-30 w-500 w-400-s4 mr-t-30-s1">
+              <input class="" placeholder="Enter your email address" />
+            </div>
+            <button class="btn-submit btn-small mr-t-20 upper-case">get started</button>
           </div>
-          <a href="<?php echo get_site_url(). '/contact' ?>">
-            <button class="btn-small mr-t-20 upper-case">get started</button>
-          </a>
         <?php } ?>
       </div>
       

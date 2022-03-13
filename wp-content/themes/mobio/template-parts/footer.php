@@ -11,7 +11,7 @@
 							<div class="talk-to-info">
 								<p class="f-b f-18 f-16-s4 c-fff opa-5 mr-t-20 upper-case">Start with us</p>
 								<p class="f-b f-48 f-36-s4 c-fff mr-t-20">Start manage customer data and elevate your business today.</p>
-								<a href="<?php echo get_site_url() . '/contact' ?>"><button class="mo-btn-white mr-t-35">REQUEST A DEMO</button></a>
+								<a href="<?php echo get_site_url() . '/contact' ?>"><button class="btn-small btn-white mr-t-35">REQUEST A DEMO</button></a>
 							</div>
 						</div>
 						
@@ -23,7 +23,7 @@
 							<div class="talk-to-info">
 								<p class="f-n f-14 c-fff opa-5 mr-t-60 upper-case f-12-s1">Start with us</p>
 								<p class="f-b f-48 c-fff mr-t-20 f-30-s1 mr-t-15-s1">Start manage customer data and elevate your business today.</p>
-								<a href="<?php echo get_site_url() . '/contact' ?>"><button class="mo-btn-white mr-t-30 f-14-s1">REQUEST A DEMO</button></a>
+								<a href="<?php echo get_site_url() . '/contact' ?>"><button class="btn-small btn-white mr-t-30 f-14-s1">REQUEST A DEMO</button></a>
 							</div>
 						</div>
 					</div>

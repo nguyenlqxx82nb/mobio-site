@@ -23,8 +23,8 @@
             <div class="mo-col-6 mo-col <?php echo $args["img-left"] ? 'pa-l-100' : 'pa-l-20 pa-r-80'  ?>  d-flex flex-column justify-content-center h-100">
               <img class="icon-top " src="<?php  echo get_template_directory_uri() ?>/images/item-icon.png" />
               <div class="f-b f-18 f-14-s4 upper-case c-0-b mr-t-35"><?php echo $args['items'][$i]['title'] ?></div>
-              <div class="f-b f-56 f-40-s4 mr-t-15"><?php echo $args['items'][$i]['name'] ?></div>
-              <div class="f-n f-20 f-16-s4 mr-t-30 pa-r-40"><?php echo $args['items'][$i]['desc'] ?></div>
+              <div class="f-b f-56 f-40-s4 mr-t-10"><?php echo $args['items'][$i]['name'] ?></div>
+              <div class="f-n f-20 f-16-s4 mr-t-20 pa-r-40"><?php echo $args['items'][$i]['desc'] ?></div>
               <a class="" href="<?php echo $args['items'][$i]['url'] ?>"><button class="btn-small mr-t-35 mr-t-15-s1 f-14-s1 mr-t-20">LEARN MORE</button></a>
             </div>
 
@@ -47,11 +47,12 @@
       <?php } ?>
     </div>
 
-    <div class="position-absolute scroll-tab f-b f-25 f-18-s4 c-2 justify-content-between d-n d-none-s1" style="<?php echo !$args["img-left"] ? 'right: 0px;' : 'left: 0px;' ?>">
+    <div class="position-absolute scroll-tab f-b f-25 f-18-s4 c-2 justify-content-between d-n d-none-s1" 
+      style="<?php echo !$args["img-left"] ? 'right: 0px;' : 'left: 0px;' ?>">
       <?php 
         for ($i = 0; $i < count($args['items']); $i++) {
       ?>
-        <div class="scroll-tab-item ">
+        <div class="scroll-tab-item">
           <p class="pa-l-10 pa-r-10 lh5"><?php echo $args['items'][$i]['tab-title'] ?></p>
         </div>
       <?php } ?>
@@ -74,7 +75,7 @@
       <?php } ?>
 
       <div class="w-100 pa-l-15 mr-t-30">
-        <div class="scroll-tab mr-b-10 f-b f-15 c-2 is-scroll"  >
+        <div class="scroll-tab mr-b-10 f-b f-15 c-2 is-scroll">
           <?php 
           for ($i = 0; $i < count($args['items']); $i++) {
           ?>

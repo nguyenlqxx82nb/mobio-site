@@ -64,6 +64,9 @@
 	
 		<link rel="profile" href="https://gmpg.org/xfn/11">
 	  <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/images/favicon.png" type="image/x-icon" media="all">
+		<script type="text/javascript">
+			var siteUrl = '<?= get_site_url(); ?>';
+		</script>
 		<?php wp_head(); ?>
 		<?php $version = '1.0.3' ?>
 		<link rel="stylesheet" id="base-styles-css" href="<?php echo get_site_url() ?>/wp-content/themes/mobio/styles-base.css?v=<?php echo $version ?>" media="all">

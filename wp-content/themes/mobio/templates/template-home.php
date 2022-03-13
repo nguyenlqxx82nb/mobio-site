@@ -115,7 +115,8 @@
 						'name' => '<p>The Right Leads to the Right Reps</p>',
 						'desc' => '<p>Rule-based platform that automates generate qualify leads to suitable salesman in the team. </p>',
 						'url' => get_site_url().'/sales-lead-distribution',
-						'img-src' => get_template_directory_uri() . '/images/home/sales-lead-distribution.png'
+						'img-src' => get_template_directory_uri() . '/images/home/sales-lead-distribution.png',
+						'classImgRatio' => 'rt-3-4'
 					),
 					array(
 						'tab-title' => 'Sales Pipeline',
@@ -123,7 +124,8 @@
 						'name' => '<p>Build your own Sales Process</p>',
 						'desc' => '<p>Design the most efficient sales process and take control of your own progress, increase revenue and reduce the time to close the sale on each order.</p>',
 						'url' => get_site_url().'/sales-pipeline',
-						'img-src' => get_template_directory_uri() . '/images/home/sales-sales-pipeline.png'
+						'img-src' => get_template_directory_uri() . '/images/home/sales-sales-pipeline.png',
+						'classImgRatio' => 'rt-3-4'
 					),
 					array(
 						'tab-title' => 'Task Management',
@@ -131,7 +133,8 @@
 						'name' => '<p>Keep track every step of your work </p>',
 						'desc' => '<p>Contact customer via every channel, book meetings and appointments, remind any task you missed and any other sales task so you can focus on closing deals</p>',
 						'url' => get_site_url().'/sales-task-manger',
-						'img-src' => get_template_directory_uri() . '/images/home/sales-task-management.png'
+						'img-src' => get_template_directory_uri() . '/images/home/sales-task-management.png',
+						'classImgRatio' => 'rt-3-4'
 					)
 				)
 			));
@@ -150,7 +153,8 @@
 						'name' => '<p>Connect on Time, on Target</p>',
 						'desc' => '<p>Respond to customer via every social channel and the website on real-time and improve customer response times by our smart algorithm.</p>',
 						'url' => get_site_url().'/service-customer-response',
-						'img-src' => get_template_directory_uri() . '/images/home/service-social-chat.png'
+						'img-src' => get_template_directory_uri() . '/images/home/service-social-chat.png',
+						'classImgRatio' => 'rt-3-4'
 					),
 					array(
 						'tab-title' => 'Ticketing',
@@ -158,7 +162,8 @@
 						'name' => '<p>Track, prioritize, and solve CS tickets</p>',
 						'desc' => '<p>All your customer information is stored in one place, thereby communication between you and your customers is efficient, relevant, and personal. </p>',
 						'url' => get_site_url().'/service-ticketing',
-						'img-src' => get_template_directory_uri() . '/images/home/service-ticketing.png'
+						'img-src' => get_template_directory_uri() . '/images/home/service-ticketing.png',
+						'classImgRatio' => 'rt-3-4'
 					),
 					array(
 						'tab-title' => 'Loyalty Management',
@@ -166,7 +171,8 @@
 						'name' => '<p>Raise brand awareness</p>',
 						'desc' => '<p>Create and manage immersive loyalty programs, drive sustained brand loyalty and advocacy, improved customer experiences and business value.</p>',
 						'url' => get_site_url().'/service-loyalty-management',
-						'img-src' => get_template_directory_uri() . '/images/home/service-loyalty-management.png'
+						'img-src' => get_template_directory_uri() . '/images/home/service-loyalty-management.png',
+						'classImgRatio' => 'rt-3-4'
 					)
 				)
 			));

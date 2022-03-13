@@ -498,8 +498,8 @@ h6, .h6 {font-size: 14px;}
 
   .tab-button button {
     width: 250px ;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   .divider-item {
@@ -510,5 +510,17 @@ h6, .h6 {font-size: 14px;}
   .journey-year-item {
     width: 150px;
   }
+
+  .contact-form input, .contact-form textarea {
+    font-size: 14px;
+    padding: 7px 12px; 
+  }
+
+  .contact-form {
+    top: 50px;
+    width: 550px;
+  }
+
+  .contact-form input { height: 45px;}
 
 }

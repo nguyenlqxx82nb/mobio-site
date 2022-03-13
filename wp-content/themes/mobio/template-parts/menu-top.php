@@ -10,10 +10,10 @@
         <img class="menu-logo menu-logo-fixed d-n mr-l-25-s1" src="<?php  echo get_template_directory_uri() . "/images/mobio-logo-blue.png" ?>">
       </a>
 
-      <div class="d-flex d-none-s1 flex-grow-1 justify-content-center">
+      <div class="d-flex d-none-s1 flex-grow-1 justify-content-center f-n  f-16 f-14-s4 f-w-5">
         <div class="menu-item customer-menu d-flex align-items-center">
           <div class="d-flex align-items-center menu-top-item">	
-            <h6 class="c-fff">Customer</h6>
+            <p class="c-fff">Customer</p>
             <i class="arrow mr-l-5"></i>
           </div>
           
@@ -66,7 +66,7 @@
         </div>
         <div class="menu-item product-menu d-flex align-items-center">
           <div class="d-flex align-items-center menu-top-item">
-            <h6 class="c-fff">Product</h6>
+            <p class="c-fff">Product</p>
             <i class="arrow mr-l-5"></i>
           </div>
           <div class="menu-divider"></div>
@@ -154,7 +154,7 @@
         </div>
         <div class="menu-item library-menu  d-flex align-items-center">
           <div class="d-flex align-items-center menu-top-item">
-            <h6 class=" c-fff">Library</h6>
+            <p class=" c-fff">Library</p>
             <i class="arrow mr-l-5"></i>
           </div>
           <div class="menu-divider"></div>
@@ -212,7 +212,7 @@
         </div>
         <div class="menu-item company-menu  d-flex align-items-center">
           <div class="d-flex align-items-center menu-top-item">
-            <h6 class="c-fff">Company</h6>
+            <p class="c-fff">Company</p>
             <i class="arrow mr-l-5"></i>
           </div>
           <div class="menu-divider"></div>
@@ -251,12 +251,12 @@
 
         </div>
       </div>
-
-      <a class="t-d-n" href="<?php  echo get_site_url() ?>/contact">
-        <div class="menu-button d-none-s1">
-            <h6 class="c-0 t-d-n" >REQUEST A DEMO</h6>
-        </div>
+      <a class="t-d-n d-none-s1 " href="<?php  echo get_site_url() ?>/contact">
+        <button class="btn-request btn-small btn-white">
+          REQUEST A DEMO
+        </button>
       </a>
+      
       <div class="d-n d-block-s1 flex-grow-1"></div>
 
       <button class="mobile-menu-open-btn menu-btn mr-r-20 d-n d-block-s1">

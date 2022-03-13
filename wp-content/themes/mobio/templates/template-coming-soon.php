@@ -19,7 +19,7 @@ get_header();
 
       <div class="upper-case c-fff f-b f-120 f-70-s4 mr-t-200 mr-t-100-s4  mr-t-80-s1 f-44-s1"><p>coming soon</p></div>
       <div class="w-600 f-n f-22 f-20-s4 c-fff mr-t-30 mr-auto mr-t-30-s1 f-16-s1 mr-auto w-300-s1"><p>We will be landing this site soon. Add your email below and be among the first to know when we officially take fight.</p></div>
-      <div class="input-wrap input-border-left input-wrap-action w-600 w-350-s1 mr-auto mr-t-45">
+      <div class="input-wrap email-submit input-border-left input-wrap-action w-600 w-350-s1 mr-auto mr-t-45">
         <input placeholder="Enter your email address" /> 
         <div class="input-action f-b f-20 f-18-s4 c-fff h-100 d-flex justify-content-center align-items-center"><p>Submit</p></div>
       </div>
