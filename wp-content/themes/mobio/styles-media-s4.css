@@ -30,6 +30,7 @@
 .f-60-s4 {font-size: 60px !important;}
 .f-62-s4 {font-size: 62px !important;}
 .f-64-s4 {font-size: 64px !important;}
+.f-70-s4 {font-size: 70px !important;}
 
 /* .f-w-4 { font-weight: 400 !important;}
 .f-w-5 { font-weight: 500 !important;}
@@ -411,53 +412,6 @@ h6, .h6 {font-size: 14px;}
 .header-home {
   padding-top: 120px;
 }
-
-/* ::-webkit-scrollbar {
-	width: 0px !important;
-	height: 0px;
-	cursor: default;
-}
-::-webkit-scrollbar-thumb {
-	border-radius: 4px;
-	background: transparent !important;
-}
-
-/**********************/
-  /* body { background-color: #F9F8FF; }
-
-  .auto-container {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .header-bg, .header-page {
-    height: 540px !important;
-  }
-
-  .header-bg {
-    background-image: url(./images/bg-mobile.png);
-}
-
-  .menu-logo {
-    width: 110px;
-    height: 29px;
-  }
-
-  .btn-header-control {
-    border-radius: 7px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 11px;
-    font-weight: 700;
-  }
-
-  .header-feature-image img {
-    height: auto;
-    width: 300px;
-  }
-
-
-  .icon-top { width: 43px; height: 43px; } */ */
 
   .icon-m-s4 {width: 43px; height: 43px;}
   button { font-size: 14px; }
