@@ -14,14 +14,14 @@ get_header();
 <?php get_template_part('template-parts/header-page',null,
                           array( 
                             'title' => 'Mobio service management',
-                            'name' => 'Meet Customer Response',
+                            'name' => 'Meet Social & Chat',
                             'desc' => 'Add messaging to your website, mobile apps, and social channels so customers can reach you instantly. Your team won’t miss a single thing when all interactions are place in one. '
                           )); ?>
 
 <?php get_template_part('template-parts/section-title',null,
   array( 
     'classExtend' => 'mr-t-100',
-    'title-sm' => 'customer response',
+    'title-sm' => 'social & chat',
     'title' => 'Deliver Rich Conversational Experiences',
     'desc' => 'Customers expect great service across all channels. Messaging makes it easy to stay in touch with personalized and engaging interactions. With Mobio, get messaging right out of the box or fully customize it to meet your needs.',
     'desc-w' => 'w-1100'
@@ -36,7 +36,7 @@ get_header();
   array( 
     'classExtend' => 'mr-t-250',
     'title-sm' => 'what we offer?',
-    'title' => '<p>Complete Messaging Solution To Meet Your Customers’ Need</p>',
+    'title' => '<p>Complete messaging solution to meet your customers’ need</p>',
   )); ?>
 
 

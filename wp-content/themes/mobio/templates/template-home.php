@@ -84,7 +84,7 @@
 						'title' => '<p>Marketing Management</p>',
 						'name' => '<p>Personalized Messages Direct to Mailbox</p>',
 						'desc' => '<p>Create unique email style for your brand and deliver 1-to-1 messages to your customers. Upgrade your email sender reputation with our email strategy toolkit.</p>',
-						'url' => get_site_url().'/mkt-journey-builder',
+						'url' => get_site_url().'/mkt-email-builder',
 						'img-src' => get_template_directory_uri() . '/images/home/marketing-email-builder.png',
 						'classImgRatio' => 'rt-3-4'
 					),

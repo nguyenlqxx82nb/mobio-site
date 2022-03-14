@@ -15,7 +15,7 @@ get_header();
                           array( 
                             'title' => 'Mobio sales management',
                             'name' => 'Meet Sales Pipeline',
-                            'desc' => 'Automate repetitive work so you can spend more time on sales.'
+                            'desc' => 'Automate repetitive work so you can spend more time on closing deals and optimize your time with customers.'
                           )); ?>
 
 
