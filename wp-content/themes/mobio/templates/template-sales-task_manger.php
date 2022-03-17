@@ -17,24 +17,26 @@ get_header();
       'name' => 'Meet Task Management',
       'desc' => 'Looking for task manager software to help you organize individual and team tasks in one shared space? 
         With Mobio, it’s easy to collaborate with your team, no matter where you are.',
-      'img-src' => get_template_directory_uri(). '/images/product/cdp/customer-360.png'   
+      'img-src' => get_template_directory_uri(). '/images/product/sales/task-mngt.png',   
     )); ?>
 
 <?php get_template_part('template-parts/section-title',null,
                         array( 
                           'classExtend' => 'mr-t-150',
                           'title-sm' => 'task management',
-                          'title' => 'The Only Task Tool you need to Manage your Sales Work'
+                          'title' => 'A minimal task tool to minimize your sales work'
                         )); ?>
 
   <?php get_template_part('template-parts/feature-image',null,
-                        array(  )); ?>
+                        array( 
+                          'img-src' => get_template_directory_uri(). '/images/product/sales/overview-task-management.png'
+                         )); ?>
 
  <?php get_template_part('template-parts/section-title',null,
       array( 
         'classExtend' => 'mr-t-250 mr-t-150-s4',
         'title-sm' => 'how it helps',
-        'title' => 'Task Manager That Helps <span class="hl-text">Sales Better</span>',
+        'title' => 'Task Management tool that helps <span class="hl-text">sales better</span>',
       )); ?>
  
   <?php get_template_part('template-parts/row-content-two',null,
@@ -47,6 +49,7 @@ get_header();
           'classImageContainer' => 'pa-0',
           'classImage' => 'b-r-10',
           'divider' => 1,
+          'img-src' => get_template_directory_uri(). '/images/product/sales/task-mngt.png', 
           'desc' => '<p>Remind sales reps every task logged in many ways from notification within the app to web push, so sales won’t miss a single task. 
             Mobio Task Management is integrated with Google Calendar as well so missing a deadline won’t be a thing. </p>',
         )); ?>
@@ -62,6 +65,7 @@ get_header();
           'classImageContainer' => 'pa-0',
           'classImage' => 'b-r-10',
           'divider' => 1,
+          'img-src' => get_template_directory_uri(). '/images/product/sales/task-mngt-contact.png',
           'desc' => '<p>Manage hundreds of leads with multiple sales processes. 
             A comprehensive platform for sales teams to grow relationships with customers through Call Center, Email Management, Meeting Schedule. 
             Every interaction between sales and customers is tracked and stored on the Deal History, helped sales and managers look it up anytime, anywhere in need.</p>',
@@ -100,7 +104,7 @@ get_header();
 
 <?php get_template_part('template-parts/footer-contact', null,
     array( 
-      'title' => 'Curious about Task Manager? There’re a lot more to explore!'
+      'title' => 'Curious about Task Management? There’re lots more to explore!'
     )
   ); ?>
 

@@ -17,7 +17,7 @@ get_header();
     'title-sub' => 'Mobio operation cdp',
     'title' => 'Streamline your Data Platform and Centralize Customer Data Infrastructure',
     'contact' => '1',
-    'header-img' => get_template_directory_uri(). '/images/Mobio-platform-cdp-cem.png',
+    'header-img' => get_template_directory_uri(). '/images/product/cdp/cdp-header.png',
     'title-width' => 'w-1000 w-850-s4'
   ));
 ?>
@@ -65,7 +65,7 @@ get_header();
 <?php 
   get_template_part('template-parts/cdp-function', null, 
     array(
-      'classExtend' => 'mr-t-90',
+      'classExtend' => 'mr-t-80',
       'items' => array(
         array(
           'title' => 'Data collection',
@@ -124,32 +124,32 @@ get_header();
       'classExtend' => 'mr-t-50',
       'items' => array(
         array(
-          'icon-src' => get_template_directory_uri().'/images/icon-digital.png',
+          'icon-src' => get_template_directory_uri().'/images/product/cdp/cdp-realtime-audience.svg',
           'name' => 'Realtime Audience',
           'desc' => 'Collect and update profile information in real-time, immediately activate for the operating system.'
         ),
         array(
-          'icon-src' => get_template_directory_uri().'/images/icon-loyalty.png',
+          'icon-src' => get_template_directory_uri().'/images/product/cdp/cdp-360-profile.svg',
           'name' => '360-degree view',
           'desc' => 'All collected information is saved and shown in CDP to create a full and detailed picture of each customer, including their activities, sentiment, transactions, ticket.'
         ),
         array(
-          'icon-src' => get_template_directory_uri().'/images/icon-personal.png',
+          'icon-src' => get_template_directory_uri().'/images/product/cdp/cdp-auto-collection.svg',
           'name' => 'Auto Collection',
           'desc' => 'Automatically recognize and store phone numbers and emails in Customer’s comments on social channels or private messages.'
         ),
         array(
-          'icon-src' => get_template_directory_uri().'/images/icon-digital.png',
+          'icon-src' => get_template_directory_uri().'/images/product/cdp/cdp-dynamic-field.svg',
           'name' => 'Dynamic Fields',
           'desc' => 'Allow users to create and define new data fields as per business characteristics and automatically create the corresponding filter criteria.'
         ),
         array(
-          'icon-src' => get_template_directory_uri().'/images/icon-loyalty.png',
+          'icon-src' => get_template_directory_uri().'/images/product/cdp/cdp-ai-sentiment.svg',
           'name' => 'AI Sentiment Predict',
           'desc' => 'Read customers’ sentiment through social comments and divide it into 3 types: Positive, Neutral, and Negative.'
         ),
         array(
-          'icon-src' => get_template_directory_uri().'/images/icon-personal.png',
+          'icon-src' => get_template_directory_uri().'/images/product/cdp/cdp-data-enrichment.svg',
           'name' => 'Data Enrichment',
           'desc' => 'Analyze from existing data, Facebook data & web interaction behavior to enrich profile information about their gender, age, location, and interests.'
         )

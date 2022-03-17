@@ -78,7 +78,7 @@ get_header();
   array(
     'classExtend' => 'mr-t-100',
     // 'imageLeft' => '1',
-    'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'icon' => get_template_directory_uri(). '/images/product/cdp/cdp.svg',
     'title' => 'The heart of our product',
     'title-class' => 'f-18 c-1-b',
     'name' => '<strong>Customer Data Platform</strong>',
@@ -101,7 +101,7 @@ get_header();
   array(
     'classExtend' => 'mr-t-200 mr-t-150-s4',
     'imageLeft' => '1',
-    'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'icon' => get_template_directory_uri(). '/images/home/mkt-xanh.svg',
     'title' => 'our top feature',
     'title-class' => 'f-18 c-1-b',
     'name' => '<strong>Marketing Management</strong>',
@@ -123,7 +123,7 @@ get_header();
   array(
     'classExtend' => 'mr-t-200 mr-t-150-s4',
     // 'imageLeft' => '1',
-    'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'icon' => get_template_directory_uri(). '/images/home/sales-xanh.svg',
     'title' => 'The rising star',
     'title-class' => 'f-18 c-1-b',
     'name' => '<strong>Sales Management</strong>',
@@ -145,7 +145,7 @@ get_header();
   array(
     'classExtend' => 'mr-t-200 mr-t-150-s4',
     'imageLeft' => '1',
-    'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'icon' => get_template_directory_uri(). '/images/home/service-xanh.svg',
     'title' => 'best performance',
     'title-class' => 'f-18 c-1-b',
     'name' => '<strong>Service Management</strong>',

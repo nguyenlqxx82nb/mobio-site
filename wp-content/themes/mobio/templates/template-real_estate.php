@@ -16,7 +16,7 @@ get_header();
     'title-sub' => 'industry | real estate',
     'title' => 'Collect High Quality Leads and Close Deals Faster',
     'desc' => "Marketing and Sales in Real Estate Industry are easier said than done since it requires a huga amount of time to find the right buyers for every new project launched. With the help from MOBIO CDP, agents can find it truly easy to collect high quality leads and seal the deals faster.",
-    'header-img' => get_template_directory_uri(). '/images/industry-retail/header.png'
+    'header-img' => get_template_directory_uri(). '/images/industry-real-estate/real-estate-header-1.png'
   ));
 ?>
 
@@ -34,7 +34,7 @@ get_header();
     array(
       'classExtend' => 'mr-t-175 mr-t-150-s4',
       'title' => 'industry insights',
-      'name' => 'Perspectives On Retail ',
+      'name' => 'Perspectives On Real Estate',
       'desc' => 'Retail is accelerating at a shocking pace. These trends and insights are up-to-date with statistics provided by Deloitte, McKinsey, 
       PwC, and opinions of C-suite leaders and experts in the fields. ',
       'items' => array(
@@ -73,7 +73,7 @@ get_header();
     array(
       'classExtend' => 'mr-t-200 mr-t-150-s4',
       'title-sm' => 'how can we help?',
-      'title' => 'How Mobio upgrades your Buyer Experience', 
+      'title' => 'Collect High Quality Leads and Close Deals Faster', 
     )
   );
 ?>
@@ -82,9 +82,9 @@ get_header();
   array(
     'classExtend' => 'mr-t-150',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
-    'title' => 'o2o data collection',
+    'title' => 'journey builder',
     // 'title-class' => 'f-18 c-1-b',
-    'name' => 'Understand your customers with <strong>O2O Data Collection</strong>',
+    'name' => '<strong>Segment and manage</strong> your qualified leads',
     // 'classColContent' => 'mo-col-5',
     // 'classColImage' => 'mo-col-7',
     'nameClass' => 'f-n f-56',
@@ -92,11 +92,12 @@ get_header();
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/industry-retail/o2o-data-collection.png',
-    'desc' => "<p>By using MOBIO CDP, Retailers not only gather customer feedback but also make it easy to create customer-centric roadmaps based on 
-      the feedback and help connect data to create an excellent customer experience.  </p>",
+    'img-src' => get_template_directory_uri(). '/images/industry-real-estate/real-estate-jb-1.png',
+    'desc' => "<p>By using a CDP, real estate agents can classify warm-leads and cold-leads, then have a separated 
+    approaching strategy for different types of customers. You can also have a single source of truth from your customers,
+     know them from head to toe, and increase your chance to land deals.</p>",
     'next' => 'Explore our possibilities >>',
-    'next-url' => '#'
+    'next_url' => get_site_url(). '/mkt-journey-builder'
   )); ?>
 
 <?php get_template_part('template-parts/row-content-two',null,
@@ -104,9 +105,9 @@ get_header();
     'classExtend' => 'mr-t-300 mr-t-150-s4',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
-    'title' => 'Journey builder',
+    'title' => 'ads management',
     // 'title-class' => 'f-18 c-1-b',
-    'name' => 'Reshape customers <strong>buying decision</strong>',
+    'name' => '<strong>Grab your customer attention</strong> from digital Ads',
     // 'classColContent' => 'mo-col-5',
     // 'classColImage' => 'mo-col-7',
     'nameClass' => 'f-n f-56',
@@ -114,11 +115,12 @@ get_header();
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/industry-retail/journey-builder.png',
-    'desc' => "<p>CX is a vital component in today's buying trend. But how can you create a complete journey for your customer knowing that it will end up boosting your revenue or increasing your ROI. 
-      Mobio helps you create an end-to-end customer journey and track every touchpoint of your customer. </p>",
-    'next' => 'Explore our possibilities >>',
-    'next-url' => '#'
+    'img-src' => get_template_directory_uri(). '/images/industry-real-estate/real-estate-ads.png',
+    'desc' => "<p>With Mobio Ads Management tool, real estate businesses can attract customers via appealing Facebook or 
+    Google Ads, segment those warm-leads, and make telesales immediately to the right customers. 
+    Those cold-leads will be stored in CDP and continually nurtured through marketing campaigns. </p>",
+    //'next' => 'Learn the strategy to convert leads through ads >>',
+    //'next-url' => get_site_url(). '/'
   )); ?>
 
 
@@ -127,21 +129,22 @@ get_header();
     'classExtend' => 'mr-t-300 mr-t-150-s4',
     // 'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
-    'title' => 'customer conversation',
+    'title' => 'email marketing',
     // 'title-class' => 'f-18 c-1-b',
-    'name' => '<strong>Be there anywhere, anytime</strong> for your customers',
+    'name' => 'Deliver <strong>personalized messages</strong> based on customer interests',
     'classColContent' => 'mo-col-5',
     'classColImage' => 'mo-col-7',
     'nameClass' => 'f-n f-56',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
-    'classImageRatio' => 'rt-9-16',
+    'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/industry-retail/customer-conversation.png',
-    'desc' => "<p>Reach your customers at every channel your business owns and listen to their direct needs. With our smart rule-based chat system and auto-reply library, 
-    retailers can optimize customer response while maintaining a great service along the way. </p>",
+    'img-src' => get_template_directory_uri(). '/images/industry-real-estate/real-estate-email.png',
+    'desc' => "<p>Send follow-up emails and newsletters to your customers with personalized messages based on their 
+    interests, which can perfectly boost your CTA, CLV, and ROI. You can also reach customers through various 
+    channels: SMS, Social Media, Web push, LINE, maintain a committed customer connection.</p>",
     'next' => 'Explore our possibilities >>',
-    'next-url' => '#'
+    'next_url' => get_site_url(). '/mkt-email-builder'
   )); ?>
 
 <?php get_template_part('template-parts/row-content-two',null,
@@ -149,9 +152,9 @@ get_header();
     'classExtend' => 'mr-t-300 mr-t-150-s4',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
-    'title' => 'loyalty management',
+    'title' => 'sales management',
     // 'title-class' => 'f-18 c-1-b',
-    'name' => '<strong>Game changing</strong> with loyalty management',
+    'name' => '<strong>Sell faster and smarter</strong> with customized sales tools',
     // 'classColContent' => 'mo-col-5',
     // 'classColImage' => 'mo-col-7',
     'nameClass' => 'f-n f-56',
@@ -159,11 +162,12 @@ get_header();
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/industry-retail/loyalty-management.png',
-    'desc' => "<p>Guess what! Retailers today invest tremendously in loyalty programs as a core strategy for long-term growth. With our platform, retailers can engage customers at every step 
-      they take along the customer journey, retain them with compelling loyalty programs, and turn them to your dedicated advocacy.</p>",
+    'img-src' => get_template_directory_uri(). '/images/industry-real-estate/sales-pipeline.png',
+    'desc' => "<p>Sales team can use Lead Distribution to get the right leads that fit their needs, Sales Pipeline 
+    to keep track of their sales process, Task Management to manage all their daily tasks, and many other tools to boost 
+    your sales progress.</p>",
     'next' => 'Explore our possibilities >>',
-    'next-url' => '#'
+    'next_url' => get_site_url(). '/products-sale'
   )); ?>
 
 <!-- customer use cases -->

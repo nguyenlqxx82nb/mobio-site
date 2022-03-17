@@ -68,29 +68,29 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
     array( 
       'imageLeft' => 1,
-      'icon' => get_template_directory_uri(). '/images/item-icon.png',
+      'icon' => get_template_directory_uri(). '/images/industry/industry-1.svg',
       'title' => 'most innovative fsi companies',
       'title-class' => 'f-18 c-1-b',
       'name' => 'Financial Services',
       'nameClass' => 'f-b f-56',
       'classExtend' => 'mr-t-250 mr-t-150-s4',
       'classImageContainer' => 'b-sd-n',
-      'classImageRatio' => 'rt-3-4',
+      'classImageRatio' => 'rt-9-16',
       // 'classImageContainer' => 'pa-0',
       // 'classImage' => 'b-r-10',
       // 'divider' => 1,
-      'img-src' => get_template_directory_uri(). '/images/industry/service.png',
+      'img-src' => get_template_directory_uri(). '/images/industry/financial-service-industry.png',
       'desc' => '<p>Interact with FSI customers in real-time with the right message on the right channel, developing customer engagement and boosting customer retention.
         <br><br>Strong solutions for Card Center, Retail Banking, and Digital Banking.</p>',
       // 'next' => 'learn how to manage your workspace >>',
       'next-button' => 'Learn More',
-      'next-url' => '#'
+      'next-url' => get_site_url(). '/industry-fsi',
     )); ?>
 
 <?php get_template_part('template-parts/row-content-two',null,
     array( 
       //'imageLeft' => 1,
-      'icon' => get_template_directory_uri(). '/images/item-icon.png',
+      'icon' => get_template_directory_uri(). '/images/industry/industry-2.svg',
       'title' => 'top retail chains in asian market',
       'title-class' => 'f-18 c-1-b',
       'name' => 'Retail',
@@ -99,7 +99,7 @@ get_header();
       'classImageContainer' => 'b-sd-n',
       'classImageRatio' => 'rt-3-4',
       // 'divider' => 1,
-      'img-src' => get_template_directory_uri(). '/images/industry/retail.png',
+      'img-src' => get_template_directory_uri(). '/images/industry/retail-industry.png',
       'desc' => '<p>Increase your AOV, upsell and cross-sell efficiently, boost your customer engagement, perfect timing to offer deals and promotion, track every behavior and digital footprint. 
       <br><br>Designed solutions for Retailers to increase revenue and reduce customer churn rate.</p>',
       // 'next' => 'learn how to manage your workspace >>',
@@ -110,7 +110,7 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
     array( 
       'imageLeft' => 1,
-      'icon' => get_template_directory_uri(). '/images/item-icon.png',
+      'icon' => get_template_directory_uri(). '/images/industry/industry-4.svg',
       'title' => 'beauty & healthcare',
       'title-class' => 'f-18 c-1-b',
       'name' => 'Healthcare',
@@ -132,7 +132,7 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
     array( 
       //'imageLeft' => 1,
-      'icon' => get_template_directory_uri(). '/images/item-icon.png',
+      'icon' => get_template_directory_uri(). '/images/industry/industry-3.svg',
       'title' => 'real estate investor',
       'title-class' => 'f-18 c-1-b',
       'name' => 'Real Estate',

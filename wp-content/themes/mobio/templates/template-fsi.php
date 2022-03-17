@@ -74,7 +74,7 @@ get_header();
   get_template_part('template-parts/section-title', null, 
     array(
       'classExtend' => 'mr-t-80',
-      'desc' => 'To learn deeper about our designed solutions for the banking sector and banking cases, please contact us for private consulting.',
+      'desc' => 'To learn deeper about our designed solutions for the banking sector and banking cases,<br>please contact us for private consulting.',
       'desc-w' => 'w-750',
       'next-button' => 'contact us',
       'next-url' => get_site_url(). '/contact'
@@ -86,7 +86,7 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
   array(
     'classExtend' => 'mr-t-250 mr-t-150-s4',
-    'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'icon' => get_template_directory_uri(). '/images/industry-fsi/fsi-1.svg',
     'title' => 'solutions for fintech',
     'title-class' => 'f-18 c-1-b',
     'name' => 'Fintech',
@@ -105,7 +105,7 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
   array(
     'classExtend' => 'mr-t-250 mr-t-150-s4',
-    'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'icon' => get_template_directory_uri(). '/images/industry-fsi/fsi-2.svg',
     'title' => 'solutions for insurance',
     'title-class' => 'f-18 c-1-b',
     'classColContent' => 'mo-col-5',
@@ -124,7 +124,7 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
   array(
     'classExtend' => 'mr-t-250 mr-t-150-s4',
-    'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'icon' => get_template_directory_uri(). '/images/industry-fsi/fsi-3.svg',
     'title' => 'solutions for digital wallet',
     'title-class' => 'f-18 c-1-b',
     'name' => 'Digital wallet',

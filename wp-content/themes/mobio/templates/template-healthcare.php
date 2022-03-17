@@ -16,8 +16,8 @@ get_header();
     'title-sub' => 'industry | healthcare',
     'title' => 'Customer Engagement to Heal the Pain of Healthcare Services',
     'desc' => "Consumers today are more and more aware of personal care and health services. If you are running a healthcare business, 
-      this is the perfect time to leverage your game and become the cock of the walk. ",
-    'header-img' => get_template_directory_uri(). '/images/industry-retail/header.png'
+      this is the perfect time to leverage your game and become the cock of the walk.",
+    'header-img' => get_template_directory_uri(). '/images/industry-healthcare/healthcare-header-2.png'
   ));
 ?>
 
@@ -35,9 +35,8 @@ get_header();
     array(
       'classExtend' => 'mr-t-175 mr-t-150-s4',
       'title' => 'industry insights',
-      'name' => 'Perspectives On Retail ',
-      'desc' => 'Retail is accelerating at a shocking pace. These trends and insights are up-to-date with statistics provided by Deloitte, McKinsey, 
-      PwC, and opinions of C-suite leaders and experts in the fields. ',
+      'name' => 'Perspectives On Healthcare',
+      'desc' => 'The Healthcare industry is massive and continues to grow fast in recent years, becoming more and more competitive. These trends and insights are up-to-date with statistics provided by Deloitte, McKinsey, PwC, and opinions of C-suite leaders and experts in the fields.',
       'items' => array(
         array(
           'icon' => get_template_directory_uri().'/images/icon-digital.png',
@@ -74,7 +73,7 @@ get_header();
     array(
       'classExtend' => 'mr-t-200 mr-t-150-s4',
       'title-sm' => 'how can we help?',
-      'title' => 'How Mobio upgrades your Buyer Experience', 
+      'title' => 'Boost Patient Satisfaction and a Better Quality of Care', 
     )
   );
 ?>
@@ -83,9 +82,9 @@ get_header();
   array(
     'classExtend' => 'mr-t-150',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
-    'title' => 'o2o data collection',
+    'title' => 'cdp data collection',
     // 'title-class' => 'f-18 c-1-b',
-    'name' => 'Understand your customers with <strong>O2O Data Collection</strong>',
+    'name' => 'Serve your patients from <strong>online to offline</strong>',
     // 'classColContent' => 'mo-col-5',
     // 'classColImage' => 'mo-col-7',
     'nameClass' => 'f-n f-56',
@@ -93,11 +92,11 @@ get_header();
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/industry-retail/o2o-data-collection.png',
-    'desc' => "<p>By using MOBIO CDP, Retailers not only gather customer feedback but also make it easy to create customer-centric roadmaps based on 
-      the feedback and help connect data to create an excellent customer experience.  </p>",
+    'img-src' => get_template_directory_uri(). '/images/industry-healthcare/healthcare-cdp.png',
+    'desc' => "<p>By using a CDP, healthcare businesses not only gather customer feedback but also make it easy to create customer-centric roadmaps based on 
+    this feedback and help connect customer data to the best-in-class stack necessary to create an excellent customer experience.</p>",
     'next' => 'Explore our possibilities >>',
-    'next-url' => '#'
+    'next_url' => get_site_url(). '/products-cdp',
   )); ?>
 
 <?php get_template_part('template-parts/row-content-two',null,
@@ -105,9 +104,9 @@ get_header();
     'classExtend' => 'mr-t-300 mr-t-150-s4',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
-    'title' => 'Journey builder',
+    'title' => 'survey form',
     // 'title-class' => 'f-18 c-1-b',
-    'name' => 'Reshape customers <strong>buying decision</strong>',
+    'name' => '<strong>Easily collect</strong> your patients’ opinions and reviews',
     // 'classColContent' => 'mo-col-5',
     // 'classColImage' => 'mo-col-7',
     'nameClass' => 'f-n f-56',
@@ -115,11 +114,11 @@ get_header();
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/industry-retail/journey-builder.png',
-    'desc' => "<p>CX is a vital component in today's buying trend. But how can you create a complete journey for your customer knowing that it will end up boosting your revenue or increasing your ROI. 
-      Mobio helps you create an end-to-end customer journey and track every touchpoint of your customer. </p>",
-    'next' => 'Explore our possibilities >>',
-    'next-url' => '#'
+    'img-src' => get_template_directory_uri(). '/images/industry-healthcare/healthcare-survey.png',
+    'desc' => "<p>Surveys are the most cost-effective and reliable approach to collecting your patients’ opinions. With Mobio survey form that connects directly to CDP, you can gather patients’ reviews and have 
+    a deeper understanding of what your clinic’s strengths are, attracting and maintaining long-term patient relationships.</p>",
+    //'next' => 'Explore our possibilities >>',
+    //'next_url' => get_site_url(). '/products-cdp',
   )); ?>
 
 
@@ -130,19 +129,18 @@ get_header();
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'customer conversation',
     // 'title-class' => 'f-18 c-1-b',
-    'name' => '<strong>Be there anywhere, anytime</strong> for your customers',
+    'name' => 'Make your patients feel <strong>safe and sound</strong>',
     'classColContent' => 'mo-col-5',
     'classColImage' => 'mo-col-7',
     'nameClass' => 'f-n f-56',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
-    'classImageRatio' => 'rt-9-16',
+    'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/industry-retail/customer-conversation.png',
-    'desc' => "<p>Reach your customers at every channel your business owns and listen to their direct needs. With our smart rule-based chat system and auto-reply library, 
-    retailers can optimize customer response while maintaining a great service along the way. </p>",
+    'img-src' => get_template_directory_uri(). '/images/industry-healthcare/healthcare-chat.png',
+    'desc' => "<p>Give your customer a 5-star service with our Services Management. We also provide smart response rules that help your team reply to customers in under a minute and minimize your churn rate! But wait! There are more!</p>",
     'next' => 'Explore our possibilities >>',
-    'next-url' => '#'
+    'next_url' => get_site_url (). '/service-customer-response',
   )); ?>
 
 <?php get_template_part('template-parts/row-content-two',null,
@@ -150,25 +148,24 @@ get_header();
     'classExtend' => 'mr-t-300 mr-t-150-s4',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
-    'title' => 'loyalty management',
+    'title' => 'journey builder',
     // 'title-class' => 'f-18 c-1-b',
-    'name' => '<strong>Game changing</strong> with loyalty management',
-    // 'classColContent' => 'mo-col-5',
-    // 'classColImage' => 'mo-col-7',
+    'name' => '<strong>Seamless & personalized</strong> patient experience',
+    'classColContent' => 'mo-col-5',
+    'classColImage' => 'mo-col-7',
     'nameClass' => 'f-n f-56',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/industry-retail/loyalty-management.png',
-    'desc' => "<p>Guess what! Retailers today invest tremendously in loyalty programs as a core strategy for long-term growth. With our platform, retailers can engage customers at every step 
-      they take along the customer journey, retain them with compelling loyalty programs, and turn them to your dedicated advocacy.</p>",
+    'img-src' => get_template_directory_uri(). '/images/industry-healthcare/healthcare-jb.png',
+    'desc' => "<p>CX is a vital component in today's healthcare service as patients now want a fulfill personalized experience. Mobio helps healthcare business keep their eyes off patients from the moment they first visit your site, to the time they first make their first apointment, and help you upsell, cross-sell using voucher strategy.</p>",
     'next' => 'Explore our possibilities >>',
-    'next-url' => '#'
+    'next-url' => get_site_url (). '/mkt-journey-builder',
   )); ?>
 
 <!-- customer use cases -->
-<?php 
+<?php
 		get_template_part('template-parts/customer-use-cases', null, 
 			array(
         'title' => 'retail Use Cases',
@@ -226,13 +223,13 @@ get_header();
 						),
 				)
 		));
-	?>
+	?> 
 
 <?php get_template_part('template-parts/section-title',null,
     array( 
       'classExtend' => 'mr-t-175 mr-t-150-s4',
       'title-sm' => 'library',
-      'title' => 'Most Helpful Paper Selected By Our Customers',
+      'title' => 'Most helpful paper selected by our customers',
     )); ?>
   
   

@@ -91,7 +91,7 @@ get_header();
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/industry-retail/o2o-data-collection.png',
+    'img-src' => get_template_directory_uri(). '/images/industry-retail/retail-o2o-data-collection.png',
     'desc' => "<p>By using MOBIO CDP, Retailers not only gather customer feedback but also make it easy to create customer-centric roadmaps based on 
       the feedback and help connect data to create an excellent customer experience.  </p>",
     'next' => 'Explore our possibilities >>',
@@ -113,7 +113,7 @@ get_header();
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/industry-retail/journey-builder.png',
+    'img-src' => get_template_directory_uri(). '/images/industry-retail/retail-journey-builder.png',
     'desc' => "<p>CX is a vital component in today's buying trend. But how can you create a complete journey for your customer knowing that it will end up boosting your revenue or increasing your ROI. 
       Mobio helps you create an end-to-end customer journey and track every touchpoint of your customer. </p>",
     'next' => 'Explore our possibilities >>',
@@ -158,7 +158,7 @@ get_header();
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/industry-retail/loyalty-management.png',
+    'img-src' => get_template_directory_uri(). '/images/industry-retail/retail-loyalty-management.png',
     'desc' => "<p>Guess what! Retailers today invest tremendously in loyalty programs as a core strategy for long-term growth. With our platform, retailers can engage customers at every step 
       they take along the customer journey, retain them with compelling loyalty programs, and turn them to your dedicated advocacy.</p>",
     'next' => 'Explore our possibilities >>',

@@ -19,17 +19,17 @@
     'icon-class' => 'icon-top-l',
     'items' => array(
       array(
-        'icon-src' => get_template_directory_uri(). '/images/icon-digital.png',
+        'icon-src' => get_template_directory_uri(). '/images/why-us-all-in-one.svg',
         'name' => 'All-in-one Platform',
         'desc' => 'We involve every operation tools for your business and a CDP at core to store and manage data efficently. Intergrate all data sources and activation tools at ease. '
       ),
       array(
-        'icon-src' =>get_template_directory_uri(). '/images/icon-loyalty.png',
+        'icon-src' =>get_template_directory_uri(). '/images/why-us-customize.svg',
         'name' => 'Customization',
         'desc' => 'We offer personal consulting to get your business issues and develop features based on your desires. We have a complete process that is easy to follow and implement.'
       ),
       array(
-        'icon-src' =>get_template_directory_uri(). '/images/icon-personal.png',
+        'icon-src' =>get_template_directory_uri(). '/images/why-us-flex.svg',
         'name' => 'Flexibility',
         'desc' => 'We offer flexible deployment plan, ensure every company data security policy. You can store your data on Mobio Cloud or On-premises of your own Data Center.'
       ),

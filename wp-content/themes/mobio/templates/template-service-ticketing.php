@@ -17,7 +17,7 @@ get_header();
       'name' => 'Meet Ticketing System',
       'desc' => 'Delivering consistently great customer service is hard. <br>The right ticketing system makes it easy.',
       'contact' => '1',
-      'img-src' => get_template_directory_uri(). '/images/product/cdp/cdp-2.png'
+      'img-src' => get_template_directory_uri(). '/images/product/service/ticket-header.png'
     )); ?>
 
 <?php get_template_part('template-parts/section-title',null,
@@ -32,6 +32,7 @@ get_header();
 <?php get_template_part('template-parts/feature-image',null,
   array( 
     'classExtend' => '',
+    'img-src' => get_template_directory_uri(). '/images/product/service/overview-ticketing.png'
   )); ?>
 
 <?php get_template_part('template-parts/section-title',null,

@@ -79,14 +79,17 @@
 
 					<!-- socials -->
 					<div class="d-flex justify-content-end">
-						<a href="#" class="social-link mr-r-15">
+						<a href="https://www.facebook.com/mobioplatform" class="social-link mr-r-15">
 							<img src="<?php  echo get_template_directory_uri() ?>/images/facebook.png" />
 						</a>
-						<a href="#" class="social-link mr-r-15">
+						<a href="https://www.instagram.com/mobio.platform/" class="social-link mr-r-15">
 							<img src="<?php  echo get_template_directory_uri() ?>/images/instagram.png" />
 						</a>
-						<a href="#" class="social-link">
+						<a href="https://www.youtube.com/channel/UC7rj0HQioiuB1VEQHpi0znQ" class="social-link mr-r-15">
 							<img src="<?php  echo get_template_directory_uri() ?>/images/youtube.png" />
+						</a>
+						<a href="https://www.twitter.com/mobioplatform" class="social-link">
+							<img src="<?php  echo get_template_directory_uri() ?>/images/twitter.png" />
 						</a>
 					</div>
 					<!-- divider -->

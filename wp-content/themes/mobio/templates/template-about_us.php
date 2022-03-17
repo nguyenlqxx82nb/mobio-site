@@ -24,7 +24,7 @@ get_header();
         <p class="mr-t-10">This is a place where the growth of each individual is the growth of the whole company.</p>',
       'desc-class' => 'f-n f-18 f-16-s4  mr-t-5-s1',
       'ignoreContact' => '1',
-      'img-src' => get_template_directory_uri(). '/images/product/marketing/overview-email.png'
+      //'img-src' => get_template_directory_uri(). '/images/product/marketing/overview-email.png'
     )); ?>
 
 

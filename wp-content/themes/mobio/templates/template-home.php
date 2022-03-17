@@ -84,7 +84,7 @@
 						'title' => '<p>Marketing Management</p>',
 						'name' => '<p>Personalized Messages Direct to Mailbox</p>',
 						'desc' => '<p>Create unique email style for your brand and deliver 1-to-1 messages to your customers. Upgrade your email sender reputation with our email strategy toolkit.</p>',
-						'url' => get_site_url().'/mkt-journey-builder',
+						'url' => get_site_url().'/mkt-email-builder',
 						'img-src' => get_template_directory_uri() . '/images/home/marketing-email-builder.png',
 						'classImgRatio' => 'rt-3-4'
 					),
@@ -198,7 +198,7 @@
 							'title' => 'Guardian',
 							'title-sub' => '26% increase in voucher redeem',
 							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did they succeed in managing operations and optimizing customer experience with Mobio Platform?',
-							'url' => '#',
+							'url' => get_site_url(). '/coming-soon',
 							'img-src' => get_template_directory_uri().'/images/home/guardian.png'
 						),
 						array(
@@ -208,7 +208,7 @@
 							'title' => 'Samsung',
 							'title-sub' => '26% increase in voucher redeem',
 							'desc' => 'Samsung is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did they succeed in managing operations and optimizing customer experience with Mobio Platform?',
-							'url' => '#',
+							'url' => get_site_url(). '/coming-soon',
 							'img-src' => get_template_directory_uri().'/images/home/service-loyalty.png'
 						),
 						array(
@@ -218,7 +218,7 @@
 							'title' => 'Sunworld',
 							'title-sub' => '26% increase in voucher redeem',
 							'desc' => 'Sunworld is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
-							'url' => '#',
+							'url' => get_site_url(). '/coming-soon',
 							'img-src' => get_template_directory_uri().'/images/home/service-ticket.png'
 						),
 						array(
@@ -228,7 +228,7 @@
 							'title' => 'Phong Vu',
 							'title-sub' => 'Maximize customer response time',
 							'desc' => 'Phong Vu is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
-							'url' => '#',
+							'url' => get_site_url(). '/coming-soon',
 							'img-src' => get_template_directory_uri().'/images/home/service-ticket.png'
 						),
 						array(
@@ -238,7 +238,7 @@
 							'title' => 'Budweiser',
 							'title-sub' => '26% increase in voucher redeem',
 							'desc' => 'Budweiser is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
-							'url' => '#',
+							'url' => get_site_url(). '/coming-soon',
 							'img-src' => get_template_directory_uri().'/images/home/sales-pipeline.png'
 						),
 				)
@@ -261,7 +261,7 @@
     'content' => array(
       array(
         'title' => 'Why 2022 is the year for Retailers to use CDP?',
-        'desc' => 'A CDP gives a retailer the ability to grab and integrate data from all the places their customers.',
+        'desc' => 'A CDP gives a retailer the ability to grab and integrate data from all the places their customers enagage.',
         'next' => 'Download Ebook >>',
 				'next-url' => get_site_url(). '/coming-soon',
 				'img-src' => get_template_directory_uri(). '/images/home/library1.jpg'
@@ -275,7 +275,7 @@
       ),
       array(
         'title' => 'How Banking Industry adapts to the Digital Era?',
-        'desc' => "During the crisis, banks' clients changed their behaviour overnight.",
+        'desc' => "During the crisis, banks' clients now prefer online banking and digital app for all their transaction.",
         'next' => 'Read Blog Post >>',
 				'next-url' => get_site_url(). '/coming-soon',
 				'img-src' => get_template_directory_uri(). '/images/home/library3.jpg'

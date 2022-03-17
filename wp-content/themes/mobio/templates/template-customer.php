@@ -101,7 +101,7 @@ get_header();
           'img-top-class' => 'h-50',
           'desc' => 'Collect data in real-time from mortal-and-brick stores, to every online channels you own. Never miss a customer touchpoint.',
           'next-url' => '#',
-          'img-src' => get_template_directory_uri() . '/images/industry-fsi/digital-banking.png',
+          'img-src' => get_template_directory_uri() . '/images/customers/phong-vu.png',
         ),
       )
     )  
@@ -139,13 +139,14 @@ get_header();
       'items' => array(
         array(
           'colClass' => 'mo-col-8',
-          'title-sub' => 'entertainment',
+          'title-sub' => 'Entertainment',
           'img-top' => get_template_directory_uri(). '/images/tenant/sunworld.png',
           'desc' => 'Collect data in real-time from mortal-and-brick stores, to every online channels you own. Never miss a customer touchpoint.',
           'next-url' => '#'
         ),
         array(
           'colClass' => 'mo-col-4',
+          'title-sub' => 'Enterprise',
           'img-top' => get_template_directory_uri(). '/images/tenant/vnlife.png',
           'desc' => 'Collect data in real-time from mortal-and-brick stores, to every online channels you own. Never miss a customer touchpoint.',
           'next-url' => '#'
@@ -155,23 +156,7 @@ get_header();
   );
 ?>
 
-<?php 
-  get_template_part('template-parts/customer-case', null,
-    array(
-      'classExtend' => 'mr-t-50',
-      'cols' => 1,
-      'items' => array(
-        array(
-          'img-top' => get_template_directory_uri(). '/images/tenant/flc.png',
-          'img-top-class' => 'h-90',
-          'desc' => 'Collect data in real-time from mortal-and-brick stores, to every online channels you own. Never miss a customer touchpoint.',
-          'next-url' => '#',
-          'img-src' => get_template_directory_uri() . '/images/industry-fsi/digital-banking.png',
-        ),
-      )
-    )  
-  );
-?>
+
 
 
 <?php 
@@ -181,17 +166,20 @@ get_header();
       'cols' => 3,
       'items' => array(
         array(
+          'title-sub' => 'travel',
           'img-top' => get_template_directory_uri(). '/images/tenant/VNTravel.png',
           // 'img-top-class' => 'h-90',
           'desc' => 'Collect data in real-time from mortal-and-brick stores, to every online channels you own. Never miss a customer touchpoint.',
           'next-url' => '#',
         ),
         array(
+          'title-sub' => 'travel',
           'img-top' => get_template_directory_uri(). '/images/tenant/mytour.vn.png',
           'desc' => 'Collect data in real-time from mortal-and-brick stores, to every online channels you own. Never miss a customer touchpoint.',
           'next-url' => '#',
         ),
         array(
+          'title-sub' => 'travel',
           'img-top' => get_template_directory_uri(). '/images/tenant/hpt.png',
           'desc' => 'Collect data in real-time from mortal-and-brick stores, to every online channels you own. Never miss a customer touchpoint.',
           'next-url' => '#',
@@ -204,7 +192,7 @@ get_header();
 <?php get_template_part('template-parts/footer-contact', null,
     array (
       'title' => 'Curious to see how it works for your business?',
-      'next-url' => '#'
+      'next-url' => '/coming-soon'
     )
   ); ?>
 

@@ -24,7 +24,7 @@
 		<div class="header-bg"></div>
 		<div class="auto-container auto">
 			
-			<h1 class="c-fff text-center f-40-s1 pa-l-20 pa-r-20">How Can We Help Leverage Your Business?</h1>
+			<h1 class="c-fff text-center f-40-s1 pa-l-20 pa-r-20">How can we help leverage your business?</h1>
 			<div class="f-n-lg c-fff text-center mr-t-15 opa-9 f-14-s1 mr-t-5-s1 pa-l-20 pa-r-20 "><p>Mobio is an all-in-one platform for Marketing, Sales and Service team with CDP at the heart.<br>
 				Our product was designed to address daily business challenges and create true value to our customers</p>
 			</div>
