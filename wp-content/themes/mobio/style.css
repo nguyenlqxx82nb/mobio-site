@@ -799,11 +799,11 @@ with others.
 	transition: all 0.45s;
 }
 
-.top-tenant-img {
-	height: 60px;
-	width: 174px;
-}
-
 .menu-mobile-container a {
 	text-decoration: none !important;
+}
+
+.tenant-top-tem {
+	height: 60px;
+	width: 174px;
 }
