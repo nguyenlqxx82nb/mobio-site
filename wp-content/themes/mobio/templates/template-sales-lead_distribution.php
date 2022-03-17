@@ -22,13 +22,13 @@ get_header();
   <?php get_template_part('template-parts/section-title',null,
                         array( 
                           'classExtend' => 'mr-t-150',
-                          'title-sm' => 'Mobio sales management',
+                          'title-sm' => 'How lead distribution works?',
                           'title' => 'Matching Leads to the Right Reps'
                         )); ?>
 
   <?php get_template_part('template-parts/feature-image',null,
                         array( 
-                          'img-src' => get_template_directory_uri() . '/images/product/sales/overview-lead-distribution.png' 
+                          'img-src' => get_template_directory_uri() . '/images/product/sales/lead-distribution-top_1.png' 
                          )); ?>
   
   
@@ -82,7 +82,7 @@ get_header();
             'classExtend' => 'mr-t-250 mr-t-200-s4',
             'classImageContainer' => 'b-sd-n pa-0',
             'divider' => 1,
-            'img-src' => get_template_directory_uri(). '/images/product/sales/sales-report.png',
+            'img-src' => get_template_directory_uri(). '/images/product/sales/lead-distribution-report-2.png',
             'desc' => "<p>With real-time reporting, you can see your sales team's productivity, KPI achievement, revenue performance,  and track every deal and its process. 
               From that, you can improve your distribution process and optimize team performance for a faster and smarter sales process efficiency.</p>",
           )); ?>

@@ -46,7 +46,7 @@ get_header();
       'classColImage'=>'mo-col-7',
       'classImage' => '',
       'divider' => 1,
-      'img-src' => get_template_directory_uri(). '/images/product/service/overview-loyalty.png',
+      'img-src' => get_template_directory_uri(). '/images/product/service/overview-loyalty-2.png',
       'desc' => '<p>Drag-and-drop, one-to-one interface to help you create a personalized journey for your customers. Connect every interaction across website, mobile, email, social media channels, and advertising — along with Sales and Service — into a seamless customer experience. Workflow management is our strongest point. </p>',
       'next' => 'See loyalty management >>',
       'next_url' => get_site_url().'/service-loyalty-management'
@@ -83,7 +83,7 @@ get_header();
           'classColImage'=>'mo-col-7',
           'classImage' => '',
           'divider' => 1,
-          'img-src' => get_template_directory_uri(). '/images/product/service/overview-chat.png',
+          'img-src' => get_template_directory_uri(). '/images/product/service/overview-chat-2.png',
           'desc' => '<p>Omnichannel is not a feature or module, it’s a strategy. Thus, creating an omnichannel experience requires a combination of different tools that, luckily, we have it all. Social media channels, website, mobile app, live chat, call center, message, email, POS at stores, every channel your business owns. </p>',
           'next' => 'See customer response system >>',
           'next_url' => get_site_url().'/service-customer-response'
@@ -102,7 +102,7 @@ get_header();
       'classColImage'=>'mo-col-7',
       'classImage' => 'b-r-10',
       'divider' => 1,
-      'img-src' => get_template_directory_uri(). '/images/product/service/overview-ticketing.png',
+      'img-src' => get_template_directory_uri(). '/images/product/service/overview-ticket-2.png',
       'desc' => '<p>Ease-of-use Email Builder tool to engage your customers list and boost conversion rate. We also provide additional features and step-by-step guideline to help increase your email sender reputation and let your mails go straight to your customer main mailbox. </p>',
       'next' => 'See ticket management >>',
       'next_url' => get_site_url().'/service-ticketing'
@@ -121,7 +121,7 @@ get_header();
       'classColImage'=>'mo-col-7',
       'classContent' => 'pa-r-20 pa-l-20',
       'divider' => 1,
-      'img-src' => get_template_directory_uri(). '/images/product/service/overview-call-center.png',
+      'img-src' => get_template_directory_uri(). '/images/product/service/overview-call-center-2.png',
       //'next' => 'learn how to win customers with call center >>',
       //'next-url' => '#',
       'desc' => '<p>Drag-and-drop, one-to-one interface to help you create a personalized journey for your customer. Connect every interaction across website, mobile, email, social media channel, and advertising — along with Sales and Service — into a seamless customer experience. Workflow management is our strongest point. </p>',

@@ -81,6 +81,7 @@ get_header();
       'classImageContainer' => 'pa-0',
       'classImage' => 'b-r-10',
       'divider' => 1,
+      'img-src' => get_template_directory_uri(). '/images/product/sales/task-mngt-call.png',
       'desc' => '<p>Sales reps can connect to customer via task management interface and close deals on the go via social chat or log a telesales via call center while seeing a full customer journey and information, 
         increase chances to seal the deals.  </p>',
     )); ?>

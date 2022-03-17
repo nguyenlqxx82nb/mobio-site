@@ -86,7 +86,7 @@ get_template_part('template-parts/header-product',null,
                         'desc' => '<p>A comprehensive platform for sales team to grow relationship with customers through Call Center, Email Management, Meeting Schedule through Calendar and Task Management. Every interaction between sales and customers is tracking and stored on the Deal History, helps sales and manager can look it up every time, every where in need.</p>',
                         'next-button' => 'LEARN MORE',
                         'next_url' => get_site_url(). '/sales-task-manger',
-                        'img-src' => get_template_directory_uri(). '/images/product/sales/overview-task-management.png',
+                        'img-src' => get_template_directory_uri(). '/images/product/sales/task-mngt-2.png',
                       )); ?>
     
   <?php get_template_part('template-parts/row-content-two',null,

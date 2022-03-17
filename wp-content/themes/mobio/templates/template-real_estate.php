@@ -16,7 +16,7 @@ get_header();
     'title-sub' => 'industry | real estate',
     'title' => 'Collect High Quality Leads and Close Deals Faster',
     'desc' => "Marketing and Sales in Real Estate Industry are easier said than done since it requires a huga amount of time to find the right buyers for every new project launched. With the help from MOBIO CDP, agents can find it truly easy to collect high quality leads and seal the deals faster.",
-    'header-img' => get_template_directory_uri(). '/images/industry-real-estate/real-estate-header-1.png'
+    'header-img' => get_template_directory_uri(). '/images/industry-real-estate/real-estate-header-2.png'
   ));
 ?>
 

@@ -49,30 +49,24 @@ get_header();
     'items' => array(
       array(
         'tab-title' => 'Points Program',
-        'tab-icon' => get_template_directory_uri().'/images/icon-loyalty.png',
+        'tab-icon' => get_template_directory_uri().'/images/product/service/loyalty-1.svg',
         'desc' => '<strong>Points Program</strong> is the most well-known loyalty program which was perfect for customer acquisition and collecting data, plus, 
               it’s lower the risk and complexity for business more than other programs. 
               <br><br>Mobio provides a powerful <strong>Point Earning Policy</strong> which involved point earned for different types of customer behavior or transaction,
               so that it can encourage customers to become more committed to your services and products. ',
-        'img-src' => get_template_directory_uri() .'/images/product/service/loyalty-points.png'
+        'img-src' => get_template_directory_uri() .'/images/product/service/loyalty-points-2.png'
       ),
       array(
         'tab-title' => 'Tiered Program',
-        'tab-icon' => get_template_directory_uri().'/images/icon-loyalty.png',
-        'desc' => '<strong>Points Program</strong> is the most well-known loyalty program which was perfect for customer acquisition and collecting data, plus, 
-              it’s lower the risk and complexity for business more than other programs. 
-              <br><br>Mobio provides a powerful <strong>Point Earning Policy</strong> which involved point earned for different types of customer behavior or transaction,
-              so that it can encourage customers to become more committed to your services and products. ',
-        'img-src' => get_template_directory_uri() .'/images/empty-image.png'
+        'tab-icon' => get_template_directory_uri().'/images/product/service/loyalty-2.svg',
+        'desc' => 'Great for increase customer engagement, personalize CX, and encourages additional purchases from high-value customers.',
+        'img-src' => get_template_directory_uri() .'/images/product/service/loyalty-tier.png'
       ),
       array(
         'tab-title' => 'Voucher Program',
-        'tab-icon' => get_template_directory_uri().'/images/icon-personal.png',
-        'desc' => '<strong>Points Program</strong> is the most well-known loyalty program which was perfect for customer acquisition and collecting data, plus, 
-              it’s lower the risk and complexity for business more than other programs. 
-              <br><br>Mobio provides a powerful <strong>Point Earning Policy</strong> which involved point earned for different types of customer behavior or transaction,
-              so that it can encourage customers to become more committed to your services and products. ',
-        'img-src' => get_template_directory_uri() .'/images/empty-image.png'
+        'tab-icon' => get_template_directory_uri().'/images/product/service/loyalty-3.svg',
+        'desc' => 'A simple yet effective loyalty program for business as its flexibility and ability to accelerate the loyalty life cycle.',
+        'img-src' => get_template_directory_uri() .'/images/product/service/loyalty-voucher.png'
       ),
     )
   )); ?>

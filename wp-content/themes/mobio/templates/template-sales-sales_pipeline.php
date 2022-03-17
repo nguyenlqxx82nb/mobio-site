@@ -126,7 +126,7 @@ get_header();
         'classContent' => 'pa-r-120',
         'classImage' => 'b-r-10',
         'divider' => 1,
-        'img-src' => get_template_directory_uri(). '/images/product/sales/sales-report.png',
+        'img-src' => get_template_directory_uri(). '/images/product/sales/sales-pipeline-report.png',
         'desc' => '<p>The sales pipeline allows sales reps and managers to forecast revenue by looking at what stage of 
         the sales process prospects are in and predicting how many of them will close as deals during a given timeframe.</p>',
       )); ?>

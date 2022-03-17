@@ -68,7 +68,7 @@ get_header();
           array(
             'title' => 'CDP',
             'content' => array(
-              'img-src' => get_template_directory_uri(). '/images/why-mobio/why-us-cdp.png',
+              'img-src' => get_template_directory_uri(). '/images/why-mobio/why-us-cdp-2.png',
               'title' => 'mobio platform',
               'name' => 'Customer Data Platform',
               'desc' => 'Mobio Operation CDP is a comprehensive customer data platform that expends from collecting and managing data, to activating data for marketing, 

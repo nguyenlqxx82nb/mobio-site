@@ -73,7 +73,7 @@ get_header();
           These datas comes from various sources: web, mobile, email, marketing campaigns, CRM, surveys, ecommerce systems, and more. 
           The data comes in many formats, structured and unstructured. </p>
           <p class="mr-t-10">The data is ingested in real-time, continually feeding the CDP with current customer data.</p>',
-          'img-src' => get_template_directory_uri().'/images/product/cdp/cdp-data-collection.png',
+          'img-src' => get_template_directory_uri().'/images/product/cdp/cdp-collection.png',
         ),
         array(
           'title' => 'profile unification',
@@ -82,7 +82,7 @@ get_header();
           <p class="mr-t-10">Unifying data involves merging a company’s many fragmented data sources into one, 
           single central view that uses the best available information for every single User or Account you reference in your systems</p>
           <p class="mr-t-10">The benefit of Data Unification is that it provides a more holistic and accurate view of your many data sources.</p>',
-          'img-src' => get_template_directory_uri().'/images/product/cdp/cdp-2.png',
+          'img-src' => get_template_directory_uri().'/images/product/cdp/cdp-unification.png',
         ),
         array(
           'title' => 'customer segmentation',
@@ -94,14 +94,14 @@ get_header();
             <br>-	Predict Customer Churn
             <br>-	Identify potential Upsell and Cross-sell opportunities
             <br>-	Identify Top-Performing Customers</p>',
-          'img-src' => get_template_directory_uri().'/images/product/cdp/customer-360.png',
+          'img-src' => get_template_directory_uri().'/images/product/cdp/cdp-segmentation.png',
         ),
         array(
           'title' => 'business activation',
           'desc' => '<p>Once the profile is complete, our CDP can enrich the profile by integrating second and third-party data sources. 
           Enriching profiles using Mobio AI to fill in missing information such as gender, age, interests and place that profile live in. 
           It also helps with building a richer set of seed segments for advertising platforms—enhancing prospecting activities with higher match rates and market reach.</p>',
-          'img-src' => get_template_directory_uri().'/images/product/cdp/cdp-data-collection.png',
+          'img-src' => get_template_directory_uri().'/images/product/cdp/cdp-activate.png',
         ),
       )
     )
