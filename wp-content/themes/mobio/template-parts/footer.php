@@ -9,9 +9,9 @@
 					<div class="talk-to-container pa-l-0-s1 pa-r-0-s1">
 						<div class="mo-col-6 mo-col-12-s1 d-none-s1">
 							<div class="talk-to-info">
-								<p class="f-n f-14 c-fff opa-5 mr-t-60 upper-case">Start with us</p>
-								<p class="f-b f-48 c-fff mr-t-20">Start manage customer data and elevate your business today.</p>
-								<a href="<?php echo get_site_url() . '/contact' ?>"><button class="mo-btn-white mr-t-35">REQUEST A DEMO</button></a>
+								<p class="f-b f-18 f-16-s4 c-fff opa-5 mr-t-20 upper-case">Start with us</p>
+								<p class="f-b f-48 f-36-s4 c-fff mr-t-20">Start manage customer data and elevate your business today.</p>
+								<a href="<?php echo get_site_url() . '/contact' ?>"><button class="btn-small btn-white mr-t-35">REQUEST A DEMO</button></a>
 							</div>
 						</div>
 						
@@ -23,7 +23,7 @@
 							<div class="talk-to-info">
 								<p class="f-n f-14 c-fff opa-5 mr-t-60 upper-case f-12-s1">Start with us</p>
 								<p class="f-b f-48 c-fff mr-t-20 f-30-s1 mr-t-15-s1">Start manage customer data and elevate your business today.</p>
-								<a href="<?php echo get_site_url() . '/contact' ?>"><button class="mo-btn-white mr-t-30 f-14-s1">REQUEST A DEMO</button></a>
+								<a href="<?php echo get_site_url() . '/contact' ?>"><button class="btn-small btn-white mr-t-30 f-14-s1">REQUEST A DEMO</button></a>
 							</div>
 						</div>
 					</div>
@@ -31,7 +31,7 @@
 
 				<div class="footer-inner-container d-none-s1 <?php echo ($args['home'] === '' ? ' ' :  ' mr-t-100 '); ?> ">
 					<!-- menu -->
-					<div class="footer-menu-container d-flex justify-content-between f-b f-16">
+					<div class="footer-menu-container d-flex justify-content-between f-b f-16 f-14-s4">
 						<div class="footer-menu-col-item">
 							<a href="<?php echo get_site_url()."/industry"?>" class="mr-b-25  c-fff ">Customer</a>
 							<a href="<?php echo get_site_url()."/customer-cases"?>" class="mr-b-25  c-fff ">Use Cases</a>
@@ -79,23 +79,26 @@
 
 					<!-- socials -->
 					<div class="d-flex justify-content-end">
-						<a href="#" class="social-link mr-r-15">
+						<a href="https://www.facebook.com/mobioplatform" class="social-link mr-r-15">
 							<img src="<?php  echo get_template_directory_uri() ?>/images/facebook.png" />
 						</a>
-						<a href="#" class="social-link mr-r-15">
+						<a href="https://www.instagram.com/mobio.platform/" class="social-link mr-r-15">
 							<img src="<?php  echo get_template_directory_uri() ?>/images/instagram.png" />
 						</a>
-						<a href="#" class="social-link">
+						<a href="https://www.youtube.com/channel/UC7rj0HQioiuB1VEQHpi0znQ" class="social-link mr-r-15">
 							<img src="<?php  echo get_template_directory_uri() ?>/images/youtube.png" />
+						</a>
+						<a href="https://www.twitter.com/mobioplatform" class="social-link">
+							<img src="<?php  echo get_template_directory_uri() ?>/images/twitter.png" />
 						</a>
 					</div>
 					<!-- divider -->
 					<div class="footer-divider mr-t-20 opa-4"></div>
-					<div class="mr-t-25 d-flex justify-content-between pa-l-10 pa-r-10">
-						<p class="f-n f-15 c-fff opa-8">© 2022 Mobio</p>
+					<div class="mr-t-25 d-flex justify-content-between pa-l-10 pa-r-10 f-n f-15 f-14-s4 ">
+						<p class="c-fff opa-8">© 2022 Mobio</p>
 						<div class="d-flex align-items-center">
-							<a href="<?php echo get_site_url()."/coming-soon"?>" class="f-n f-15 c-fff opa-8 mr-r-25">Privacy policy</a>
-							<a href="<?php echo get_site_url()."/coming-soon"?>" class="f-n f-15 c-fff opa-8">Term of service</a>
+							<a href="<?php echo get_site_url()."/coming-soon"?>" class="c-fff opa-8 mr-r-25">Privacy policy</a>
+							<a href="<?php echo get_site_url()."/coming-soon"?>" class="c-fff opa-8">Term of service</a>
 						</div>
 					</div>
 				</div>

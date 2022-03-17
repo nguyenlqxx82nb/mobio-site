@@ -24,19 +24,19 @@
 		<div class="header-bg"></div>
 		<div class="auto-container auto">
 			
-			<div class="f-b f-62 c-fff text-center f-40-s1 pa-l-20 pa-r-20"><p >How Can We Help Leverage Your Business?</p></div>
-			<div class="f-n f-20 c-fff text-center mr-t-15 opa-9 f-14-s1 mr-t-5-s1 pa-l-20 pa-r-20 "><p>Mobio is an all-in-one platform for Marketing, Sales and Service team with CDP at the heart.<br>
+			<h1 class="c-fff text-center f-40-s1 pa-l-20 pa-r-20">How can we help leverage your business?</h1>
+			<div class="f-n-lg c-fff text-center mr-t-15 opa-9 f-14-s1 mr-t-5-s1 pa-l-20 pa-r-20 "><p>Mobio is an all-in-one platform for Marketing, Sales and Service team with CDP at the heart.<br>
 				Our product was designed to address daily business challenges and create true value to our customers</p>
 			</div>
 
-			<div class="header-control mr-t-30 mr-b-55 d-flex justify-content-between w-900 mr-auto mr-t-15-s1 mr-b-15-s1 w-300-s1 justify-content-center-s1 flex-wrap-s1">
-				<div class="btn-header-control mr-b-10-s1 mr-r-20-s1" tab="#tab-marketing" >
+			<div class="header-control mr-t-30 mr-b-55 d-flex justify-content-between w-900 w-800-s4 mr-auto mr-t-15-s1 mr-b-15-s1 w-300-s1 justify-content-center-s1 flex-wrap-s1">
+				<div class="btn-header-control mr-b-10-s1 mr-r-20-s1 h6" tab="#tab-marketing" >
 					<p>for marketing team</p>
 				</div>
-				<div class="btn-header-control mr-b-10-s1" tab="#tab-sales">
+				<div class="btn-header-control mr-b-10-s1 h6" tab="#tab-sales">
 					<p>for sales team</p>
 				</div>
-				<div class="btn-header-control" tab="#tab-service">
+				<div class="btn-header-control h6" tab="#tab-service">
 					<p>for service team</p>
 				</div>
 			</div>

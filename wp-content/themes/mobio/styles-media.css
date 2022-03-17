@@ -13,13 +13,13 @@
 @media  screen and (max-width: 1700px) {
   /* insert styles here */
   .auto-container {
-    max-width: 1400px;
+    max-width: 1200px;
   }
 }
 
 
 /* (1440x900) WXGA+ Display */
-@media  screen and (max-width: 1500px) {
+/* @media  screen and (max-width: 1500px) {
   .auto-container {
     max-width: 1200px;
   }
@@ -27,12 +27,12 @@
 	.header .header-title {
 		font-size: 50px;
 	}
-}
+} */
 
 
-@media  screen and (max-width: 1366px) {
+@media  screen and (max-width: 1300px) {
   .auto-container {
-    max-width: 1024px;
+    max-width: 768px;
   }
 }
 

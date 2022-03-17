@@ -5,14 +5,14 @@
       <div class="mo-row row">
         <div class="mo-col-6 mo-col-12-s1">
           <div class="h-100 d-flex align-items-center">
-            <p class="f-b f-40 f-35-s1 text-center"> <?php echo $args['title'] ? $args['title'] : 'Let’s stay connect!'  ?></p>
+            <p class="f-b f-40 f-30-s4 f-35-s1 text-center"> <?php echo $args['title'] ? $args['title'] : 'Let’s stay connect!'  ?></p>
           </div>
         </div>
 
         <div class="mo-col-6 d-none-s1">
-          <div class="input-wrap input-border-left input-wrap-action mw-100">
+          <div class="email-submit input-wrap input-border-left input-wrap-action mw-100">
             <input placeholder="Enter your email address" /> 
-            <div class="input-action f-b f-20 c-fff"><p>Submit</p></div>
+            <div class="btn-submit input-action f-b f-20 f-16-s4 c-fff h-100 d-flex justify-content-center align-items-center"><p>Submit</p></div>
           </div>
         </div>
 

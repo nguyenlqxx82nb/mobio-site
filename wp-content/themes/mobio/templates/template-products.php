@@ -13,6 +13,7 @@ get_header();
 
 <?php get_template_part('template-parts/header-product',null,
   array( 
+    'title-sub'=> 'comprehensive platform',
     'title' => 'Meet the Goals of every <br>Marketing, Sales and Service Team',
     'desc' => "Mobio Platform is not just a CDP. It's a package solution to help your business in Marketing, Sales and Service, and of course, customer data management. ",
     'header-img' => get_template_directory_uri(). '/images/Mobio-platform-cdp-cem.png'
@@ -48,7 +49,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-175',
+      'classExtend' => 'mr-t-175 mr-t-150-s4',
       'title-sm' => 'how our system works',
       'title' => 'CDP & CEM Platform',
     )
@@ -77,7 +78,7 @@ get_header();
   array(
     'classExtend' => 'mr-t-100',
     // 'imageLeft' => '1',
-    'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'icon' => get_template_directory_uri(). '/images/product/cdp/cdp.svg',
     'title' => 'The heart of our product',
     'title-class' => 'f-18 c-1-b',
     'name' => '<strong>Customer Data Platform</strong>',
@@ -98,9 +99,9 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-200',
+    'classExtend' => 'mr-t-200 mr-t-150-s4',
     'imageLeft' => '1',
-    'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'icon' => get_template_directory_uri(). '/images/home/mkt-xanh.svg',
     'title' => 'our top feature',
     'title-class' => 'f-18 c-1-b',
     'name' => '<strong>Marketing Management</strong>',
@@ -120,9 +121,9 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-200',
+    'classExtend' => 'mr-t-200 mr-t-150-s4',
     // 'imageLeft' => '1',
-    'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'icon' => get_template_directory_uri(). '/images/home/sales-xanh.svg',
     'title' => 'The rising star',
     'title-class' => 'f-18 c-1-b',
     'name' => '<strong>Sales Management</strong>',
@@ -142,9 +143,9 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-200',
+    'classExtend' => 'mr-t-200 mr-t-150-s4',
     'imageLeft' => '1',
-    'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'icon' => get_template_directory_uri(). '/images/home/service-xanh.svg',
     'title' => 'best performance',
     'title-class' => 'f-18 c-1-b',
     'name' => '<strong>Service Management</strong>',
@@ -168,7 +169,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-250',
+      'classExtend' => 'mr-t-250 mr-t-150-s4',
       'title' => 'Wanna dig a little deeper into our features?',
       'next-button' => 'contact sales',
       'next-url' => get_site_url().'/contact'
@@ -179,14 +180,14 @@ get_header();
 <?php 
   get_template_part('template-parts/customer-stories', null,
     array(
-      'classExtend' => 'mr-t-250'
+      'classExtend' => 'mr-t-250 mr-t-150-s4'
     ));
 ?>
 
 <?php 
   get_template_part('template-parts/footer-connect', null,
   array(
-    'classExtend' => 'mr-t-250'
+    'classExtend' => 'mr-t-250 mr-t-150-s4'
   ));
 ?>
 

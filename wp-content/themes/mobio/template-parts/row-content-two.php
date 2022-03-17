@@ -21,21 +21,21 @@
           <img src="<?php echo $args["icon"]; ?>" class="icon-top mr-b-25 icon-m-s1" />
         <?php } ?>
         <?php if ($args['title'] ) { ?>
-          <div class="upper-case f-b mr-b-15 f-13-s1 <?php echo $args['title-class'] ? $args['title-class'] : 'f-18 c-4 opa-5' ?>"><p><?php echo $args['title'] ?></p></div>
+          <div class="upper-case f-b f-16-s4 mr-b-15 f-13-s1 <?php echo $args['title-class'] ? $args['title-class'] : 'f-18 c-4 opa-5' ?>"><p><?php echo $args['title'] ?></p></div>
         <?php } ?>
         
         <?php if ($args['name']) { ?>
-          <div class="mr-b-30 w-650 f-30-s1 mr-b-10-s1 <?php echo $args['nameClass'] ? $args['nameClass'] : 'f-b f-56' ?> lh2">
+          <div class="mr-b-30 w-650  w-550-s4 f-36-s4 f-30-s1 mr-b-10-s1 <?php echo $args['nameClass'] ? $args['nameClass'] : 'f-b f-56' ?> lh2">
             <p><?php echo $args['name'] ?></p>
           </div>
         <?php }?>
 
         <?php echo $args['divider'] ? '<div class="divider-item mr-b-30 b-pri b-r-5"></div>' : ''  ?>
-        <div class="f-n f-20 f-14-s1 <?php echo $args['desc-w'] ? $args['desc-w'] : 'w-550' ?> ">
+        <div class="f-n f-20 f-14-s1  f-16-s4 <?php echo $args['desc-w'] ? $args['desc-w'] : 'w-550' ?> w-450-s4 ">
           <?php echo $args['desc'] ?>
         </div>
 
-        <?php echo $args['next'] ? '<a class="c-4-b" href="'.$args['next_url'].'"><p class="upper-case f-b f-18 f-14-s1 c-4-b mr-t-25 w-300-s1">'.$args['next'].'</p></a>' : ''?>
+        <?php echo $args['next'] ? '<a class="c-4-b" href="'.$args['next_url'].'"><p class="upper-case f-b f-18  f-16-s4 f-14-s1 c-4-b mr-t-25 w-300-s1">'.$args['next'].'</p></a>' : ''?>
 
         <?php if ($args['next-button']) {?>
           <a href="<?php echo $args['next_url'] ?>"><button class="btn-small upper-case mr-t-30 f-14-s1 mr-t-20-s1"><?php echo $args['next-button'] ?></button></a>

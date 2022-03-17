@@ -132,7 +132,7 @@ input[type='submit']:hover{
 
 .f-b {
 	font-weight: 700;
-	line-height: normal;
+	line-height: 150%;
 	color: #3B3E43;
 }
 
@@ -217,6 +217,8 @@ input[type='submit']:hover{
 .b-g-2 {background-color: #CDCBCB}
 .b-g-3 { background-color: rgba(196, 196, 196, 0.2) !important}
 .b-202 { background-color: #202769;}
+.b-g-8 {background-color: #818181}
+.bd-g-8 {border: solid 0.5px #818181}
 
 .opa { opacity: 1 !important;}
 .opa-9 { opacity: 0.9 !important;}
@@ -303,7 +305,10 @@ input[type='submit']:hover{
 .pa-t-0 { padding-top: 0px !important;}
 .pa-t-5 { padding-top: 5px !important;}
 .pa-t-10 { padding-top: 10px !important;}
+.pa-t-11 { padding-top: 11px !important;}
 .pa-t-12 { padding-top: 12px !important ;}
+.pa-t-13 { padding-top: 13px !important ;}
+.pa-t-14 { padding-top: 14px !important ;}
 .pa-t-15 { padding-top: 15px !important;}
 .pa-t-20 { padding-top: 20px !important;}
 .pa-t-25 { padding-top: 25px !important;}
@@ -336,7 +341,10 @@ input[type='submit']:hover{
 .pa-b-0 { padding-bottom: 0px !important;}
 .pa-b-5 { padding-bottom: 5px !important;}
 .pa-b-10 { padding-bottom: 10px !important;}
+.pa-b-11 { padding-bottom: 11px !important;}
 .pa-b-12 { padding-bottom: 12px !important ;}
+.pa-b-13 { padding-bottom: 13px !important;}
+.pa-b-14 { padding-bottom: 14px !important;}
 .pa-b-15 { padding-bottom: 15px !important;}
 .pa-b-20 { padding-bottom: 20px !important;}
 .pa-b-25 { padding-bottom: 25px !important;}
@@ -553,7 +561,7 @@ input[type='submit']:hover{
 button {
 	border: none;
 	outline: none !important;
-	background-color: #4ABFED;
+	background-color: #55CBF5;
 	font-size: 18px;
 	line-height: 150%;
 	font-weight: 700;
@@ -561,18 +569,33 @@ button {
 	border-radius: 10px;
 	text-align: center;
 	cursor: pointer;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 	padding-left: 43px;
 	padding-right: 43px;
 	color: #fff;
 }
 
+button:hover {
+	background-color: #4CC1EE !important; 
+	color: #fff !important;
+}
+
+.btn-white {
+	background-color: #fff !important;
+	color: #0F9CD8 !important;
+}
+
+.btn-white:hover {
+	color: #55CBF5 !important;
+	background-color: #fff !important;
+}
+
 .btn-small {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 21px;
-	padding-right: 21px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 18px;
+	padding-right: 18px;
 }
 
 .btn-tab {
@@ -636,8 +659,6 @@ button {
 
 .input-action p {
 	color: #fff;
-	line-height: 50px;
-	text-align: center;
 }
 
 .input-gray input {
@@ -721,6 +742,18 @@ button {
 .h-m-100 { min-height: 100px !important;}
 .h-m-75 { min-height: 75px !important;}
 .h-m-50 { min-height: 50px !important;}
+
+.h-95 { height: 95px !important;}
+.h-90 { height: 90px !important;}
+.h-85 { height: 85px !important;}
+.h-80 { height: 80px !important;}
+.h-75 { height: 75px !important;}
+.h-60 { height: 60px !important;}
+.h-50 { height: 50px !important;}
+.h-40 { height: 40px !important; }
+.h-35 { height: 35px !important; }
+.h-30 { height: 30px !important; }
+.h-20 { height: 20px !important; }
 
 .mr-auto { margin: 0 auto;}
 .h-auto { height: auto !important; }
@@ -922,4 +955,42 @@ button {
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
+}
+
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+	font-weight: 700;
+	line-height: 125%;
+	font-family: 'DM Sans';
+	padding: 0px;
+}
+
+h1, .h1 { font-size: 62px;}
+h2, .h2 { font-size: 56px;}
+h3, .h3 { font-size: 48px;}
+h4, .h4 { font-size: 30px;}
+h5, .h5 {font-size: 20px;}
+h6, .h6 {font-size: 16px;}
+
+.f-n-lg, .f-n-md, .f-n-sm, .f-n-xl {
+	font-weight: 400;
+	line-height: 180%;
+	font-family: 'DM Sans';
+}
+.f-n-lg { font-size: 20px; }
+.f-n-xl { font-size: 22px; }
+.f-n-md { font-size: 18px; }
+.f-n-sm { font-size: 16px; }
+
+.opa-trans { transition: opacity 0.25s ease; }
+
+/* .hl-text::before {
+	content: '';
+	top: -3px;
+	border: solid 3px #4BBFEB;
+} */
+
+.hl-text {
+	color: #4BBFEB;
+	border-bottom: solid 3px #4BBFEB;
 }

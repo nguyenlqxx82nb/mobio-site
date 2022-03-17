@@ -15,7 +15,8 @@ get_header();
                           array( 
                             'title' => 'Mobio sales management',
                             'name' => 'Meet Sales Pipeline',
-                            'desc' => 'Automate repetitive work so you can spend more time on closing deals and optimize your time with customers.'
+                            'desc' => 'Automate repetitive work so you can spend more time on closing deals and optimize your time with customers.',
+                            'img-src' => get_template_directory_uri(). '/images/product/sales/sales-pipeline-visual.png'
                           )); ?>
 
 
@@ -23,19 +24,23 @@ get_header();
                         array( 
                           'classExtend' => 'mr-t-150',
                           'title-sm' => 'Sales pipeline',
-                          'title' => 'Manage Your Own Sales Process'
+                          'title' => 'Manage your own Sales Process'
                         )); ?>
 
   <?php get_template_part('template-parts/feature-image',null,
-                        array(  )); ?>
+                        array( 
+                          'img-src' => get_template_directory_uri(). '/images/product/sales/overview-sales-pipeline.png',
+                        )); ?>
   
   
   <?php get_template_part('template-parts/section-title',null,
                         array( 
                           'classExtend' => 'mr-t-200',
                           'title-sm' => 'sales pipeline feature',
-                          'title' => 'Everything you need to sale faster and smarter',
-                          'desc' => 'Mobio Sales Pipeline focuses on what matters most: <br> growing relationships and closing deals - anytime, anywhere'
+                          'title' => 'Everything you need to <span class="hl-text">sale faster and smarter</span>',
+                          'desc' => 'Mobio Sales Pipeline focuses on what matters most: Growing relationships and closing 
+                          deals - anytime, anywhere',
+                          'desc-w' => 'w-1200'
                         )); ?>
 
 <?php get_template_part('template-parts/content-three',null,
@@ -72,9 +77,9 @@ get_header();
   
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-300',
+        'classExtend' => 'mr-t-300 mr-t-200-s4',
         'title-sm' => 'how it helps',
-        'title' => 'Sales Toolkit That Focus On <span class="c-4-b t-d-u">What Matters Most</span>',
+        'title' => 'Sales Toolkit that focus on <span class="hl-text">what matters most</span>',
       )); ?>
   
   <?php get_template_part('template-parts/row-content-two',null,
@@ -82,12 +87,15 @@ get_header();
       'title' => 'visual view',
       'name' => 'See your pipeline <strong>in different views</strong>',
       'nameClass' => 'f-n f-56',
-      'classExtend' => 'mr-t-250',
+      'classExtend' => 'mr-t-250 mr-t-150-s4',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => 'pa-0',
+      'classContent' => 'pa-r-120',
       'classImage' => 'b-r-10',
       'divider' => 1,
-      'desc' => '<p>View our sales pipeline template in a List or Timeline View. Use custom fields to include estimated opportunity value, lead status, and more. Then, filter every view by opportunity size, priority type, account owner, and beyond.</p>',
+      'img-src' => get_template_directory_uri(). '/images/product/sales/sales-pipeline.png',
+      'desc' => '<p>View our sales pipeline template in a List or Timeline View. Use custom fields to include estimated opportunity value, lead status, and more.
+         Then, filter every view by opportunity size, priority type, account owner, and beyond.</p>',
     )); ?>
     
   <?php get_template_part('template-parts/row-content-two',null,
@@ -96,12 +104,15 @@ get_header();
         'title' => 'Sales process',
         'name' => 'Manage your own <strong>sales process</strong> efficently',
         'nameClass' => 'f-n f-56',
-        'classExtend' => 'mr-t-250',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'classImageRatio' => 'rt-3-4',
         'classImageContainer' => 'pa-0',
         'classImage' => 'b-r-10',
         'divider' => 1,
-        'desc' => '<p>Sales pipelines show you how many deals sales reps are expected to close in a given week, month or year and how close a rep is to reaching their sales quota. In that way, sales leader or manager can adjust the sales plan or push sales team to achieve sales target on time. </p>',
+        'img-src' => get_template_directory_uri(). '/images/product/sales/sales-pipeline-create.png',
+        'desc' => '<p>Sales pipelines show you how many deals sales reps are expected to close in a given week, 
+        month or year and how close a rep is to reaching their sales quota. In that way, sales leader or manager can 
+        adjust the sales plan or push sales team to achieve sales target on time. </p>',
       )); ?>
 
   <?php get_template_part('template-parts/row-content-two',null,
@@ -109,12 +120,15 @@ get_header();
         'title' => 'revenue forecast',
         'name' => "<strong>Forecast revenue targets</strong> and growth sustainability",
         'nameClass' => 'f-n f-56',
-        'classExtend' => 'mr-t-250',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'classImageRatio' => 'rt-3-4',
         'classImageContainer' => 'pa-0',
+        'classContent' => 'pa-r-120',
         'classImage' => 'b-r-10',
         'divider' => 1,
-        'desc' => '<p>The sales pipeline allows sales reps and managers to forecast revenue by looking at what stage of the sales process prospects are in and predicting how many of them will close as deals during a given timeframe.</p>',
+        'img-src' => get_template_directory_uri(). '/images/product/sales/sales-report.png',
+        'desc' => '<p>The sales pipeline allows sales reps and managers to forecast revenue by looking at what stage of 
+        the sales process prospects are in and predicting how many of them will close as deals during a given timeframe.</p>',
       )); ?>
   
   
@@ -136,7 +150,7 @@ get_header();
 
 <?php get_template_part('template-parts/footer-contact', null,
     array( 
-      'title' => 'Curious about Sales Pipeline? There’re a lot more to explore!'
+      'title' => 'Curious about Sales Pipeline? There’re lot more to explore!'
     )
   ); ?>
 

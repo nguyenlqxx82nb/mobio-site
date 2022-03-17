@@ -19,22 +19,11 @@ get_header();
   ));
 ?>
 
-<?php 
-  get_template_part('template-parts/section-title', null, 
-    array(
-      'classExtend' => 'mr-t-120',
-      'title' => 'Exceed Customer Expectations in The FSI',
-      'desc' => 'FSI is a complex and sophisticated industry, thus, it is critical to have a strong platform that can create seamless customer experiments and also adapts well to their strict data regulations. With each segment in the FSI, there are different needs and requirements to tackle. 
-      With each segment in the FSI, there are different needs and requirements to tackle.',
-      'desc-w' => 'w-950'
-    )
-  );
-?>
 
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-250',
+      'classExtend' => 'mr-t-120 mr-t-100-s4',
       'title-sm' => 'solutions for bank',
       'title-sm-class' => 'f-b f-18 c-1-b',
       'title' => 'Best CDP for Banking Services',
@@ -78,14 +67,14 @@ get_header();
 
 <?php get_template_part('template-parts/top-tenant-bank',null,
   	array(
-			'classExtend' => 'mr-t-175'
+			'classExtend' => 'mr-t-175 mr-t-125-s4'
 		)); ?>
 
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
       'classExtend' => 'mr-t-80',
-      'desc' => 'To learn deeper about our designed solutions for the banking sector and banking cases, please contact us for private consulting.',
+      'desc' => 'To learn deeper about our designed solutions for the banking sector and banking cases,<br>please contact us for private consulting.',
       'desc-w' => 'w-750',
       'next-button' => 'contact us',
       'next-url' => get_site_url(). '/contact'
@@ -96,8 +85,8 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-250',
-    'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'classExtend' => 'mr-t-250 mr-t-150-s4',
+    'icon' => get_template_directory_uri(). '/images/industry-fsi/fsi-1.svg',
     'title' => 'solutions for fintech',
     'title-class' => 'f-18 c-1-b',
     'name' => 'Fintech',
@@ -115,8 +104,8 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-250',
-    'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'classExtend' => 'mr-t-250 mr-t-150-s4',
+    'icon' => get_template_directory_uri(). '/images/industry-fsi/fsi-2.svg',
     'title' => 'solutions for insurance',
     'title-class' => 'f-18 c-1-b',
     'classColContent' => 'mo-col-5',
@@ -134,8 +123,8 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-250',
-    'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'classExtend' => 'mr-t-250 mr-t-150-s4',
+    'icon' => get_template_directory_uri(). '/images/industry-fsi/fsi-3.svg',
     'title' => 'solutions for digital wallet',
     'title-class' => 'f-18 c-1-b',
     'name' => 'Digital wallet',
@@ -154,7 +143,7 @@ get_header();
   <?php 
     get_template_part('template-parts/section-title', null, 
       array(
-        'classExtend' => 'mr-t-200',
+        'classExtend' => 'mr-t-200 mr-t-150-s4',
         'title-sm' => 'library',
         'title' => 'Some documents you might find helpful',
       )
@@ -200,7 +189,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-connect', null,
   array(
-    'classExtend' => 'mr-t-250'
+    'classExtend' => 'mr-t-250 mr-t-150-s4'
   ));
 ?>
 

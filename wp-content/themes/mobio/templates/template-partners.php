@@ -165,7 +165,7 @@ get_header();
   
   <?php get_template_part('template-parts/footer-connect', null,
       array (
-        'classExtend' => 'mr-t-250',
+        'classExtend' => 'mr-t-250 mr-t-200-s4',
         'title' => 'Keep in touch with us!'
       )
     ); ?>

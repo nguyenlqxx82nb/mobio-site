@@ -668,6 +668,7 @@ function twentytwenty_customize_preview_init() {
 	wp_enqueue_script( 'twentytwenty-customize-preview', get_theme_file_uri( '/assets/js/customize-preview.js' ), array( 'customize-preview', 'customize-selective-refresh', 'jquery' ), $theme_version, true );
 	wp_localize_script( 'twentytwenty-customize-preview', 'twentyTwentyBgColors', twentytwenty_get_customizer_color_vars() );
 	wp_localize_script( 'twentytwenty-customize-preview', 'twentyTwentyPreviewEls', twentytwenty_get_elements_array() );
+	wp_localize_script('mylib', 'WPURLS', array( 'siteurl' => get_option('siteurl') ));
 
 	wp_add_inline_script(
 		'twentytwenty-customize-preview',
@@ -811,4 +812,15 @@ function twentytwenty_get_elements_array() {
 	 * @param array Array of elements.
 	 */
 	return apply_filters( 'twentytwenty_get_elements_array', $elements );
+
+	add_action( 'genesis_before', 'script_urls' );
+
+		function script_urls() {
+		?>
+				<script type="text/javascript">
+				var stylesheetDir = '<?= get_bloginfo("stylesheet_directory"); ?>';
+				</script>
+		<?php
+		}
+
 }

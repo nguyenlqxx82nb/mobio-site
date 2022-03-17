@@ -10,10 +10,10 @@
         <img class="menu-logo menu-logo-fixed d-n mr-l-25-s1" src="<?php  echo get_template_directory_uri() . "/images/mobio-logo-blue.png" ?>">
       </a>
 
-      <div class="d-flex d-none-s1 flex-grow-1 justify-content-center">
-        <div class="menu-item customer-menu">
-          <div class="d-flex align-items-center mr-t-10 menu-top-item">	
-            <p class="f-b f-16 c-fff">Customer</p>
+      <div class="d-flex d-none-s1 flex-grow-1 justify-content-center f-n  f-16 f-14-s4 f-w-5">
+        <div class="menu-item customer-menu d-flex align-items-center">
+          <div class="d-flex align-items-center menu-top-item">	
+            <p class="c-fff">Customer</p>
             <i class="arrow mr-l-5"></i>
           </div>
           
@@ -30,7 +30,7 @@
               <div class="w-100 mr-t-15 auto">
 
                 <div class="mo-col-8">
-                  <a href="<?php  echo get_site_url() ?>/coming-soon" class="d-b mr-b-20">
+                  <a href="<?php  echo get_site_url() ?>/real-estate" class="d-b mr-b-20">
                     <div class="d-flex align-items-center">
                       <img src="<?php  echo get_template_directory_uri() ?>/images/menu/customer-Enterprise.png" class="menu-list-item-img mr-r-5" /><p class="f-n f-13 c-000 opa-5">Real Estate</p>
                     </div>
@@ -48,7 +48,7 @@
                       <img src="<?php  echo get_template_directory_uri() ?>/images/menu/customer-retail.png" class="menu-list-item-img mr-r-5" /> <p class="f-n f-13 c-000 opa-5">Retail</p>
                     </div>
                   </a>
-                  <a href="<?php  echo get_site_url() ?>/coming-soon" class="d-b mr-b-20">
+                  <a href="<?php  echo get_site_url() ?>/healthcare" class="d-b mr-b-20">
                     <div class="d-flex align-items-center">
                       <img src="<?php  echo get_template_directory_uri() ?>/images/menu/customer-healthcare.png" class="menu-list-item-img mr-r-5" /><p class="f-n f-13 c-000 opa-5">Healthcare</p>
                     </div>
@@ -64,9 +64,9 @@
           </div>
 
         </div>
-        <div class="menu-item product-menu">
-          <div class="d-flex align-items-center mr-t-10 menu-top-item">
-            <p class="f-b f-16 c-fff">Product</p>
+        <div class="menu-item product-menu d-flex align-items-center">
+          <div class="d-flex align-items-center menu-top-item">
+            <p class="c-fff">Product</p>
             <i class="arrow mr-l-5"></i>
           </div>
           <div class="menu-divider"></div>
@@ -152,9 +152,9 @@
           </div>
 
         </div>
-        <div class="menu-item library-menu">
-          <div class="d-flex align-items-center mr-t-10 menu-top-item">
-            <p class="f-b f-16 c-fff">Library</p>
+        <div class="menu-item library-menu  d-flex align-items-center">
+          <div class="d-flex align-items-center menu-top-item">
+            <p class=" c-fff">Library</p>
             <i class="arrow mr-l-5"></i>
           </div>
           <div class="menu-divider"></div>
@@ -210,9 +210,9 @@
           </div>
 
         </div>
-        <div class="menu-item company-menu">
-          <div class="d-flex align-items-center mr-t-10 menu-top-item">
-            <p class="f-b f-16 c-fff">Company</p>
+        <div class="menu-item company-menu  d-flex align-items-center">
+          <div class="d-flex align-items-center menu-top-item">
+            <p class="c-fff">Company</p>
             <i class="arrow mr-l-5"></i>
           </div>
           <div class="menu-divider"></div>
@@ -251,12 +251,12 @@
 
         </div>
       </div>
-
-      <a class="t-d-n" href="<?php  echo get_site_url() ?>/contact">
-        <div class="menu-button d-none-s1">
-            <p class="f-b f-16 c-0 t-d-n" >REQUEST A DEMO</p>
-        </div>
+      <a class="t-d-n d-none-s1 " href="<?php  echo get_site_url() ?>/contact">
+        <button class="btn-request btn-small btn-white">
+          REQUEST A DEMO
+        </button>
       </a>
+      
       <div class="d-n d-block-s1 flex-grow-1"></div>
 
       <button class="mobile-menu-open-btn menu-btn mr-r-20 d-n d-block-s1">

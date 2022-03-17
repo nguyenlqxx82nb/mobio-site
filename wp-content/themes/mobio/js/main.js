@@ -1,18 +1,21 @@
 (function( $ ) {
-  console.log('script main 0');
-	var ww = jQuery(window).width();
+  var ww = jQuery(window).width();
 	
   $(window).on('scroll', function(e){
     const top  = window.pageYOffset || document.documentElement.scrollTop;
-    if (top > 58) {
-      $('.menu-top').addClass('menu-top-fixed');
+    if (top > 10) {
+      $('.menu-fixed').addClass('menu-top-fixed');
+      $('.menu-fixed').find('.btn-request').removeClass('btn-white');
     } else {
-      $('.menu-top').removeClass('menu-top-fixed');
+      $('.menu-fixed').removeClass('menu-top-fixed');
+      $('.menu-fixed').find('.btn-request').addClass('btn-white');
     }
   });
 
   jQuery(function(){
-    console.log('document ready 1231');
+
+    $('.menu-top-fixed').find('button').removeClass('btn-white');
+
     const $openBtnMenu = $('.mobile-menu-open-btn');
     const $closeBtnMenu =  $('.mobile-menu-close-btn');
     const $menuMobile = $('.menu-mobile');
@@ -78,8 +81,10 @@
             $slider.length && $slider.data('shiftSlideToIndex')(index);
           });
         });
-
-        setScrollTabItem(scrollTab, 0);
+        setTimeout(() => {
+          setScrollTabItem(scrollTab, 0);
+        }, 50);
+        
 
         if (!scrollTab.hasClass('is-scroll') && $tabWrapper.find('.col-img-container').length) {
           const rect = $tabWrapper.find('.col-img-container').eq(0).get(0).getBoundingClientRect();
@@ -109,21 +114,24 @@
     // accordion menu
     $('.accord-menu').each(function(index) {
       const menu = $(this);
-      
-      menu.find('.accord-item').each(function(itemIndex){
+      menu.data('imgIndex', 0);
+      menu.find('.accord-item').each(function(itemIndex) {
         const menuItem = $(this);
         const _index = itemIndex;
         const contentEl = menuItem.find('.accord-item-content');
         const contentRec = contentEl.get(0).getBoundingClientRect();
         contentEl.data('h', contentRec.height);
+        if (_index === 0) {
+          menuItem.data('isShow', false);
+        } 
         menuItem.find('.accord-item-header').on('click', function(e) {
-          showMenuAccord(menu, _index, menuItem.hasClass('opened')? false : true);
+          toggleOpenMenuAccord(menu, _index);
         });
       });
 
       const menuLength =  menu.find('.accord-item').length;
       for (let i=0; i < menuLength; i++) {
-        showMenuAccord(menu, i, i === 0 ? true : false);
+        hideMenuAccord(menu, i);
       }
     });
 
@@ -218,6 +226,20 @@
       }
       
     }); 
+    // console.log('templateUrl=',siteUrl);
+    $('.email-submit').find('input').on('keyup', function(e){
+      // console.log('key code = ', e.keyCode);
+      if (e.keyCode === 13) {
+        const email = $(this).val();
+        const href =  siteUrl +'/contact?email='+email;
+        window.location.href = href;
+      }
+    });
+    $('.email-submit').find('.btn-submit').on('click', function(e){
+      const email = $(this).closest('.email-submit').find('input').val();
+      const href =  siteUrl +'/contact?email='+email;
+      window.location.href = href;
+    })
   });
 
 
@@ -295,6 +317,43 @@
     }, 250);
   }
 
+  // function toggleMenuAccord(menu, index) {
+  //   const currIndex = menu.data('currIndex');
+
+  //   if (currIndex === i)
+  // }
+
+  function toggleOpenMenuAccord(menu, index) {
+    const currIndex = menu.data('currIndex');
+    if (currIndex === index) {
+      toggleMenuAccord(menu, index);
+      menu.data('currIndex', -1);
+      return;
+    }
+    if (currIndex >= 0) {
+      toggleMenuAccord(menu, currIndex);
+      setTimeout(() => {
+        toggleMenuAccord(menu, index);
+      }, 300);
+    } else {
+      toggleMenuAccord(menu, index);
+    }
+    menu.data('currIndex', index);
+
+    const imgIndex = menu.data('imgIndex');
+    const $currImg = menu.find('.image-item').eq(imgIndex);
+    const $img = menu.find('.image-item').eq(index);
+
+    $currImg.addClass('opa-0').removeClass('opa');
+    setTimeout(() => {
+      $currImg.addClass('d-none').removeClass('d-block');
+      $img.addClass('d-block').removeClass('d-none');
+      $img.addClass('opa').removeClass('opa-0');
+    }, 300);
+    menu.data('imgIndex', index);
+  }
+
+  
   /**
    * show menu accord
    * @param {*} menu 
@@ -302,12 +361,14 @@
    * @param {*} isShow 
    * @returns 
    */
-  function showMenuAccord(menu, index, isShow) {
+  function toggleMenuAccord(menu, index) {
     const accordItem = menu.find('.accord-item').eq(index);
     const arrow = accordItem.find('.arrow');
     const accordContent = accordItem.find('.accord-item-content');
     const accordHeader = accordItem.find('.accord-item-header');
     const height = accordContent.data('h');
+    const isShow = !accordItem.data('isShow');
+    accordItem.data('isShow', isShow);
     if (isShow) {
       accordContent.css({'display': 'block'});
       accordItem.addClass('b-4-b').addClass('opened').removeClass('b-fff');
@@ -329,6 +390,20 @@
       accordContent.css({'display': 'none'});
       accordHeader.find('div').removeClass('c-fff');
     }, 300);
+  }
+
+  function hideMenuAccord(menu, index) {
+    const accordItem = menu.find('.accord-item').eq(index);
+    const arrow = accordItem.find('.arrow');
+    const accordContent = accordItem.find('.accord-item-content');
+    const accordHeader = accordItem.find('.accord-item-header');
+    accordItem.removeClass('opened');
+    arrow.addClass('arrow-right');
+    accordContent.css({'opacity': '0', 'height' : '0px'});
+    accordItem.removeClass('b-4-b').addClass('b-fff');
+    arrow.addClass('bd-c-000').removeClass('bd-c-fff');
+    accordContent.css({'display': 'none'});
+    accordHeader.find('div').removeClass('c-fff');
   }
 
   /**

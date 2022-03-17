@@ -13,6 +13,7 @@ get_header();
 <!-- header -->
 <?php get_template_part('template-parts/header-product',null,
   array( 
+    'title-sub' => 'industry | retail',
     'title' => 'Grow Customer Loyalty and Build Brand Love for your Business',
     'desc' => "Do you know that Retailers are those benefit most from customer data. Mastering the data flow, Retailers can create a seamless customer experience that increases revenue and embraces customer loyalty.",
     'header-img' => get_template_directory_uri(). '/images/industry-retail/header.png'
@@ -22,7 +23,7 @@ get_header();
 <?php 
   get_template_part('template-parts/top-tenant-retail', null,
     array(
-      'classExtend' => 'mr-t-150'
+      'classExtend' => 'mr-t-150 mr-t-120-s4'
     )
   )
 ?>
@@ -30,7 +31,7 @@ get_header();
 <?php 
   get_template_part('template-parts/industry-insights', null,
     array(
-      'classExtend' => 'mr-t-175',
+      'classExtend' => 'mr-t-175 mr-t-150-s4',
       'title' => 'industry insights',
       'name' => 'Perspectives On Retail ',
       'desc' => 'Retail is accelerating at a shocking pace. These trends and insights are up-to-date with statistics provided by Deloitte, McKinsey, 
@@ -69,7 +70,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200',
+      'classExtend' => 'mr-t-200 mr-t-150-s4',
       'title-sm' => 'how can we help?',
       'title' => 'How Mobio upgrades your Buyer Experience', 
     )
@@ -90,7 +91,7 @@ get_header();
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/industry-retail/o2o-data-collection.png',
+    'img-src' => get_template_directory_uri(). '/images/industry-retail/retail-o2o-data-collection.png',
     'desc' => "<p>By using MOBIO CDP, Retailers not only gather customer feedback but also make it easy to create customer-centric roadmaps based on 
       the feedback and help connect data to create an excellent customer experience.  </p>",
     'next' => 'Explore our possibilities >>',
@@ -99,7 +100,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300',
+    'classExtend' => 'mr-t-300 mr-t-150-s4',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'Journey builder',
@@ -112,7 +113,7 @@ get_header();
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/industry-retail/journey-builder.png',
+    'img-src' => get_template_directory_uri(). '/images/industry-retail/retail-journey-builder.png',
     'desc' => "<p>CX is a vital component in today's buying trend. But how can you create a complete journey for your customer knowing that it will end up boosting your revenue or increasing your ROI. 
       Mobio helps you create an end-to-end customer journey and track every touchpoint of your customer. </p>",
     'next' => 'Explore our possibilities >>',
@@ -122,7 +123,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300',
+    'classExtend' => 'mr-t-300 mr-t-150-s4',
     // 'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'customer conversation',
@@ -144,7 +145,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300',
+    'classExtend' => 'mr-t-300 mr-t-150-s4',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'loyalty management',
@@ -157,7 +158,7 @@ get_header();
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/industry-retail/loyalty-management.png',
+    'img-src' => get_template_directory_uri(). '/images/industry-retail/retail-loyalty-management.png',
     'desc' => "<p>Guess what! Retailers today invest tremendously in loyalty programs as a core strategy for long-term growth. With our platform, retailers can engage customers at every step 
       they take along the customer journey, retain them with compelling loyalty programs, and turn them to your dedicated advocacy.</p>",
     'next' => 'Explore our possibilities >>',
@@ -227,7 +228,7 @@ get_header();
 
 <?php get_template_part('template-parts/section-title',null,
     array( 
-      'classExtend' => 'mr-t-175',
+      'classExtend' => 'mr-t-175 mr-t-150-s4',
       'title-sm' => 'library',
       'title' => 'Most Helpful Paper Selected By Our Customers',
     )); ?>
@@ -265,7 +266,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-connect', null,
   array(
-    'classExtend' => 'mr-t-250'
+    'classExtend' => 'mr-t-250 mr-t-150-s4'
   ));
 ?>
 

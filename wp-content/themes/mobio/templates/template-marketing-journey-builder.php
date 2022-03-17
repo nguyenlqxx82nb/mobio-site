@@ -17,6 +17,7 @@ get_header();
     'name' => 'Meet Journey Builder',
     'desc' => 'Your marketing companion to optimize customer experience and increase interaction, engagement, and retention rate.',
     'name-class' => 'w-750 f-b f-60 mr-t-25',
+    'img-src' => get_template_directory_uri(). '/images/product/marketing/journey-builder-header.png'
   ));
 ?>
 
@@ -69,7 +70,7 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
   array(
     // 'imageLeft' => 1,
-    'classExtend' => 'mr-t-150',
+    'classExtend' => 'mr-t-250 mr-t-150-s4',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'personalization',
     // 'title-class' => 'f-18 c-1-b',
@@ -93,7 +94,7 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
   array(
     'imageLeft' => 1,
-    'classExtend' => 'mr-t-150',
+    'classExtend' => 'mr-t-250 mr-t-150-s4',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'Master campaign',
     // 'title-class' => 'f-18 c-1-b',
@@ -116,9 +117,9 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-150',
+      'classExtend' => 'mr-t-250 mr-t-150-s4',
       'title-sm' => 'building  blocks',
-      'title' => '4 Critical Elements In A Customer Journey', 
+      'title' => '4 Critical Elements in a Customer Journey', 
     )
   );
 ?>
@@ -174,8 +175,8 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-250',
-      'title' => 'Why Businesses Love Journey Builder?', 
+      'classExtend' => 'mr-t-250 mr-t-150-s4',
+      'title' => 'Why Businesses love Journey Builder?', 
     )
   );
 ?>
@@ -185,17 +186,17 @@ get_header();
       'classExtend' => 'mr-t-50',
       'items' => array(
         array(
-          'icon-src' => get_template_directory_uri().'/images/icon-digital.png',
+          'icon-src' => get_template_directory_uri().'/images/product/marketing/jb-1.svg',
           'name' => 'You own the Journey',
-          'desc' => '<strong>Customer journey</strong> is no longer the unpredicted prospect that you have to follow. Now businesses create and decide the way customers interact, what messages they get, and all the steps they take.'
+          'desc' => 'Customer journey is no longer the unpredicted prospect that you have to follow. Now businesses create and decide the way customers interact, what messages they get, and all the steps they take.'
         ),
         array(
-          'icon-src' => get_template_directory_uri().'/images/icon-loyalty.png',
+          'icon-src' => get_template_directory_uri().'/images/product/marketing/jb-2.svg',
           'name' => 'Personalized at Scale',
-          'desc' => 'Messages to customers are <strong>customized for each individual</strong>, making them feel that those messages are unique and sent personally, boosting CTR, ROI, and conversion in your marketing campaign.'
+          'desc' => 'Messages to customers are customized for each individual, making them feel that those messages are unique and sent personally, boosting CTR, ROI, and conversion in your marketing campaign.'
         ),
         array(
-          'icon-src' => get_template_directory_uri().'/images/icon-personal.png',
+          'icon-src' => get_template_directory_uri().'/images/product/marketing/jb-3.svg',
           'name' => 'Everything Tracked',
           'desc' => 'Every customer touchpoints and digital footprint across the journey are tracked, collected, and stored in CDP, achieving the goal of every business: a single source of truth.'
         ),
@@ -205,26 +206,20 @@ get_header();
 ?>
 <?php 
   get_template_part('template-parts/section-title', null, 
-    array(
-      'classExtend' => 'mr-t-10',
-      'classMedia' => 'mt-t-30-s1',
-      'next-button' => 'Learn more',
-      'next-url' => '#' 
-    )
-  );
+  array());
 ?>
 
 <?php 
   get_template_part('template-parts/customer-stories', null,
     array(
-      'classExtend' => 'mr-t-250'
+      'classExtend' => 'mr-t-250 mr-t-150-s4'
     ));
 ?>
 
 <?php
   get_template_part('template-parts/document-library', null,
     array(
-      'classExtend' => 'mr-t-250'
+      'classExtend' => 'mr-t-250 mr-t-150-s4'
     ));
 ?>
 

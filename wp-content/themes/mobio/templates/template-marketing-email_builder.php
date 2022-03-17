@@ -15,7 +15,8 @@ get_header();
     array( 
       'title' => 'Mobio marketing management',
       'name' => 'Meet Email Builder',
-      'desc' => 'Save up to 75% on development time — without additional headcount. Build more effective emails, faster to scale efforts and drive better results.'
+      'desc' => 'Save up to 75% on development time — without additional headcount. Build more effective emails, faster to scale efforts and drive better results.',
+      'img-src' => get_template_directory_uri() . '/images/product/marketing/email-header.png'
     )); ?>
 
 
@@ -36,21 +37,21 @@ get_header();
 
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-250',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'title' => 'Create email in your own style',
         'desc' => 'Build email template in your unique style with our drag-and-drop interface. We are confident that everything you need in an email campaign, we have it all, and even exceed your expectations.'
       )); ?>
   
   <?php get_template_part('template-parts/feature-image',null,
       array( 
-        'img-src' => get_template_directory_uri(). '/images/product/marketing/email-builder-visual.png'
+        'img-src' => get_template_directory_uri(). '/images/product/marketing/email-visual.png'
       )); ?>
   
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-250',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'title' => 'Or start with our Premade Templates',
-        'desc' => 'Our templates are trusted by top enterprises and proven to be user-friendly and effective, help you to optimize open and conversion rate'
+        'desc' => 'Our templates are trusted by top enterprises and proven to be user-friendly and effective, <br>help you to optimize open and conversion rate'
       )); ?>
   
   <?php get_template_part('template-parts/feature-image',null,
@@ -60,64 +61,69 @@ get_header();
   
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-200',
-        'title' => 'Why choose us?',
-        'desc-top' => 'There are so many other email platform.'
+        'classExtend' => 'mr-t-200 mr-t-150-s4',
+        'title-sm' => 'why email builder?',
+        'title' => 'There are so many other email platform. Why choose us?',
+        //'desc-top' => 'There are so many other email platform.'
       )); ?>
 
-  <?php get_template_part('template-parts/row-content-two',null,
-      array( 
-        'imageLeft' => 0,
-        'nameClass' => 'f-48',
-        'classExtend' => 'mr-t-100',
-        'classContent' => 'pa-l-40 pa-r-40',
-        'classImageContainer' => '',
-        'classColImage' => 'mo-col-7',
-        'classColContent' => 'mo-col-5',
-        'classImageRatio' => 'rt-3-4',
-        'desc' => '<p class="lh2"><strong>Ease of Use</strong><br><br>
-              Build and send in minutes with the drag-and-drop email builder—no coding required.<br><br>
-              <strong>Complete Customization</strong><br><br>
-              Customize our premade templates, or upload your HTML email templates.<br><br>
-              <strong>Mobile and Tablet Optimization</strong><br><br>
-              Make sure your emails are at a good shape on every devices your customers use.<br><br>
-              <strong>Share for All Team</strong><br><br>
-              Save your designed templates for entire team to use, and ensure consistent branding.<br><br>
-              <strong>All-in-one Platform</strong><br><br>
-              Not only use email builder, you can also combine with other tools in our platform and optimize your marketing execution without the need to switch through so many vendors. </p>',
-        'img-src' =>  get_template_directory_uri(). '/images/product/marketing/email-builder-3.png'
-      )); ?>
+<?php 
+    get_template_part('template-parts/content-three', null, 
+      array(
+        'classExtend' => 'mr-t-50',
+        'items' => array(
+          array(
+            'icon-src' => get_template_directory_uri().'/images/product/marketing/email-1.svg',
+            'name' => 'All-in-one Platform',
+            'desc' => 'You can also use other tools in our platform and optimize your marketing execution without the need to switch through so many vendors. '
+          ),
+          array(
+            'icon-src' => get_template_directory_uri().'/images/product/marketing/email-2.svg',
+            'name' => 'Complete customization',
+            'desc' => 'Build email templates in your style, or upload your HTML email as your wish.'
+          ),
+          array(
+            'icon-src' => get_template_directory_uri().'/images/product/marketing/email-3.svg',
+            'name' => 'PC, Mobile, and Tablet Optimization',
+            'desc' => 'Make your emails look good on every device your customers use.'
+          ),
+        )
+      )
+    );
+  ?>
+
+<?php get_template_part('template-parts/row-content-two',null,
+  array(
+    'classExtend' => 'mr-t-250 mr-t-150-s4',
+    // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
+    'title' => 'email in action',
+    // 'title-class' => 'f-18 c-1-b',
+    'name' => 'There’re many <strong>cool things</strong> you can do',
+    'classColContent' => 'mo-col-5',
+    'classColImage' => 'mo-col-7',
+    'nameClass' => 'f-n f-56',
+    // 'classImage' => 'b-r-10',
+    'classImageContainer' => 'pa-0',
+    'classImageRatio' => 'rt-3-4',
+    'classContent' => 'pa-l-40 pa-r-40',
+
+    'img-src' => get_template_directory_uri(). '/images/product/marketing/email-in-action.png',
+    'desc' => "<p>
+      Send email to your target audiences and get a notice at every step they take in their mailbox.
+      You can choose which link or button you want to track and how your customers interact with it. <br>
+      &nbsp;&nbsp;&#8226; &nbsp;Register multiple domains<br>
+      &nbsp;&nbsp;&#8226; &nbsp;Email Address Verify for a clean and clear email list <br>
+      &nbsp;&nbsp;&#8226; &nbsp;Add Behavior Tag to see customer interests<br>
+      &nbsp;&nbsp;&#8226; &nbsp;Track link to see how well your campaign performs.
+    </p>",
+    'next-button' => 'REQUEST A DEMO',
+     'next-url' => get_site_url() . '/contact'
+  )); ?>
     
-    <?php get_template_part('template-parts/section-title',null,
-      array( 
-        'classExtend' => 'mr-t-250',
-        'title-sm' => 'email in action',
-        'title' => 'There’re Many Cool Things You Can Do',
-      )); ?>
-    
-    <?php get_template_part('template-parts/row-content-two',null,
-        array( 
-          'imageLeft' => 0,
-          'nameClass' => 'f-48',
-          'classExtend' => 'mr-t-50',
-          'classContent' => 'pa-l-40 pa-r-40',
-          // 'classImageContainer' => 'h-100',
-          'classColImage' => 'mo-col-7',
-          'classColContent' => 'mo-col-5',
-          
-          'desc' => '<p class="lh5">Send email to your target audiences and get notice at every step they take in their mail box. You can choose which link or button you want to track and how your customers interact with it.<br> 
-                &nbsp; &bull; &nbsp; Register multiple domains <br>
-                &nbsp; &bull; &nbsp; Email Address Verify for a clean and clear email list <br>
-                &nbsp; &bull; &nbsp; Add Behavior Tag to see customer interests <br>
-                &nbsp; &bull; &nbsp; Track link to see how well your campaign performs. </p>',
-          'img-src' => get_template_directory_uri() .'/images/product/marketing/email-builder-4.png',
-            'next-button' => 'REQUEST A DEMO',
-            'next-url' => '#'
-        )); ?>
 
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-150',
+        'classExtend' => 'mr-t-150 mr-t-150-s4',
         'title-sm' => 'email reports',
         'title' => 'Detail Reports that show Insights',
       )); ?>
@@ -130,7 +136,7 @@ get_header();
 
   <?php get_template_part('template-parts/quote-site',null,
     array(
-      'classExtend' => 'mr-t-250',
+      'classExtend' => 'mr-t-250 mr-t-150-s4',
       'color' => 'c-000',
       'classContainer' => 'b-sd auto b-fff b-r-10',
       'desc' => '“Mobio Email Builder is my dream tool."',
@@ -146,15 +152,16 @@ get_header();
 
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-150',
-        'title' => 'Some Documents You Might Find Helpful',
+        'classExtend' => 'mr-t-150 mr-t-150-s4',
+        'title-sm' => 'library',
+        'title' => 'Some documents you might find helpful',
         'desc' => 'Don’t forget to check out our ultimate guidelines for a successful email marketing campaign. <br> With our strong experience consulting top brands, we believe there would be something helpful for you!'
       )); ?>
   <?php
       get_template_part('template-parts/document-library', null,
         array(
           'no-title' => true,
-          'classExtend' => 'mr-t-250'
+          'classExtend' => 'mr-t-250 mr-t-150-s4'
         ));
     ?>
 
