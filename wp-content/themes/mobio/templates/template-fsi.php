@@ -97,8 +97,9 @@ get_header();
     'classImageContainer' => 'pa-0',
     // 'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/industry-fsi/fintech.png',
-    'desc' => "<p>With Mobio Platform, Fintechs can serve customers at a much faster pace, speed up transactions safely and securely. Fintechs can identify spending habits, as well as help users save money. Fintechs focus on bespoke services that meet every demand of the customer, and this is where data comes into play.
-    <br><br>See how Fintechs can attuned to their customers' needs completely with our platform. </p>",
+    'desc' => "<p>With Mobio Platform, Fintechs can serve customers at a much faster pace, speed up transactions safely and securely. Fintechs can identify spending habits, as well as help users save money. 
+      Fintechs focus on bespoke services that meet every demand of the customer, and this is where data comes into play.</p>
+    <p class='mr-t-10'>See how Fintechs can attuned to their customers' needs completely with our platform. </p>",
   )); ?>
 
 
@@ -117,8 +118,8 @@ get_header();
     'classImageContainer' => 'pa-0',
     // 'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/industry-fsi/insurance.png',
-    'desc' => "<p>Achieve true 1-to-1 personalized communications with policy holders & prospects in real-time with our intelligent engagement platform for insurance providers that goes beyond your standard CDP.
-    <br><br>Mobio Platform to maximize revenue per policy holder of your insurance customers. </p>",
+    'desc' => "<p>Achieve true 1-to-1 personalized communications with policy holders & prospects in real-time with our intelligent engagement platform for insurance providers that goes beyond your standard CDP.</p>
+    <p class='mr-t-10'>Mobio Platform to maximize revenue per policy holder of your insurance customers. </p>",
   )); ?>
 
 <?php get_template_part('template-parts/row-content-two',null,
@@ -135,8 +136,9 @@ get_header();
     'classImageContainer' => 'pa-0',
     // 'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/industry-fsi/e-wallet.png',
-    'desc' => "<p>CDP helps Digital wallet to better manage their customer financial data privacy. Digital wallet companies can also creat end-to-end marketing campaign and build frictionless customer journey while upholding all the customer data securely.  
-    <br><br>See how one of the top E-wallet in Vietnam successfully use MOBIO CDP to conquer the customer-obsessed era.</p>",
+    'desc' => "<p>CDP helps Digital wallet to better manage their customer financial data privacy. Digital wallet companies can also creat end-to-end marketing campaign 
+    and build frictionless customer journey while upholding all the customer data securely. </p>
+    <p class='mr-t-10'>See how one of the top E-wallet in Vietnam successfully use MOBIO CDP to conquer the customer-obsessed era.</p>",
   )); ?>
 
 

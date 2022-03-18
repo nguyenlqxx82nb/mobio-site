@@ -44,7 +44,7 @@ get_header();
           'title' => 'task reminder',
           'name' =>  '<strong>Notify every task</strong> from upcomming to overdue',
           'nameClass' => 'f-n f-56',
-          'classExtend' => 'mr-t-200 mr-t-200-s4',
+          'classExtend' => 'mr-t-200 mr-t-100-s4',
           'classImageRatio' => 'rt-3-4',
           'classImageContainer' => 'pa-0',
           'classImage' => 'b-r-10',

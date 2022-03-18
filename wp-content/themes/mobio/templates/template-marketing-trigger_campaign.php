@@ -127,8 +127,8 @@ get_header();
                           'divider' => 1,
                           'img-src' => get_template_directory_uri(). '/images/product/marketing/trigger-e-commerce.png',
                           'desc' => '<p>Throughout the e-commerce lifecycle, there is a large number of triggers waiting 
-                          which, with the right direct marketing measures, can be used to activate, retain and emotionalise customers.
-                          <br><br>One of the most critical trigger in e-commerce is Cart Abandonment, which can be reduced effective with our trigger-build campaigns. </p>',
+                          which, with the right direct marketing measures, can be used to activate, retain and emotionalise customers.</p>
+                          <p class="mr-t-10">One of the most critical trigger in e-commerce is Cart Abandonment, which can be reduced effective with our trigger-build campaigns. </p>',
                           //'next-button' => 'see in action',
                           //'next_url' => '#'
                         )); ?>

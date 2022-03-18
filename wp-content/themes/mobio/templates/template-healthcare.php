@@ -40,31 +40,26 @@ get_header();
       'items' => array(
         array(
           'icon' => get_template_directory_uri().'/images/icon-digital.png',
-          'title' => 'Digital & Omnichannel',
+          'title' => 'Digital & <br> Omnichannel',
           'desc' => 'Go to digital or go bust.  Now it’s time to invest more in e-commerce and online channels.'
         ),
         array(
           'icon' => get_template_directory_uri().'/images/icon-loyalty.png',
-          'title' => 'Loyalty is key',
+          'title' => 'Loyalty <br> is key',
           'desc' => 'Since the pandemic, brands are now focus stronger on building their loyalty army.'
         ),
         array(
           'icon' => get_template_directory_uri().'/images/item-icon.png',
-          'title' => 'O2O Customer experience',
+          'title' => 'O2O Customer<br> experience',
           'desc' => 'From mortal store to online channel, customers today are expecting an end-to-end experience and service.'
         ),
         array(
           'icon' => get_template_directory_uri().'/images/icon-personal.png',
-          'title' => 'Personalize at scale',
-          'desc' => 'In this era, customers want to be treated as a unique individual with meaningful personalized messages.'
-        ),
-        array(
-          'icon' => get_template_directory_uri().'/images/icon-personal.png',
-          'title' => 'Everything real-time',
+          'title' => 'Everything<br> real-time',
           'desc' => 'For retailer, customer behavior, digital footprint, lastest trends, everything must be updated constantly.'
         )
-        ),
-        'next-url' => '#'
+      ),
+      'next-url' => '#'
     ))
 ?>
 
@@ -80,7 +75,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-150',
+    'classExtend' => 'mr-t-100',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'cdp data collection',
     // 'title-class' => 'f-18 c-1-b',

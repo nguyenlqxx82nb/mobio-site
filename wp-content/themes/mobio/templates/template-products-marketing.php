@@ -123,7 +123,7 @@ get_header();
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/product/marketing/overview-ads_management.png',
+    'img-src' => get_template_directory_uri(). '/images/product/marketing/overview-ads-management.png',
     'desc' => "<p>Integrate with Facebook Ads and sync target ads audience with various filters to create effective 
         Lead Generation campaigns and automatically collect customer data to enrich CDP. </p>",
     // 'next-button' => 'Learn More',

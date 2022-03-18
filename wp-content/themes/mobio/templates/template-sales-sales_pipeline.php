@@ -87,7 +87,7 @@ get_header();
       'title' => 'visual view',
       'name' => 'See your pipeline <strong>in different views</strong>',
       'nameClass' => 'f-n f-56',
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'classExtend' => 'mr-t-250 mr-t-100-s4',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => 'pa-0',
       'classContent' => 'pa-r-120',

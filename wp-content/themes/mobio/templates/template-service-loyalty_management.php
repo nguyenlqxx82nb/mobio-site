@@ -90,10 +90,9 @@ get_header();
       'classImage' => 'b-r-10',
       'divider' => 1,
       'img-src' => get_template_directory_uri() .'/images/product/service/loyalty-chat.png',
-      'desc' => '<p>The system provides full customer data and analyzed sales statistics to make sure you are always up-to-date with the performance of your loyalty programs.
-      <br><br>Not only does it give you quick access to your customer’s history of transactions, but it also allows you to easily create, manage, or merge membership accounts.
-      <br><br>Mobio supports multiple ID classes and enables you to organize your customer data efficiently using a simple & intuitive interface.
-      </p>',
+      'desc' => '<p>The system provides full customer data and analyzed sales statistics to make sure you are always up-to-date with the performance of your loyalty programs.</p>
+      <p class="mr-t-10">Not only does it give you quick access to your customer’s history of transactions, but it also allows you to easily create, manage, or merge membership accounts.</p>
+      <p class="mr-t-10">Mobio supports multiple ID classes and enables you to organize your customer data efficiently using a simple & intuitive interface.</p>',
       // 'next' => 'learn how to manage omnichannel strategy >>',
       // 'next-url' => '#'
     )); ?>
@@ -105,7 +104,7 @@ get_header();
           'name' => 'Create a loyalty program in <strong>your business style</strong>',
           'nameClass' => 'f-n f-56',
           'classExtend' => 'mr-t-250 mr-t-200-s4',
-          'classImageRatio' => 'rt-3-4',
+          'classImageRatio' => 'rt-9-16',
           'classImageContainer' => '',
           'classImage' => 'b-r-10',
           'classColContent' => 'mo-col-5',
@@ -132,8 +131,9 @@ get_header();
           'classColImage' => 'mo-col-7',
           'divider' => 1,
           'img-src' => get_template_directory_uri() .'/images/product/service/social-omni.png',
-          'desc' => '<p>Mobio allows you to stay in contact with your customers at every level of their loyalty program participation. Use it to create mass or individual <strong>messages</strong> (E-mail/SMS/POS/mobile app/website) informing the members about your current product offers and services.
-          <br><br>Also, send surveys to collect feedback so you could constantly improve the quality of your loyalty programs. </p>',
+          'desc' => '<p>Mobio allows you to stay in contact with your customers at every level of their loyalty program participation. Use it to create mass or individual 
+            <strong>messages</strong> (E-mail/SMS/POS/mobile app/website) informing the members about your current product offers and services.</p>
+          <p class="mr-t-10">Also, send surveys to collect feedback so you could constantly improve the quality of your loyalty programs. </p>',
           // 'next' => 'see how quick response can boost your cx >>',
           // 'next-url' => '#'
         )); ?>

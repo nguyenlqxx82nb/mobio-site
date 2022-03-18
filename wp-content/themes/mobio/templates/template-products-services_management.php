@@ -102,7 +102,7 @@ get_header();
       'classColImage'=>'mo-col-7',
       'classImage' => 'b-r-10',
       'divider' => 1,
-      'img-src' => get_template_directory_uri(). '/images/product/service/overview-ticket-2.png',
+      'img-src' => get_template_directory_uri(). '/images/product/service/overview-ticketing.png',
       'desc' => '<p>Ease-of-use Email Builder tool to engage your customers list and boost conversion rate. We also provide additional features and step-by-step guideline to help increase your email sender reputation and let your mails go straight to your customer main mailbox. </p>',
       'next' => 'See ticket management >>',
       'next_url' => get_site_url().'/service-ticketing'
