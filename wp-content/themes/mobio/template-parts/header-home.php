@@ -11,9 +11,6 @@
     ); ?>
   </div>
 
-<?php 
-	get_template_part('template-parts/menu-top', null, array('classExtend'=> 'menu-fixed'));
-?>	
 
 <!-- HEADER -->
 <!--<div class="top-header b-fff d-flex justify-content-center align-items-center b-sd d-none-s1">
@@ -22,8 +19,10 @@
 </div>-->
 <div class="header header-home position-relative">
 		<div class="header-bg"></div>
-		<div class="auto-container auto">
-			
+		<?php 
+			get_template_part('template-parts/menu-top', null, array('classExtend'=> ''));
+		?>
+		<div class="auto-container auto pa-t-50">
 			<h1 class="c-fff text-center f-40-s1 pa-l-20 pa-r-20">How can we help leverage your business?</h1>
 			<div class="f-n-lg c-fff text-center mr-t-15 opa-9 f-14-s1 mr-t-5-s1 pa-l-20 pa-r-20 "><p>Mobio is an all-in-one platform for Marketing, Sales and Service team with CDP at the heart.<br>
 				Our product was designed to address daily business challenges and create true value to our customers</p>

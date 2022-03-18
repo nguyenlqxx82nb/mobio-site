@@ -3,7 +3,7 @@
 <?php get_template_part(
     'template-parts/menu-top',null,
     array(
-      'classExtend' => 'menu-top-fixed'
+      'classExtend' => ''
     )
   ); ?>
 <!-- mobile header -->

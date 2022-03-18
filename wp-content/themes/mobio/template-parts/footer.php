@@ -31,49 +31,51 @@
 
 				<div class="footer-inner-container d-none-s1 <?php echo ($args['home'] === '' ? ' ' :  ' mr-t-100 '); ?> ">
 					<!-- menu -->
-					<div class="footer-menu-container d-flex justify-content-between f-b f-16 f-14-s4">
+					<div class="footer-menu-container d-flex justify-content-between f-b f-13 pa-l-50 pa-r-50">
 						<div class="footer-menu-col-item">
-							<a href="<?php echo get_site_url()."/industry"?>" class="mr-b-25  c-fff ">Customer</a>
-							<a href="<?php echo get_site_url()."/customer-cases"?>" class="mr-b-25  c-fff ">Use Cases</a>
-							<a href="<?php echo get_site_url()."/industry-fsi"?>" class="mr-b-25  c-fff ">Financial Services</a>
-							<a href="<?php echo get_site_url()."/industry-retail"?>" class="mr-b-25  c-fff ">Retail</a>
-							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-25  c-fff ">Real Estate</a>
-							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-25  c-fff ">Healthcare</a>
+							<a href="<?php echo get_site_url()."/industry"?>" class="mr-b-25 f-b f-14 c-fff upper-case ">Customer</a>
+							<a href="<?php echo get_site_url()."/customer-cases"?>" class="mr-b-20  c-fff ">Use Cases</a>
+							<a href="<?php echo get_site_url()."/industry-fsi"?>" class="mr-b-20  c-fff ">Financial Services</a>
+							<a href="<?php echo get_site_url()."/industry-retail"?>" class="mr-b-20  c-fff ">Retail</a>
+							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-20  c-fff ">Real Estate</a>
+							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-20  c-fff ">Healthcare</a>
 						</div>
 						<div class="footer-menu-col-item">
-							<a href="<?php echo get_site_url()."/products"?>" class="mr-b-25  c-fff ">Product</a>
-							<a href="<?php echo get_site_url()."/products-cdp" ?>" class="mr-b-25  c-fff ">CDP</a>
-							<a href="<?php echo get_site_url()."/products-marketing" ?>" class="mr-b-25  c-fff ">Marketing Management</a>
-							<a href="<?php echo get_site_url()."/mkt-journey-builder" ?>" class="mr-b-25  c-fff ">Journey Builder</a>
-							<a href="<?php echo get_site_url()."/mkt-email-builder" ?>" class="mr-b-25  c-fff ">Email Builder</a>
-							<a href="<?php echo get_site_url()."/mkt-trigger-campaign" ?>" class="mr-b-25  c-fff ">Trigger Campaign</a>
+							<a href="<?php echo get_site_url()."/products"?>" class="mr-b-25 f-14 f-b  c-fff upper-case">Product</a>
+							<a href="<?php echo get_site_url()."/products-cdp" ?>" class="mr-b-20  c-fff ">CDP</a>
+							<a href="<?php echo get_site_url()."/products-marketing" ?>" class="mr-b-20  c-fff upper-case ">Marketing Management</a>
+							<a href="<?php echo get_site_url()."/mkt-journey-builder" ?>" class="mr-b-20  c-fff ">Journey Builder</a>
+							<a href="<?php echo get_site_url()."/mkt-email-builder" ?>" class="mr-b-20  c-fff ">Email Builder</a>
+							<a href="<?php echo get_site_url()."/mkt-trigger-campaign" ?>" class="mr-b-20  c-fff ">Trigger Campaign</a>
 						</div>
 						<div class="footer-menu-col-item">
-							<a href="<?php echo get_site_url()."/products-sale" ?>" class="mr-b-25  c-fff ">Sales Management</a>
-							<a href="<?php echo get_site_url()."/sales-lead-distribution" ?>" class="mr-b-25  c-fff ">Lead Distribution</a>
-							<a href="<?php echo get_site_url()."/sales-pipeline" ?>" class="mr-b-25  c-fff ">Sales Pipeline</a>
-							<a href="<?php echo get_site_url()."/sales-task-manger" ?>" class="mr-b-25  c-fff ">Task Management</a>
-							<a href="<?php echo get_site_url()."/products-services-management" ?>" class="mr-b-25  c-fff ">Service Management</a>
-							<a href="<?php echo get_site_url()."/service-customer-response" ?>" class="mr-b-25  c-fff ">Social & Chat</a>
-							<a href="<?php echo get_site_url()."/service-ticketing" ?>" class="mr-b-25  c-fff ">Ticketing</a>
-							<a href="<?php echo get_site_url()."/service-loyalty-management" ?>" class="mr-b-25  c-fff ">Loyalty Management</a>
+							<a href="<?php echo get_site_url()."/products-sale" ?>" class="mr-b-20 mr-t-75  c-fff upper-case">Sales Management</a>
+							<a href="<?php echo get_site_url()."/sales-lead-distribution" ?>" class="mr-b-20  c-fff ">Lead Distribution</a>
+							<a href="<?php echo get_site_url()."/sales-pipeline" ?>" class="mr-b-20  c-fff ">Sales Pipeline</a>
+							<a href="<?php echo get_site_url()."/sales-task-manger" ?>" class="mr-b-20  c-fff ">Task Management</a>
 						</div>
 						<div class="footer-menu-col-item">
-							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-25  c-fff ">Library</a>
-							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-25  c-fff ">Blog</a>
-							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-25  c-fff ">Use Cases</a>
-							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-25  c-fff ">News & Events</a>
-							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-25  c-fff ">Ebook & Guideline</a>
-							<a href="#" class="mr-b-25  c-fff ">Why Mobio?</a>
-							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-25  c-fff ">FAQs</a>
+							<a href="<?php echo get_site_url()."/products-services-management" ?>" class="mr-b-20 mr-t-75 c-fff upper-case ">Service Management</a>
+							<a href="<?php echo get_site_url()."/service-customer-response" ?>" class="mr-b-20  c-fff ">Social & Chat</a>
+							<a href="<?php echo get_site_url()."/coming-soon" ?>" class="mr-b-20  c-fff ">Ticketing</a>
+							<a href="<?php echo get_site_url()."/service-loyalty-management" ?>" class="mr-b-20  c-fff ">Loyalty Management</a>
 						</div>
 						<div class="footer-menu-col-item">
-							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-25  c-fff ">Company</a>
-							<a href="<?php echo get_site_url()."/why-mobio" ?>" class="mr-b-25  c-fff ">About Us</a>
-							<a href="<?php echo get_site_url()."/partners" ?>" class="mr-b-25  c-fff ">Our Partners</a>
-							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-25  c-fff ">News & Events</a>
-							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-25  c-fff ">Support</a>
-							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-25  c-fff ">Career</a>
+							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-25 f-14 f-b c-fff upper-case">Library</a>
+							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-20  c-fff ">Blog</a>
+							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-20  c-fff ">Use Cases</a>
+							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-20  c-fff ">News & Events</a>
+							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-20  c-fff ">Ebook & Guideline</a>
+							<a href="#" class="mr-b-20  c-fff ">Why Mobio?</a>
+							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-20  c-fff ">FAQs</a>
+						</div>
+						<div class="footer-menu-col-item">
+							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-25 f-14 f-b  c-fff upper-case">Company</a>
+							<a href="<?php echo get_site_url()."/about-us" ?>" class="mr-b-20  c-fff ">About Us</a>
+							<a href="<?php echo get_site_url()."/partners" ?>" class="mr-b-20  c-fff ">Our Partners</a>
+							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-20  c-fff ">News & Events</a>
+							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-20  c-fff ">Support</a>
+							<a href="<?php echo get_site_url()."/coming-soon"?>" class="mr-b-20  c-fff ">Career</a>
 						</div>
 					</div>
 

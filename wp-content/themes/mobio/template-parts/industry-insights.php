@@ -14,7 +14,7 @@
       <?php 
         foreach($args['items'] as $item) {
       ?>
-        <div class="<?php echo $args['colClass'] ?  $args['colClass'] : 'mo-col-2 pa-l-25 pa-r-25' ?> mo-col-12-s1 mr-b-20-s1 mr-t-20-s1 ">
+        <div class="<?php echo $args['colClass'] ?  $args['colClass'] : 'mo-col-3 pa-l-30 pa-r-30' ?> mo-col-12-s1 mr-b-20-s1 mr-t-20-s1 ">
           <img class="icon-top-m" src="<?php echo $item['icon'] ?>" />
           <p class="f-b f-25 f-18-s4 upper-case mr-t-18 f-20-s1"><?php echo $item['title'] ?></p>
           <p class="f-n f-18 f-16-s4 f-14-s1 mr-t-10"><?php echo $item['desc'] ?></p>

@@ -21,11 +21,11 @@
           <img src="<?php echo $args["icon"]; ?>" class="icon-top mr-b-25 icon-m-s1" />
         <?php } ?>
         <?php if ($args['title'] ) { ?>
-          <div class="upper-case f-b f-16-s4 mr-b-15 f-13-s1 <?php echo $args['title-class'] ? $args['title-class'] : 'f-18 c-4 opa-5' ?>"><p><?php echo $args['title'] ?></p></div>
+          <div class="upper-case f-b f-16-s4 mr-b-10 f-13-s1 <?php echo $args['title-class'] ? $args['title-class'] : 'f-18 c-4 opa-5' ?>"><p><?php echo $args['title'] ?></p></div>
         <?php } ?>
         
         <?php if ($args['name']) { ?>
-          <div class="mr-b-30 w-650  w-550-s4 f-36-s4 f-30-s1 mr-b-10-s1 <?php echo $args['nameClass'] ? $args['nameClass'] : 'f-b f-56' ?> lh2">
+          <div class="mr-b-20 w-650  w-550-s4 f-36-s4 f-30-s1 mr-b-10-s1 <?php echo $args['nameClass'] ? $args['nameClass'] : 'f-b f-56' ?> lh2">
             <p><?php echo $args['name'] ?></p>
           </div>
         <?php }?>

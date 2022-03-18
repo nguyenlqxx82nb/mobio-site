@@ -119,7 +119,7 @@ get_header();
       'classImage' => 'b-r-10',
       'classColContent'=>'mo-col-5',
       'classColImage'=>'mo-col-7',
-      'classContent' => 'pa-r-20 pa-l-20',
+      'classContent' => 'pa-r-60 pa-l-40',
       'divider' => 1,
       'img-src' => get_template_directory_uri(). '/images/product/service/overview-call-center.png',
       //'next' => 'learn how to win customers with call center >>',
@@ -144,50 +144,6 @@ get_header();
       //'next' => 'learn how to collect customers reviews >>',
       //'next-url' => '#'
     )); ?>
-
-<?php get_template_part('template-parts/section-title',null,
-                      array( 
-                        'classExtend' => 'mr-t-250  mr-t-200-s4',
-                        'title-sm' => 'service toolkit',
-                        'title' => 'Service Management Feature List',
-                      )); ?>
-
-  <?php get_template_part('template-parts/sale-feature-list',null,
-          array( 
-            'classExtend' => 'mr-t-70',
-            'items' => array(
-              array(
-                'title' => 'Loyalty Management',
-                'content' => array(
-                )
-              ),
-              array(
-                'title' => 'Social Media',
-                'content' => array(
-                )
-              ),
-              array(
-                'title' => 'Customer Chat',
-                'content' => array(
-                )
-              ),
-              array(
-                'title' => 'Ticketing',
-                'content' => array(
-                )
-              ),
-              array(
-                'title' => 'Call Center',
-                'content' => array(
-                )
-              ),
-              array(
-                'title' => 'Survey',
-                'content' => array(
-                )
-              ),
-            )
-          )); ?>
   
   
 <?php

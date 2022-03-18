@@ -34,7 +34,7 @@ get_header();
 
  <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'classExtend' => 'mr-t-250 mr-t-200-s4',
         'title-sm' => 'how it helps',
         'title' => 'Task Management tool that helps <span class="hl-text">sales better</span>',
       )); ?>
@@ -44,7 +44,7 @@ get_header();
           'title' => 'task reminder',
           'name' =>  '<strong>Notify every task</strong> from upcomming to overdue',
           'nameClass' => 'f-n f-56',
-          'classExtend' => 'mr-t-200 mr-t-150-s4',
+          'classExtend' => 'mr-t-200 mr-t-200-s4',
           'classImageRatio' => 'rt-3-4',
           'classImageContainer' => 'pa-0',
           'classImage' => 'b-r-10',

@@ -48,7 +48,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200 mr-t-150-s4',
+      'classExtend' => 'mr-t-200 mr-t-200-s4',
       'title-sm' => 'success stories',
       'title' => 'Top pick case Studies',
       'title-class' => 'f-b f-48 c-0-b',

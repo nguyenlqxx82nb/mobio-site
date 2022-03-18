@@ -2,7 +2,7 @@
 <div class="<?php echo $args['classExtend'] ?> mr-t-30-s1 accord-menu">
   <div class="auto-container">
     <div class="mo-row row">
-      <div class="mo-col-7 mo-col-12-s1 mr-b-0 pa-r-40 pa-l-40 pa-l-20-s1 pa-r-20-s1 cdp-image-wrap">
+      <div class="mo-col-7 mo-col-12-s1 mr-b-0 pa-r-20 pa-l-20 pa-l-20-s1 pa-r-20-s1 cdp-image-wrap">
         <?php 
           for($i=0; $i < count($args['items']); $i++) {
         ?>

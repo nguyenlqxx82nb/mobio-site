@@ -3,12 +3,12 @@
 	
   $(window).on('scroll', function(e){
     const top  = window.pageYOffset || document.documentElement.scrollTop;
-    if (top > 10) {
-      $('.menu-fixed').addClass('menu-top-fixed');
-      $('.menu-fixed').find('.btn-request').removeClass('btn-white');
+    if (top > 25) {
+      $('.menu-top').addClass('menu-top-fixed');
+      $('.menu-top').find('.btn-request').removeClass('btn-white');
     } else {
-      $('.menu-fixed').removeClass('menu-top-fixed');
-      $('.menu-fixed').find('.btn-request').addClass('btn-white');
+      $('.menu-top').removeClass('menu-top-fixed');
+      $('.menu-top').find('.btn-request').addClass('btn-white');
     }
   });
 

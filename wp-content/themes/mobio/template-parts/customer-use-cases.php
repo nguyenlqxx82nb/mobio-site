@@ -33,7 +33,7 @@
 
 							<div class="mo-col-6 mo-col-12-s1 mo-col d-flex align-items-center justify-content-center mo-col-12-s1">
 								<div class="rt-3-4 w-100">
-									<img class="w-100 img-full" src="<?php echo $args["items"][$i]['img-src'] ?>" />
+									<img class="w-100 img-full object-fit-contain" src="<?php echo $args["items"][$i]['img-src'] ?>" />
 								</div>
 							</div>
 

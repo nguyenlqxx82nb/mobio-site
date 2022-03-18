@@ -34,7 +34,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200 mr-t-150-s4',
+      'classExtend' => 'mr-t-200 mr-t-200-s4',
       'title-sm' => 'how it helps',
       'title' => 'Create A Marketing Campaign That <span class="hl-text">Actually Works</span>', 
     )
@@ -66,7 +66,7 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
   array(
     'imageLeft' => '1',
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-300 mr-t-200-s4',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'Email Builder',
     // 'title-class' => 'f-18 c-1-b',
@@ -88,7 +88,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-300 mr-t-200-s4',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'Omnichannel',
     // 'title-class' => 'f-18 c-1-b',
@@ -110,7 +110,7 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
   array(
     'imageLeft' => '1',
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-300 mr-t-200-s4',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'Ads automation',
     // 'title-class' => 'f-18 c-1-b',
@@ -123,7 +123,7 @@ get_header();
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
-    'img-src' => get_template_directory_uri(). '/images/product/marketing/overview-ads_management.png',
+    'img-src' => get_template_directory_uri(). '/images/product/marketing/overview-ads-management.png',
     'desc' => "<p>Integrate with Facebook Ads and sync target ads audience with various filters to create effective 
         Lead Generation campaigns and automatically collect customer data to enrich CDP. </p>",
     // 'next-button' => 'Learn More',
@@ -132,7 +132,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-300 mr-t-200-s4',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'voucher management',
     // 'title-class' => 'f-18 c-1-b',
@@ -155,7 +155,7 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
   array(
     'imageLeft' => '1',
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-300 mr-t-200-s4',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'reports',
     // 'title-class' => 'f-18 c-1-b',
@@ -179,7 +179,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-250 mr-t-150-s4',
+      'classExtend' => 'mr-t-250 mr-t-200-s4',
       'title-sm' => 'inbound marketing toolkit',
       'title' => 'Marketing Management Feature List', 
     )
@@ -279,14 +279,14 @@ get_header();
 <?php
   get_template_part('template-parts/customer-stories', null,
     array(
-      'classExtend' => 'mr-t-250 mr-t-150-s4'
+      'classExtend' => 'mr-t-250 mr-t-200-s4'
     ));
 ?>
 
 <?php
   get_template_part('template-parts/document-library', null,
     array(
-      'classExtend' => 'mr-t-250 mr-t-150-s4'
+      'classExtend' => 'mr-t-250 mr-t-200-s4'
     ));
 ?>
 
