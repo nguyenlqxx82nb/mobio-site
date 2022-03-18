@@ -201,6 +201,9 @@ input[type='submit']:hover{
 .c-3 { color: #3B3E43 !important;}
 .c-4 { color: #453131 !important;}
 .c-5 { color: #57B3FE !important;}
+.c-5-1 {color: #51A690 !important;}
+.c-fea {color: #FEAD86 !important;}
+.c-6-e {color: #6E9CFD !important;}
 
 .c-0-b { color: #0F9CD8 !important;}
 .c-1-b {color: #139CD6 !important;}
@@ -592,10 +595,10 @@ button:hover {
 }
 
 .btn-small {
-	padding-top: 12px;
-	padding-bottom: 12px;
-	padding-left: 18px;
-	padding-right: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 22px;
+	padding-right: 22px;
 }
 
 .btn-tab {
@@ -993,4 +996,8 @@ h6, .h6 {font-size: 16px;}
 .hl-text {
 	color: #4BBFEB;
 	border-bottom: solid 3px #4BBFEB;
+}
+
+.top-tenant-img-trans {
+	transition: all 1.5s ease;
 }

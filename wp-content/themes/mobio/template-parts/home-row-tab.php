@@ -21,7 +21,7 @@
             <?php } ?>
 
             <div class="mo-col-6 mo-col <?php echo $args["img-left"] ? 'pa-l-100' : 'pa-l-20 pa-r-80'  ?>  d-flex flex-column justify-content-center h-100">
-              <img class="icon-top " src="<?php  echo get_template_directory_uri() ?>/images/item-icon.png" />
+              <img class="icon-top " src="<?php echo $args["icon-top"] ? $args["icon-top"] : get_template_directory_uri() ?>/images/item-icon.png" />
               <div class="f-b f-18 f-14-s4 upper-case c-0-b mr-t-35"><?php echo $args['items'][$i]['title'] ?></div>
               <div class="f-b f-56 f-40-s4 mr-t-10"><?php echo $args['items'][$i]['name'] ?></div>
               <div class="f-n f-20 f-16-s4 mr-t-20 pa-r-40"><?php echo $args['items'][$i]['desc'] ?></div>

@@ -15,7 +15,7 @@
   'template-parts/menu-top',
   null,
   array( 
-    'classExtend' => 'menu-top-fixed'
+    'classExtend' => ''
   )
 ); ?>
 

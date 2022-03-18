@@ -18,7 +18,7 @@ get_header();
       <div class="auto-container"> 
         <div class=" mr-t-30 mr-b-80 mr-b-40-s4 mr-b-20-s1 mr-l-20-s1">
           <a href="<?php echo get_site_url(); ?>">
-            <img class="menu-logo" src="<?php  echo get_template_directory_uri() . '/images/mobio-logo-blue.png' ?>" />
+            <img class="menu-logo" src="<?php  echo get_template_directory_uri() . '/images/logo-blue.svg' ?>" />
           </a>
         </div>
         

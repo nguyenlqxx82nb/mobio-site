@@ -3,14 +3,14 @@
     <div class="menu-top-container d-flex align-items-center <?php echo ($args['fixed'] === '1' ? '  ' :  ''); ?>">
 
       <a href="<?php  echo get_site_url() ?>">
-        <img class="menu-logo menu-logo-normal mr-l-25-s1" src="<?php  echo get_template_directory_uri() . "/images/mobio-logo-white.png"  ?>">
+        <img class="menu-logo menu-logo-normal mr-l-25-s1" src="<?php  echo get_template_directory_uri() . "/images/logo-gray.svg"  ?>">
       </a>
 
       <a href="<?php  echo get_site_url() ?>">
-        <img class="menu-logo menu-logo-fixed d-n mr-l-25-s1" src="<?php  echo get_template_directory_uri() . "/images/mobio-logo-blue.png" ?>">
+        <img class="menu-logo menu-logo-fixed d-n mr-l-25-s1" src="<?php  echo get_template_directory_uri() . "/images/logo-blue.svg" ?>">
       </a>
 
-      <div class="d-flex d-none-s1 flex-grow-1 justify-content-center f-n  f-16 f-14-s4 f-w-5">
+      <div class="d-flex d-none-s1 flex-grow-1 justify-content-center f-b  f-16 f-14-s4">
         <div class="menu-item customer-menu d-flex align-items-center">
           <div class="d-flex align-items-center menu-top-item">	
             <p class="c-fff">Customer</p>
@@ -30,14 +30,14 @@
               <div class="w-100 mr-t-15 auto">
 
                 <div class="mo-col-8">
-                  <a href="<?php  echo get_site_url() ?>/real-estate" class="d-b mr-b-20">
-                    <div class="d-flex align-items-center">
-                      <img src="<?php  echo get_template_directory_uri() ?>/images/menu/customer-Enterprise.png" class="menu-list-item-img mr-r-5" /><p class="f-n f-13 c-000 opa-5">Real Estate</p>
-                    </div>
-                  </a>
                   <a href="<?php echo get_site_url() ?>/industry-fsi" class="d-b mr-b-20">
                     <div class="d-flex align-items-center">
                       <img src="<?php  echo get_template_directory_uri() ?>/images/menu/customer-bank.png" class="menu-list-item-img mr-r-5" /> <p class="f-n f-13 c-000 opa-5">Financial Services</p>
+                    </div>
+                  </a>
+                  <a href="<?php  echo get_site_url() ?>/real-estate" class="d-b mr-b-20">
+                    <div class="d-flex align-items-center">
+                      <img src="<?php  echo get_template_directory_uri() ?>/images/menu/customer-Enterprise.png" class="menu-list-item-img mr-r-5" /><p class="f-n f-13 c-000 opa-5">Real Estate</p>
                     </div>
                   </a>
                 </div>
@@ -130,7 +130,7 @@
                       <img src="<?php  echo get_template_directory_uri() ?>/images/menu/product-service-chat.png" class="menu-list-item-img mr-r-5" /> <p class="f-n f-13 c-000 opa-5">Social & Chat</p>
                     </div>
                   </a>
-                  <a href="<?php echo get_site_url() ?>/service-ticketing" class="d-b mr-b-20">
+                  <a href="<?php echo get_site_url() ?>/coming-soon" class="d-b mr-b-20">
                     <div class="d-flex align-items-center">
                       <img src="<?php  echo get_template_directory_uri() ?>/images/menu/product-service-ticket.png" class="menu-list-item-img mr-r-5" /> <p class="f-n f-13 c-000 opa-5">Ticketing</p>
                     </div>

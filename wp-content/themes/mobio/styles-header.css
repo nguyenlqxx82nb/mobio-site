@@ -4,7 +4,7 @@
   height: 49px;
 }
 .header-home {
-  padding-top: 140px;
+  padding-top: 90px;
 }
 .header-bg {
   width: 100%;
@@ -12,7 +12,7 @@
   position: absolute;
   top:0px;
   z-index: -1;
-  background-image: url('./images/home/header-bg.png');
+  background-image: url('./images/bg-pc.svg');
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -243,6 +243,7 @@
 .menu-top-fixed {
   position:fixed !important;
   top: 0px !important;
+  margin-top: 0px !important;
   width: 100%;
   z-index:10; 
   background-color: #fff;
@@ -314,13 +315,13 @@
 }
 
 .menu-top {
-  position: absolute;
-  top: 0px;
   width: 100%;
   z-index: 100;
+  position: absolute;
+  top: 20px;
 }
 .menu-top, .menu-top-container {
-  height: 90px;
+  height: 60px;
   transition: background-color 150ms ease;
 }
 
@@ -334,7 +335,7 @@
 
 .menu-fixed {
   position: fixed !important;
-  top: 0px !important;
+  margin-top: 0px !important;
 }
 
 .header-page, .header-product {

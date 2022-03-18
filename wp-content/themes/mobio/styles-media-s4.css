@@ -1,6 +1,6 @@
 
 
-@media  screen and (max-width: 1700px) {
+@media  screen and (max-width: 5000px) {
 
 .f-11-s4 {font-size: 12px !important;}
 .f-12-s4 {font-size: 12px !important;}
@@ -409,9 +409,6 @@ h6, .h6 {font-size: 14px;}
 .f-n-md { font-size: 14px; }
 .f-n-sm { font-size: 12px; }
 
-.header-home {
-  padding-top: 120px;
-}
 
   .icon-m-s4 {width: 43px; height: 43px;}
   button { font-size: 14px; }
@@ -454,7 +451,7 @@ h6, .h6 {font-size: 14px;}
   }
 
   .menu-top, .menu-top-container {
-    height: 70px;
+    height: 60px;
   }
   
   .icon-top {
@@ -463,7 +460,7 @@ h6, .h6 {font-size: 14px;}
   }
 
   .use-case-tab-item img {
-    width: 100px;
+    width: 135px;
   }
 
   .input-wrap-action .input-action {
@@ -522,5 +519,10 @@ h6, .h6 {font-size: 14px;}
   }
 
   .contact-form input { height: 45px;}
+
+  .tenant-top-item {
+    height: 45px;
+    width: 130px;
+  }
 
 }
