@@ -38,7 +38,7 @@ get_header();
 
   <?php get_template_part('template-parts/section-title',null,
                         array( 
-                          'classExtend' => 'mr-t-250 mr-t-150-s4',
+                          'classExtend' => 'mr-t-250 mr-t-200-s4',
                           'title-sm' => 'default trigger',
                           'title' => '<span class="hl-text c-4-b">30+ Triggers</span> to Optimize your Marketing Campaign',
                           'desc' => 'Mobio Trigger feature makes it possible for you to automatically display your campaigns just when the time is right. 
@@ -78,7 +78,7 @@ get_header();
   <?php 
     get_template_part('template-parts/section-title', null, 
       array(
-        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'classExtend' => 'mr-t-250 mr-t-200-s4',
         'title-sm' => 'customized trigger',
         'title' => 'Trigger Bespoked to each Industry', 
       )
@@ -111,7 +111,7 @@ get_header();
   
     <?php get_template_part('template-parts/section-title',null,
                         array( 
-                          'classExtend' => 'mr-t-200 mr-t-150-s4',
+                          'classExtend' => 'mr-t-200 mr-t-200-s4',
                           'title-sm' => 'trigger in action',
                           'title' => 'See how Trigger Campaigns can <br>be a <span class="hl-text">Game Changer for Business</span>',
                         )); ?>
@@ -139,7 +139,7 @@ get_header();
                           'title' => 'date-based',
                           'name' => '<strong>Miss no special days</strong> to send meaningful messages',
                           'nameClass' => 'f-n f-56',
-                          'classExtend' => 'mr-t-250 mr-t-150-s4',
+                          'classExtend' => 'mr-t-250 mr-t-200-s4',
                           'classImageRatio' => 'rt-9-16',
                           'classColContent' => 'mo-col-5',
                           'classColImage' => 'mo-col-7',
@@ -153,7 +153,7 @@ get_header();
 
   <?php get_template_part('template-parts/section-title',null,
                         array( 
-                          'classExtend' => 'mr-t-200 mr-t-150-s4',
+                          'classExtend' => 'mr-t-200 mr-t-200-s4',
                           'title-sm' => 'transaction',
                           'title' => 'Easier <strong>Upsell & Cross-sell</strong> for digital monetary product',
                           'title-class' => 'f-n f-48',
@@ -174,7 +174,7 @@ get_header();
       get_template_part('template-parts/customer-stories', null,
         array(
           'no-title' => false,
-          'classExtend' => 'mr-t-250 mr-t-150-s4'
+          'classExtend' => 'mr-t-250 mr-t-200-s4'
         ));
     ?>
 
@@ -182,7 +182,7 @@ get_header();
       get_template_part('template-parts/document-library', null,
         array(
           'no-title' => false,
-          'classExtend' => 'mr-t-250 mr-t-150-s4'
+          'classExtend' => 'mr-t-250 mr-t-200-s4'
         ));
     ?>
 

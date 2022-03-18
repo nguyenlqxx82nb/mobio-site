@@ -37,7 +37,7 @@ get_header();
 
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'classExtend' => 'mr-t-250 mr-t-200-s4',
         'title' => 'Create email in your own style',
         'desc' => 'Build email template in your unique style with our drag-and-drop interface. We are confident that everything you need in an email campaign, we have it all, and even exceed your expectations.'
       )); ?>
@@ -49,7 +49,7 @@ get_header();
   
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'classExtend' => 'mr-t-250 mr-t-200-s4',
         'title' => 'Or start with our Premade Templates',
         'desc' => 'Our templates are trusted by top enterprises and proven to be user-friendly and effective, <br>help you to optimize open and conversion rate'
       )); ?>
@@ -61,7 +61,7 @@ get_header();
   
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-200 mr-t-150-s4',
+        'classExtend' => 'mr-t-200 mr-t-200-s4',
         'title-sm' => 'why email builder?',
         'title' => 'There are so many other email platform. Why choose us?',
         //'desc-top' => 'There are so many other email platform.'
@@ -94,7 +94,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-150-s4',
+    'classExtend' => 'mr-t-250 mr-t-200-s4',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'email in action',
     // 'title-class' => 'f-18 c-1-b',
@@ -123,7 +123,7 @@ get_header();
 
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-150 mr-t-150-s4',
+        'classExtend' => 'mr-t-150 mr-t-200-s4',
         'title-sm' => 'email reports',
         'title' => 'Detail Reports that show Insights',
       )); ?>
@@ -136,7 +136,7 @@ get_header();
 
   <?php get_template_part('template-parts/quote-site',null,
     array(
-      'classExtend' => 'mr-t-250 mr-t-150-s4',
+      'classExtend' => 'mr-t-250 mr-t-200-s4',
       'color' => 'c-000',
       'classContainer' => 'b-sd auto b-fff b-r-10',
       'desc' => '“Mobio Email Builder is my dream tool."',
@@ -152,7 +152,7 @@ get_header();
 
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-150 mr-t-150-s4',
+        'classExtend' => 'mr-t-150 mr-t-200-s4',
         'title-sm' => 'library',
         'title' => 'Some documents you might find helpful',
         'desc' => 'Don’t forget to check out our ultimate guidelines for a successful email marketing campaign. <br> With our strong experience consulting top brands, we believe there would be something helpful for you!'
@@ -161,7 +161,7 @@ get_header();
       get_template_part('template-parts/document-library', null,
         array(
           'no-title' => true,
-          'classExtend' => 'mr-t-250 mr-t-150-s4'
+          'classExtend' => 'mr-t-250 mr-t-200-s4'
         ));
     ?>
 

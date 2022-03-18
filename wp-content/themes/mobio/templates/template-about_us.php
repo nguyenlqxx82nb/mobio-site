@@ -33,7 +33,7 @@ get_header();
       'title' => 'our mission',
       'name' => 'A Comprehensive CDP & CEM Platform',
       'nameClass' => 'f-b f-56',
-      'classExtend' => 'mr-t-250 mr-t-150-s4',
+      'classExtend' => 'mr-t-250 mr-t-200-s4',
       'classImageContainer' => '',
       'classImageRatio' => 'rt-3-4',
       'classImage' => '',
@@ -50,16 +50,17 @@ get_header();
   <?php
     get_template_part('template-parts/about-vision',null,
       array(
-        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'icon-src' => get_template_directory_uri() . '/images/why-mobio-vision.svg',
         'title' => 'our vision',
-        'desc' => 'Become the Pioneer of Digital Trend and the Top-of-mind Brand in CDP & CEM Solutions.'
+        'desc' => 'Become the Pioneer of Digital Trend and the <br>Top-of-mind Brand in CDP & CEM Solutions.'
       ));
   ?>
 
   <?php
     get_template_part('template-parts/about-journey',null,
       array(
-        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'classExtend' => 'mr-t-250 mr-t-200-s4',
         'title-sm' => 'our milestone',
         'title' => 'A Journey that means The World to us',
         'items' => array(
@@ -112,20 +113,26 @@ get_header();
   <?php
     get_template_part('template-parts/about-culture',null,
       array(
-        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'classExtend' => 'mr-t-250 mr-t-200-s4',
         'title-sm' => 'our company culture',
         'title' => 'Words That Guide Us',
         'items' => array(
           array(
+            'icon-src' => get_template_directory_uri(). '/images/why-mobio-responsibility.svg',
             'title' => 'Responsible',
+            'title-class' => 'c-5-1',
             'desc' => 'You reap what <br> you sow'
           ),
           array(
+            'icon-src' => get_template_directory_uri(). '/images/why-mobio-respect.svg',
             'title' => 'Respect',
+            'title-class' => 'c-fea',
             'desc' => 'Colleagues <br>are family'
           ),
           array(
+            'icon-src' => get_template_directory_uri(). '/images/why-mobio-determined.svg',
             'title' => 'Determined',
+            'title-class' => 'c-6-e',
             'desc' => 'Dare to dream <br>Dare to win'
           ),
         )
@@ -135,7 +142,7 @@ get_header();
   <?php 
     get_template_part('template-parts/section-title', null,
       array(
-        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'classExtend' => 'mr-t-250 mr-t-200-s4',
         'title-sm' => 'life at mobio',
         'title' => 'Mobio 100% Happy Place',
         'next-button' => 'join our team',
@@ -161,7 +168,7 @@ get_header();
   
   <?php get_template_part('template-parts/footer-connect', null,
       array (
-        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'classExtend' => 'mr-t-250 mr-t-200-s4',
         'title' => 'Keep in touch with us!'
       )
     ); ?>

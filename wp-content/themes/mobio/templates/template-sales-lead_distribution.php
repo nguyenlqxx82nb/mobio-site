@@ -45,7 +45,7 @@ get_header();
                           'title' => 'Smart rule-based',
                           'name' => '<strong>Smart and real-time </strong> delivery',
                           'nameClass' => 'f-n f-56',
-                          'classExtend' => 'mr-t-200 mr-t-150-s4',
+                          'classExtend' => 'mr-t-200 mr-t-200-s4',
                           'classImageRatio' => 'rt-3-4',
                           'classImageContainer' => '',
                           'divider' => 1,

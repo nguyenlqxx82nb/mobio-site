@@ -14,7 +14,7 @@ get_header();
   <div class="coming-soon-container h-100">
     <div class="auto-container text-center pa-b-100 pa-b-50-s1">
       <a href="<?php echo get_site_url(); ?>">
-        <img class="menu-logo mr-t-50 mr-t-20-s1" src="<?php  echo get_template_directory_uri() . '/images/mobio-logo-white.png' ?>" />
+        <img class="menu-logo mr-t-50 mr-t-20-s1" src="<?php  echo get_template_directory_uri() . '/images/logo-gray.svg' ?>" />
       </a>
 
       <div class="upper-case c-fff f-b f-120 f-70-s4 mr-t-200 mr-t-100-s4  mr-t-80-s1 f-44-s1"><p>coming soon</p></div>

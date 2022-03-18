@@ -33,7 +33,7 @@ get_header();
 <?php 
   get_template_part('template-parts/industry-insights', null,
     array(
-      'classExtend' => 'mr-t-175 mr-t-150-s4',
+      'classExtend' => 'mr-t-175 mr-t-200-s4',
       'title' => 'industry insights',
       'name' => 'Perspectives On Healthcare',
       'desc' => 'The Healthcare industry is massive and continues to grow fast in recent years, becoming more and more competitive. These trends and insights are up-to-date with statistics provided by Deloitte, McKinsey, PwC, and opinions of C-suite leaders and experts in the fields.',
@@ -71,7 +71,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200 mr-t-150-s4',
+      'classExtend' => 'mr-t-200 mr-t-200-s4',
       'title-sm' => 'how can we help?',
       'title' => 'Boost Patient Satisfaction and a Better Quality of Care', 
     )
@@ -101,7 +101,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-300 mr-t-200-s4',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'survey form',
@@ -124,7 +124,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-300 mr-t-200-s4',
     // 'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'customer conversation',
@@ -145,7 +145,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-300 mr-t-200-s4',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'journey builder',
@@ -164,70 +164,10 @@ get_header();
     'next-url' => get_site_url (). '/mkt-journey-builder',
   )); ?>
 
-<!-- customer use cases -->
-<?php
-		get_template_part('template-parts/customer-use-cases', null, 
-			array(
-        'title' => 'retail Use Cases',
-        'name' => 'See how Retailers benefit from Mobio',
-				'items' => array(
-						array(
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/guardian.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/guardian-bnw.png',
-							'title' => 'Guardian',
-              'text-tab' => 'Guardian',
-							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did they succeed in managing operations and optimizing customer experience with Mobio Platform?',
-							'url' => '#',
-							'img-src' => get_template_directory_uri().'/images/home/guardian.png'
-						),
-						array(
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/routine.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/routine-bnw.png',
-							'title' => 'ROUTINE',
-              'text-tab' => 'ROUTINE',
-							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did they succeed in managing operations and optimizing customer experience with Mobio Platform?',
-							'url' => '#',
-							'img-src' => get_template_directory_uri().'/images/home/service-loyalty.png'
-						),
-						array(
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/hdbank.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/hdbank-bnw.png',
-							'title' => 'HD BANK',
-              'text-tab' => 'HD BANK',
-							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
-							'url' => '#',
-							'img-src' => get_template_directory_uri().'/images/home/service-ticket.png'
-						),
-						array(
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/phongvu.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/phongvu-bnw.png',
-							'title' => 'Phong Vu',
-              'text-tab' => 'Phong Vu',
-							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
-							'url' => '#',
-							'img-src' => get_template_directory_uri().'/images/home/service-ticket.png'
-						),
-						array(
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/budweiser.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/budweiser-bnw.png',
-							'title' => 'Budweiser',
-              'text-tab' => 'Budweiser',
-							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
-							'url' => '#',
-							'img-src' => get_template_directory_uri().'/images/home/sales-pipeline.png'
-						),
-				)
-		));
-	?> 
 
 <?php get_template_part('template-parts/section-title',null,
     array( 
-      'classExtend' => 'mr-t-175 mr-t-150-s4',
+      'classExtend' => 'mr-t-175 mr-t-200-s4',
       'title-sm' => 'library',
       'title' => 'Most helpful paper selected by our customers',
     )); ?>
@@ -265,7 +205,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-connect', null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-150-s4'
+    'classExtend' => 'mr-t-250 mr-t-200-s4'
   ));
 ?>
 
