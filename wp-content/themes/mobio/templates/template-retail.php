@@ -173,8 +173,8 @@ get_header();
         'name' => 'See how Retailers benefit from Mobio',
 				'items' => array(
 						array(
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/guardian.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/guardian-bnw.png',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/guardian.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/guardian-white.png',
 							'title' => 'Guardian',
               'text-tab' => 'Guardian',
 							'title-sub' => '26% increase in voucher redeem',
@@ -183,8 +183,8 @@ get_header();
 							'img-src' => get_template_directory_uri().'/images/home/guardian.png'
 						),
 						array(
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/routine.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/routine-bnw.png',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/routine.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/routine-white.png',
 							'title' => 'ROUTINE',
               'text-tab' => 'ROUTINE',
 							'title-sub' => '26% increase in voucher redeem',
@@ -193,18 +193,18 @@ get_header();
 							'img-src' => get_template_directory_uri().'/images/home/service-loyalty.png'
 						),
 						array(
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/hdbank.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/hdbank-bnw.png',
-							'title' => 'HD BANK',
-              'text-tab' => 'HD BANK',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/galle-tim.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/galle-white-in.png',
+							'title' => 'Galle Watch',
+              'text-tab' => 'Galle',
 							'title-sub' => '26% increase in voucher redeem',
 							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
 							'url' => '#',
 							'img-src' => get_template_directory_uri().'/images/home/service-ticket.png'
 						),
 						array(
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/phongvu.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/phongvu-bnw.png',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/phongvu.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/phongvu-white.png',
 							'title' => 'Phong Vu',
               'text-tab' => 'Phong Vu',
 							'title-sub' => '26% increase in voucher redeem',
@@ -213,12 +213,12 @@ get_header();
 							'img-src' => get_template_directory_uri().'/images/home/service-ticket.png'
 						),
 						array(
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/budweiser.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/budweiser-bnw.png',
-							'title' => 'Budweiser',
-              'text-tab' => 'Budweiser',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/sapporo.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/sapporo-white.png',
+							'title' => 'Sapporo',
+              'text-tab' => 'Sapporo',
 							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
+							'desc' => 'Sapporo is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
 							'url' => '#',
 							'img-src' => get_template_directory_uri().'/images/home/sales-pipeline.png'
 						),

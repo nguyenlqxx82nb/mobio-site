@@ -142,17 +142,17 @@ get_header();
       'title-class' => 'f-b f-26',
       'items' => array(
         array(
-          'icon-src' => get_template_directory_uri(). '/images/icon-digital.png',
+          'icon-src' => get_template_directory_uri(). '/images/partner-1.svg',
           'name' => 'Grow your business',
           'desc' => 'Fuel sales with go-to-market opportunities that amplify your brand exposure and generate qualified leads.'
         ),
         array(
-          'icon-src' => get_template_directory_uri(). '/images/icon-loyalty.png',
+          'icon-src' => get_template_directory_uri(). '/images/partner-2.svg',
           'name' => 'Expand your market',
           'desc' => 'Grow your customer list and increase the opportunity to meet with customers at large firms, banks, and brands in the region.'
         ),
         array(
-          'icon-src' => get_template_directory_uri(). '/images/icon-personal.png',
+          'icon-src' => get_template_directory_uri(). '/images/partner-3.svg',
           'name' => 'Access a delicated team',
           'desc' => 'We know how we candevelop deep, trust-based relationships with our clients, and work together more collaboratively'
         ),

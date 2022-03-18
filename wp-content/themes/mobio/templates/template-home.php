@@ -193,8 +193,8 @@
 				'items' => array(
 						array(
 							'text-tab' => 'Guardian',
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/guardian.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/guardian-bnw.png',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/guardian.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/guardian-white.png',
 							'title' => 'Guardian',
 							'title-sub' => '26% increase in voucher redeem',
 							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did they succeed in managing operations and optimizing customer experience with Mobio Platform?',
@@ -203,8 +203,8 @@
 						),
 						array(
 							'text-tab' => 'Samsung',
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/samsung.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/samsung-bnw.png',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/samsung.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/samsung-white.png',
 							'title' => 'Samsung',
 							'title-sub' => '26% increase in voucher redeem',
 							'desc' => 'Samsung is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did they succeed in managing operations and optimizing customer experience with Mobio Platform?',
@@ -212,10 +212,10 @@
 							'img-src' => get_template_directory_uri().'/images/home/service-loyalty.png'
 						),
 						array(
-							'text-tab' => 'Sunworld',
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/sunworld.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/sunworld-bnw.png',
-							'title' => 'Sunworld',
+							'text-tab' => 'Sun Hospitality',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/sunhospitality.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/sunhospitality-white.png',
+							'title' => 'Sun Hospitality',
 							'title-sub' => '26% increase in voucher redeem',
 							'desc' => 'Sunworld is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
 							'url' => get_site_url(). '/coming-soon',
@@ -223,8 +223,8 @@
 						),
 						array(
 							'text-tab' => 'Phong Vu',
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/phongvu.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/phongvu-bnw.png',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/phongvu.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/phongvu-white.png',
 							'title' => 'Phong Vu',
 							'title-sub' => 'Maximize customer response time',
 							'desc' => 'Phong Vu is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
@@ -232,10 +232,10 @@
 							'img-src' => get_template_directory_uri().'/images/home/service-ticket.png'
 						),
 						array(
-							'text-tab' => 'Budweiser',
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/budweiser.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/budweiser-bnw.png',
-							'title' => 'Budweiser',
+							'text-tab' => 'Sapporo',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/sapporo.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/sapporo-white.png',
+							'title' => 'Sapporo',
 							'title-sub' => '26% increase in voucher redeem',
 							'desc' => 'Budweiser is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
 							'url' => get_site_url(). '/coming-soon',
