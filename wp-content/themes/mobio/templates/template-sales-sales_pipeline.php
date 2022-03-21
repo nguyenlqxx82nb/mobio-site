@@ -77,7 +77,7 @@ get_header();
   
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-300 mr-t-200-s4',
+        'classExtend' => 'mr-t-300 mr-t-150-s4',
         'title-sm' => 'how it helps',
         'title' => 'Sales Toolkit that focus on <span class="hl-text">what matters most</span>',
       )); ?>
@@ -104,7 +104,7 @@ get_header();
         'title' => 'Sales process',
         'name' => 'Manage your own <strong>sales process</strong> efficently',
         'nameClass' => 'f-n f-56',
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'classImageRatio' => 'rt-3-4',
         'classImageContainer' => 'pa-0',
         'classImage' => 'b-r-10',
@@ -120,7 +120,7 @@ get_header();
         'title' => 'revenue forecast',
         'name' => "<strong>Forecast revenue targets</strong> and growth sustainability",
         'nameClass' => 'f-n f-56',
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'classImageRatio' => 'rt-3-4',
         'classImageContainer' => 'pa-0',
         'classContent' => 'pa-r-120',

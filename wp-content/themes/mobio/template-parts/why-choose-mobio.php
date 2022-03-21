@@ -5,7 +5,7 @@
 <?php 
   get_template_part('template-parts/section-title',null,
     array(
-      'classExtend' =>  $args["classExtend"] ? $args["classExtend"] : 'mr-t-250 mr-t-200-s4',
+      'classExtend' =>  $args["classExtend"] ? $args["classExtend"] : 'mr-t-250 mr-t-150-s4',
       'title-sm' => 'why Mobio?',
       'title' => 'Why Enterprises Choose Mobio?',
     ));

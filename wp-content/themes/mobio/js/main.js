@@ -20,7 +20,7 @@
     const $closeBtnMenu =  $('.mobile-menu-close-btn');
     const $menuMobile = $('.menu-mobile');
     $openBtnMenu.on('click', function(e) {
-      // $('.menu-mobile').addClass('d-block-s1');
+      // $('.menu-mobile').addClass('d-block-s0');
       const isOpen = $openBtnMenu.data('isOpen');
       if (!isOpen) {
         $openBtnMenu.addClass('menu-close-btn');
@@ -30,7 +30,7 @@
       $openBtnMenu.data('isOpen', isOpen ? false : true );
       setTimeout(() => {
         if (!isOpen) {
-          $menuMobile.addClass('d-block-s1');
+          $menuMobile.addClass('d-block-s0');
           setTimeout(() => {
             $menuMobile.addClass('opa').removeClass('opa-0');
           }, 50);
@@ -42,7 +42,7 @@
     $closeBtnMenu.on('click', function(e) {
       $menuMobile.addClass('opa-0').removeClass('opa');
       setTimeout(() =>  {
-        $menuMobile.removeClass('d-block-s1');
+        $menuMobile.removeClass('d-block-s0');
         $openBtnMenu.removeClass('menu-close-btn');
         $openBtnMenu.data('isOpen', false);
       }, 50);
@@ -87,7 +87,7 @@
 
         if (!scrollTab.hasClass('is-scroll') && $tabWrapper.find('.col-img-container').length) {
           const rect = $tabWrapper.find('.col-img-container').eq(0).get(0).getBoundingClientRect();
-          scrollTab.css({'width': rect.width +'px', 'top' : rect.height + 40 +'px'});
+          /// scrollTab.css({'width': rect.width +'px', 'top' : rect.height + 40 +'px'});
           scrollTab.removeClass('d-n');
           // $tabWrapper.css('height', rect.height + 40 + scrollTab.get(0).getBoundingClientRect().height + 'px');
         }
@@ -103,7 +103,11 @@
       });
 
       $slider.length && $slider.on('onChangeSlide',function(e, currIndex, prevIndex) {
-        setScrollTabItem($tabWrapper.find('.scroll-tab'), currIndex);
+        console.log('onChangeSlide currIndex=', currIndex);
+        $tabWrapper.find('.scroll-tab').each(function() {
+          setScrollTabItem($(this), currIndex);
+        })
+        
         $tabWrapper.data('currIndex', currIndex);
         switchTabButton($tabWrapper, currIndex);
       });
@@ -247,14 +251,14 @@
     $('.tab-wrapper').each(function() { 
       const $tabWrapper = $(this);
       
-      $tabWrapper.find('.scroll-tab').each(function() {
-        const scrollTab = $(this);  
+      // $tabWrapper.find('.scroll-tab').each(function() {
+      //   const scrollTab = $(this);  
 
-        if (!scrollTab.hasClass('is-scroll') && $tabWrapper.find('.col-img-container').length) {
-          const rect = $tabWrapper.find('.col-img-container').eq(0).get(0).getBoundingClientRect();
-          scrollTab.css({'width': rect.width +'px', 'top' : rect.height + 40 +'px'});
-        }
-      });      
+      //   if (!scrollTab.hasClass('is-scroll') && $tabWrapper.find('.col-img-container').length) {
+      //     const rect = $tabWrapper.find('.col-img-container').eq(0).get(0).getBoundingClientRect();
+      //     scrollTab.css({'width': rect.width +'px', 'top' : rect.height + 40 +'px'});
+      //   }
+      // });      
     });
   });
 
@@ -269,10 +273,11 @@
     scroll.find('.scroll-tab-item').removeClass('c-0-b');
     scroll.find('.scroll-tab-item').eq(index).addClass('c-0-b');
 
-    const tabItem = scroll.find('.scroll-tab-item').eq(index).find('p');
+    const tabItem = scroll.find('.scroll-tab-item').eq(index);
     const rect = tabItem.get(0).getBoundingClientRect();
     const scrollRect = scroll.get(0).getBoundingClientRect();
     const left = rect.left - scrollRect.left + scroll.scrollLeft() ;
+    // console.log('setScrollTabItem index=',index, ' rect=',rect);
     scroll.find('.divider-selected').css({'width': `${rect.width}px`, 'left' : `${left}px`});
   }
 
@@ -310,8 +315,8 @@
     currTab.addClass('opa-0').removeClass('opa');
     
     setTimeout(() => {
-      currTab.removeClass('d-block-s1').addClass(isMobile ? 'd-none-s1' : 'd-n');
-      tab.removeClass(isMobile ? 'd-none-s1' : 'd-n').addClass('d-block-s1');
+      currTab.removeClass('d-block-s0').addClass(isMobile ? 'd-none-s0' : 'd-n');
+      tab.removeClass(isMobile ? 'd-none-s0' : 'd-n').addClass('d-block-s0');
       tab.removeClass('opa-0').addClass('opa');
     }, 250);
   }

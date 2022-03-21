@@ -85,7 +85,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-200-s4',
+    'classExtend' => 'mr-t-250 mr-t-150-s4',
     'icon' => get_template_directory_uri(). '/images/industry-fsi/fsi-1.svg',
     'title' => 'solutions for fintech',
     'title-class' => 'f-18 c-1-b',
@@ -105,7 +105,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-200-s4',
+    'classExtend' => 'mr-t-250 mr-t-150-s4',
     'icon' => get_template_directory_uri(). '/images/industry-fsi/fsi-2.svg',
     'title' => 'solutions for insurance',
     'title-class' => 'f-18 c-1-b',
@@ -124,7 +124,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-200-s4',
+    'classExtend' => 'mr-t-250 mr-t-150-s4',
     'icon' => get_template_directory_uri(). '/images/industry-fsi/fsi-3.svg',
     'title' => 'solutions for digital wallet',
     'title-class' => 'f-18 c-1-b',
@@ -145,7 +145,7 @@ get_header();
   <?php 
     get_template_part('template-parts/section-title', null, 
       array(
-        'classExtend' => 'mr-t-200 mr-t-200-s4',
+        'classExtend' => 'mr-t-200 mr-t-150-s4',
         'title-sm' => 'library',
         'title' => 'Some documents you might find helpful',
       )
@@ -191,7 +191,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-connect', null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-200-s4'
+    'classExtend' => 'mr-t-250 mr-t-150-s4'
   ));
 ?>
 

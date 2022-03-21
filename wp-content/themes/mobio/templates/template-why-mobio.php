@@ -12,17 +12,18 @@ get_header();
 ?> 
 <!-- header -->
 <?php get_template_part('template-parts/header-page',null,
-        array( 
-          'title' => 'why us?',
-          'name' => 'What makes us different?',
-          'class-col-left' => 'mo-col-8',
-          'class-col-right' => 'mo-col-4',
-          'desc' => 'You might have heard a lot about CDP. But have you ever heard of Operation CDP, and did you ever try it? 
-            Mobio CDP is an Operation CDP that provides all business operation tools, from collecting data from various sources to 
-            activating data for marketing, sales, and service activities.',
-          'desc-class' => 'f-n f-18 f-16-s4',
-          'desc-w' => 'w-750 w-600-s4'
-        )); ?>
+  array( 
+    'title' => 'why us?',
+    'name' => 'What makes us different?',
+    'bg-class' => 'header-why-mobio',
+    'class-col-left' => 'mo-col-8',
+    'class-col-right' => 'mo-col-4',
+    'desc' => 'You might have heard a lot about CDP. But have you ever heard of Operation CDP, and did you ever try it? 
+                Mobio CDP is an Operation CDP that provides all business operation tools, from collecting data from various sources to 
+                activating data for marketing, sales, and service activities.',
+    'desc-class' => 'f-n f-18 f-16-s4',
+    'desc-w' => 'w-750 w-600-s4'
+  )); ?>
 
 <?php get_template_part('template-parts/section-title',null,
   array( 
@@ -63,7 +64,7 @@ get_header();
 <?php 
   get_template_part('template-parts/tab-platform',null,
       array( 
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'items' => array(
           array(
             'title' => 'CDP',
@@ -121,14 +122,14 @@ get_header();
   <!-- TENANT -->
   <?php get_template_part('template-parts/top-tenant-enterprise',null,
                         array( 
-                          'classExtend' => 'mr-t-250 mr-t-200-s4',
+                          'classExtend' => 'mr-t-250 mr-t-150-s4',
                           'title' => 'trusted by top banks and enterprises in vietnam'
                         )); ?>
 
 
   <?php get_template_part('template-parts/section-title',null,
     array( 
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'classExtend' => 'mr-t-250 mr-t-150-s4',
       'title-sm' => 'why are we different?',
       'title' => '<p>Why Enterprises Choose Mobio?</p>',
     )); ?>
@@ -141,7 +142,7 @@ get_header();
 
   <?php get_template_part('template-parts/quote-site',null,
         array( 
-          'classExtend' => 'mr-t-250 mr-t-200-s4',
+          'classExtend' => 'mr-t-250 mr-t-150-s4',
           'desc' => '&#60;a quote said by anh Hung&#62;',
           'name' => 'Le Hung - Mobio CEO'
         )
@@ -149,14 +150,14 @@ get_header();
   
   <?php get_template_part('template-parts/customer-stories', null,
       array (
-        'classExtend' => 'mr-t-250 mr-t-200-s4'
+        'classExtend' => 'mr-t-250 mr-t-150-s4'
       )
     ); ?>
   
 
   <?php get_template_part('template-parts/footer-connect', null,
       array (
-        'classExtend' => 'mr-t-250 mr-t-200-s4'
+        'classExtend' => 'mr-t-250 mr-t-150-s4'
       )
     ); ?>
 

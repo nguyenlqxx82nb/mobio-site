@@ -25,7 +25,7 @@ get_header();
 <?php 
   get_template_part('template-parts/top-tenant-enterprise', null,
     array(
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'classExtend' => 'mr-t-250 mr-t-150-s4',
       'title' => 'trusted by top enterprises in asian market'
     )
   )
@@ -35,7 +35,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200 mr-t-200-s4',
+      'classExtend' => 'mr-t-200 mr-t-150-s4',
       'title-sm' => '360-degree customer view',
       'title' => 'See a Complete View of Customer: From Lead to Advocacy', 
       'desc' => 'MOBIO CDP allows businesses to use accurate customer data in real-time to access, active, and orchestrate the customer journey, create a 360-degree customer view from O2O data sources.',
@@ -55,7 +55,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-300 mr-t-200-s4',
+      'classExtend' => 'mr-t-300 mr-t-150-s4',
       'title-sm' => 'operation cdp functions',
       'title' => 'Easier and Faster to Access and Manage your Data'
     )
@@ -111,7 +111,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-300 mr-t-200-s4',
+      'classExtend' => 'mr-t-300 mr-t-150-s4',
       'title-sm' => 'mobio CDP’s additional functions',
       'title' => 'Collect, Store, Unify and other Capabilities', 
     )
@@ -161,7 +161,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-300 mr-t-200-s4',
+      'classExtend' => 'mr-t-300 mr-t-150-s4',
       'title-sm' => 'mobio cdp architercture',
       'title' => 'The Perfect Chore for your Data Harmony', 
       'desc' => 'Data are the cornerstone upon which companies are launching their digital transformations—investing in analytics capabilities, machine learning, robotics, and other technologies to boost their odds of success.',
@@ -181,7 +181,7 @@ get_header();
 <?php 
   get_template_part('template-parts/cdp-guideline', null, 
     array(
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'classExtend' => 'mr-t-250 mr-t-150-s4',
       'title' => 'guideline',
       'name' => '2022 Ultimate Guide to CDP: Every Marketers need to know',
       'desc' => 'Before you invest in a CDP, read this handy guide to discover the true definition of a CDP, 
@@ -194,14 +194,14 @@ get_header();
 <?php 
   get_template_part('template-parts/customer-stories', null,
     array(
-      'classExtend' => 'mr-t-250 mr-t-200-s4'
+      'classExtend' => 'mr-t-250 mr-t-150-s4'
     ));
 ?>
 
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200 mr-t-200-s4',
+      'classExtend' => 'mr-t-200 mr-t-150-s4',
       'title-sm' => 'library',
       'title' => 'Highlight documents you might find helpful', 
     )
@@ -262,7 +262,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-connect-2', null, 
     array(
-      'classExtend' => 'mr-t-200 mr-t-200-s4',
+      'classExtend' => 'mr-t-200 mr-t-150-s4',
       'title' => 'Getting interested?',
       'desc' => 'Talk to our consultants to get more insights about your own business case'
     )

@@ -31,7 +31,7 @@ get_header();
 <?php 
   get_template_part('template-parts/industry-insights', null,
     array(
-      'classExtend' => 'mr-t-175 mr-t-200-s4',
+      'classExtend' => 'mr-t-175 mr-t-150-s4',
       'title' => 'industry insights',
       'name' => 'Perspectives On Retail ',
       'desc' => 'Retail is accelerating at a shocking pace. These trends and insights are up-to-date with statistics provided by Deloitte, McKinsey, 
@@ -65,7 +65,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200 mr-t-200-s4',
+      'classExtend' => 'mr-t-200 mr-t-150-s4',
       'title-sm' => 'how can we help?',
       'title' => 'How Mobio upgrades your Buyer Experience', 
     )
@@ -95,7 +95,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-200-s4',
+    'classExtend' => 'mr-t-300 mr-t-150-s4',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'Journey builder',
@@ -118,7 +118,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-200-s4',
+    'classExtend' => 'mr-t-300 mr-t-150-s4',
     // 'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'customer conversation',
@@ -140,7 +140,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-200-s4',
+    'classExtend' => 'mr-t-300 mr-t-150-s4',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'loyalty management',
@@ -223,7 +223,7 @@ get_header();
 
 <?php get_template_part('template-parts/section-title',null,
     array( 
-      'classExtend' => 'mr-t-175 mr-t-200-s4',
+      'classExtend' => 'mr-t-175 mr-t-150-s4',
       'title-sm' => 'library',
       'title' => 'Most Helpful Paper Selected By Our Customers',
     )); ?>
@@ -261,7 +261,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-connect', null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-200-s4'
+    'classExtend' => 'mr-t-250 mr-t-150-s4'
   ));
 ?>
 

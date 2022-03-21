@@ -1,5 +1,5 @@
 
-<div class="w-100  menu-mobile d-none-s1 opa-0">
+<div class="w-100  menu-mobile d-none-s0 opa-0">
   <!-- <div class="menu-mobile-container">
     
   </div> -->

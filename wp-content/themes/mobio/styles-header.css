@@ -18,6 +18,10 @@
   background-repeat: no-repeat;
 }
 
+.header-why-mobio {
+  background-image: url('./images/bg-why-mobio.png');
+}
+
 .header-bg-page, .header-page {
   height: 900px;
 }

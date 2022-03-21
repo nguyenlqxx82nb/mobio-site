@@ -33,7 +33,7 @@ get_header();
 <?php 
   get_template_part('template-parts/industry-insights', null,
     array(
-      'classExtend' => 'mr-t-175 mr-t-200-s4',
+      'classExtend' => 'mr-t-175 mr-t-150-s4',
       'title' => 'industry insights',
       'name' => 'Perspectives On Healthcare',
       'desc' => 'The Healthcare industry is massive and continues to grow fast in recent years, becoming more and more competitive. These trends and insights are up-to-date with statistics provided by Deloitte, McKinsey, PwC, and opinions of C-suite leaders and experts in the fields.',
@@ -66,7 +66,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200 mr-t-200-s4',
+      'classExtend' => 'mr-t-200 mr-t-150-s4',
       'title-sm' => 'how can we help?',
       'title' => 'Boost Patient Satisfaction and a Better Quality of Care', 
     )
@@ -96,7 +96,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-200-s4',
+    'classExtend' => 'mr-t-300 mr-t-150-s4',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'survey form',
@@ -119,7 +119,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-200-s4',
+    'classExtend' => 'mr-t-300 mr-t-150-s4',
     // 'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'customer conversation',
@@ -140,7 +140,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-200-s4',
+    'classExtend' => 'mr-t-300 mr-t-150-s4',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'journey builder',
@@ -162,7 +162,7 @@ get_header();
 
 <?php get_template_part('template-parts/section-title',null,
     array( 
-      'classExtend' => 'mr-t-175 mr-t-200-s4',
+      'classExtend' => 'mr-t-175 mr-t-150-s4',
       'title-sm' => 'library',
       'title' => 'Most helpful paper selected by our customers',
     )); ?>
@@ -200,7 +200,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-connect', null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-200-s4'
+    'classExtend' => 'mr-t-250 mr-t-150-s4'
   ));
 ?>
 

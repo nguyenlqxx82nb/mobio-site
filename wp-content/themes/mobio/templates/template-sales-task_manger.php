@@ -34,7 +34,7 @@ get_header();
 
  <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'title-sm' => 'how it helps',
         'title' => 'Task Management tool that helps <span class="hl-text">sales better</span>',
       )); ?>
@@ -60,7 +60,7 @@ get_header();
           'title' => 'customer contact',
           'name' => 'Reach customers <strong>without leaving the platform</strong>',
           'nameClass' => 'f-n f-56',
-          'classExtend' => 'mr-t-250 mr-t-200-s4',
+          'classExtend' => 'mr-t-250 mr-t-150-s4',
           'classImageRatio' => 'rt-3-4',
           'classImageContainer' => 'pa-0',
           'classImage' => 'b-r-10',
@@ -76,7 +76,7 @@ get_header();
       'title' => 'online sales',
       'name' => "<strong>Online sales and telesales</strong> on the go",
       'nameClass' => 'f-n f-56',
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'classExtend' => 'mr-t-250 mr-t-150-s4',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => 'pa-0',
       'classImage' => 'b-r-10',
@@ -91,7 +91,7 @@ get_header();
   get_template_part('template-parts/customer-stories', null,
     array(
       'no-title' => false,
-      'classExtend' => 'mr-t-250 mr-t-200-s4'
+      'classExtend' => 'mr-t-250 mr-t-150-s4'
     ));
 ?>
 
@@ -99,7 +99,7 @@ get_header();
   get_template_part('template-parts/document-library', null,
     array(
       'no-title' => false,
-      'classExtend' => 'mr-t-250 mr-t-200-s4'
+      'classExtend' => 'mr-t-250 mr-t-150-s4'
     ));
 ?>
 

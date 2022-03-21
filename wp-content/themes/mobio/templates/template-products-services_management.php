@@ -29,7 +29,7 @@ get_header();
   
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'title-sm' => 'how it helps',
         'title' => '<p>Give your customers the service <span class="hl-text">meets their expectation</span></p>',
       )); ?>
@@ -58,7 +58,7 @@ get_header();
           'title' => 'social media management',
           'name' => 'Connect with your customers accross all <strong>social channels</strong>',
           'nameClass' => 'f-n f-56',
-          'classExtend' => 'mr-t-250 mr-t-200-s4',
+          'classExtend' => 'mr-t-250 mr-t-150-s4',
           'classImageRatio' => 'rt-9-16',
           'classImageContainer' => '',
           'classImage' => 'b-r-10',
@@ -76,7 +76,7 @@ get_header();
           'title' => 'customer conversation',
           'name' => 'Response to your customers <strong>anytime, anywhere</strong>',
           'nameClass' => 'f-n f-56',
-          'classExtend' => 'mr-t-250 mr-t-200-s4',
+          'classExtend' => 'mr-t-250 mr-t-150-s4',
           'classImageRatio' => 'rt-3-4',
           'classImageContainer' => '',
           'classColContent'=>'mo-col-5',
@@ -95,7 +95,7 @@ get_header();
       'title' => 'ticket management',
       'name' => "Let no <strong>customer issues</strong> be missed out",
       'nameClass' => 'f-n f-56',
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'classExtend' => 'mr-t-250 mr-t-150-s4',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => '',
       'classColContent'=>'mo-col-5',
@@ -113,7 +113,7 @@ get_header();
       'title' => 'call center',
       'name' => "<strong>Call your customers</strong> without leaving the platform",
       'nameClass' => 'f-n f-56',
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'classExtend' => 'mr-t-250 mr-t-150-s4',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => '',
       'classImage' => 'b-r-10',
@@ -133,7 +133,7 @@ get_header();
       'title' => 'survey management',
       'name' => "Collect customers reviews to <strong>upgrade your service</strong>",
       'nameClass' => 'f-n f-56',
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'classExtend' => 'mr-t-250 mr-t-150-s4',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => '',
       'classImage' => 'b-r-10',
@@ -150,7 +150,7 @@ get_header();
   get_template_part('template-parts/customer-stories', null,
     array(
       'no-title' => false,
-      'classExtend' => 'mr-t-250  mr-t-200-s4'
+      'classExtend' => 'mr-t-250  mr-t-150-s4'
     ));
 ?>
 

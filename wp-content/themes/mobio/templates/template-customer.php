@@ -29,7 +29,7 @@ get_header();
 <?php 
   get_template_part('template-parts/customer-case', null,
     array(
-      'classExtend' => 'mr-t-150 mr-t-90-s1 mr-t-125-s4',
+      'classExtend' => 'mr-t-150 mr-t-90-s0 mr-t-125-s4',
       'cols' => 1,
       'items' => array(
         array(

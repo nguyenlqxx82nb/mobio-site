@@ -37,7 +37,7 @@ get_header();
 
 <?php get_template_part('template-parts/section-title',null,
   array( 
-    'classExtend' => 'mr-t-250 mr-t-200-s4',
+    'classExtend' => 'mr-t-250 mr-t-150-s4',
     'title-sm' => 'loyalty programs',
     'title' => '<p>3 Engaging Customer Loyalty Programs</p>',
   )); ?>
@@ -74,7 +74,7 @@ get_header();
   
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'title-sm' => 'how it helps',
         'title' => '<p>Achieving sustainable customer loyalty strategy</p>',
       )); ?>
@@ -103,7 +103,7 @@ get_header();
           'title' => 'Loyalty program customization',
           'name' => 'Create a loyalty program in <strong>your business style</strong>',
           'nameClass' => 'f-n f-56',
-          'classExtend' => 'mr-t-250 mr-t-200-s4',
+          'classExtend' => 'mr-t-250 mr-t-150-s4',
           'classImageRatio' => 'rt-9-16',
           'classImageContainer' => '',
           'classImage' => 'b-r-10',
@@ -123,7 +123,7 @@ get_header();
           'title' => 'Omnichannel interaction',
           'name' => 'Loyalty management accross <strong>all channels</strong>',
           'nameClass' => 'f-n f-56',
-          'classExtend' => 'mr-t-250 mr-t-200-s4',
+          'classExtend' => 'mr-t-250 mr-t-150-s4',
           'classImageRatio' => 'rt-9-16',
           'classImageContainer' => '',
           'classImage' => 'b-r-10',
@@ -143,7 +143,7 @@ get_header();
     get_template_part('template-parts/customer-stories', null,
         array(
           'no-title' => false,
-          'classExtend' => 'mr-t-250 mr-t-200-s4'
+          'classExtend' => 'mr-t-250 mr-t-150-s4'
         ));
     ?>
 
@@ -151,7 +151,7 @@ get_header();
     get_template_part('template-parts/document-library', null,
       array(
         'no-title' => false,
-        'classExtend' => 'mr-t-250 mr-t-200-s4'
+        'classExtend' => 'mr-t-250 mr-t-150-s4'
       ));
   ?>
 

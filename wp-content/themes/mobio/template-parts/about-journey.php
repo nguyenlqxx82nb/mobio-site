@@ -1,15 +1,15 @@
 
-<div class="<?php echo $args["classExtend"] ?> mr-t-70-s1">
+<div class="<?php echo $args["classExtend"] ?> mr-t-70-s0">
   <div class="journey-our-container position-relative">
     
   <div class="auto-container">
-    <div class="mr-l-40 mr-l-20-s1 mr-r-20-s1">
-      <div class="f-b f-18 f-16-s4 f-14-s1 c-4 opa-5 upper-case t-c-s1"><p><?php echo $args['title-sm'] ?></p></div>
-      <div class="f-b f-56 f-36-s4 f-36-s1 w-650 w-750-s4 mr-t-25 t-c-s1"><p><?php echo $args['title'] ?></p></div>
+    <div class="mr-l-40 mr-l-20-s0 mr-r-20-s0">
+      <div class="f-b f-18 f-16-s4 f-14-s0 c-4 opa-5 upper-case t-c-s0"><p><?php echo $args['title-sm'] ?></p></div>
+      <div class="f-b f-56 f-36-s4 f-36-s0 w-650 w-750-s4 mr-t-25 t-c-s0"><p><?php echo $args['title'] ?></p></div>
     </div>
     
 
-    <div class="d-flex justify-content-between align-items-end d-none-s1">
+    <div class="d-flex justify-content-between align-items-end d-none-s0">
       <?php 
         foreach($args['items'] as $item) { ?>
           <div class="journey-year-item">
@@ -28,7 +28,7 @@
       <?php } ?>
     </div>
     
-    <div class="slides-wrapper d-n d-block-s1 " slideWidth="230" slideNumber="1" index="1">
+    <div class="slides-wrapper d-n d-block-s0 " slideWidth="230" slideNumber="1" index="1">
 
       <div class="position-relative overflow-hidden mr-t-50" style="">
         <div class="d-flex slides position-relative align-items-end mr-b-35" style="left:-160px;">
