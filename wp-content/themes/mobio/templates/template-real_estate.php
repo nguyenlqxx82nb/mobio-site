@@ -35,28 +35,28 @@ get_header();
       'classExtend' => 'mr-t-175 mr-t-200-s4',
       'title' => 'industry insights',
       'name' => 'Perspectives On Real Estate',
-      'desc' => 'Retail is accelerating at a shocking pace. These trends and insights are up-to-date with statistics provided by Deloitte, McKinsey, 
-      PwC, and opinions of C-suite leaders and experts in the fields. ',
+      'desc' => 'The Real Estate industry is massive and continues to grow fast in recent years, becoming more and more competitive. 
+      <br>These trends and insights are up-to-date with statistics provided by Deloitte, McKinsey, PwC, and opinions of C-suite leaders and experts in the fields. ',
       'items' => array(
         array(
-          'icon' => get_template_directory_uri().'/images/icon-digital.png',
+          'icon' => get_template_directory_uri().'/images/industry-real-estate/real-estate-1.svg',
           'title' => 'Digital & <br> Omnichannel',
           'desc' => 'Go to digital or go bust.  Now it’s time to invest more in e-commerce and online channels.'
         ),
         array(
-          'icon' => get_template_directory_uri().'/images/icon-loyalty.png',
-          'title' => 'Loyalty <br> is key',
-          'desc' => 'Since the pandemic, brands are now focus stronger on building their loyalty army.'
+          'icon' => get_template_directory_uri().'/images/industry-real-estate/real-estate-2.svg',
+          'title' => 'Connection <br> is key',
+          'desc' => 'It’s important to maintain a deep relationship with customers, even know them than they know themselves.'
         ),
         array(
-          'icon' => get_template_directory_uri().'/images/item-icon.png',
-          'title' => 'O2O Customer<br> experience',
-          'desc' => 'From mortal store to online channel, customers today are expecting an end-to-end experience and service.'
+          'icon' => get_template_directory_uri().'/images/industry-real-estate/real-estate-3.svg',
+          'title' => 'Personalized<br> at scale',
+          'desc' => 'In this era, customers want to be treated as a unique individual with meaningful personalized messages.'
         ),
         array(
-          'icon' => get_template_directory_uri().'/images/icon-personal.png',
-          'title' => 'Everything<br> real-time',
-          'desc' => 'For retailer, customer behavior, digital footprint, lastest trends, everything must be updated constantly.'
+          'icon' => get_template_directory_uri().'/images/industry-real-estate/real-estate-4.svg',
+          'title' => 'On time,<br> on target',
+          'desc' => 'It takes time and effort to seal a deal in real estate. On time and on target messages make it easier.'
         )
       ),
       'next-url' => '#'

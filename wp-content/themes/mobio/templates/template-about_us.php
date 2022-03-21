@@ -155,12 +155,18 @@ get_header();
       array(
         'classExtend' => 'mr-t-50 ',
         'img-list' => array(
-          get_template_directory_uri(). '/images/home/library1.jpg',
-          get_template_directory_uri(). '/images/home/library2.jpg',
-          get_template_directory_uri(). '/images/home/library3.jpg',
-          get_template_directory_uri(). '/images/home/use-cases.jpg',
-          get_template_directory_uri(). '/images/home/lead-distribution.png',
-          get_template_directory_uri(). '/images/home/mkt-jb.png',
+          get_template_directory_uri(). '/images/about-us/1.jpg',
+          get_template_directory_uri(). '/images/about-us/2.jpg',
+          get_template_directory_uri(). '/images/about-us/3.jpg',
+          get_template_directory_uri(). '/images/about-us/4.jpg',
+          get_template_directory_uri(). '/images/about-us/5.jpg',
+          get_template_directory_uri(). '/images/about-us/6.jpg',
+          get_template_directory_uri(). '/images/about-us/7.jpg',
+          get_template_directory_uri(). '/images/about-us/8.jpg',
+          get_template_directory_uri(). '/images/about-us/9.jpg',
+          get_template_directory_uri(). '/images/about-us/10.jpg',
+          get_template_directory_uri(). '/images/about-us/11.jpg',
+          get_template_directory_uri(). '/images/about-us/12.jpg',
         )
       ));
   ?>

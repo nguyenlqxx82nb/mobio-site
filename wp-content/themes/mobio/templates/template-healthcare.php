@@ -36,27 +36,28 @@ get_header();
       'classExtend' => 'mr-t-175 mr-t-200-s4',
       'title' => 'industry insights',
       'name' => 'Perspectives On Healthcare',
-      'desc' => 'The Healthcare industry is massive and continues to grow fast in recent years, becoming more and more competitive. These trends and insights are up-to-date with statistics provided by Deloitte, McKinsey, PwC, and opinions of C-suite leaders and experts in the fields.',
+      'desc' => 'The Healthcare industry is massive and continues to grow fast in recent years, becoming more and more competitive. 
+      <br>These trends and insights are up-to-date with statistics provided by Deloitte, McKinsey, PwC, and opinions of C-suite leaders and experts in the fields. ',
       'items' => array(
         array(
-          'icon' => get_template_directory_uri().'/images/icon-digital.png',
-          'title' => 'Digital & <br> Omnichannel',
-          'desc' => 'Go to digital or go bust.  Now it’s time to invest more in e-commerce and online channels.'
+          'icon' => get_template_directory_uri().'/images/industry-healthcare/heathcare-security.svg',
+          'title' => 'privacy &<br> security first',
+          'desc' => 'Privacy and security are always in the top of mind for healthcare service.'
         ),
         array(
-          'icon' => get_template_directory_uri().'/images/icon-loyalty.png',
-          'title' => 'Loyalty <br> is key',
-          'desc' => 'Since the pandemic, brands are now focus stronger on building their loyalty army.'
+          'icon' => get_template_directory_uri().'/images/industry-healthcare/heathcare-service.svg',
+          'title' => 'Service <br> is key',
+          'desc' => 'Patients want a comfortable clinic service and won’t hesitage to leave if the services don’t meet their expectation.'
         ),
         array(
-          'icon' => get_template_directory_uri().'/images/item-icon.png',
-          'title' => 'O2O Customer<br> experience',
-          'desc' => 'From mortal store to online channel, customers today are expecting an end-to-end experience and service.'
+          'icon' => get_template_directory_uri().'/images/industry-healthcare/healthcare-o2o.svg',
+          'title' => 'O2O patient<br> experience',
+          'desc' => 'Since the outbreak, people work online, shop online and want to be taking care online as well.'
         ),
         array(
-          'icon' => get_template_directory_uri().'/images/icon-personal.png',
-          'title' => 'Everything<br> real-time',
-          'desc' => 'For retailer, customer behavior, digital footprint, lastest trends, everything must be updated constantly.'
+          'icon' => get_template_directory_uri().'/images/industry-healthcare/heathcare-target.svg',
+          'title' => 'targeted <br> & personalized care',
+          'desc' => 'Each patients need different treatments and it’s crucial to give them a personalized care.'
         )
       ),
       'next-url' => '#'
