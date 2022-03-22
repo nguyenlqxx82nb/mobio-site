@@ -1012,3 +1012,5 @@ h6, .h6 {font-size: 16px;}
 .top-tenant-img-trans {
 	transition: all 1.5s ease;
 }
+
+.mr-auto{ margin: 0 auto;}

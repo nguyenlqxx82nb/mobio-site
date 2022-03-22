@@ -260,6 +260,8 @@
       //   }
       // });      
     });
+
+    //calcHeightAccordMenu();
   });
 
   /**
@@ -434,6 +436,18 @@
     $tabItem.addClass('b-fff b-sd').removeClass('b-g-3');
     $tabWrapper.find('.tab-button-item').eq(currIndex).addClass('b-g-3').removeClass('b-fff b-sd');
     $tabWrapper.data('currIndex', tabIndex);
+  }
+
+  function calcHeightAccordMenu() {
+    $('.accord-menu').each(function(index) {
+      const menu = $(this);
+      menu.find('.accord-item').each(function(itemIndex) {
+        const menuItem = $(this);
+        const contentEl = menuItem.find('.accord-item-content');
+        const contentRec = contentEl.get(0).getBoundingClientRect();
+        contentEl.data('h', contentRec.height);
+      });
+    });
   }
 
 

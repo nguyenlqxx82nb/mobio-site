@@ -24,7 +24,7 @@ get_header();
 <?php 
   get_template_part('template-parts/top-tenant-retail', null,
     array(
-      'classExtend' => 'mr-t-150 mr-t-120-s4',
+      'classExtend' => 'mr-t-120',
       'title' => 'trusted by large firms in vietnam'
     )
   )
@@ -33,7 +33,7 @@ get_header();
 <?php 
   get_template_part('template-parts/industry-insights', null,
     array(
-      'classExtend' => 'mr-t-175 mr-t-150-s4',
+      'classExtend' => 'mr-t-150',
       'title' => 'industry insights',
       'name' => 'Perspectives On Healthcare',
       'desc' => 'The Healthcare industry is massive and continues to grow fast in recent years, becoming more and more competitive. These trends and insights are up-to-date with statistics provided by Deloitte, McKinsey, PwC, and opinions of C-suite leaders and experts in the fields.',
@@ -66,7 +66,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200 mr-t-150-s4',
+      'classExtend' => 'mr-t-150',
       'title-sm' => 'how can we help?',
       'title' => 'Boost Patient Satisfaction and a Better Quality of Care', 
     )
@@ -82,7 +82,7 @@ get_header();
     'name' => 'Serve your patients from <strong>online to offline</strong>',
     // 'classColContent' => 'mo-col-5',
     // 'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-40',
+    'nameClass' => 'f-n',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
@@ -96,7 +96,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'survey form',
@@ -104,7 +104,7 @@ get_header();
     'name' => '<strong>Easily collect</strong> your patients’ opinions and reviews',
     // 'classColContent' => 'mo-col-5',
     // 'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-40',
+    'nameClass' => 'f-n',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
@@ -119,15 +119,13 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     // 'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'customer conversation',
     // 'title-class' => 'f-18 c-1-b',
     'name' => 'Make your patients feel <strong>safe and sound</strong>',
-    'classColContent' => 'mo-col-5',
-    'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-40',
+    'nameClass' => 'f-n',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
@@ -140,14 +138,12 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'journey builder',
     // 'title-class' => 'f-18 c-1-b',
     'name' => '<strong>Seamless & personalized</strong> patient experience',
-    'classColContent' => 'mo-col-5',
-    'classColImage' => 'mo-col-7',
     'nameClass' => 'f-n f-40',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
@@ -162,7 +158,7 @@ get_header();
 
 <?php get_template_part('template-parts/section-title',null,
     array( 
-      'classExtend' => 'mr-t-175 mr-t-150-s4',
+      'classExtend' => ' mr-t-150',
       'title-sm' => 'library',
       'title' => 'Most helpful paper selected by our customers',
     )); ?>
@@ -200,7 +196,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-connect', null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-150-s4'
+    'classExtend' => 'mr-t-150'
   ));
 ?>
 

@@ -35,7 +35,7 @@ get_header();
   
   <?php get_template_part('template-parts/section-title',null,
                         array( 
-                          'classExtend' => 'mr-t-200',
+                          'classExtend' => 'mr-t-150',
                           'title-sm' => 'sales pipeline feature',
                           'title' => 'Everything you need to <span class="hl-text">sale faster and smarter</span>',
                           'desc' => 'Mobio Sales Pipeline focuses on what matters most: Growing relationships and closing 
@@ -77,7 +77,7 @@ get_header();
   
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-300 mr-t-150-s4',
+        'classExtend' => 'mr-t-150',
         'title-sm' => 'how it helps',
         'title' => 'Sales Toolkit that focus on <span class="hl-text">what matters most</span>',
       )); ?>
@@ -87,7 +87,7 @@ get_header();
       'title' => 'visual view',
       'name' => 'See your pipeline <strong>in different views</strong>',
       'nameClass' => 'f-n f-40',
-      'classExtend' => 'mr-t-250 mr-t-100-s4',
+      'classExtend' => 'mr-t-100',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => 'pa-0',
       'classContent' => 'pa-r-120',
@@ -104,7 +104,7 @@ get_header();
         'title' => 'Sales process',
         'name' => 'Manage your own <strong>sales process</strong> efficently',
         'nameClass' => 'f-n f-40',
-        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'classExtend' => ' mr-t-150',
         'classImageRatio' => 'rt-3-4',
         'classImageContainer' => 'pa-0',
         'classImage' => 'b-r-10',
@@ -120,7 +120,7 @@ get_header();
         'title' => 'revenue forecast',
         'name' => "<strong>Forecast revenue targets</strong> and growth sustainability",
         'nameClass' => 'f-n f-40',
-        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'classExtend' => 'mr-t-150',
         'classImageRatio' => 'rt-3-4',
         'classImageContainer' => 'pa-0',
         'classContent' => 'pa-r-120',
@@ -136,7 +136,7 @@ get_header();
     get_template_part('template-parts/customer-stories', null,
       array(
         'no-title' => false,
-        'classExtend' => 'mr-t-250'
+        'classExtend' => 'mr-t-150'
       ));
   ?>
 
@@ -144,7 +144,7 @@ get_header();
     get_template_part('template-parts/document-library', null,
       array(
         'no-title' => false,
-        'classExtend' => 'mr-t-250'
+        'classExtend' => 'mr-t-150'
       ));
   ?>
 

@@ -23,7 +23,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-120 mr-t-100-s4',
+      'classExtend' => 'mr-t-100',
       'title-sm' => 'solutions for bank',
       'title-sm-class' => 'f-b f-18 c-1-b',
       'title' => 'Best CDP for Banking Services',
@@ -67,7 +67,7 @@ get_header();
 
 <?php get_template_part('template-parts/top-tenant-bank',null,
   	array(
-			'classExtend' => 'mr-t-175 mr-t-125-s4'
+			'classExtend' => 'mr-t-120'
 		)); ?>
 
 <?php 
@@ -85,14 +85,12 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     'icon' => get_template_directory_uri(). '/images/industry-fsi/fsi-1.svg',
     'title' => 'solutions for fintech',
-    'title-class' => 'f-18 c-1-b',
+    'title-class' => 'c-1-b',
     'name' => 'Fintech',
-    'classColContent' => 'mo-col-5',
-    'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-b f-40',
+    'classImageRatio' => 'rt-1-1',
     'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     // 'divider' => 1,
@@ -105,15 +103,15 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-150-s4',
+    'imageLeft' => '1',
+    'classExtend' => 'mr-t-150',
     'icon' => get_template_directory_uri(). '/images/industry-fsi/fsi-2.svg',
     'title' => 'solutions for insurance',
-    'title-class' => 'f-18 c-1-b',
-    'classColContent' => 'mo-col-5',
-    'classColImage' => 'mo-col-7',
+    'title-class' => 'c-1-b',
     'name' => 'Insurance',
-    'nameClass' => 'f-b f-40',
+    'nameClass' => 'f-b',
     'classImage' => 'b-r-10',
+    'classImageRatio' => 'rt-1-1',
     // 'classExtend' => 'mr-t-250',
     'classImageContainer' => 'pa-0',
     // 'divider' => 1,
@@ -124,14 +122,13 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     'icon' => get_template_directory_uri(). '/images/industry-fsi/fsi-3.svg',
     'title' => 'solutions for digital wallet',
-    'title-class' => 'f-18 c-1-b',
+    'title-class' => 'c-1-b',
     'name' => 'Digital wallet',
-    'nameClass' => 'f-b f-40',
-    'classColContent' => 'mo-col-5',
-    'classColImage' => 'mo-col-7',
+    'nameClass' => 'f-b',
+    'classImageRatio' => 'rt-1-1',
     'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     // 'divider' => 1,
@@ -145,7 +142,7 @@ get_header();
   <?php 
     get_template_part('template-parts/section-title', null, 
       array(
-        'classExtend' => 'mr-t-200 mr-t-150-s4',
+        'classExtend' => 'mr-t-150',
         'title-sm' => 'library',
         'title' => 'Some documents you might find helpful',
       )
@@ -191,7 +188,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-connect', null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-150-s4'
+    'classExtend' => 'mr-t-150'
   ));
 ?>
 

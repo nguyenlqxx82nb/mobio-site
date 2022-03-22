@@ -2,7 +2,7 @@
   <div class="auto-container">
     <div class=" mo-row-2 mo-row row">
       <?php if ($args['imageLeft']) { ?>
-        <div class=" d-none-s0 d-flex flex-column justify-content-center col-image">
+        <div class=" d-none-s0 d-flex flex-column justify-content-center col-image mr-b-30-s2">
           <div class="b-r-10 w-100 <?php echo $args['classImageContainer'] ? $args['classImageContainer'] : '' ?>">
             <div class="position-relative b-r-10 w-100 <?php echo $args['classImageRatio'] ? $args['classImageRatio'] : 'rt-9-16' ?>">
               <img class="img-full object-fit-contain <?php echo $args['classImage'] ? $args['classImage'] : ''  ?>" 
@@ -28,7 +28,7 @@
         <?php } ?>
         
         <?php if ($args['name']) { ?>
-          <h3 class="mr-b-20 f-40 f-30-s3 f-30-s0 mr-b-10-s0 <?php echo $args['nameClass'] ? $args['nameClass'] : 'f-b' ?> lh2">
+          <h3 class="mr-b-20 f-30-s3 f-30-s0 mr-b-10-s0 <?php echo $args['nameClass'] ? $args['nameClass'] : 'f-b f-40' ?> lh2">
             <?php echo $args['name'] ?>
           </h3>
         <?php }?>
@@ -48,7 +48,7 @@
       <?php if (!$args['imageLeft']) { ?>
         <div class="col-separate">
         </div>
-        <div class="d-none-s0 d-flex flex-column justify-content-center col-image">
+        <div class="d-none-s0 d-flex flex-column justify-content-center col-image mr-t-30-s2">
           <div class="b-r-10 w-100 <?php echo $args['classImageContainer'] ? $args['classImageContainer'] : '' ?>">
             <div class="position-relative b-r-10 w-100 <?php echo $args['classImageRatio'] ? $args['classImageRatio'] : 'rt-9-16' ?>">
               <img class="img-full object-fit-contain <?php echo $args['classImage'] ? $args['classImage'] : ''  ?>" 

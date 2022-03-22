@@ -13,11 +13,11 @@ get_header();
 
 <?php get_template_part('template-parts/header-product',null,
   array(
-    'title-sub' => 'Mobio marketing managemen',
+    'title-sub' => 'Mobio marketing management',
     'title' => 'A Comprehensive Platform to meets the Goals of every Marketers',
     'contact' => '1',
     'header-img' => get_template_directory_uri(). '/images/Mobio-platform-cdp-cem.png',
-    'title-width' => 'w-950 w-750-s4'
+    'title-width' => 'w-750'
   ));
 ?>
 
@@ -34,7 +34,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200 mr-t-150-s4',
+      'classExtend' => 'mr-t-150',
       'title-sm' => 'how it helps',
       'title' => 'Create A Marketing Campaign That <span class="hl-text">Actually Works</span>', 
     )
@@ -48,13 +48,10 @@ get_header();
     'title' => 'Journey Builder',
     // 'title-class' => 'f-18 c-1-b',
     'name' => 'Create end-to-end customer journey with <strong>Journey Builder</strong>',
-    'classColContent' => 'mo-col-5',
-    'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-40',
+    'nameClass' => 'f-n',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
-    'classContent' => 'pa-l-20 pa-r-40',
     'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/product/marketing/overview-journey_builder.png',
     'desc' => "<p>Drag-and-drop, one-to-one interface to help you create a personalized journey for your customer. Connect every interaction across website, mobile, email, social media channel, 
@@ -66,15 +63,12 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
   array(
     'imageLeft' => '1',
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'Email Builder',
     // 'title-class' => 'f-18 c-1-b',
     'name' => 'Deliver 1-to-1 sophisticate messages with <strong>Email Builder</strong>',
-    'classColContent' => 'mo-col-5',
-    'classColImage' => 'mo-col-7',
-    'classContent' => 'pa-l-20 pa-r-0',
-    'nameClass' => 'f-n f-40',
+    'nameClass' => 'f-n',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
@@ -88,14 +82,12 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'Omnichannel',
     // 'title-class' => 'f-18 c-1-b',
     'name' => 'Reach customers anytime, anywhere with <strong>Omnichannel</strong>',
-    'classColContent' => 'mo-col-5',
-    'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-40',
+    'nameClass' => 'f-n',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     // 'classImageRatio' => 'rt-3-4',
@@ -110,18 +102,15 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
   array(
     'imageLeft' => '1',
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'Ads automation',
     // 'title-class' => 'f-18 c-1-b',
     'name' => 'Collect quality leads and customer data from <strong>Ads Automation</strong>',
-    'classColContent' => 'mo-col-5',
-    'classColImage' => 'mo-col-7',
-    'classContent' => 'pa-l-15 pa-r-20',
     'nameClass' => 'f-n f-40',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
-    'classImageRatio' => 'rt-3-4',
+    'classImageRatio' => 'rt-1-1',
     'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/product/marketing/overview-ads-management.png',
     'desc' => "<p>Integrate with Facebook Ads and sync target ads audience with various filters to create effective 
@@ -132,7 +121,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'voucher management',
     // 'title-class' => 'f-18 c-1-b',
@@ -142,7 +131,7 @@ get_header();
     'nameClass' => 'f-n f-40',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
-    'classImageRatio' => 'rt-3-4',
+    'classImageRatio' => 'rt-1-1',
     'classContent' => 'pa-l-40 pa-r-0',
     'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/product/marketing/overview-voucher_management.png',
@@ -155,7 +144,7 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
   array(
     'imageLeft' => '1',
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'reports',
     // 'title-class' => 'f-18 c-1-b',
@@ -176,117 +165,18 @@ get_header();
   )); ?>
 
 
-<?php 
-  get_template_part('template-parts/section-title', null, 
-    array(
-      'classExtend' => 'mr-t-250 mr-t-150-s4',
-      'title-sm' => 'inbound marketing toolkit',
-      'title' => 'Marketing Management Feature List', 
-    )
-  );
-?>
-
-<?php 
-  get_template_part('template-parts/feature-list', null,
-    array(
-      'classExtend' => 'mr-t-70',
-      'items' => array(
-        array(
-          'tab-title' => 'Journey Builder',
-          'feature' => array(
-            'Drag-and-drop interface to build customer journey',
-            "Activate communication workflow followed by the customer's action",
-            "Multi-channels: Email, SMS, Brandname, FB, Zalo, App",
-            "4-option A/B testing",
-            "Push notification via Mobile App",
-            "Hyper-personalization: personalize all profile infomation",
-            "Push notification via Website",
-            "Personalize voucher information",
-            "Create going-after workflow based on Customer Behavior",
-            "Provide link shortener with the brand subdomain"
-          )
-        ),
-        array(
-          'tab-title' => 'Email builder',
-          'feature' => array(
-            'Drag-and-drop interface to build customer journey',
-            "Activate communication workflow followed by the customer's action",
-            "Multi-channels: Email, SMS, Brandname, FB, Zalo, App",
-            "4-option A/B testing",
-            "Push notification via Mobile App",
-            "Hyper-personalization: personalize all profile infomation",
-            "Push notification via Website",
-            "Personalize voucher information",
-          )
-        ),
-        array(
-          'tab-title' => 'Omnichannel',
-          'feature' => array(
-            'Drag-and-drop interface to build customer journey',
-            "Push notification via Mobile App",
-            "Hyper-personalization: personalize all profile infomation",
-            "Push notification via Website",
-            "Personalize voucher information",
-            "Create going-after workflow based on Customer Behavior",
-            "Provide link shortener with the brand subdomain"
-          )
-        ),
-        array(
-          'tab-title' => 'Ads Automation',
-          'feature' => array(
-            'Drag-and-drop interface to build customer journey',
-            "Activate communication workflow followed by the customer's action",
-            "Multi-channels: Email, SMS, Brandname, FB, Zalo, App",
-            "4-option A/B testing",
-            "Push notification via Mobile App",
-            "Hyper-personalization: personalize all profile infomation",
-            "Push notification via Website",
-            "Personalize voucher information",
-            "Create going-after workflow based on Customer Behavior",
-            "Provide link shortener with the brand subdomain"
-          )
-        ),
-        array(
-          'tab-title' => 'Voucher Management',
-          'feature' => array(
-            'Drag-and-drop interface to build customer journey',
-            "Activate communication workflow followed by the customer's action",
-            "Multi-channels: Email, SMS, Brandname, FB, Zalo, App",
-            "4-option A/B testing",
-            "Push notification via Mobile App",
-            "Hyper-personalization: personalize all profile infomation",
-            "Push notification via Website",
-            "Personalize voucher information",
-            "Create going-after workflow based on Customer Behavior",
-            "Provide link shortener with the brand subdomain"
-          )
-        ),
-        array(
-          'tab-title' => 'Reports',
-          'feature' => array(
-            'Drag-and-drop interface to build customer journey',
-            "Activate communication workflow followed by the customer's action",
-            "Multi-channels: Email, SMS, Brandname, FB, Zalo, App",
-            "4-option A/B testing",
-            "Create going-after workflow based on Customer Behavior",
-            "Provide link shortener with the brand subdomain"
-          )
-        ),
-      )
-    ))
-?>
 
 <?php
   get_template_part('template-parts/customer-stories', null,
     array(
-      'classExtend' => 'mr-t-250 mr-t-150-s4'
+      'classExtend' => 'mr-t-150'
     ));
 ?>
 
 <?php
   get_template_part('template-parts/document-library', null,
     array(
-      'classExtend' => 'mr-t-250 mr-t-150-s4'
+      'classExtend' => 'mr-t-150'
     ));
 ?>
 

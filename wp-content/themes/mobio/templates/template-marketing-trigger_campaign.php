@@ -25,7 +25,7 @@ get_header();
                         array( 
                           'imageLeft' => 1,
                           'name' => 'A success marketing campaign is impossible without a trigger-based strategy.',
-                          'nameClass' => 'f-b f-48',
+                          'nameClass' => 'f-b f-30',
                           'classExtend' => 'mr-t-150',
                           'classImageRatio' => 'rt-3-4',
                           'img-src' => get_template_directory_uri(). '/images/product/marketing/trigger-jb.png',
@@ -38,7 +38,7 @@ get_header();
 
   <?php get_template_part('template-parts/section-title',null,
                         array( 
-                          'classExtend' => 'mr-t-250 mr-t-150-s4',
+                          'classExtend' => 'mr-t-150',
                           'title-sm' => 'default trigger',
                           'title' => '<span class="hl-text c-4-b">30+ Triggers</span> to Optimize your Marketing Campaign',
                           'desc' => 'Mobio Trigger feature makes it possible for you to automatically display your campaigns just when the time is right. 
@@ -78,7 +78,7 @@ get_header();
   <?php 
     get_template_part('template-parts/section-title', null, 
       array(
-        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'classExtend' => 'mr-t-150',
         'title-sm' => 'customized trigger',
         'title' => 'Trigger Bespoked to each Industry', 
       )
@@ -111,7 +111,7 @@ get_header();
   
     <?php get_template_part('template-parts/section-title',null,
                         array( 
-                          'classExtend' => 'mr-t-200 mr-t-150-s4',
+                          'classExtend' => 'mr-t-150',
                           'title-sm' => 'trigger in action',
                           'title' => 'See how Trigger Campaigns can <br>be a <span class="hl-text">Game Changer for Business</span>',
                         )); ?>
@@ -120,10 +120,9 @@ get_header();
                         array( 
                           'title' => 'e-commerce',
                           'name' => 'Reduce <strong>Cart Abandonment</strong> and convert to Sales',
-                          'nameClass' => 'f-n f-40',
+                          'nameClass' => 'f-n f-36',
                           'classExtend' => 'mr-t-100',
                           'classImageRatio' => 'rt-3-4',
-                          'classContent'=>'pa-r-120 pa-l-40',
                           'divider' => 1,
                           'img-src' => get_template_directory_uri(). '/images/product/marketing/trigger-e-commerce.png',
                           'desc' => '<p>Throughout the e-commerce lifecycle, there is a large number of triggers waiting 
@@ -138,11 +137,9 @@ get_header();
                           'imageLeft' => '1',
                           'title' => 'date-based',
                           'name' => '<strong>Miss no special days</strong> to send meaningful messages',
-                          'nameClass' => 'f-n f-40',
-                          'classExtend' => 'mr-t-250 mr-t-150-s4',
-                          'classImageRatio' => 'rt-9-16',
-                          'classColContent' => 'mo-col-5',
-                          'classColImage' => 'mo-col-7',
+                          'nameClass' => 'f-n f-36',
+                          'classExtend' => 'mr-t-150',
+                          'classImageRatio' => 'rt-3-4',
                           'divider' => 1,
                           'img-src' => get_template_directory_uri(). '/images/product/marketing/trigger-special-day.png',
                           'desc' => '<p>Customers’ birthday, anniversary, first purchase, date of import, etc. A lot of important days to remember and take action which it’s getting harder to manage when your customer data increases. Don’t worry, with trigger campaigns, 
@@ -153,10 +150,10 @@ get_header();
 
   <?php get_template_part('template-parts/section-title',null,
                         array( 
-                          'classExtend' => 'mr-t-200 mr-t-150-s4',
+                          'classExtend' => 'mr-t-150',
                           'title-sm' => 'transaction',
                           'title' => 'Easier <strong>Upsell & Cross-sell</strong> for digital monetary product',
-                          'title-class' => 'f-n f-48',
+                          'title-class' => 'f-n f-40',
                           'desc' => 'Customer journey for banking services and other FSI businesses can be hard to manage since it required highly personalized messages and a 
                           long complicated journey, not to mention its surrounding regulatory about security.
                            Fortunately, our platform allows you to create a sophisticated journey that automatically engages with customers every time they make a move.',
@@ -174,7 +171,7 @@ get_header();
       get_template_part('template-parts/customer-stories', null,
         array(
           'no-title' => false,
-          'classExtend' => 'mr-t-250 mr-t-150-s4'
+          'classExtend' => ' mr-t-150'
         ));
     ?>
 
@@ -182,7 +179,7 @@ get_header();
       get_template_part('template-parts/document-library', null,
         array(
           'no-title' => false,
-          'classExtend' => 'mr-t-250 mr-t-150-s4'
+          'classExtend' => 'mr-t-150'
         ));
     ?>
 

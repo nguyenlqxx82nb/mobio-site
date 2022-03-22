@@ -23,7 +23,7 @@ get_header();
 <?php 
   get_template_part('template-parts/top-tenant-retail', null,
     array(
-      'classExtend' => 'mr-t-150 mr-t-120-s4'
+      'classExtend' => 'mr-t-120'
     )
   )
 ?>
@@ -31,7 +31,7 @@ get_header();
 <?php 
   get_template_part('template-parts/industry-insights', null,
     array(
-      'classExtend' => 'mr-t-175 mr-t-150-s4',
+      'classExtend' => 'mr-t-150',
       'title' => 'industry insights',
       'name' => 'Perspectives On Retail ',
       'desc' => 'Retail is accelerating at a shocking pace. These trends and insights are up-to-date with statistics provided by Deloitte, McKinsey, 
@@ -65,7 +65,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200 mr-t-150-s4',
+      'classExtend' => 'mr-t-150',
       'title-sm' => 'how can we help?',
       'title' => 'How Mobio upgrades your Buyer Experience', 
     )
@@ -81,7 +81,7 @@ get_header();
     'name' => 'Understand your customers with <strong>O2O Data Collection</strong>',
     // 'classColContent' => 'mo-col-5',
     // 'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-40',
+    'nameClass' => 'f-n',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
@@ -95,7 +95,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'Journey builder',
@@ -103,7 +103,7 @@ get_header();
     'name' => 'Reshape customers <strong>buying decision</strong>',
     // 'classColContent' => 'mo-col-5',
     // 'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-40',
+    'nameClass' => 'f-n',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
@@ -118,7 +118,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => ' mr-t-150',
     // 'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'customer conversation',
@@ -140,7 +140,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'loyalty management',
@@ -148,7 +148,7 @@ get_header();
     'name' => '<strong>Game changing</strong> with loyalty management',
     // 'classColContent' => 'mo-col-5',
     // 'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-40',
+    'nameClass' => 'f-n',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
@@ -223,7 +223,7 @@ get_header();
 
 <?php get_template_part('template-parts/section-title',null,
     array( 
-      'classExtend' => 'mr-t-175 mr-t-150-s4',
+      'classExtend' => 'mr-t-150',
       'title-sm' => 'library',
       'title' => 'Most Helpful Paper Selected By Our Customers',
     )); ?>
@@ -261,7 +261,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-connect', null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-150-s4'
+    'classExtend' => 'mr-t-150'
   ));
 ?>
 

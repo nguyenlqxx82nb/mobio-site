@@ -459,7 +459,7 @@ h6, .h6 {font-size: 14px;}
   }
 
   .header-bg-products, .header-page-products {
-    height: 850px;
+    height: 650px;
   }
 
   .header-bg-header-partners, .header-partners {
@@ -475,5 +475,7 @@ h6, .h6 {font-size: 14px;}
   .justify-content-center-s1 {
     justify-content: center !important;
   }
+
+  .mr-auto-s1{ margin: 0 auto;}
 
 }

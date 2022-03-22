@@ -12,7 +12,7 @@
     <?php }?> 
     
     <?php if ($args['title']) { ?>
-      <h3 class=" w-950 w-300-s0 mr-auto f-30-s0 <?php echo $args['title-class'] ? $args['title-class']  : '' ?> mr-t-15 text-center"><p><?php echo $args['title'] ?></p></h3>
+      <h3 class=" w-1150 w-300-s0 mr-auto f-30-s0 <?php echo $args['title-class'] ? $args['title-class']  : '' ?> mr-t-15 text-center"><p><?php echo $args['title'] ?></p></h3>
     <?php } ?>
 
     <?php if ($args['desc']) { ?>

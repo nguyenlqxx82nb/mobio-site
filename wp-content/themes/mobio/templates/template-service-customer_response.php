@@ -22,7 +22,7 @@ get_header();
 
 <?php get_template_part('template-parts/section-title',null,
   array( 
-    'classExtend' => 'mr-t-100',
+    'classExtend' => 'mr-t-150 mr-t-300-s2',
     'title-sm' => 'social & chat',
     'title' => 'Deliver Rich Conversational Experiences',
     'desc' => 'Customers expect great service across all channels. Messaging makes it easy to stay in touch with personalized and engaging interactions. With Mobio, get messaging right out of the box or fully customize it to meet your needs.',
@@ -66,7 +66,7 @@ get_header();
   
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'classExtend' => 'mr-t-150',
         'title-sm' => 'how it helps',
         'title' => '<p>Messaging Solution and Omnichannel CX</p>',
       )); ?>
@@ -77,11 +77,8 @@ get_header();
       'name' => 'Stay connected  on <br> <strong>any channel</strong>',
       'nameClass' => 'f-n f-40',
       'classExtend' => 'mr-t-100',
-      'classImageRatio' => 'rt-9-16',
-      'classColContent' => 'mo-col-5',
-      'classColImage' => 'mo-col-7',
+      'classImageRatio' => 'rt-3-4',
       'classImageContainer' => '',
-      'classContent' => 'pa-l-40 pa-r-80',
       'classImage' => '',
       'divider' => 1,
       'img-src' => get_template_directory_uri(). '/images/product/service/social-omni.png',
@@ -96,7 +93,7 @@ get_header();
           'title' => 'staff workspace',
           'name' => 'All interactions in <br> <strong>one place</strong>',
           'nameClass' => 'f-n f-40',
-          'classExtend' => 'mr-t-250 mr-t-150-s4',
+          'classExtend' => 'mr-t-150',
           'classImageRatio' => 'rt-3-4',
           'classColContent' => 'mo-col-5',
           'classColImage' => 'mo-col-7',
@@ -115,13 +112,10 @@ get_header();
           'title' => 'quick response library',
           'name' => 'Make messaging <br><strong>your own</strong>',
           'nameClass' => 'f-n f-40',
-          'classExtend' => 'mr-t-250 mr-t-150-s4',
-          'classImageRatio' => 'rt-3-4',
+          'classExtend' => 'mr-t-150',
+          'classImageRatio' => 'rt-1-1',
           'classImageContainer' => '',
-          'classColContent' => 'mo-col-5',
-          'classColImage' => 'mo-col-7',
           'classImage' => 'b-r-10',
-          'classContent' => 'pa-l-20 pa-r-20', 
           'divider' => 1,
           'img-src' => get_template_directory_uri(). '/images/product/service/social-response.png',
           'desc' => '<p>You can create quick <strong>answer library</strong> for basic customer questions and requirements so 
@@ -135,7 +129,7 @@ get_header();
 
 <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-250 mr-t-150-s4',
+        'classExtend' => 'mr-t-150',
         'title-sm' => 'auto work assignment',
         'title' => 'Smart rules to <strong>boost your response time</strong>',
         'title-class' => 'f-n f-40'
@@ -162,7 +156,7 @@ get_header();
     get_template_part('template-parts/customer-stories', null,
         array(
           'no-title' => false,
-          'classExtend' => 'mr-t-250 mr-t-150-s4'
+          'classExtend' => 'mr-t-150'
         ));
     ?>
 
@@ -170,7 +164,7 @@ get_header();
     get_template_part('template-parts/document-library', null,
       array(
         'no-title' => false,
-        'classExtend' => 'mr-t-250 mr-t-150-s4'
+        'classExtend' => 'mr-t-150'
       ));
   ?>
 

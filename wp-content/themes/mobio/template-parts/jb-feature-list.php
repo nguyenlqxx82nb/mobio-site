@@ -1,7 +1,7 @@
 
 <div class="tab-wrapper <?php echo $args['classExtend'] ?>  mr-t-30-s0">
   <div class="auto-container">
-    <div class="b-sd b-fff auto mr-l-40 mr-r-40 mr-l-20-s3 mr-r-20-s3 mr-b-40 mr-t-70 pa-l-100 pa-r-80 pa-l-50-s3 pa-r-50-s3 b-r-10  mr-l-20-s0 mr-r-20-s0 pa-l-15-s0 pa-r-15-s0 mr-t-0-s0">
+    <div class="b-sd b-fff auto mr-l-40 mr-r-40 mr-l-20-s3 mr-r-20-s3 mr-b-40 mr-t-70 pa-l-50 pa-r-50 pa-l-40-s3 pa-r-40-s3 b-r-10  mr-l-20-s0 mr-r-20-s0 pa-l-15-s0 pa-r-15-s0 mr-t-0-s0">
       
       <div class="scroll-tab mr-b-10 f-b f-18 f-16-s3 f-16-s0 c-2 mr-t-45 mr-b-45 mr-t-25-s3 mr-b-25-s3  justify-content-between mr-t-25-s0 mr-b-25-s0"> 
         <?php 

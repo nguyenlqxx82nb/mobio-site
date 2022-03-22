@@ -67,14 +67,18 @@
             </div>
           </div>
         <?php } ?>
-
-        <div class="h-100 w-100 pa-l-40 pa-r-0">
-          <div class="rt-3-4 position-relative w-100"> 
-            <div class="full-container">
-              <img class="w-100 h-100 object-fit-contain" src="<?php echo $args['img-src'] ? $args['img-src']: get_template_directory_uri().'/images/empty-image.png'; ; ?>" />
+        <?php 
+          if ($args['img-src']) {
+        ?>
+          <div class="h-100 w-100 pa-l-40 pa-r-0">
+            <div class="rt-3-4 position-relative w-100"> 
+              <div class="full-container">
+                <img class="w-100 h-100 object-fit-contain" src="<?php echo $args['img-src'] ? $args['img-src']: get_template_directory_uri().'/images/empty-image.png'; ; ?>" />
+              </div>
             </div>
           </div>
-        </div>
+          <?php } ?>
+          
       </div>
     </div>
 
@@ -113,10 +117,14 @@
             <button class="btn-submit btn-small mr-t-10 upper-case w-450-s2  w-100-s2">get started</button>
           </div>
         <?php } ?>
-
-        <div class="w-500 mr-t-30">
-          <img class="w-100 h-100 object-fit-contain" src="<?php echo $args['img-src'] ? $args['img-src']: get_template_directory_uri().'/images/empty-image.png'; ?>" />
-        </div>
+        <?php
+          if ($args['img-src']) {
+        ?>  
+          <div class="w-500 mr-t-30">
+            <img class="w-100 h-100 object-fit-contain" src="<?php echo $args['img-src'] ? $args['img-src']: get_template_directory_uri().'/images/empty-image.png'; ?>" />
+          </div>
+        <?php } ?>
+        
       </div>
       
     </div>

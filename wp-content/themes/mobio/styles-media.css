@@ -3,7 +3,7 @@
 
 
 .auto-container {
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
   position: relative;
 	z-index: 5;
@@ -45,9 +45,9 @@
 
 @media  screen and (min-width: 1200px) {
   
-  .col-image { width: 56%; flex: 0 0 56%; }
-  .col-info { width: 32%; flex: 0 0 32%; }
-  .col-separate { width: 12%; flex: 0 0 12%;}
+  .col-image { width: 55%; flex: 0 0 55%; }
+  .col-info { width: 35%; flex: 0 0 35%; }
+  .col-separate { width: 10%; flex: 0 0 10%;}
 
   .auto-container {
     padding-left: 80px;

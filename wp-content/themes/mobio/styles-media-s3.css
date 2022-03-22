@@ -459,7 +459,7 @@ h6, .h6 {font-size: 14px;}
   }
 
   .header-bg-products, .header-page-products {
-    height: 850px;
+    height: 800px;
   }
 
   .header-bg-header-partners, .header-partners {
@@ -472,5 +472,32 @@ h6, .h6 {font-size: 14px;}
     margin-bottom: -120px;
   }
 
+  .mr-auto-s3{ margin: 0 auto;}
 
+  .journey-our-scroll {
+    overflow: auto;
+    position: relative;
+    z-index: 50;
+  }
+
+  .journey-our-slider { 
+    width: 1300px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+  }
+
+  .journey-divider-bottom {
+    bottom: 35px;
+  }
+
+  .journey-our-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .journey-our-scroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 }

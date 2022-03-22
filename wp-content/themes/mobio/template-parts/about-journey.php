@@ -4,29 +4,31 @@
     
   <div class="auto-container">
     <div class="mr-l-40 mr-l-20-s0 mr-r-20-s0">
-      <div class="f-b f-18 f-16-s4 f-14-s0 c-4 opa-5 upper-case t-c-s0"><p><?php echo $args['title-sm'] ?></p></div>
-      <div class="f-b f-40 f-36-s4 f-36-s0 w-650 w-750-s4 mr-t-25 t-c-s0"><p><?php echo $args['title'] ?></p></div>
+      <div class="f-b f-16 f-14-s0 c-4 opa-5 upper-case t-c-s0"><p><?php echo $args['title-sm'] ?></p></div>
+      <div class="f-b f-36 f-30-s3 f-36-s0 w-650 mr-t-25 t-c-s0"><p><?php echo $args['title'] ?></p></div>
     </div>
     
+    <div class="w-100 journey-our-scroll d-none-s2">
+      <div class="journey-our-slider d-flex justify-content-between align-items-end d-none-s0">
+        <?php 
+          foreach($args['items'] as $item) { ?>
+            <div class="journey-year-item">
+              <div class="b-5-b b-r-10 text-center pa-t-12 pa-b-12 mr-b-10">
+                <p class="f-b f-20 c-fff"><?php echo $item['members'] ?> members</p>
+              </div>
 
-    <div class="d-flex justify-content-between align-items-end d-none-s0">
-      <?php 
-        foreach($args['items'] as $item) { ?>
-          <div class="journey-year-item">
-            <div class="b-5-b b-r-10 text-center pa-t-12 pa-b-12 mr-b-10">
-              <p class="f-b f-20 c-fff"><?php echo $item['members'] ?> members</p>
+              <div class="b-sd b-fff b-r-10 pa-20 pa-t-50 pa-b-30 journey-year-item-info">
+                <?php if($item['isBorn']) { ?>
+                  <div><span class="f-20">&#127775;</span></div>
+                <?php } ?>
+                <div class="f-b f-36 c-5-b"><?php echo $item['years'] ?></div>
+                <div class="f-n f-16"><p><?php echo $item['desc'] ?></p></div>
+              </div>
             </div>
-
-            <div class="b-sd b-fff b-r-10 pa-20 pa-t-50 pa-b-30 journey-year-item-info">
-              <?php if($item['isBorn']) { ?>
-                <div><span class="f-30 f-20-s4">&#127775;</span></div>
-              <?php } ?>
-              <div class="f-b f-48 f-36-s4 c-5-b"><?php echo $item['years'] ?></div>
-              <div class="f-n f-20 f-16-s4"><p><?php echo $item['desc'] ?></p></div>
-            </div>
-          </div>
-      <?php } ?>
+        <?php } ?>
+      </div>
     </div>
+    
     
     <div class="slides-wrapper d-n d-block-s0 " slideWidth="230" slideNumber="1" index="1">
 
@@ -63,6 +65,27 @@
     </div>
     
 
+  </div>
+
+  <div class="w-100 journey-our-scroll d-n d-block-s2">
+    <div class="journey-our-slider d-flex justify-content-between align-items-end d-none-s0">
+      <?php 
+        foreach($args['items'] as $item) { ?>
+          <div class="journey-year-item">
+            <div class="b-5-b b-r-10 text-center pa-t-12 pa-b-12 mr-b-10">
+              <p class="f-b f-20 c-fff"><?php echo $item['members'] ?> members</p>
+            </div>
+
+            <div class="b-sd b-fff b-r-10 pa-20 pa-t-50 pa-b-30 journey-year-item-info">
+              <?php if($item['isBorn']) { ?>
+                <div><span class="f-20">&#127775;</span></div>
+              <?php } ?>
+              <div class="f-b f-36 c-5-b"><?php echo $item['years'] ?></div>
+              <div class="f-n f-16"><p><?php echo $item['desc'] ?></p></div>
+            </div>
+          </div>
+      <?php } ?>
+    </div>
   </div>
 
   <div class="journey-divider-bottom position-absolute"></div>

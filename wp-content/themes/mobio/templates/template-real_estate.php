@@ -23,7 +23,7 @@ get_header();
 <?php 
   get_template_part('template-parts/top-tenant-retail', null,
     array(
-      'classExtend' => 'mr-t-150 mr-t-120-s4',
+      'classExtend' => 'mr-t-120',
       'title' => 'trusted by most innovative corporates in vietnam'
     )
   )
@@ -32,7 +32,7 @@ get_header();
 <?php 
   get_template_part('template-parts/industry-insights', null,
     array(
-      'classExtend' => 'mr-t-175 mr-t-150-s4',
+      'classExtend' => 'mr-t-150',
       'title' => 'industry insights',
       'name' => 'Perspectives On Real Estate',
       'desc' => 'Retail is accelerating at a shocking pace. These trends and insights are up-to-date with statistics provided by Deloitte, McKinsey, 
@@ -66,7 +66,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200 mr-t-150-s4',
+      'classExtend' => 'mr-t-150',
       'title-sm' => 'how can we help?',
       'title' => 'Collect High Quality Leads and Close Deals Faster', 
     )
@@ -97,7 +97,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'ads management',
@@ -121,7 +121,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => ' mr-t-150',
     // 'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'email marketing',
@@ -144,7 +144,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'sales management',
@@ -167,7 +167,7 @@ get_header();
 
 <?php get_template_part('template-parts/section-title',null,
     array( 
-      'classExtend' => 'mr-t-175 mr-t-150-s4',
+      'classExtend' => 'mr-t-150',
       'title-sm' => 'library',
       'title' => 'Most Helpful Paper Selected By Our Customers',
     )); ?>
@@ -205,7 +205,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-connect', null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-150-s4'
+    'classExtend' => 'mr-t-150'
   ));
 ?>
 
