@@ -43,7 +43,7 @@ get_header();
         array( 
           'title' => 'task reminder',
           'name' =>  '<strong>Notify every task</strong> from upcomming to overdue',
-          'nameClass' => 'f-n f-56',
+          'nameClass' => 'f-n f-40',
           'classExtend' => 'mr-t-200 mr-t-100-s4',
           'classImageRatio' => 'rt-3-4',
           'classImageContainer' => 'pa-0',
@@ -59,7 +59,7 @@ get_header();
           'imageLeft' => 1,
           'title' => 'customer contact',
           'name' => 'Reach customers <strong>without leaving the platform</strong>',
-          'nameClass' => 'f-n f-56',
+          'nameClass' => 'f-n f-40',
           'classExtend' => 'mr-t-250 mr-t-150-s4',
           'classImageRatio' => 'rt-3-4',
           'classImageContainer' => 'pa-0',
@@ -75,7 +75,7 @@ get_header();
     array( 
       'title' => 'online sales',
       'name' => "<strong>Online sales and telesales</strong> on the go",
-      'nameClass' => 'f-n f-56',
+      'nameClass' => 'f-n f-40',
       'classExtend' => 'mr-t-250 mr-t-150-s4',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => 'pa-0',

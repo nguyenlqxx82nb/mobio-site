@@ -101,7 +101,7 @@ get_header();
     'name' => 'There’re many <strong>cool things</strong> you can do',
     'classColContent' => 'mo-col-5',
     'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-56',
+    'nameClass' => 'f-n f-40',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',

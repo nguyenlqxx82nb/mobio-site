@@ -30,19 +30,19 @@
       $openBtnMenu.data('isOpen', isOpen ? false : true );
       setTimeout(() => {
         if (!isOpen) {
-          $menuMobile.addClass('d-block-s0');
+          $menuMobile.addClass('d-block-s2');
           setTimeout(() => {
             $menuMobile.addClass('opa').removeClass('opa-0');
-          }, 50);
+          }, 0);
         }
-      }, 250);
+      }, 50);
     });
 
 
     $closeBtnMenu.on('click', function(e) {
       $menuMobile.addClass('opa-0').removeClass('opa');
       setTimeout(() =>  {
-        $menuMobile.removeClass('d-block-s0');
+        $menuMobile.removeClass('d-block-s2');
         $openBtnMenu.removeClass('menu-close-btn');
         $openBtnMenu.data('isOpen', false);
       }, 50);

@@ -4,7 +4,7 @@
     <?php 
       if ($args['title-sm']) {
     ?>
-      <div class=" upper-case text-center mr-t-15 f-16-s4 mr-t-15-s0  f-14-s0 <?php echo $args['title-sm-class'] ? $args['title-sm-class'] : 'title-sm'  ?> f-b f-18"><p> <?php echo $args['title-sm'] ?></p></div>
+      <div class=" upper-case text-center mr-t-15 f-16 mr-t-15-s0  f-14-s0 <?php echo $args['title-sm-class'] ? $args['title-sm-class'] : 'title-sm'  ?> f-b f-18"><p> <?php echo $args['title-sm'] ?></p></div>
     <?php } ?>
     
     <?php if($args['desc-top']) { ?> 
@@ -12,11 +12,11 @@
     <?php }?> 
     
     <?php if ($args['title']) { ?>
-      <h3 class=" w-950-s4 w-300-s0 mr-auto f-30-s0 <?php echo $args['title-class'] ? $args['title-class']  : '' ?> mr-t-15 text-center"><p><?php echo $args['title'] ?></p></h3>
+      <h3 class=" w-950 w-300-s0 mr-auto f-30-s0 <?php echo $args['title-class'] ? $args['title-class']  : '' ?> mr-t-15 text-center"><p><?php echo $args['title'] ?></p></h3>
     <?php } ?>
 
     <?php if ($args['desc']) { ?>
-      <div class="f-n f-18 f-14-s0 w-340-s0 mr-auto-s0 mr-t-25 mr-t-15-s0 text-center mr-auto <?php echo $args['desc-w'] ? $args['desc-w'] : 'w-1000  w-800-s4' ?>"><p><?php echo $args['desc'] ?></p></div>
+      <div class="f-n f-18 f-16-s3 f-14-s0 w-340-s0 mr-auto-s0 mr-t-25 mr-t-15-s0 text-center mr-auto <?php echo $args['desc-w'] ? $args['desc-w'] : 'w-1000 ' ?>"><p><?php echo $args['desc'] ?></p></div>
     <?php } ?>
 
     <?php if ($args['next-button']) { ?>

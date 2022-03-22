@@ -83,7 +83,7 @@ get_header();
     array( 
       'title' => 'full customer insights',
       'name' => 'Know your customers well',
-      'nameClass' => 'f-n f-56',
+      'nameClass' => 'f-n f-40',
       'classExtend' => 'mr-t-100',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => '',
@@ -102,7 +102,7 @@ get_header();
           'imageLeft' => 1,
           'title' => 'Loyalty program customization',
           'name' => 'Create a loyalty program in <strong>your business style</strong>',
-          'nameClass' => 'f-n f-56',
+          'nameClass' => 'f-n f-40',
           'classExtend' => 'mr-t-250 mr-t-150-s4',
           'classImageRatio' => 'rt-9-16',
           'classImageContainer' => '',
@@ -122,7 +122,7 @@ get_header();
         array( 
           'title' => 'Omnichannel interaction',
           'name' => 'Loyalty management accross <strong>all channels</strong>',
-          'nameClass' => 'f-n f-56',
+          'nameClass' => 'f-n f-40',
           'classExtend' => 'mr-t-250 mr-t-150-s4',
           'classImageRatio' => 'rt-9-16',
           'classImageContainer' => '',

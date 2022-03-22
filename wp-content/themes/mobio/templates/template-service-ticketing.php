@@ -47,7 +47,7 @@ get_header();
     array( 
       'title' => 'omni channel support',
       'name' => 'Resolve customers issues accross <strong>every channel</strong>',
-      'nameClass' => 'f-n f-56',
+      'nameClass' => 'f-n f-40',
       'classExtend' => 'mr-t-100',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => '',
@@ -63,7 +63,7 @@ get_header();
           'imageLeft' => 1,
           'title' => 'Ticket Routing, Categorization and Tagging',
           'name' => 'Ticket Routing, Categorization and Tagging',
-          'nameClass' => 'f-n f-56',
+          'nameClass' => 'f-n f-40',
           'classExtend' => 'mr-t-250 mr-t-150-s4',
           'classImageRatio' => 'rt-3-4',
           'classImageContainer' => '',
@@ -80,7 +80,7 @@ get_header();
         array( 
           'title' => 'Tracking and Measurement',
           'name' => 'Tracking and Measurement',
-          'nameClass' => 'f-n f-56',
+          'nameClass' => 'f-n f-40',
           'classExtend' => 'mr-t-250 mr-t-150-s4',
           'classImageRatio' => 'rt-3-4',
           'classImageContainer' => '',

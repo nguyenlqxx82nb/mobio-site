@@ -120,7 +120,7 @@ get_header();
                         array( 
                           'title' => 'e-commerce',
                           'name' => 'Reduce <strong>Cart Abandonment</strong> and convert to Sales',
-                          'nameClass' => 'f-n f-56',
+                          'nameClass' => 'f-n f-40',
                           'classExtend' => 'mr-t-100',
                           'classImageRatio' => 'rt-3-4',
                           'classContent'=>'pa-r-120 pa-l-40',
@@ -138,7 +138,7 @@ get_header();
                           'imageLeft' => '1',
                           'title' => 'date-based',
                           'name' => '<strong>Miss no special days</strong> to send meaningful messages',
-                          'nameClass' => 'f-n f-56',
+                          'nameClass' => 'f-n f-40',
                           'classExtend' => 'mr-t-250 mr-t-150-s4',
                           'classImageRatio' => 'rt-9-16',
                           'classColContent' => 'mo-col-5',

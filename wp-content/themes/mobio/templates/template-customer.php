@@ -15,21 +15,21 @@ get_header();
     array( 
       'title' => 'customer cases',
       'name' => 'Get inspired by our Customers’ Success Stories',
-      'name-class' => 'w-900 f-b f-60 mr-t-25',
+      'name-class' => 'w-900 f-b mr-t-25',
       'desc' => 'See how top enterprises tackle business challenges and achieve their goals with Mobio Platform.',
       //'img-src' => get_template_directory_uri(). '/images/home/marketing-email-builder.png'
     )); ?>
 
 <?php get_template_part('template-parts/top-tenant-enterprise',null,
   	array(
-			'classExtend' => 'mr-t-175 mr-t-125-s4'
+			'classExtend' => 'mr-t-120'
 		)); ?>
 
 
 <?php 
   get_template_part('template-parts/customer-case', null,
     array(
-      'classExtend' => 'mr-t-150 mr-t-90-s0 mr-t-125-s4',
+      'classExtend' => 'mr-t-90-s0 mr-t-120',
       'cols' => 1,
       'items' => array(
         array(
@@ -48,10 +48,10 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200 mr-t-150-s4',
+      'classExtend' => 'mr-t-150',
       'title-sm' => 'success stories',
       'title' => 'TOP PICK CASE STUDIES',
-      'title-class' => 'f-b f-48 c-0-b',
+      'title-class' => 'f-b c-0-b',
       'desc' => 'Here we choose our best cases that showed meaningful results.<br>These are all our trusted customers and loyal advocacies.'
     )
   );

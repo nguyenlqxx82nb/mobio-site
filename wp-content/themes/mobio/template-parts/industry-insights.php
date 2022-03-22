@@ -3,7 +3,7 @@
     <div class="auto-container auto">
       <div class="pa-b-200"> 
         <div class="mr-t-80 mr-t-60-s4 mr-t-35-s0  text-center f-b f-18 f-16-s4 f-12-s0 upper-case c-fff opa-5"><p><?php echo $args['title'] ?></p></div>
-        <div class="mr-t-30 mr-t-20-s0 f-b f-56 f-36-s4 f-36-s0 c-fff text-center w-275-s0 mr-auto"><p><?php echo $args['name'] ?></p></div>
+        <div class="mr-t-30 mr-t-20-s0 f-b f-40 f-36-s4 f-36-s0 c-fff text-center w-275-s0 mr-auto"><p><?php echo $args['name'] ?></p></div>
         <div class="mr-t-30 mr-t-20-s0 f-n f-20 f-16-s4 f-14-s0 c-fff mr-auto w-950 text-center w-340-s0 mr-auto"><p><?php echo $args['desc'] ?></p></div>
       </div>
     </div>

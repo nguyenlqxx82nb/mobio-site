@@ -18,7 +18,7 @@ get_header();
       'class-col-right'=> 'mo-col-6',
       'title' => 'about us',
       'name' => 'MOBIO 100%',
-      'name-class' => 'f-b f-90 f-56-s4',
+      'name-class' => 'f-b f-90 f-40-s4',
       'desc-html' => '<p>At Mobio, we promote mutual respect among colleagues and consider everyone’s opinions equally important. 
         We are proud of the diligent, progressive, and responsible work culture that has gone deep into each employee.</p>
         <p class="mr-t-10">This is a place where the growth of each individual is the growth of the whole company.</p>',
@@ -32,7 +32,7 @@ get_header();
     array( 
       'title' => 'our mission',
       'name' => 'A Comprehensive CDP & CEM Platform',
-      'nameClass' => 'f-b f-56',
+      'nameClass' => 'f-b f-40',
       'classExtend' => 'mr-t-250 mr-t-150-s4',
       'classImageContainer' => '',
       'classImageRatio' => 'rt-3-4',

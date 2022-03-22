@@ -86,7 +86,7 @@ get_header();
     array( 
       'title' => 'visual view',
       'name' => 'See your pipeline <strong>in different views</strong>',
-      'nameClass' => 'f-n f-56',
+      'nameClass' => 'f-n f-40',
       'classExtend' => 'mr-t-250 mr-t-100-s4',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => 'pa-0',
@@ -103,7 +103,7 @@ get_header();
         'imageLeft' => 1,
         'title' => 'Sales process',
         'name' => 'Manage your own <strong>sales process</strong> efficently',
-        'nameClass' => 'f-n f-56',
+        'nameClass' => 'f-n f-40',
         'classExtend' => 'mr-t-250 mr-t-150-s4',
         'classImageRatio' => 'rt-3-4',
         'classImageContainer' => 'pa-0',
@@ -119,7 +119,7 @@ get_header();
       array( 
         'title' => 'revenue forecast',
         'name' => "<strong>Forecast revenue targets</strong> and growth sustainability",
-        'nameClass' => 'f-n f-56',
+        'nameClass' => 'f-n f-40',
         'classExtend' => 'mr-t-250 mr-t-150-s4',
         'classImageRatio' => 'rt-3-4',
         'classImageContainer' => 'pa-0',

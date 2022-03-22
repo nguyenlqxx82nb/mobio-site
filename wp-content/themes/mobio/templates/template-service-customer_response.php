@@ -75,7 +75,7 @@ get_header();
     array( 
       'title' => 'social channels and website',
       'name' => 'Stay connected  on <br> <strong>any channel</strong>',
-      'nameClass' => 'f-n f-56',
+      'nameClass' => 'f-n f-40',
       'classExtend' => 'mr-t-100',
       'classImageRatio' => 'rt-9-16',
       'classColContent' => 'mo-col-5',
@@ -95,7 +95,7 @@ get_header();
           'imageLeft' => 1,
           'title' => 'staff workspace',
           'name' => 'All interactions in <br> <strong>one place</strong>',
-          'nameClass' => 'f-n f-56',
+          'nameClass' => 'f-n f-40',
           'classExtend' => 'mr-t-250 mr-t-150-s4',
           'classImageRatio' => 'rt-3-4',
           'classColContent' => 'mo-col-5',
@@ -114,7 +114,7 @@ get_header();
         array( 
           'title' => 'quick response library',
           'name' => 'Make messaging <br><strong>your own</strong>',
-          'nameClass' => 'f-n f-56',
+          'nameClass' => 'f-n f-40',
           'classExtend' => 'mr-t-250 mr-t-150-s4',
           'classImageRatio' => 'rt-3-4',
           'classImageContainer' => '',
@@ -138,7 +138,7 @@ get_header();
         'classExtend' => 'mr-t-250 mr-t-150-s4',
         'title-sm' => 'auto work assignment',
         'title' => 'Smart rules to <strong>boost your response time</strong>',
-        'title-class' => 'f-n f-56'
+        'title-class' => 'f-n f-40'
       )); ?>
 
 <?php get_template_part('template-parts/row-content-two',null,
@@ -146,7 +146,7 @@ get_header();
       'imageLeft' => 1,
      // 'title' => 'survey management',
       // 'name' => "Collect customers feedbacks to <strong>upgrade your service</strong>",
-      // 'nameClass' => 'f-n f-56',
+      // 'nameClass' => 'f-n f-40',
       'classExtend' => 'mr-t-50',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => '',

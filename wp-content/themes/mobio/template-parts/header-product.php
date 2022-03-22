@@ -23,7 +23,7 @@
   <div class="header-bg header-bg-products"></div>  
   <div class="auto-container">
     <div class="mr-t-65 mr-t-40-s4 mr-t-35-s0 f-b f-18 f-16-s4 f-14-s0 c-fff opa-5 mr-auto text-center upper-case"><p><?php echo $args['title-sub'] ?></p></div>
-		<div class="mr-t-15 f-b f-56 f-36-s4 f-32-s0 c-fff w-300-s0 mr-auto text-center <?php echo $args['title-width'] ? $args['title-width'] : 'w-750 w-650-s4' ?>"><p><?php echo $args['title'] ?></p></div>
+		<div class="mr-t-15 f-b f-40 f-36-s4 f-32-s0 c-fff w-300-s0 mr-auto text-center <?php echo $args['title-width'] ? $args['title-width'] : 'w-750 w-650-s4' ?>"><p><?php echo $args['title'] ?></p></div>
     
     <?php if ($args['desc']) { ?>
       <div class="mr-t-35 mr-t-30-s4 mr-t-20-s0 f-n f-20 f-16-s4 f-14-s0 opa-8 c-fff w-950 w-800-s4 w-340-s0 mr-auto text-center"><p><?php echo $args['desc'] ?></p></div>

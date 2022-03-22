@@ -5,7 +5,7 @@
   <div class="auto-container">
     <div class="mr-l-40 mr-l-20-s0 mr-r-20-s0">
       <div class="f-b f-18 f-16-s4 f-14-s0 c-4 opa-5 upper-case t-c-s0"><p><?php echo $args['title-sm'] ?></p></div>
-      <div class="f-b f-56 f-36-s4 f-36-s0 w-650 w-750-s4 mr-t-25 t-c-s0"><p><?php echo $args['title'] ?></p></div>
+      <div class="f-b f-40 f-36-s4 f-36-s0 w-650 w-750-s4 mr-t-25 t-c-s0"><p><?php echo $args['title'] ?></p></div>
     </div>
     
 
