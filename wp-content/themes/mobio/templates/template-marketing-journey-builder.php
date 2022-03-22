@@ -16,7 +16,7 @@ get_header();
     'title' => 'Mobio marketing management',
     'name' => 'Meet Journey Builder',
     'desc' => 'Your marketing companion to optimize customer experience and increase interaction, engagement, and retention rate.',
-    'name-class' => 'w-750 f-b f-60 mr-t-25',
+    'name-class' => 'w-750 f-b mr-t-25',
     'img-src' => get_template_directory_uri(). '/images/product/marketing/journey-builder-header.png'
   ));
 ?>
@@ -53,10 +53,10 @@ get_header();
     'name' => 'Prebuild Journeys that show <strong>Conversion</strong>',
     'classColContent' => 'mo-col-5',
     'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-56',
+    'nameClass' => 'f-n f-40',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
-    'classImageRatio' => 'rt-3-4',
+    'classImageRatio' => 'rt-1-1',
     'classContent' => 'pa-l-0 pa-r-80',
     'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/product/marketing/jb-pre_built_journey.png',
@@ -70,18 +70,15 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
   array(
     // 'imageLeft' => 1,
-    'classExtend' => 'mr-t-250 mr-t-200-s4',
+    'classExtend' => ' mr-t-150',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'personalization',
     // 'title-class' => 'f-18 c-1-b',
     'name' => 'Make everything <strong>personal and intimidiate</strong>',
-    'classColContent' => 'mo-col-5',
-    'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-56',
+    'nameClass' => 'f-n',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
-    'classImageRatio' => 'rt-3-4',
-    'classContent' => 'pa-l-100 pa-r-0',
+    'classImageRatio' => 'rt-1-1',
     'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/product/marketing/jb-personalization.png',
     'desc' => "<p>Personalize and fully automate an experience that adapts to
@@ -94,18 +91,15 @@ get_header();
 <?php get_template_part('template-parts/row-content-two',null,
   array(
     'imageLeft' => 1,
-    'classExtend' => 'mr-t-250 mr-t-200-s4',
+    'classExtend' => 'mr-t-150',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'Master campaign',
     // 'title-class' => 'f-18 c-1-b',
     'name' => '<strong>Holistic reports</strong> from every campaigns',
-    'classColContent' => 'mo-col-5',
-    'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-56',
+    'nameClass' => 'f-n',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
-    'classImageRatio' => 'rt-3-4',
-    'classContent' => 'pa-l-0 pa-r-80',
+    'classImageRatio' => 'rt-1-1',
     'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/product/marketing/jb-marketing_reports.png',
     'desc' => "<p>Reports show not only indicators from the marketing campaign but the customer touchpoint as a whole. With our general to detail reports, 
@@ -117,7 +111,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'classExtend' => 'mr-t-150',
       'title-sm' => 'building  blocks',
       'title' => '4 Critical Elements in a Customer Journey', 
     )
@@ -175,7 +169,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'classExtend' => 'mr-t-150',
       'title' => 'Why Businesses love Journey Builder?', 
     )
   );
@@ -212,14 +206,14 @@ get_header();
 <?php 
   get_template_part('template-parts/customer-stories', null,
     array(
-      'classExtend' => 'mr-t-250 mr-t-200-s4'
+      'classExtend' => 'mr-t-150'
     ));
 ?>
 
 <?php
   get_template_part('template-parts/document-library', null,
     array(
-      'classExtend' => 'mr-t-250 mr-t-200-s4'
+      'classExtend' => 'mr-t-150'
     ));
 ?>
 

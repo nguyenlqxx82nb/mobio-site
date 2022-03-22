@@ -21,7 +21,7 @@ get_header();
 
   <?php get_template_part('template-parts/section-title',null,
                         array( 
-                          'classExtend' => 'mr-t-150',
+                          'classExtend' => 'mr-t-150 mr-t-250-s2',
                           'title-sm' => 'How lead distribution works?',
                           'title' => 'Matching Leads to the Right Reps'
                         )); ?>
@@ -34,7 +34,7 @@ get_header();
   
   <?php get_template_part('template-parts/section-title',null,
                         array( 
-                          'classExtend' => 'mr-t-200',
+                          'classExtend' => 'mr-t-150',
                           'title-sm' => 'what can you do with it?',
                           'title' => 'Capture all leads and deliver <span class="hl-text">automatically</span>',
                         )); ?>
@@ -44,8 +44,8 @@ get_header();
                           'imageLeft' => 1,
                           'title' => 'Smart rule-based',
                           'name' => '<strong>Smart and real-time </strong> delivery',
-                          'nameClass' => 'f-n f-56',
-                          'classExtend' => 'mr-t-200 mr-t-200-s4',
+                          'nameClass' => 'f-n f-40',
+                          'classExtend' => 'mr-t-100',
                           'classImageRatio' => 'rt-3-4',
                           'classImageContainer' => '',
                           'divider' => 1,
@@ -60,8 +60,8 @@ get_header();
                         
                         'title' => 'customize for teams and individuals',
                         'name' => 'Distribute leads based on <strong>your team’s skills and needs</strong>',
-                        'nameClass' => 'f-n f-56',
-                        'classExtend' => 'mr-t-250 mr-t-200-s4',
+                        'nameClass' => 'f-n f-40',
+                        'classExtend' => 'mr-t-150',
                         'classImageRatio' => 'rt-3-4',
                         'classImageContainer' => 'b-sd-n pa-0',
                         'classContent' => 'pa-r-120',
@@ -77,9 +77,9 @@ get_header();
             'imageLeft' => 1,
             'title' => 'tracking and reporting',
             'name' => "Get sales insights from <strong>detailed reports</strong>",
-            'nameClass' => 'f-n f-56',
+            'nameClass' => 'f-n f-40',
             'classImageRatio' => 'rt-3-4',
-            'classExtend' => 'mr-t-250 mr-t-200-s4',
+            'classExtend' => ' mr-t-150',
             'classImageContainer' => 'b-sd-n pa-0',
             'divider' => 1,
             'img-src' => get_template_directory_uri(). '/images/product/sales/lead-distribution-report-2.png',
@@ -91,7 +91,7 @@ get_header();
     get_template_part('template-parts/customer-stories', null,
       array(
         'no-title' => false,
-        'classExtend' => 'mr-t-250 mr-t-200-s4'
+        'classExtend' => 'mr-t-150'
       ));
   ?>
 
@@ -99,7 +99,7 @@ get_header();
     get_template_part('template-parts/document-library', null,
       array(
         'no-title' => false,
-        'classExtend' => 'mr-t-250'
+        'classExtend' => 'mr-t-150'
       ));
   ?>
 

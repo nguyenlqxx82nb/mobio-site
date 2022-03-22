@@ -29,7 +29,7 @@ get_header();
   
   <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-150',
         'title-sm' => 'how it helps',
         'title' => '<p>Give your customers the service <span class="hl-text">meets their expectation</span></p>',
       )); ?>
@@ -38,12 +38,10 @@ get_header();
     array( 
       'title' => 'loyalty management',
       'name' => 'Build your <strong>loyalty programs</strong> that engage customers',
-      'nameClass' => 'f-n f-56',
+      'nameClass' => 'f-n f-40',
       'classExtend' => 'mr-t-100',
       'classImageRatio' => 'rt-9-16',
       'classImageContainer' => '',
-      'classColContent'=>'mo-col-5',
-      'classColImage'=>'mo-col-7',
       'classImage' => '',
       'divider' => 1,
       'img-src' => get_template_directory_uri(). '/images/product/service/overview-loyalty-2.png',
@@ -57,13 +55,11 @@ get_header();
           'imageLeft' => 1,
           'title' => 'social media management',
           'name' => 'Connect with your customers accross all <strong>social channels</strong>',
-          'nameClass' => 'f-n f-56',
-          'classExtend' => 'mr-t-250 mr-t-200-s4',
+          'nameClass' => 'f-n f-40',
+          'classExtend' => 'mr-t-150',
           'classImageRatio' => 'rt-9-16',
           'classImageContainer' => '',
           'classImage' => 'b-r-10',
-          'classColContent'=>'mo-col-5',
-          'classColImage'=>'mo-col-7',
           'divider' => 1,
           'img-src' => get_template_directory_uri(). '/images/product/service/social-omni.png',
           'desc' => '<p>Easy-to-use email marketing tool to engage your customers list and boost conversion rate. We also provide advanced features and step-by-step guideline to help increase your email sender reputation and let your message goes straight to your customers’ main mailbox.</p>',
@@ -75,12 +71,10 @@ get_header();
         array( 
           'title' => 'customer conversation',
           'name' => 'Response to your customers <strong>anytime, anywhere</strong>',
-          'nameClass' => 'f-n f-56',
-          'classExtend' => 'mr-t-250 mr-t-200-s4',
+          'nameClass' => 'f-n f-40',
+          'classExtend' => 'mr-t-150',
           'classImageRatio' => 'rt-3-4',
           'classImageContainer' => '',
-          'classColContent'=>'mo-col-5',
-          'classColImage'=>'mo-col-7',
           'classImage' => '',
           'divider' => 1,
           'img-src' => get_template_directory_uri(). '/images/product/service/overview-chat-2.png',
@@ -94,12 +88,10 @@ get_header();
       'imageLeft' => 1,
       'title' => 'ticket management',
       'name' => "Let no <strong>customer issues</strong> be missed out",
-      'nameClass' => 'f-n f-56',
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'nameClass' => 'f-n f-40',
+      'classExtend' => 'mr-t-150',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => '',
-      'classColContent'=>'mo-col-5',
-      'classColImage'=>'mo-col-7',
       'classImage' => 'b-r-10',
       'divider' => 1,
       'img-src' => get_template_directory_uri(). '/images/product/service/overview-ticketing.png',
@@ -112,14 +104,11 @@ get_header();
     array( 
       'title' => 'call center',
       'name' => "<strong>Call your customers</strong> without leaving the platform",
-      'nameClass' => 'f-n f-56',
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'nameClass' => 'f-n f-40',
+      'classExtend' => 'mr-t-150',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => '',
       'classImage' => 'b-r-10',
-      'classColContent'=>'mo-col-5',
-      'classColImage'=>'mo-col-7',
-      'classContent' => 'pa-r-60 pa-l-40',
       'divider' => 1,
       'img-src' => get_template_directory_uri(). '/images/product/service/overview-call-center-2.png',
       //'next' => 'learn how to win customers with call center >>',
@@ -132,9 +121,9 @@ get_header();
       'imageLeft' => 1,
       'title' => 'survey management',
       'name' => "Collect customers reviews to <strong>upgrade your service</strong>",
-      'nameClass' => 'f-n f-56',
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
-      'classImageRatio' => 'rt-3-4',
+      'nameClass' => 'f-n f-40',
+      'classExtend' => 'mr-t-150',
+      'classImageRatio' => 'rt-1-1',
       'classImageContainer' => '',
       'classImage' => 'b-r-10',
       'divider' => 1,
@@ -150,7 +139,7 @@ get_header();
   get_template_part('template-parts/customer-stories', null,
     array(
       'no-title' => false,
-      'classExtend' => 'mr-t-250  mr-t-200-s4'
+      'classExtend' => ' mr-t-150'
     ));
 ?>
 
@@ -158,7 +147,7 @@ get_header();
   get_template_part('template-parts/document-library', null,
     array(
       'no-title' => false,
-      'classExtend' => 'mr-t-250'
+      'classExtend' => 'mr-t-150'
     ));
 ?>
 

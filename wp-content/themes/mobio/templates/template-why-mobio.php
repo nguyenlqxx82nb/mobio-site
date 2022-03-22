@@ -12,17 +12,18 @@ get_header();
 ?> 
 <!-- header -->
 <?php get_template_part('template-parts/header-page',null,
-        array( 
-          'title' => 'why us?',
-          'name' => 'What makes us different?',
-          'class-col-left' => 'mo-col-8',
-          'class-col-right' => 'mo-col-4',
-          'desc' => 'You might have heard a lot about CDP. But have you ever heard of Operation CDP, and did you ever try it? 
-            Mobio CDP is an Operation CDP that provides all business operation tools, from collecting data from various sources to 
-            activating data for marketing, sales, and service activities.',
-          'desc-class' => 'f-n f-18 f-16-s4',
-          'desc-w' => 'w-750 w-600-s4'
-        )); ?>
+  array( 
+    'title' => 'why us?',
+    'name' => 'What makes us different?',
+    'bg-class' => 'header-why-mobio',
+    'class-col-left' => 'mo-col-8',
+    'class-col-right' => 'mo-col-4',
+    'desc' => 'You might have heard a lot about CDP. But have you ever heard of Operation CDP, and did you ever try it? 
+                Mobio CDP is an Operation CDP that provides all business operation tools, from collecting data from various sources to 
+                activating data for marketing, sales, and service activities.',
+    'desc-class' => 'f-n f-18 f-16-s4',
+    'desc-w' => 'w-600'
+  )); ?>
 
 <?php get_template_part('template-parts/section-title',null,
   array( 
@@ -30,7 +31,7 @@ get_header();
     'title-sm' => 'data at the heart of our system',
     'title' => 'How Data plays its role in the Customer Journey',
     'desc' => 'You often hear about the importance of knowing your customers. It’s crucial to learn about their needs, interests, pain points, affinities, and more. Customer Journey Mapping gives you insights into these areas as well as how your customers interact with your company’s products or services.',
-    'desc-w' => 'w-1250 w-900-s4'
+    'desc-w' => 'w-900'
   )); ?>
 
 <?php get_template_part('template-parts/feature-image',null,
@@ -40,15 +41,13 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-250-s4',
+    'classExtend' => 'mr-t-150',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'MOBIO SYSTEM',
     // 'title-class' => 'f-18 c-1-b',
     'name' => '<strong>How Mobio System works?</strong>',
-    'classColContent' => 'mo-col-6',
-    'classColImage' => 'mo-col-6',
-    'nameClass' => 'f-n f-48',
+    'nameClass' => 'f-n f-40',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
@@ -63,7 +62,7 @@ get_header();
 <?php 
   get_template_part('template-parts/tab-platform',null,
       array( 
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-150',
         'items' => array(
           array(
             'title' => 'CDP',
@@ -121,14 +120,14 @@ get_header();
   <!-- TENANT -->
   <?php get_template_part('template-parts/top-tenant-enterprise',null,
                         array( 
-                          'classExtend' => 'mr-t-250 mr-t-200-s4',
+                          'classExtend' => 'mr-t-150',
                           'title' => 'trusted by top banks and enterprises in vietnam'
                         )); ?>
 
 
   <?php get_template_part('template-parts/section-title',null,
     array( 
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'classExtend' => 'mr-t-150',
       'title-sm' => 'why are we different?',
       'title' => '<p>Why Enterprises Choose Mobio?</p>',
     )); ?>
@@ -141,7 +140,7 @@ get_header();
 
   <?php get_template_part('template-parts/quote-site',null,
         array( 
-          'classExtend' => 'mr-t-250 mr-t-200-s4',
+          'classExtend' => 'mr-t-150',
           'desc' => '&#60;a quote said by anh Hung&#62;',
           'name' => 'Le Hung - Mobio CEO'
         )
@@ -149,14 +148,14 @@ get_header();
   
   <?php get_template_part('template-parts/customer-stories', null,
       array (
-        'classExtend' => 'mr-t-250 mr-t-200-s4'
+        'classExtend' => 'mr-t-150'
       )
     ); ?>
   
 
   <?php get_template_part('template-parts/footer-connect', null,
       array (
-        'classExtend' => 'mr-t-250 mr-t-200-s4'
+        'classExtend' => 'mr-t-150'
       )
     ); ?>
 

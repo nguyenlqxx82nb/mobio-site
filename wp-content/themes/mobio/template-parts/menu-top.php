@@ -3,14 +3,14 @@
     <div class="menu-top-container d-flex align-items-center <?php echo ($args['fixed'] === '1' ? '  ' :  ''); ?>">
 
       <a href="<?php  echo get_site_url() ?>">
-        <img class="menu-logo menu-logo-normal mr-l-25-s1" src="<?php  echo get_template_directory_uri() . "/images/logo-gray.svg"  ?>">
+        <img class="menu-logo menu-logo-normal mr-l-25-s0" src="<?php  echo get_template_directory_uri() . "/images/logo-gray.svg"  ?>">
       </a>
 
       <a href="<?php  echo get_site_url() ?>">
-        <img class="menu-logo menu-logo-fixed d-n mr-l-25-s1" src="<?php  echo get_template_directory_uri() . "/images/logo-blue.svg" ?>">
+        <img class="menu-logo menu-logo-fixed d-n mr-l-25-s0" src="<?php  echo get_template_directory_uri() . "/images/logo-blue.svg" ?>">
       </a>
 
-      <div class="d-flex d-none-s1 flex-grow-1 justify-content-center f-b  f-16 f-14-s4">
+      <div class="d-flex d-none-s2 flex-grow-1 justify-content-center f-b  f-16 f-14-s4">
         <div class="menu-item customer-menu d-flex align-items-center">
           <div class="d-flex align-items-center menu-top-item">	
             <p class="c-fff">Customer</p>
@@ -251,17 +251,19 @@
 
         </div>
       </div>
-      <a class="t-d-n d-none-s1 " href="<?php  echo get_site_url() ?>/contact">
+      <a class="t-d-n d-none-s2 " href="<?php  echo get_site_url() ?>/contact">
         <button class="btn-request btn-small btn-white">
           REQUEST A DEMO
         </button>
       </a>
       
-      <div class="d-n d-block-s1 flex-grow-1"></div>
+      <div class="d-n d-block-s2 flex-grow-1"></div>
 
-      <button class="mobile-menu-open-btn menu-btn mr-r-20 d-n d-block-s1">
-        <span class="burger"></span>
-      </button>
+      <div class="mobile-menu-open-btn menu-btn mr-r-20-s0 d-n d-block-s2 cursor-pointer">
+        <div class="menu-btn-inner d-flex justify-content-center align-items-center">
+          <span class="burger"></span>
+        </div>
+      </div>
 
       </div>
   </div>  

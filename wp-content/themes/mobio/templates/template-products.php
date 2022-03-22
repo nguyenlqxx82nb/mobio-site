@@ -49,7 +49,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-175 mr-t-200-s4',
+      'classExtend' => 'mr-t-175 mr-t-150-s4',
       'title-sm' => 'how our system works',
       'title' => 'CDP & CEM Platform',
     )
@@ -84,7 +84,7 @@ get_header();
     'name' => '<strong>Customer Data Platform</strong>',
     'classColContent' => 'mo-col-5',
     'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-56',
+    'nameClass' => 'f-n f-40',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-9-16',
@@ -99,7 +99,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-200 mr-t-200-s4',
+    'classExtend' => 'mr-t-200 mr-t-150-s4',
     'imageLeft' => '1',
     'icon' => get_template_directory_uri(). '/images/home/mkt-xanh.svg',
     'title' => 'our top feature',
@@ -107,7 +107,7 @@ get_header();
     'name' => '<strong>Marketing Management</strong>',
     'classColContent' => 'mo-col-5',
     'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-56',
+    'nameClass' => 'f-n f-40',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-9-16',
@@ -121,7 +121,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-200 mr-t-200-s4',
+    'classExtend' => 'mr-t-200 mr-t-150-s4',
     // 'imageLeft' => '1',
     'icon' => get_template_directory_uri(). '/images/home/sales-xanh.svg',
     'title' => 'The rising star',
@@ -129,7 +129,7 @@ get_header();
     'name' => '<strong>Sales Management</strong>',
     'classColContent' => 'mo-col-5',
     'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-56',
+    'nameClass' => 'f-n f-40',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-9-16',
@@ -143,7 +143,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-200 mr-t-200-s4',
+    'classExtend' => 'mr-t-200 mr-t-150-s4',
     'imageLeft' => '1',
     'icon' => get_template_directory_uri(). '/images/home/service-xanh.svg',
     'title' => 'best performance',
@@ -151,7 +151,7 @@ get_header();
     'name' => '<strong>Service Management</strong>',
     'classColContent' => 'mo-col-5',
     'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-56',
+    'nameClass' => 'f-n f-40',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-9-16',
@@ -169,7 +169,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'classExtend' => 'mr-t-250 mr-t-150-s4',
       'title' => 'Wanna dig a little deeper into our features?',
       'next-button' => 'contact sales',
       'next-url' => get_site_url().'/contact'
@@ -180,14 +180,14 @@ get_header();
 <?php 
   get_template_part('template-parts/customer-stories', null,
     array(
-      'classExtend' => 'mr-t-250 mr-t-200-s4'
+      'classExtend' => 'mr-t-250 mr-t-150-s4'
     ));
 ?>
 
 <?php 
   get_template_part('template-parts/footer-connect', null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-200-s4'
+    'classExtend' => 'mr-t-250 mr-t-150-s4'
   ));
 ?>
 

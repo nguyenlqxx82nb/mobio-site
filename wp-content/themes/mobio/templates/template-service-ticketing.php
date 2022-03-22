@@ -37,7 +37,7 @@ get_header();
 
 <?php get_template_part('template-parts/section-title',null,
   array( 
-    'classExtend' => 'mr-t-250 mr-t-200-s4',
+    'classExtend' => 'mr-t-250 mr-t-150-s4',
     'title-sm' => 'how it helps?',
     'title' => '<p>Features Of <span class="hl-text">An Online Ticketing System</span></p>',
   )); ?>
@@ -47,7 +47,7 @@ get_header();
     array( 
       'title' => 'omni channel support',
       'name' => 'Resolve customers issues accross <strong>every channel</strong>',
-      'nameClass' => 'f-n f-56',
+      'nameClass' => 'f-n f-40',
       'classExtend' => 'mr-t-100',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => '',
@@ -63,8 +63,8 @@ get_header();
           'imageLeft' => 1,
           'title' => 'Ticket Routing, Categorization and Tagging',
           'name' => 'Ticket Routing, Categorization and Tagging',
-          'nameClass' => 'f-n f-56',
-          'classExtend' => 'mr-t-250 mr-t-200-s4',
+          'nameClass' => 'f-n f-40',
+          'classExtend' => 'mr-t-250 mr-t-150-s4',
           'classImageRatio' => 'rt-3-4',
           'classImageContainer' => '',
           'classImage' => 'b-r-10',
@@ -80,8 +80,8 @@ get_header();
         array( 
           'title' => 'Tracking and Measurement',
           'name' => 'Tracking and Measurement',
-          'nameClass' => 'f-n f-56',
-          'classExtend' => 'mr-t-250 mr-t-200-s4',
+          'nameClass' => 'f-n f-40',
+          'classExtend' => 'mr-t-250 mr-t-150-s4',
           'classImageRatio' => 'rt-3-4',
           'classImageContainer' => '',
           'classImage' => 'b-r-10',
@@ -97,7 +97,7 @@ get_header();
   get_template_part('template-parts/customer-stories', null,
       array(
         'no-title' => false,
-        'classExtend' => 'mr-t-250 mr-t-200-s4'
+        'classExtend' => 'mr-t-250 mr-t-150-s4'
       ));
   ?>
 
@@ -105,7 +105,7 @@ get_header();
   get_template_part('template-parts/document-library', null,
     array(
       'no-title' => false,
-      'classExtend' => 'mr-t-250 mr-t-200-s4'
+      'classExtend' => 'mr-t-250 mr-t-150-s4'
     ));
 ?>
 

@@ -33,13 +33,6 @@ with others.
 /* -------------------------------------------------------------------------- */
 
 
-.auto-container {
-  max-width: 1546px;
-  height: auto;
-  margin: 0 auto;
-  position: relative;
-	z-index: 5;
-}
 
 .product-section-item {
 	overflow: auto;
@@ -808,4 +801,9 @@ with others.
 .social-link {
 	width: 30px;
 	height: 30px;
+}
+
+.img-shadow {
+	-webkit-filter: drop-shadow(16px 80px 48px rgba(0, 0, 0, 0.1));
+	filter: drop-shadow(16px 80px 48px rgba(0, 0, 0, 0.1));
 }
