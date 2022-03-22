@@ -18,11 +18,11 @@ get_header();
       'class-col-right'=> 'mo-col-6',
       'title' => 'about us',
       'name' => 'MOBIO 100%',
-      'name-class' => 'f-b f-90 f-56-s4',
+      'name-class' => 'f-b f-90 f-40-s4',
       'desc-html' => '<p>At Mobio, we promote mutual respect among colleagues and consider everyone’s opinions equally important. 
         We are proud of the diligent, progressive, and responsible work culture that has gone deep into each employee.</p>
         <p class="mr-t-10">This is a place where the growth of each individual is the growth of the whole company.</p>',
-      'desc-class' => 'f-n f-18 f-16-s4  mr-t-5-s1',
+      'desc-class' => 'f-n f-18 f-16-s4  mr-t-5-s0',
       'ignoreContact' => '1',
       'img-src' => get_template_directory_uri(). '/images/welcome-to-mobio.png'
     )); ?>
@@ -32,8 +32,8 @@ get_header();
     array( 
       'title' => 'our mission',
       'name' => 'A Comprehensive CDP & CEM Platform',
-      'nameClass' => 'f-b f-56',
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'nameClass' => 'f-b f-40',
+      'classExtend' => 'mr-t-250 mr-t-150-s4',
       'classImageContainer' => '',
       'classImageRatio' => 'rt-3-4',
       'classImage' => '',
@@ -50,7 +50,7 @@ get_header();
   <?php
     get_template_part('template-parts/about-vision',null,
       array(
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'icon-src' => get_template_directory_uri() . '/images/why-mobio-vision.svg',
         'title' => 'our vision',
         'desc' => 'Become the Pioneer of Digital Trend and the <br>Top-of-mind Brand in CDP & CEM Solutions.'
@@ -60,7 +60,7 @@ get_header();
   <?php
     get_template_part('template-parts/about-journey',null,
       array(
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'title-sm' => 'our milestone',
         'title' => 'A Journey that means The World to us',
         'items' => array(
@@ -113,7 +113,7 @@ get_header();
   <?php
     get_template_part('template-parts/about-culture',null,
       array(
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'title-sm' => 'our company culture',
         'title' => 'Words That Guide Us',
         'items' => array(
@@ -142,7 +142,7 @@ get_header();
   <?php 
     get_template_part('template-parts/section-title', null,
       array(
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'title-sm' => 'life at mobio',
         'title' => 'Mobio 100% Happy Place',
         'next-button' => 'join our team',
@@ -174,7 +174,7 @@ get_header();
   
   <?php get_template_part('template-parts/footer-connect', null,
       array (
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'title' => 'Keep in touch with us!'
       )
     ); ?>

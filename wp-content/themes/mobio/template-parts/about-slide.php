@@ -4,7 +4,7 @@
   <div class="auto-container">
     <div class="slides-wrapper d-flex justify-content-between align-items-center">
     
-      <div class="prev-slide b-4-b cursor-pointer mr-r-20 mr-r-5-s1 mr-l-15-s1 ">
+      <div class="prev-slide b-4-b cursor-pointer mr-r-20 mr-r-5-s0 mr-l-15-s0 ">
         <div class="triangle-right"></div>
       </div>
 
@@ -13,7 +13,7 @@
           <?php 
             foreach($args['img-list'] as $img) {
           ?>
-            <div class="slide-item position-relative pa-l-10 pa-r-10  pa-l-5-s1 pa-r-5-s1  flex-30 flex-100-s1">
+            <div class="slide-item position-relative pa-l-10 pa-r-10  pa-l-5-s0 pa-r-5-s0  flex-30 flex-100-s0">
               <div class="rt-9-16 b-r-10">
                 <img class="b-r-10 img-full" src="<?php echo $img  ?>" />
               </div>
@@ -23,7 +23,7 @@
         </div>
       </div>
 
-      <div class="next-slide b-4-b cursor-pointer mr-l-20 mr-r-15-s1 mr-l-5-s1">
+      <div class="next-slide b-4-b cursor-pointer mr-l-20 mr-r-15-s0 mr-l-5-s0">
         <div class="triangle-left"></div>
       </div>
 

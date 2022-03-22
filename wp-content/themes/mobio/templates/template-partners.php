@@ -19,7 +19,7 @@ get_header();
 <?php 
   get_template_part('template-parts/partner-list',null,
     array(
-      'classExtend' => 'mr-t-10 mr-t-80-s1',
+      'classExtend' => 'mr-t-10 mr-t-80-s0',
       'title' => 'Consultation Partners',
       'partners' => array(
         array(
@@ -159,13 +159,13 @@ get_header();
       )
     )); ?>
 
-    <div class="text-center mr-t-50 mr-t-20-s1">
+    <div class="text-center mr-t-50 mr-t-20-s0">
       <button class="btn-small">BECOME OUR PARTNER</button>
     </div>
   
   <?php get_template_part('template-parts/footer-connect', null,
       array (
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-250 mr-t-150-s4',
         'title' => 'Keep in touch with us!'
       )
     ); ?>

@@ -223,8 +223,9 @@ function twentytwenty_register_styles() {
 	// }
 	// wp_enqueue_style('it-company-ie', get_template_directory_uri().'/css/ie.css', array('it-company-basic-style'));
 	// wp_style_add_data( 'it-company-ie', 'conditional', 'IE' );
-	wp_enqueue_style( 'DM-Sans', 'https://fonts.googleapis.com/css?family=DM+Sans:300italic,400italic,700italic,400,700,300', false ); 
-
+	//wp_enqueue_style( 'DM-Sans', 'https://fonts.googleapis.com/css?family=DM+Sans:300italic,400italic,700italic,400,700,300', false ); 
+	wp_enqueue_style( 'DM-Sans', 'https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap', false ); 
+	
 }
 
 add_action( 'wp_enqueue_scripts', 'twentytwenty_register_styles' );

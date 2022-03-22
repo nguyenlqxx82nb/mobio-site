@@ -22,7 +22,7 @@ get_header();
 
 <?php get_template_part('template-parts/section-title',null,
                         array( 
-                          'classExtend' => 'mr-t-150',
+                          'classExtend' => 'mr-t-150 mr-t-250-s2',
                           'title-sm' => 'task management',
                           'title' => 'A minimal task tool to minimize your sales work'
                         )); ?>
@@ -34,7 +34,7 @@ get_header();
 
  <?php get_template_part('template-parts/section-title',null,
       array( 
-        'classExtend' => 'mr-t-250 mr-t-200-s4',
+        'classExtend' => 'mr-t-150',
         'title-sm' => 'how it helps',
         'title' => 'Task Management tool that helps <span class="hl-text">sales better</span>',
       )); ?>
@@ -43,8 +43,8 @@ get_header();
         array( 
           'title' => 'task reminder',
           'name' =>  '<strong>Notify every task</strong> from upcomming to overdue',
-          'nameClass' => 'f-n f-56',
-          'classExtend' => 'mr-t-200 mr-t-100-s4',
+          'nameClass' => 'f-n f-40',
+          'classExtend' => 'mr-t-100',
           'classImageRatio' => 'rt-3-4',
           'classImageContainer' => 'pa-0',
           'classImage' => 'b-r-10',
@@ -59,8 +59,8 @@ get_header();
           'imageLeft' => 1,
           'title' => 'customer contact',
           'name' => 'Reach customers <strong>without leaving the platform</strong>',
-          'nameClass' => 'f-n f-56',
-          'classExtend' => 'mr-t-250 mr-t-200-s4',
+          'nameClass' => 'f-n f-40',
+          'classExtend' => 'mr-t-150',
           'classImageRatio' => 'rt-3-4',
           'classImageContainer' => 'pa-0',
           'classImage' => 'b-r-10',
@@ -75,8 +75,8 @@ get_header();
     array( 
       'title' => 'online sales',
       'name' => "<strong>Online sales and telesales</strong> on the go",
-      'nameClass' => 'f-n f-56',
-      'classExtend' => 'mr-t-250 mr-t-200-s4',
+      'nameClass' => 'f-n f-40',
+      'classExtend' => 'mr-t-150',
       'classImageRatio' => 'rt-3-4',
       'classImageContainer' => 'pa-0',
       'classImage' => 'b-r-10',
@@ -91,7 +91,7 @@ get_header();
   get_template_part('template-parts/customer-stories', null,
     array(
       'no-title' => false,
-      'classExtend' => 'mr-t-250 mr-t-200-s4'
+      'classExtend' => 'mr-t-150'
     ));
 ?>
 
@@ -99,7 +99,7 @@ get_header();
   get_template_part('template-parts/document-library', null,
     array(
       'no-title' => false,
-      'classExtend' => 'mr-t-250 mr-t-200-s4'
+      'classExtend' => 'mr-t-150'
     ));
 ?>
 

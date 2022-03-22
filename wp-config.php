@@ -96,6 +96,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
 
+define('WP_SITEURL', 'http://localhost:8080/site');
+define('WP_HOME', 'http://localhost:8080/site');
+
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
 /** Sets up 'direct' method for wordpress, auto update without ftp */

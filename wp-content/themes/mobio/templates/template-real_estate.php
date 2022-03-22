@@ -23,7 +23,7 @@ get_header();
 <?php 
   get_template_part('template-parts/top-tenant-retail', null,
     array(
-      'classExtend' => 'mr-t-150 mr-t-120-s4',
+      'classExtend' => 'mr-t-120',
       'title' => 'trusted by most innovative corporates in vietnam'
     )
   )
@@ -32,7 +32,7 @@ get_header();
 <?php 
   get_template_part('template-parts/industry-insights', null,
     array(
-      'classExtend' => 'mr-t-175 mr-t-200-s4',
+      'classExtend' => 'mr-t-150',
       'title' => 'industry insights',
       'name' => 'Perspectives On Real Estate',
       'desc' => 'The Real Estate industry is massive and continues to grow fast in recent years, becoming more and more competitive. 
@@ -66,7 +66,7 @@ get_header();
 <?php 
   get_template_part('template-parts/section-title', null, 
     array(
-      'classExtend' => 'mr-t-200 mr-t-200-s4',
+      'classExtend' => 'mr-t-150',
       'title-sm' => 'how can we help?',
       'title' => 'Collect High Quality Leads and Close Deals Faster', 
     )
@@ -82,7 +82,7 @@ get_header();
     'name' => '<strong>Segment and manage</strong> your qualified leads',
     // 'classColContent' => 'mo-col-5',
     // 'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-56',
+    'nameClass' => 'f-n f-40',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
@@ -97,7 +97,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-200-s4',
+    'classExtend' => 'mr-t-150',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'ads management',
@@ -105,7 +105,7 @@ get_header();
     'name' => '<strong>Grab your customer attention</strong> from digital Ads',
     // 'classColContent' => 'mo-col-5',
     // 'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-56',
+    'nameClass' => 'f-n f-40',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
@@ -121,7 +121,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-200-s4',
+    'classExtend' => ' mr-t-150',
     // 'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'email marketing',
@@ -129,7 +129,7 @@ get_header();
     'name' => 'Deliver <strong>personalized messages</strong> based on customer interests',
     'classColContent' => 'mo-col-5',
     'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-56',
+    'nameClass' => 'f-n f-40',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
@@ -144,7 +144,7 @@ get_header();
 
 <?php get_template_part('template-parts/row-content-two',null,
   array(
-    'classExtend' => 'mr-t-300 mr-t-200-s4',
+    'classExtend' => 'mr-t-150',
     'imageLeft' => '1',
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'sales management',
@@ -152,7 +152,7 @@ get_header();
     'name' => '<strong>Sell faster and smarter</strong> with customized sales tools',
     // 'classColContent' => 'mo-col-5',
     // 'classColImage' => 'mo-col-7',
-    'nameClass' => 'f-n f-56',
+    'nameClass' => 'f-n f-40',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
@@ -167,7 +167,7 @@ get_header();
 
 <?php get_template_part('template-parts/section-title',null,
     array( 
-      'classExtend' => 'mr-t-175 mr-t-200-s4',
+      'classExtend' => 'mr-t-150',
       'title-sm' => 'library',
       'title' => 'Most Helpful Paper Selected By Our Customers',
     )); ?>
@@ -205,7 +205,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-connect', null,
   array(
-    'classExtend' => 'mr-t-250 mr-t-200-s4'
+    'classExtend' => 'mr-t-150'
   ));
 ?>
 
