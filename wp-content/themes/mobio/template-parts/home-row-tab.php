@@ -13,7 +13,7 @@
                 <div class="b-r-10w-100 col-img-container">
                   <div class=" w-100 <?php echo $args['items'][$i]['classImgRatio'] ? $args['items'][$i]['classImgRatio'] : 'rt-9-16' ?>">
                     <div class="full-container">
-                      <img class="w-100 h-100 object-fit-contain img-shadow" src="<?php echo $args['items'][$i]['img-src'] ?>" />
+                      <img class="w-100 h-100 object-fit-contain" src="<?php echo $args['items'][$i]['img-src'] ?>" />
                     </div>
                   </div>
                 </div>
@@ -40,7 +40,7 @@
               <div class="col-image mo-col d-none-s0">
                 <div class=" w-100 h-100 <?php echo $args['items'][$i]['classImgRatio'] ? $args['items'][$i]['classImgRatio'] : 'rt-9-16' ?>">
                   <div class="full-container">
-                    <img class="h-100 w-100 object-fit-contain img-shadow" src="<?php echo $args['items'][$i]['img-src'] ?>" />
+                    <img class="h-100 w-100 object-fit-contain" src="<?php echo $args['items'][$i]['img-src'] ?>" />
                   </div>
                 </div>
               </div>
