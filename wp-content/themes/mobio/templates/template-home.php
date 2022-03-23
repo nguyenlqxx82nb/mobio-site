@@ -69,6 +69,7 @@
 			array(
 				'classExtend' => 'mr-t-100',
 				'anchor' => 'tab-marketing',
+				'icon-top' => get_template_directory_uri() . '/images/home/homepage-marketing.svg',
 				'items' => array(
 					array(
 						'tab-title' => 'Journey Builder',
@@ -108,6 +109,7 @@
 				'classExtend' => 'mr-t-300 mr-t-250-s4',
 				'img-left' => 1,
 				'anchor' => 'tab-sales',
+				'icon-top' => get_template_directory_uri() . '/images/home/homepage-sales.svg',
 				'items' => array(
 					array(
 						'tab-title' => 'Lead Distribution',
@@ -146,6 +148,7 @@
 			array(
 				'classExtend' => 'mr-t-300 mr-t-250-s4',
 				'anchor' => 'tab-service',
+				'icon-top' => get_template_directory_uri() . '/images/home/homepage-service.svg',
 				'items' => array(
 					array(
 						'tab-title' => 'Social & Chat',
@@ -155,7 +158,7 @@
 						'url' => get_site_url().'/service-customer-response',
 						'img-src' => get_template_directory_uri() . '/images/home/service-social-chat.png',
 						'classImgRatio' => 'rt-3-4',
-						'icon-top' => get_
+						// 'icon-top' => get_
 					),
 					array(
 						'tab-title' => 'Ticketing',
