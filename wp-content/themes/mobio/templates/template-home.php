@@ -16,15 +16,15 @@
 
 	<?php get_template_part('template-parts/top-tenant-enterprise',null,
   	array(
-			'classExtend' => ' mr-t-150',
+			'classExtend' => 'mr-t-175 mr-t-200-s4',
 			'title' => 'We help Enterprises achieve their goals!'
 		)); ?>
 
 	<?php 
 		get_template_part('template-parts/section-title',null,
 			array(
-				'classExtend' => 'mr-t-150',
-				'classMedia' => 'mr-t-120-s0',
+				'classExtend' => 'mr-t-175 mr-t-200-s4',
+				'classMedia' => 'mr-t-120-s1',
 				'title-sm' => 'Core Value',
 				'title' => 'Customer Data Platform',
 				'desc' => 'CDP is the heart of our products. As a tech consulting company, we know that data is treasure to build customer journey and leading business decisions along the way.',
@@ -44,19 +44,19 @@
 			get_template_part('template-parts/section-title',null,
 				array(
 					'classExtend' => '',
-					'classMedia' => 'mr-t-0-s0',
+					'classMedia' => 'mr-t-0-s1',
 					'next-button' => 'LEARN MORE',
 					'next-url' => get_site_url() . '/products-cdp'
 				));
 		?>
 
-	<!-- <div class="mr-t-35 mr-t-15-s0 mr-auto text-center"><button class="btn-small">LEARN MORE</button></div> -->
+	<!-- <div class="mr-t-35 mr-t-15-s1 mr-auto text-center"><button class="btn-small">LEARN MORE</button></div> -->
 	
 
 	<?php 
 		get_template_part('template-parts/section-title',null,
 			array(
-				'classExtend' => ' mr-t-150',
+				'classExtend' => 'mr-t-250 mr-t-200-s4',
 				'title-sm' => 'Product',
 				'title' => 'Our Operating System',
 				'desc' => 'We know the right solutions for your business problems.',
@@ -72,8 +72,8 @@
 				'items' => array(
 					array(
 						'tab-title' => 'Journey Builder',
-						'title' => 'Marketing Management',
-						'name' => 'End-to-end Customer Journey',
+						'title' => '<p>Marketing Management</p>',
+						'name' => '<p>End-to-end Customer Journey</p>',
 						'desc' => '<p>Journey Builder is our highlight marketing feature that designed to help marketers build a cross-cutting script for digital marketing campaigns and capture every customer touchpoint along the way.</p>',
 						'url' => get_site_url().'/mkt-journey-builder',
 						'img-src' => get_template_directory_uri() . '/images/home/marketing-journey-builder-visual.png',
@@ -81,8 +81,8 @@
 					),
 					array(
 						'tab-title' => 'Email Marketing',
-						'title' => 'Marketing Management',
-						'name' => 'Personalized Messages Direct to Mailbox',
+						'title' => '<p>Marketing Management</p>',
+						'name' => '<p>Personalized Messages Direct to Mailbox</p>',
 						'desc' => '<p>Create unique email style for your brand and deliver 1-to-1 messages to your customers. Upgrade your email sender reputation with our email strategy toolkit.</p>',
 						'url' => get_site_url().'/mkt-email-builder',
 						'img-src' => get_template_directory_uri() . '/images/home/marketing-email-builder.png',
@@ -90,8 +90,8 @@
 					),
 					array(
 						'tab-title' => 'Trigger Campaign',
-						'title' => 'Marketing Management',
-						'name' => 'Meaningful Reaction for all User Interaction',
+						'title' => '<p>Marketing Management</p>',
+						'name' => '<p>Meaningful Reaction for all User Interaction</p>',
 						'desc' => '<p>Engage customer at every step of user lifecycle and deliver the right messages, at the right time in an one-to-one journey. </p>',
 						'url' => get_site_url().'/mkt-trigger-campaign',
 						'img-src' => get_template_directory_uri() . '/images/home/marketing-trigger-campaign.png',
@@ -105,14 +105,14 @@
 	<?php 
 		get_template_part('template-parts/home-row-tab',null,
 			array(
-				'classExtend' => 'mr-t-150',
+				'classExtend' => 'mr-t-300 mr-t-250-s4',
 				'img-left' => 1,
 				'anchor' => 'tab-sales',
 				'items' => array(
 					array(
 						'tab-title' => 'Lead Distribution',
-						'title' => 'Sales Management',
-						'name' => 'The Right Leads to the Right Reps',
+						'title' => '<p>Sales Management</p>',
+						'name' => '<p>The Right Leads to the Right Reps</p>',
 						'desc' => '<p>Rule-based platform that automates generate qualify leads to suitable salesman in the team. </p>',
 						'url' => get_site_url().'/sales-lead-distribution',
 						'img-src' => get_template_directory_uri() . '/images/home/sales-lead-distribution.png',
@@ -120,8 +120,8 @@
 					),
 					array(
 						'tab-title' => 'Sales Pipeline',
-						'title' => 'Sales Management',
-						'name' => 'Build your own Sales Process',
+						'title' => '<p>Sales Management</p>',
+						'name' => '<p>Build your own Sales Process</p>',
 						'desc' => '<p>Design the most efficient sales process and take control of your own progress, increase revenue and reduce the time to close the sale on each order.</p>',
 						'url' => get_site_url().'/sales-pipeline',
 						'img-src' => get_template_directory_uri() . '/images/home/sales-sales-pipeline.png',
@@ -129,8 +129,8 @@
 					),
 					array(
 						'tab-title' => 'Task Management',
-						'title' => 'Sales Management',
-						'name' => 'Keep track every step of your work',
+						'title' => '<p>Sales Management</p>',
+						'name' => '<p>Keep track every step of your work </p>',
 						'desc' => '<p>Contact customer via every channel, book meetings and appointments, remind any task you missed and any other sales task so you can focus on closing deals</p>',
 						'url' => get_site_url().'/sales-task-manger',
 						'img-src' => get_template_directory_uri() . '/images/home/sales-task-management.png',
@@ -144,22 +144,23 @@
 	<?php 
 		get_template_part('template-parts/home-row-tab',null,
 			array(
-				'classExtend' => ' mr-t-150',
+				'classExtend' => 'mr-t-300 mr-t-250-s4',
 				'anchor' => 'tab-service',
 				'items' => array(
 					array(
 						'tab-title' => 'Social & Chat',
-						'title' => 'Service Management',
-						'name' => 'Connect on Time, on Target',
+						'title' => '<p>Service Management</p>',
+						'name' => '<p>Connect on Time, on Target</p>',
 						'desc' => '<p>Respond to customer via every social channel and the website on real-time and improve customer response times by our smart algorithm.</p>',
 						'url' => get_site_url().'/service-customer-response',
 						'img-src' => get_template_directory_uri() . '/images/home/service-social-chat.png',
-						'classImgRatio' => 'rt-3-4'
+						'classImgRatio' => 'rt-3-4',
+						'icon-top' => get_
 					),
 					array(
 						'tab-title' => 'Ticketing',
-						'title' => 'Service Management',
-						'name' => 'Track, prioritize, and solve CS tickets',
+						'title' => '<p>Service Management</p>',
+						'name' => '<p>Track, prioritize, and solve CS tickets</p>',
 						'desc' => '<p>All your customer information is stored in one place, thereby communication between you and your customers is efficient, relevant, and personal. </p>',
 						'url' => get_site_url().'/service-ticketing',
 						'img-src' => get_template_directory_uri() . '/images/home/service-ticketing.png',
@@ -167,8 +168,8 @@
 					),
 					array(
 						'tab-title' => 'Loyalty Management',
-						'title' => 'Service Management',
-						'name' => 'Raise brand awareness',
+						'title' => '<p>Service Management</p>',
+						'name' => '<p>Raise brand awareness</p>',
 						'desc' => '<p>Create and manage immersive loyalty programs, drive sustained brand loyalty and advocacy, improved customer experiences and business value.</p>',
 						'url' => get_site_url().'/service-loyalty-management',
 						'img-src' => get_template_directory_uri() . '/images/home/service-loyalty-management.png',
@@ -204,52 +205,59 @@
 						array(
 							'text-tab' => 'Guardian',
 							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/guardian.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/guardian-white.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/guardian-50.png',
 							'title' => 'Guardian',
-							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did they succeed in managing operations and optimizing customer experience with Mobio Platform?',
-							'url' => get_site_url(). '/coming-soon',
+							'title-sub' => 'Boost customer engagement <br>through loyalty programs',
+							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores 
+							across the country. How did they succeed in managing operations and optimizing customer experience with Mobio Platform?',
+							'url' => get_site_url(). '/customer-cases',
 							'img-src' => get_template_directory_uri().'/images/home/guardian.png'
 						),
 						array(
-							'text-tab' => 'Samsung',
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/samsung.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/samsung-white.png',
-							'title' => 'Samsung',
-							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Samsung is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did they succeed in managing operations and optimizing customer experience with Mobio Platform?',
-							'url' => get_site_url(). '/coming-soon',
-							'img-src' => get_template_directory_uri().'/images/home/service-loyalty.png'
+							'text-tab' => 'VNShop',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/vnshop.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/vnshop-50.png',
+							'title' => 'VNShop',
+							'title-sub' => 'Optimize conversion rate <br>through personalized campaign',
+							'desc' => 'Increase the conversion rate of using vouchers through Landing Page campaigns by personalizing messages and 
+							reminding customers to use vouchers at the right time.',
+							'url' => get_site_url(). '/customer-cases',
+							'img-src' => get_template_directory_uri().'/images/home/vnshop-case-2.png'
 						),
 						array(
-							'text-tab' => 'Sun Hospitality',
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/sunhospitality.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/sunhospitality-white.png',
-							'title' => 'Sun Hospitality',
-							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Sunworld is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
-							'url' => get_site_url(). '/coming-soon',
-							'img-src' => get_template_directory_uri().'/images/home/service-ticket.png'
+							'text-tab' => 'Sun Group',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/sungroup.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/sungroup-50.png',
+							'title' => 'Sun Group',
+							'title-sub' => 'Manage customer data to build<br>a single source of truth',
+							'desc' => 'Unify and manage of corporate data in 3 layers to create a 360-degree customer view. 
+							Optimize employee operations by coordinating the use of social media management and sales process management on the same 
+							platform.',
+							'url' => get_site_url(). '/customer-cases',
+							'img-src' => get_template_directory_uri().'/images/home/sun-group-case-2.png'
 						),
 						array(
 							'text-tab' => 'Phong Vu',
 							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/phongvu.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/phongvu-white.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/phongvu-50.png',
 							'title' => 'Phong Vu',
-							'title-sub' => 'Maximize customer response time',
-							'desc' => 'Phong Vu is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
-							'url' => get_site_url(). '/coming-soon',
-							'img-src' => get_template_directory_uri().'/images/home/service-ticket.png'
+							'title-sub' => 'Leverage digital strategy in the age of COVID-19',
+							'desc' => 'Phong Vu is known for its chain of retail stores spread across the North, Central, and South regions in Vietnam. 
+							How did this traditional brick-and-mortar business adapt so quickly to digital transformation and nail the online service 
+							during the pandemic?',
+							'url' => get_site_url(). '/customer-cases',
+							'img-src' => get_template_directory_uri().'/images/home/phong-vu-case.png'
 						),
 						array(
-							'text-tab' => 'Sapporo',
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/sapporo.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/sapporo-white.png',
-							'title' => 'Sapporo',
-							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Budweiser is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
-							'url' => get_site_url(). '/coming-soon',
-							'img-src' => get_template_directory_uri().'/images/home/sales-pipeline.png'
+							'text-tab' => 'Galle Watch',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/galle.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/galle-50.png',
+							'title' => 'Galle Watch',
+							'title-sub' => 'Optimize customer satisfaction at scale',
+							'desc' => 'Galle has successfully coordinated Marketing, Sales, and CS Teams all in one platform and built an effective 
+							evaluation system for employee performance.',
+							'url' => get_site_url(). '/customer-cases',
+							'img-src' => get_template_directory_uri().'/images/home/galle-case-2.png'
 						),
 				)
 		));
@@ -259,7 +267,7 @@
 
 <?php get_template_part('template-parts/section-title',null,
     array( 
-      'classExtend' => 'mr-t-150',
+      'classExtend' => 'mr-t-175 mr-t-200-s4',
       'title-sm' => 'library',
       'title' => 'Most Helpful Paper selected by our Customers',
     )); ?>
@@ -295,11 +303,10 @@
 
 	<?php get_template_part('template-parts/breaking-case',null,
     array( 
-      'classExtend' => 'mr-t-50 mr-b-70-s0 mr-b-200',
+      'classExtend' => 'mr-t-50 mr-b-300 mr-b-70-s1 mr-b-200-s4',
 			'title' => 'Banking cases',
 			'title-sub' => 'CDP use case: Banking sector',
-			'desc' => '<p>In Banking industry, data security and privacy are top of mind. Banks hold the most sensitive data and have the highest security requirements. Even sharing data accross organization could be a challenge as its stricted surrounding regulations. </p>
-			<p class="mr-t-10">To learn how banks use MOBIO CDP to deal with their data complexity challenges, please contact us for private documents and consulting.</p>',
+			'desc' => '<p>In Banking industry, data security and privacy are top of mind. Banks hold the most sensitive data and have the highest security requirements. Even sharing data accross organization could be a challenge as its stricted surrounding regulations. <br> <br>To learn how banks use MOBIO CDP to deal with their data complexity challenges, please contact us for private documents and consulting.</p>',
 			'img-src' => get_template_directory_uri(). '/images/home/banking-cases.png'
     )); ?>
 

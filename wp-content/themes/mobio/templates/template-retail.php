@@ -169,53 +169,59 @@ get_header();
 				'items' => array(
 						array(
 							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/guardian.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/guardian-white.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/guardian-50.png',
 							'title' => 'Guardian',
               'text-tab' => 'Guardian',
-							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did they succeed in managing operations and optimizing customer experience with Mobio Platform?',
-							'url' => '#',
+							'title-sub' => 'Boost customer engagement <br>through loyalty programs',
+							'desc' => 'Guardian is one of the biggest cosmetic retail chains in Vietnam with more than 90 brick-and-mortar stores
+               across the country. How did they succeed in managing operations and optimizing customer experience with Mobio Platform?',
+							'url' => get_site_url(). '/customer-cases',
 							'img-src' => get_template_directory_uri().'/images/home/guardian.png'
 						),
 						array(
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/routine.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/routine-white.png',
-							'title' => 'ROUTINE',
-              'text-tab' => 'ROUTINE',
-							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did they succeed in managing operations and optimizing customer experience with Mobio Platform?',
-							'url' => '#',
-							'img-src' => get_template_directory_uri().'/images/home/service-loyalty.png'
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/galle-tim.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/galle-50.png',
+							'title' => 'Galle Watch',
+              'text-tab' => 'Galle Watch',
+							'title-sub' => 'Optimize customer satisfaction at scale',
+							'desc' => 'Galle has successfully coordinated Marketing, Sales, and CS Teams all in one platform and built an 
+              effective evaluation system for employee performance.',
+							'url' => get_site_url(). '/customer-cases',
+							'img-src' => get_template_directory_uri().'/images/home/galle-case-2.png'
 						),
 						array(
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/galle-tim.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/galle-white-in.png',
-							'title' => 'Galle Watch',
-              'text-tab' => 'Galle',
-							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
-							'url' => '#',
-							'img-src' => get_template_directory_uri().'/images/home/service-ticket.png'
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/vnshop.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/vnshop-50.png',
+							'title' => 'VNShop',
+              'text-tab' => 'VNShop',
+							'title-sub' => 'Optimize conversion rate <br>through personalized campaign',
+							'desc' => 'Increase the conversion rate of using vouchers through Landing Page campaigns by personalizing messages 
+              and reminding customers to use vouchers at the right time.',
+							'url' => get_site_url(). '/customer-cases',
+							'img-src' => get_template_directory_uri().'/images/home/vnshop-case-2.png'
 						),
 						array(
 							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/phongvu.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/phongvu-white.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/phongvu-50.png',
 							'title' => 'Phong Vu',
               'text-tab' => 'Phong Vu',
-							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
-							'url' => '#',
-							'img-src' => get_template_directory_uri().'/images/home/service-ticket.png'
+							'title-sub' => 'Leverage digital strategy in the age of COVID-19',
+							'desc' => 'Phong Vu is known for its chain of retail stores spread across the North, Central, and South regions in 
+              Vietnam. How did this traditional brick-and-mortar business adapt so quickly to digital transformation and nail the 
+              online service during the pandemic?',
+							'url' => get_site_url(). '/customer-cases',
+							'img-src' => get_template_directory_uri().'/images/home/phong-vu-case.png'
 						),
 						array(
 							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/sapporo.png',
 							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/sapporo-white.png',
 							'title' => 'Sapporo',
               'text-tab' => 'Sapporo',
-							'title-sub' => '26% increase in voucher redeem',
-							'desc' => 'Sapporo is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores across the country. How did ',
-							'url' => '#',
-							'img-src' => get_template_directory_uri().'/images/home/sales-pipeline.png'
+							'title-sub' => 'Optimize marketing execution',
+							'desc' => 'Sapporo is the oldest beer brand in Japan and became well known in Vietnam since 2010.
+              How did Mobio help them adapt to digital transformation in the era of online purchasing?',
+							'url' => get_site_url(). '/customer-cases',
+							'img-src' => get_template_directory_uri().'/images/home/sapporo-case-1.jpg'
 						),
 				)
 		));
