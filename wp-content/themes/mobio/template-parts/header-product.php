@@ -1,7 +1,7 @@
 
 <body class="">
 <!-- mobile header -->
-<div class="d-n d-block-s0">
+<div class="d-n d-block-s2">
   <?php get_template_part(
     'template-parts/menu-mobile',
     null,

@@ -13,7 +13,7 @@
                 <div class="b-r-10w-100 col-img-container">
                   <div class=" w-100 <?php echo $args['items'][$i]['classImgRatio'] ? $args['items'][$i]['classImgRatio'] : 'rt-9-16' ?>">
                     <div class="full-container">
-                      <img class="w-100 h-100 object-fit-contain img-shadow" src="<?php echo $args['items'][$i]['img-src'] ?>" />
+                      <img class="w-100 h-100 object-fit-contain" src="<?php echo $args['items'][$i]['img-src'] ?>" />
                     </div>
                   </div>
                 </div>
@@ -25,7 +25,7 @@
             <?php } ?>
 
             <div class="col-info mo-col d-flex flex-column justify-content-center">
-              <img class="icon-top " src="<?php echo $args["icon-top"] ? $args["icon-top"] : get_template_directory_uri() ?>/images/item-icon.png" />
+              <img class="icon-top " src="<?php echo $args["icon-top"] ? $args["icon-top"] : get_template_directory_uri() . '/images/item-icon.png' ?>" />
               <div class="f-b f-16 f-14-s3 upper-case c-0-b mr-t-35"><?php echo $args['items'][$i]['title'] ?></div>
               <h3 class="mr-t-20"><?php echo $args['items'][$i]['name'] ?></h3>
               <div class="f-n f-18 f-16-s3 mr-t-30"><?php echo $args['items'][$i]['desc'] ?></div>
@@ -40,7 +40,7 @@
               <div class="col-image mo-col d-none-s0">
                 <div class=" w-100 h-100 <?php echo $args['items'][$i]['classImgRatio'] ? $args['items'][$i]['classImgRatio'] : 'rt-9-16' ?>">
                   <div class="full-container">
-                    <img class="h-100 w-100 object-fit-contain img-shadow" src="<?php echo $args['items'][$i]['img-src'] ?>" />
+                    <img class="h-100 w-100 object-fit-contain" src="<?php echo $args['items'][$i]['img-src'] ?>" />
                   </div>
                 </div>
               </div>

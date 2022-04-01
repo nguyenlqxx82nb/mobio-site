@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'mobio' );
+define( 'DB_NAME', 'mdb' );
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );
@@ -79,11 +79,7 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-
-ini_set('display_errors','Off');
-ini_set('error_reporting', E_ALL );
-define('WP_DEBUG', false);
-define('WP_DEBUG_DISPLAY', false);
+define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
@@ -95,11 +91,10 @@ define('WP_DEBUG_DISPLAY', false);
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
-
-define('WP_SITEURL', 'http://localhost:8080/site');
-define('WP_HOME', 'http://localhost:8080/site');
-
+define('WP_HOME', 'http://localhost:8080/site/');
+define('WP_SITEURL', 'http://localhost:8080/site/');
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
 /** Sets up 'direct' method for wordpress, auto update without ftp */
 define('FS_METHOD','direct');
+
