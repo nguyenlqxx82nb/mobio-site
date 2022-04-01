@@ -154,7 +154,7 @@ get_header();
         array(
           'icon-src' => get_template_directory_uri(). '/images/partner-3.svg',
           'name' => 'Access a delicated team',
-          'desc' => 'We know how we candevelop deep, trust-based relationships with our clients, and work together more collaboratively'
+          'desc' => 'We know how we can develop deep, trust-based relationships with our clients, and work together more collaboratively'
         ),
       )
     )); ?>

@@ -36,7 +36,7 @@ get_header();
       array( 
         'classExtend' => 'mr-t-150',
         'title-sm' => 'how it helps',
-        'title' => 'Task Management tool that helps <span class="hl-text">sales better</span>',
+        'title' => 'Task Management tool that helps <span class="hl-text">sell better</span>',
       )); ?>
  
   <?php get_template_part('template-parts/row-content-two',null,
@@ -83,7 +83,7 @@ get_header();
       'divider' => 1,
       'img-src' => get_template_directory_uri(). '/images/product/sales/task-mngt-call.png',
       'desc' => '<p>Sales reps can connect to customer via task management interface and close deals on the go via social chat or log a telesales via call center while seeing a full customer journey and information, 
-        increase chances to seal the deals.  </p>',
+        increase chances to seal the deals.</p>',
     )); ?>
 
   

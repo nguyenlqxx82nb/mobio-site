@@ -42,22 +42,22 @@ get_header();
         array(
           'icon' => get_template_directory_uri().'/images/industry-healthcare/heathcare-security.svg',
           'title' => 'privacy &<br> security first',
-          'desc' => 'Privacy and security are always in the top of mind for healthcare service.'
+          'desc' => 'Privacy and security are always at top-of-mind for healthcare services.'
         ),
         array(
           'icon' => get_template_directory_uri().'/images/industry-healthcare/heathcare-service.svg',
           'title' => 'Service <br> is key',
-          'desc' => 'Patients want a comfortable clinic service and won’t hesitage to leave if the services don’t meet their expectation.'
+          'desc' => 'Patients want a comfortable clinic service and won’t hesitate to leave if the services don’t meet their expectations.'
         ),
         array(
           'icon' => get_template_directory_uri().'/images/industry-healthcare/healthcare-o2o.svg',
           'title' => 'O2O patient<br> experience',
-          'desc' => 'Since the outbreak, people work online, shop online and want to be taking care online as well.'
+          'desc' => 'Since the outbreak, people work online, shop online, and want to be taken care of online as well.'
         ),
         array(
           'icon' => get_template_directory_uri().'/images/industry-healthcare/heathcare-target.svg',
           'title' => 'targeted <br> & personalized care',
-          'desc' => 'Each patients need different treatments and it’s crucial to give them a personalized care.'
+          'desc' => 'Each patient needs different treatments and it’s crucial to give them personalized care.'
         )
       ),
       'next-url' => '#'

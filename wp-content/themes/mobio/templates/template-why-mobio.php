@@ -141,7 +141,16 @@ get_header();
   <?php get_template_part('template-parts/quote-site',null,
         array( 
           'classExtend' => 'mr-t-150',
-          'desc' => '&#60;a quote said by anh Hung&#62;',
+          'desc' => '“At MOBIO, we always care about the Value! <br><br>
+ 
+          The Value we make, the Value we bring to our customers.<br><br> 
+           
+          Software/Solution/IT things are expensive and always take a big chunk of every company’s cost. 
+          By combining Marketing Tools, Sale Tools, Service Tool on top of an All-in-One Data Platform and offering 
+          as a SaaS, we believe it will cut down a lot of investment & integration costs but in the meantime, it also 
+          push the digital transformation process of Enterprise 2-3 time faster.<br><br> 
+           
+          That is the Value we offer!"',
           'name' => 'Le Hung - Mobio CEO'
         )
     ); ?>

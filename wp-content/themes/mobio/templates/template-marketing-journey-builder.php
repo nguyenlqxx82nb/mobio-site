@@ -27,9 +27,7 @@ get_header();
       'classExtend' => 'mr-t-120',
       'title-sm' => 'visual interface',
       'title' => 'Drag-and-drop Tool to build your own Customer Journey', 
-      'desc' => 'Drag-and-drop, one-to-one interface to help you create a personalized journey for your customer. 
-          Connect every interaction across website, mobile, email, social media channel, and advertising — along with Sales and Service — into a seamless customer experience.
-           Workflow management is our strongest point. ',
+      'desc' => 'A drag-and-drop, one-to-one interface to help you create a personalized journey for your customer. Connect every interaction across websites, mobile, email, social media channels, and advertising — along with Sales and Service — into a seamless customer experience.',
       'desc-w' => 'w-1000'
     )
   );
@@ -102,8 +100,7 @@ get_header();
     'classImageRatio' => 'rt-1-1',
     'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/product/marketing/jb-marketing_reports.png',
-    'desc' => "<p>Reports show not only indicators from the marketing campaign but the customer touchpoint as a whole. With our general to detail reports, 
-      marketers will have a clear picture of the overall market trend and business marketing plan.</p>",
+    'desc' => "<p>Reports show not only indicators from the marketing campaign but the customer touchpoint as a whole. With our general detailed reports, marketers will have a clear picture of the overall market trend and business marketing plan.</p>",
     // 'next-button' => 'Learn More',
     // 'next-url' => '#'
   )); ?>
@@ -126,11 +123,11 @@ get_header();
         array(
           'tab-title' => 'Targeting',
           'title' => 'Accurate Audiences',
-          'desc' => 'Targeting is the very first step for a successful customer journey. We help you segment your customer list and 
+          'desc' => 'Targeting is the very first step toward a successful customer journey. We help you segment your customer list and 
               choose the right audience group for your targets that deliver conversion. You can target audiences whenever they make an interaction.
                 <br><br>To avoid sending too many unwanted messages to your customer, you can use our Spam Filter to maintain the number of messages sent daily. ',
           'class-image-wrapper' => 'b-fff',
-          'img-src' => get_template_directory_uri(). '/images/product/marketing/jb-targeting.png'
+          'img-src' => get_template_directory_uri(). '/images/product/marketing/journey-element-targeting2.png'
         ),
         array(
           'tab-title' => 'Channels & Messages',
@@ -138,9 +135,9 @@ get_header();
           'desc' => 'Each channel has its own uniqueness and goes with different kinds of messages. 
                 You can choose your own way to raise brand awareness since there are so many options to go. 
                 Don’t worry if you have no clue to start, we will get you through it. 
-                <br><br>Let start and create a seamless customer experience across all your channels! ',
+                <br><br>Let’s start and create a seamless customer experience across all your channels! ',
           // 'class-image-wrapper' => 'b-fff',
-          'img-src' => get_template_directory_uri(). '/images/product/marketing/jb-channels.png'
+          'img-src' => get_template_directory_uri(). '/images/product/marketing/journey-element-channel.png'
         ),
         array(
           'tab-title' => 'Workflow',
@@ -149,16 +146,15 @@ get_header();
                   It shows how customers interact with the messages or the screen and what action to take after that.
                   <br><br>Every workflow has a name and a description of what each of the steps is and what it is accomplishing so that marketers can easily use and get the most from it.',
           // 'class-image-wrapper' => 'b-fff',
-          'img-src' => get_template_directory_uri(). '/images/product/marketing/jb-workflow.png'
+          'img-src' => get_template_directory_uri(). '/images/product/marketing/journey-element-workflow.png'
         ),
         array(
           'tab-title' => 'Activities',
           'title' => 'Know Your Action',
-          'desc' => 'These are actions that you can take automatically when building a journey. 
-            This allows you to organize and connect all the steps in customer experience, create end-to-end journey and segment or save customer profile for further uses.
-            <br><br>Activities is a crucial and powerful tool for marketers to take action after the journey ends and make use of new customer data collected.',
+          'desc' => 'These are actions that you can take automatically when building a journey. This allows you to organize and connect all the steps in customer experience, create an end-to-end journey, and segment or save customer profiles for further uses.
+            <br><br>Activities are a crucial and powerful tool for marketers to take action after the journey ends and make use of new customer data collected.',
           // 'class-image-wrapper' => 'b-fff',
-          'img-src' => get_template_directory_uri(). '/images/product/marketing/jb-workflow.png'
+          'img-src' => get_template_directory_uri(). '/images/product/marketing/journey-element-operation.png'
         )
       )
     )
@@ -192,7 +188,7 @@ get_header();
         array(
           'icon-src' => get_template_directory_uri().'/images/product/marketing/jb-3.svg',
           'name' => 'Everything Tracked',
-          'desc' => 'Every customer touchpoints and digital footprint across the journey are tracked, collected, and stored in CDP, achieving the goal of every business: a single source of truth.'
+          'desc' => 'Every customer touchpoint and digital footprint across the journey is tracked, collected, and stored in CDP, achieving the goal of every business: a single source of truth.'
         ),
       )
     )

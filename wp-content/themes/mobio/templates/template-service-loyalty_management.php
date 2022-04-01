@@ -25,7 +25,7 @@ get_header();
     'classExtend' => 'mr-t-150 mr-t-250-s2',
     'title-sm' => 'mobio loyalty management',
     'title' => 'Organize, Prioritize, and Consolidate support requests',
-    'desc' => 'The system has frequently proven that there are many ways of how you can raise brand awareness. Thanks to its innovative and practical functionalities, building trust with customers has never been easier.',
+    'desc' => 'The system has frequently proven that there are many ways how you can raise brand awareness. Thanks to its innovative and practical functionalities, building trust with customers has never been easier.',
     'desc-w' => 'w-1100 w-850'
   )); ?>
 
@@ -52,14 +52,14 @@ get_header();
         'tab-icon' => get_template_directory_uri().'/images/product/service/loyalty-1.svg',
         'desc' => '<strong>Points Program</strong> is the most well-known loyalty program which was perfect for customer acquisition and collecting data, plus, 
               it’s lower the risk and complexity for business more than other programs. 
-              <br><br>Mobio provides a powerful <strong>Point Earning Policy</strong> which involved point earned for different types of customer behavior or transaction,
-              so that it can encourage customers to become more committed to your services and products. ',
+              <br><br>Mobio provides a powerful <strong>Point Earning Policy</strong> which involved points earned for different types of customer behavior or transaction,
+              to encourage customers become more committed to your services and products. ',
         'img-src' => get_template_directory_uri() .'/images/product/service/loyalty-points-2.png'
       ),
       array(
         'tab-title' => 'Tiered Program',
         'tab-icon' => get_template_directory_uri().'/images/product/service/loyalty-2.svg',
-        'desc' => 'Great for increase customer engagement, personalize CX, and encourages additional purchases from high-value customers.',
+        'desc' => 'Great for increasing customer engagement, personalizing CX, and encouraging additional purchases from high-value customers.',
         'img-src' => get_template_directory_uri() .'/images/product/service/loyalty-tier.png'
       ),
       array(
@@ -76,7 +76,7 @@ get_header();
       array( 
         'classExtend' => 'mr-t-150',
         'title-sm' => 'how it helps',
-        'title' => '<p>Achieving sustainable customer loyalty strategy</p>',
+        'title' => '<p>Achieving a sustainable customer loyalty strategy</p>',
       )); ?>
 
 <?php get_template_part('template-parts/row-content-two',null,
@@ -121,7 +121,7 @@ get_header();
   <?php get_template_part('template-parts/row-content-two',null,
         array( 
           'title' => 'Omnichannel interaction',
-          'name' => 'Loyalty management accross <strong>all channels</strong>',
+          'name' => 'Loyalty management across <strong>all channels</strong>',
           'nameClass' => 'f-n f-40',
           'classExtend' => 'mr-t-150',
           'classImageRatio' => 'rt-9-16',
@@ -131,8 +131,7 @@ get_header();
           'classColImage' => 'mo-col-7',
           'divider' => 1,
           'img-src' => get_template_directory_uri() .'/images/product/service/social-omni.png',
-          'desc' => '<p>Mobio allows you to stay in contact with your customers at every level of their loyalty program participation. Use it to create mass or individual 
-            <strong>messages</strong> (E-mail/SMS/POS/mobile app/website) informing the members about your current product offers and services.</p>
+          'desc' => '<p>Mobio allows you to stay in contact with your customers at every level of their loyalty program participation. Use it to create a mass or individual messages (Email/SMS/POS/mobile app/website) informing the members about your current product offers and services.</p>
           <p class="mr-t-10">Also, send surveys to collect feedback so you could constantly improve the quality of your loyalty programs. </p>',
           // 'next' => 'see how quick response can boost your cx >>',
           // 'next-url' => '#'

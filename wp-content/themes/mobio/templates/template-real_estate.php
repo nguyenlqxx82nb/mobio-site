@@ -15,7 +15,7 @@ get_header();
   array( 
     'title-sub' => 'industry | real estate',
     'title' => 'Collect High Quality Leads and Close Deals Faster',
-    'desc' => "Marketing and Sales in Real Estate Industry are easier said than done since it requires a huga amount of time to find the right buyers for every new project launched. With the help from MOBIO CDP, agents can find it truly easy to collect high quality leads and seal the deals faster.",
+    'desc' => "Marketing and Sales in Real Estate Industry are easier said than done since it requires a huge amount of time to find the right buyers for every new project launched. With the help of MOBIO CDP, agents can find it truly easy to collect high-quality leads and seal the deals faster.",
     'header-img' => get_template_directory_uri(). '/images/industry-real-estate/real-estate-header-2.png'
   ));
 ?>
@@ -51,12 +51,12 @@ get_header();
         array(
           'icon' => get_template_directory_uri().'/images/industry-real-estate/real-estate-3.svg',
           'title' => 'Personalized<br> at scale',
-          'desc' => 'In this era, customers want to be treated as a unique individual with meaningful personalized messages.'
+          'desc' => 'In this era, customers want to be treated as unique individuals with meaningful personalized messages.'
         ),
         array(
           'icon' => get_template_directory_uri().'/images/industry-real-estate/real-estate-4.svg',
           'title' => 'On time,<br> on target',
-          'desc' => 'It takes time and effort to seal a deal in real estate. On time and on target messages make it easier.'
+          'desc' => 'It takes time and effort to seal a deal in real estate. On-time and on-target messages make it easier.'
         )
       ),
       'next-url' => '#'
@@ -88,9 +88,9 @@ get_header();
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/industry-real-estate/real-estate-jb-1.png',
-    'desc' => "<p>By using a CDP, real estate agents can classify warm-leads and cold-leads, then have a separated 
-    approaching strategy for different types of customers. You can also have a single source of truth from your customers,
-     know them from head to toe, and increase your chance to land deals.</p>",
+    'desc' => "<p>By using a CDP, real estate agents can classify warm leads and cold leads, then, have a separate approaching strategy 
+    for different types of customers. You can also have a single source of truth from your customers, know them from head to toe, and increase 
+    your chance to land deals.</p>",
     'next' => 'Explore our possibilities >>',
     'next_url' => get_site_url(). '/mkt-journey-builder'
   )); ?>
@@ -111,9 +111,9 @@ get_header();
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/industry-real-estate/real-estate-ads.png',
-    'desc' => "<p>With Mobio Ads Management tool, real estate businesses can attract customers via appealing Facebook or 
-    Google Ads, segment those warm-leads, and make telesales immediately to the right customers. 
-    Those cold-leads will be stored in CDP and continually nurtured through marketing campaigns. </p>",
+    'desc' => "<p>With Mobio Ads Management tool, real estate businesses can attract customers via appealing Facebook or Google Ads, 
+    segment those warm leads, and make telesales immediately to the right customers. Those cold leads will be stored in CDP and continually 
+    nurtured through marketing campaigns.</p>",
     //'next' => 'Learn the strategy to convert leads through ads >>',
     //'next-url' => get_site_url(). '/'
   )); ?>

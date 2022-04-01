@@ -37,7 +37,7 @@ get_header();
                         array( 
                           'classExtend' => 'mr-t-150',
                           'title-sm' => 'sales pipeline feature',
-                          'title' => 'Everything you need to <span class="hl-text">sale faster and smarter</span>',
+                          'title' => 'Everything you need to <span class="hl-text">sell faster and smarter</span>',
                           'desc' => 'Mobio Sales Pipeline focuses on what matters most: Growing relationships and closing 
                           deals - anytime, anywhere',
                           'desc-w' => 'w-1200'
@@ -53,7 +53,7 @@ get_header();
           ),
           array(
             'name' => 'Opportunity Management',
-            'desc' => 'Track salels opportunities and move forward faster with a rich customer activity timeline.'
+            'desc' => 'Track sales opportunities and move forward faster with a rich customer activity timeline.'
           ),
           array(
             'name' => 'Sales Forecasting',
@@ -61,7 +61,7 @@ get_header();
           ),
           array(
             'name' => 'Process Automation',
-            'desc' => 'Steamline and automate daily sales tasks like activity tracking, email alerts and workflows.'
+            'desc' => 'Streamline and automate daily sales tasks like activity tracking, email alerts, and workflows.'
           ),
           array(
             'name' => 'Mobile Sales Management',
@@ -70,7 +70,7 @@ get_header();
           ),
           array(
             'name' => 'KPI Management',
-            'desc' => 'Power predictable revenue by measuring pipiline accuracy in real time and optimizing the complete revenue lifecycle.'
+            'desc' => 'Power predictable revenue by measuring pipeline accuracy in real-time and optimizing the complete revenue lifecycle.'
           )
         )
       )); ?>
@@ -79,7 +79,7 @@ get_header();
       array( 
         'classExtend' => 'mr-t-150',
         'title-sm' => 'how it helps',
-        'title' => 'Sales Toolkit that focus on <span class="hl-text">what matters most</span>',
+        'title' => 'Sales toolkit that focuses on <span class="hl-text">what matters most</span>',
       )); ?>
   
   <?php get_template_part('template-parts/row-content-two',null,
@@ -102,7 +102,7 @@ get_header();
       array( 
         'imageLeft' => 1,
         'title' => 'Sales process',
-        'name' => 'Manage your own <strong>sales process</strong> efficently',
+        'name' => 'Manage your own <strong>sales process</strong> efficiently',
         'nameClass' => 'f-n f-40',
         'classExtend' => ' mr-t-150',
         'classImageRatio' => 'rt-3-4',
@@ -110,9 +110,7 @@ get_header();
         'classImage' => 'b-r-10',
         'divider' => 1,
         'img-src' => get_template_directory_uri(). '/images/product/sales/sales-pipeline-create.png',
-        'desc' => '<p>Sales pipelines show you how many deals sales reps are expected to close in a given week, 
-        month or year and how close a rep is to reaching their sales quota. In that way, sales leader or manager can 
-        adjust the sales plan or push sales team to achieve sales target on time. </p>',
+        'desc' => '<p>Sales pipelines show you how many deals sales reps are expected to close in a given week, month, or year and how close a rep is to reaching their sales quota. In that way, sales leaders or managers can adjust the sales plan or push their team to achieve targets on time.</p>',
       )); ?>
 
   <?php get_template_part('template-parts/row-content-two',null,
@@ -150,7 +148,7 @@ get_header();
 
 <?php get_template_part('template-parts/footer-contact', null,
     array( 
-      'title' => 'Curious about Sales Pipeline? There’re lot more to explore!'
+      'title' => 'Curious about Sales Pipeline? There’re lots more to explore!'
     )
   ); ?>
 

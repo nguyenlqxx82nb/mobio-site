@@ -13,8 +13,8 @@ get_header();
 
 <?php get_template_part('template-parts/header-page',null,
   array( 
-    'title' => 'industry | financial services',
-    'name' => 'Conquer the Era of Privacy and Digital-first in the FSI',
+    'title' => 'industry | BFSI',
+    'name' => 'Conquer the Era of Privacy and Digital-first in the BFSI',
     'name-class' => 'w-750 f-b f-60 mr-t-25',
   ));
 ?>
@@ -24,7 +24,7 @@ get_header();
   get_template_part('template-parts/section-title', null, 
     array(
       'classExtend' => 'mr-t-100',
-      'title-sm' => 'solutions for bank',
+      'title-sm' => 'solutions for banks',
       'title-sm-class' => 'f-b f-18 c-1-b',
       'title' => 'Best CDP for Banking Services',
     )
@@ -44,22 +44,22 @@ get_header();
         'title' => 'Card Center',
         'desc' => 'Manage all Card Programs, boost customer spending and transaction, cross-sell and upsell effectively, and reduce churn rate.',
         'img-src' => get_template_directory_uri(). '/images/industry-fsi/card-center.png',
-        'next' => 'learn insights >>',
-        'next-url' => '#'
+        //'next' => 'learn insights >>',
+        //'next-url' => '#'
       ),
       array(
         'title' => 'Digital Banking',
         'desc' => 'Grow app installation rate, eKYC, and time spent on the app; track every customer touchpoint in the mobile app; optimize CX and digital service registration rates.',
         'img-src' => get_template_directory_uri(). '/images/industry-fsi/digital-banking.png',
-        'next' => 'learn insights >>',
-        'next-url' => '#'
+        //'next' => 'learn insights >>',
+        //'next-url' => '#'
       ),
       array(
         'title' => 'Retail Banking',
-        'desc' => "Increase top-funnel leads quality, improve the sales process, share data across teams and channels, growth and optimize CX while upholding data privacy. ",
+        'desc' => "Increase top-funnel leads quality, improve the sales process, share data across teams and channels, grow and optimize CX while upholding data privacy.",
         'img-src' => get_template_directory_uri(). '/images/industry-fsi/retail-banking.png',
-        'next' => 'learn insights >>',
-        'next-url' => '#'
+        //'next' => 'learn insights >>',
+        //'next-url' => '#'
       )
     )
   ));
@@ -97,7 +97,7 @@ get_header();
     'img-src' => get_template_directory_uri(). '/images/industry-fsi/fintech.png',
     'desc' => "<p>With Mobio Platform, Fintechs can serve customers at a much faster pace, speed up transactions safely and securely. Fintechs can identify spending habits, as well as help users save money. 
       Fintechs focus on bespoke services that meet every demand of the customer, and this is where data comes into play.</p>
-    <p class='mr-t-10'>See how Fintechs can attuned to their customers' needs completely with our platform. </p>",
+    <p class='mr-t-10'>See how Fintechs can attune to their customers' needs completely with our platform. </p>",
   )); ?>
 
 
@@ -116,8 +116,8 @@ get_header();
     'classImageContainer' => 'pa-0',
     // 'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/industry-fsi/insurance.png',
-    'desc' => "<p>Achieve true 1-to-1 personalized communications with policy holders & prospects in real-time with our intelligent engagement platform for insurance providers that goes beyond your standard CDP.</p>
-    <p class='mr-t-10'>Mobio Platform to maximize revenue per policy holder of your insurance customers. </p>",
+    'desc' => "<p>Achieve true 1-to-1 personalized communications with policyholders & prospects in real-time with our intelligent engagement platform for insurance providers that goes beyond your standard CDP.</p>
+    <p class='mr-t-10'>Mobio Platform to maximize revenue per policyholder of your insurance customers. </p>",
   )); ?>
 
 <?php get_template_part('template-parts/row-content-two',null,
@@ -133,8 +133,7 @@ get_header();
     'classImageContainer' => 'pa-0',
     // 'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/industry-fsi/e-wallet.png',
-    'desc' => "<p>CDP helps Digital wallet to better manage their customer financial data privacy. Digital wallet companies can also creat end-to-end marketing campaign 
-    and build frictionless customer journey while upholding all the customer data securely. </p>
+    'desc' => "<p>CDP helps Digital wallet to better manage their customer financial data privacy. Digital wallet companies can also create end-to-end marketing campaigns and build frictionless customer journeys while upholding all the customer data securely.</p>
     <p class='mr-t-10'>See how one of the top E-wallet in Vietnam successfully use MOBIO CDP to conquer the customer-obsessed era.</p>",
   )); ?>
 
@@ -163,21 +162,21 @@ get_header();
           'desc' => 'A CDP gives a retailer the ability to grab and integrate data from all the places their customers.',
           'img-src' => get_template_directory_uri(). '/images/industry-fsi/library1.png',
           'next' => 'Download Ebook >>',
-          'next-url' => '#'
+          'next-url' => get_site_url(). '/coming-soon'
         ),
         array(
           'title' => 'How Insurance benefits from Sales & Marketing Autotool?',
-          'desc' => 'The new consumer behaviors span all areas of life, from how we work to how we.',
+          'desc' => 'Insurers can reduce their burden significantly with the help of automatic sales and marketing tools.',
           'img-src' => get_template_directory_uri(). '/images/industry-fsi/library2.png',
           'next' => 'See Guideline >>',
-          'next-url' => '#'
+          'next-url' => get_site_url(). '/coming-soon'
         ),
         array(
           'title' => 'Why 2022 is the year of CDP - According to Fintech Business Blog',
           'desc' => "It’s widely acknowledged that customer data is a valuable resource for businesses.",
           'img-src' => get_template_directory_uri(). '/images/industry-fsi/library3.png',
           'next' => 'Read Blog Post >>',
-          'next-url' => '#'
+          'next-url' => get_site_url(). '/coming-soon'
         )
       )
     ));

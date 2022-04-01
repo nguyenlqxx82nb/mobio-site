@@ -2,7 +2,7 @@
   get_template_part('template-parts/top-tenant', null,
     array(
       'classExtend' => $args['classExtend'],
-      'title' => $args['title'] ?  $args['title'] : 'trusted by most innovaton banks in vietnam',
+      'title' => $args['title'] ?  $args['title'] : 'trusted by many innovative banks in vietnam',
       'items' => array(
         array(get_template_directory_uri(). '/images/top-tenant/bank-bidv.png', 
               get_template_directory_uri(). '/images/top-tenant/bank-hd.png',

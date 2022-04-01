@@ -158,7 +158,7 @@ get_header();
     // 'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/product/overview/service.png',
     'desc' => "<p>This module was built specifically for the Customer Success team to connect and interact with customers in real-time via social channels and web live chat. 
-      Build Loyalty program to engage customers and expand purchasing lifecycle. 
+      Build Loyalty programS to engage customers and expand purchasing lifecycle. 
       Let no customer issues behind with Ticket Management System.</p>",
     'next-button' => 'Learn more',
     'next-url' => get_site_url() . '/products-services-management'
