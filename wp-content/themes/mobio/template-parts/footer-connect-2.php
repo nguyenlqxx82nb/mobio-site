@@ -15,7 +15,8 @@
               <?php get_template_part('template-parts/input-submit', null,
                 array(
                   'classExtend' => '',
-                  'submit' =>'Get Started'
+                  'submit' =>'subscribe',
+                  'btnClass' => 'btn-subscript',
                 )) ?>
             </div>
           </div>
@@ -24,7 +25,8 @@
             array(
               'classExtend' => 'mr-t-30 w-100',
               'isMobile' => 1,
-              'submit' => 'Get Started'
+              'submit' => 'subscribe',
+              'btnClass' => 'btn-subscript',
             )) ?>
 
         </div>

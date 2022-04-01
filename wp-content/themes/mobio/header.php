@@ -80,6 +80,7 @@
 		<script src="<?php echo get_site_url() ?>/wp-content/themes/mobio/js/slide.js?v=<?php echo $version ?>" id="slide-js"></script>
 		<script src="<?php echo get_site_url() ?>/wp-content/themes/mobio/js/main.js?v=<?php echo $version ?>" id="main-js"></script>
 		<script src="<?php echo get_site_url() ?>/wp-content/themes/mobio/js/tenant.js?v=<?php echo $version ?>" id="tenant-js"></script>
+		<script src="<?php echo get_site_url() ?>/wp-content/themes/mobio/js/form-submit.js?v=<?php echo $version ?>" id="form-submit-js"></script>
 	</head>
 
 	

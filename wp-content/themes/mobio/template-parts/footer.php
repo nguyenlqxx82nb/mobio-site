@@ -127,5 +127,10 @@
 
 		</div>
 		
+		<?php
+    	get_template_part('template-parts/modal-thankyou',null,
+        array(
+        ));
+    ?>
 	</body>
 </html>

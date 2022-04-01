@@ -52,7 +52,13 @@
             <div class="input-wrap mr-t-20 w-500 w-400-s4 mr-t-30-s0">
               <input class="" placeholder="Enter your email address" />
             </div>
-            <button class="btn-submit btn-small mr-t-10 upper-case">get started</button>
+            <div class="c-red mr-t-5 f-12 mr-l-20 msg-error d-none">This email cannot be blank</div>
+            <div class="d-flex align-items-center mr-t-15">
+              <button class="btn-subscript btn-small upper-case">Subcribe</button>
+              <div class="pa-l-20 d-none-s2 f-14 c-fff">
+                Get in touch with us <br> for the latest industry news!
+              </div>
+            </div>
           </div>
         <?php } ?>
       </div>

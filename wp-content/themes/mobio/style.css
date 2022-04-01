@@ -807,3 +807,48 @@ with others.
 	-webkit-filter: drop-shadow(16px 80px 48px rgba(0, 0, 0, 0.1));
 	filter: drop-shadow(16px 80px 48px rgba(0, 0, 0, 0.1));
 }
+
+.contact-form .btn-submit{
+	width: 200px;
+}
+
+.select-dropdown select{
+	outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 10px;
+	padding: 10px 15px;
+	color: 000;
+	height: 45px;
+}
+
+.select-dropdown .arrow {
+	right: 15px;
+	border-color: #000;
+	border-width: 0 1px 1px 0px;
+	padding: 4px;
+	margin: 0;
+  position: absolute;
+  top: 15px;
+}
+
+.overlay-modal {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	background-color: rgba(0,0,0, 0.75);
+	z-index: 10000;
+}
+
+.modal-container, .modal-container-2 {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 20000;
+	background-color: #fff;
+	border-radius: 20px;
+}

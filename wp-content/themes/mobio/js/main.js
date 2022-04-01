@@ -229,20 +229,7 @@
       }
       
     }); 
-    // console.log('templateUrl=',siteUrl);
-    $('.email-submit').find('input').on('keyup', function(e){
-      // console.log('key code = ', e.keyCode);
-      if (e.keyCode === 13) {
-        const email = $(this).val();
-        const href =  siteUrl +'/contact?email='+email;
-        window.location.href = href;
-      }
-    });
-    $('.email-submit').find('.btn-submit').on('click', function(e){
-      const email = $(this).closest('.email-submit').find('input').val();
-      const href =  siteUrl +'/contact?email='+email;
-      window.location.href = href;
-    })
+   
   });
 
 

@@ -1,25 +1,7 @@
 (function( $ ) { 
   
   jQuery(function(){ 
-    // let time = 1000;
-    // const duration = 2150;
-    // let nextDuration = 0;
-    // $('.top-tenant-wrap').find('.tenant-top-item').each(function() {
-    //   const $tenant = $(this);
-    //   if ($tenant.find('.top-tenant-img').length > 1) {
-    //     nextDuration += duration;
-    //   }
-    // });
-
-    // $('.top-tenant-wrap').find('.tenant-top-item').each(function() {
-    //   const $tenant = $(this);
-    //   if ($tenant.find('.top-tenant-img').length > 1) {
-    //     setTimeout(() => {
-    //       animateTenantItem(0,$tenant, nextDuration);
-    //     }, time);
-    //     time += duration;
-    //   }
-    // });
+    
     $('.top-tenant-wrap').each(function() {
       $(this).data('index', 0);
       animateTenantItem($(this));

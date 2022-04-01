@@ -30,11 +30,13 @@
     <?php } ?>
     
     <?php if ($args['contact']) { ?>
-      <div class="email-submit d-flex align-items-center justify-content-center mr-t-30 mr-t-30-s0 d-block-s2">
-        <div class="input-wrap  w-450 mr-auto-s2">
-          <input placeholder="Enter your email address" />
+      <div class="email-submit">
+        <div class="d-flex align-items-center justify-content-center mr-t-30 mr-t-30-s0 d-block-s2">
+          <div class="input-wrap  w-450 mr-auto-s2">
+            <input placeholder="Enter your email address" />
+          </div>
+          <div class="mr-auto-s2 text-center"><button class="btn-subscript btn-small upper-case mr-l-12 mr-l-0-s2 pa-t-12 pa-b-12 w-450-s2 mr-t-10-s2">subscribe</button></div>
         </div>
-        <div class="mr-auto-s2 text-center"><button class="btn-submit btn-small upper-case mr-l-12 mr-l-0-s2 pa-t-12 pa-b-12 w-450-s2 mr-t-10-s2"> Contact us </button></div>
       </div>
       
     <?php } ?>

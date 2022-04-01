@@ -10,16 +10,21 @@
         </div>
 
         <div class="mo-col-6 d-none-s1 mo-col-12-s2 mr-t-25-s2">
-          <div class="email-submit input-wrap input-border-left input-wrap-action mw-100">
-            <input placeholder="Enter your email address" /> 
-            <div class="btn-submit input-action f-b f-16 c-fff h-100 d-flex justify-content-center align-items-center"><p>Submit</p></div>
+          <div class="email-submit w-100">
+            <div class=" w-100 input-wrap input-border-left input-wrap-action mw-100">
+              <input placeholder="Enter your email address" /> 
+              <div class="btn-subscript input-action f-b f-16 c-fff h-100 d-flex justify-content-center align-items-center upper-case"><p>subscribe</p></div>
+            </div>
+            <div class="c-red mr-t-5 f-12 mr-l-20 msg-error d-none">This email cannot be blank</div>
           </div>
         </div>
 
         <?php get_template_part('template-parts/input-submit', null,
             array(
               'classExtend' => 'mr-t-30 w-100',
-              'isMobile' => 1
+              'isMobile' => 1,
+              'btnClass' => 'btn-subscript',
+              'submit' => 'subscribe'
             )) ?>
 
       </div>

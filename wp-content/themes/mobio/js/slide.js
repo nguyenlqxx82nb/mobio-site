@@ -178,9 +178,9 @@ function slide1(wrapper, items, prev, next) {
         const allowShift = $slider.data('allowShift');
         const currIndex = $slider.data('index');
         const slideW = $slider.data('slideW');
-        if (currIndex === index) {
-          return;
-        }
+        // if (currIndex === index) {
+        //   return;
+        // }
         if (!allowShift) {
           return;
         }

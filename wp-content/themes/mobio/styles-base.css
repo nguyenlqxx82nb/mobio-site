@@ -205,11 +205,14 @@ input[type='submit']:hover{
 .c-5-1 {color: #51A690 !important;}
 .c-fea {color: #FEAD86 !important;}
 .c-6-e {color: #6E9CFD !important;}
+.c-red{ color: #ff5454 !important;}
 
 .c-0-b { color: #0F9CD8 !important;}
 .c-1-b {color: #139CD6 !important;}
 .c-4-b {color: #4CC1EE !important;}
 .c-5-b{ color: #55CBF5 !important;}
+
+.c-0-4 { color: rgba(0,0,0,0.4) !important;}
 
 .b-fff { background-color: #fff !important;}
 .b-0-b { background-color: #0F9CD8 !important;}
@@ -223,6 +226,7 @@ input[type='submit']:hover{
 .b-202 { background-color: #202769;}
 .b-g-8 {background-color: #818181}
 .bd-g-8 {border: solid 0.5px #818181}
+.bd-red {border: solid 1px #ff5454 !important;}
 
 .opa { opacity: 1 !important;}
 .opa-9 { opacity: 0.9 !important;}
