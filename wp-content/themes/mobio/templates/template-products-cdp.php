@@ -126,7 +126,7 @@ get_header();
         array(
           'icon-src' => get_template_directory_uri().'/images/product/cdp/cdp-realtime-audience.svg',
           'name' => 'Realtime Audience',
-          'desc' => 'Collect and update profile information in real-time, immediately activate for the operating system.'
+          'desc' => 'Collect and update profile information in real-time, immediately activate the operating system.'
         ),
         array(
           'icon-src' => get_template_directory_uri().'/images/product/cdp/cdp-360-profile.svg',
@@ -146,12 +146,12 @@ get_header();
         array(
           'icon-src' => get_template_directory_uri().'/images/product/cdp/cdp-ai-sentiment.svg',
           'name' => 'AI Sentiment Predict',
-          'desc' => 'Read customers’ sentiment through social comments and divide it into 3 types: Positive, Neutral, and Negative.'
+          'desc' => 'Read customers’ sentiments through social comments and divide them into 3 types: Positive, Neutral, and Negative.'
         ),
         array(
           'icon-src' => get_template_directory_uri().'/images/product/cdp/cdp-data-enrichment.svg',
           'name' => 'Data Enrichment',
-          'desc' => 'Analyze from existing data, Facebook data & web interaction behavior to enrich profile information about their gender, age, location, and interests.'
+          'desc' => 'Analyze existing data, Facebook data & web interaction behavior to enrich profile information about their gender, age, location, and interests.'
         )
       )
     )
@@ -174,7 +174,7 @@ get_header();
   get_template_part('template-parts/feature-image', null,
     array(
       'classExtend' => 'mr-t-30',
-      'img-src' => get_template_directory_uri(). '/images/product/cdp/cdp-2.png'
+      'img-src' => get_template_directory_uri(). '/images/product/cdp/cdp-architect.png'
     ));
 ?>
 
@@ -215,40 +215,40 @@ get_header();
       'items' => array(
         array(
           'name' => 'How CDP different from CRM, DMP and other platforms?',
-          'desc' => 'A CDP gives a retailer the ability to grab and integrate data from all the places their customers.',
+          'desc' => 'Only CDP can deliver a complete view of the customer beyond the sales cycle.',
           'next' => 'Download Ebook >>',
           'next-url' => '#',
           'highlight' => 1
         ),
         array(
           'name' => '2022 Ultimate Guide to CDP: Annualy Update',
-          'desc' => 'The new consumer behaviors span all areas of life, from how we work to how we shop to how we entertain.',
+          'desc' => 'Latest digital trends Marketers need to know about the Customer Data Platform.',
           'next' => 'See Guideline >>',
           'next-url' => '#'
         ),
         array(
           'name' => 'CEO Guide: How to choose the right CDP vendor for your business?',
-          'desc' => "During the crisis, banks' clients changed their behaviour overnight.",
+          'desc' => 'You know your business needs a CDP. But what vendor works best for your business case?',
           'next' => 'Read Blog Post >>',
           'next-url' => '#',
           'highlight' => 1
         ),
         array(
           'name' => 'Customer Cases: How businesses benefit from CDP?',
-          'desc' => 'A CDP gives a retailer the ability to grab and integrate data from all the places their customers.',
+          'desc' => 'A CDP gives businesses the ability to grab and integrate data from all the places their customers.',
           'next' => 'Download Ebook >>',
           'next-url' => '#',
         ),
         array(
           'name' => 'CDP 101: Integration and Activation',
-          'desc' => 'The new consumer behaviors span all areas of life, from how we work to how we shop to how we entertain.',
+          'desc' => 'Learn how to use personalized customer data to boost acquisition, improve CX, engage in real-time, and increase upsells and cross-sells.',
           'next' => 'See Guideline >>',
           'next-url' => '#',
           'highlight' => 1
         ),
         array(
           'name' => 'GDPR & CCPA: Everything you need to know',
-          'desc' => "During the crisis, banks' clients changed their behaviour overnight.",
+          'desc' => 'The GDPR is one of the most comprehensive data protection laws in the world to date.',
           'next' => 'Read Blog Post >>',
           'next-url' => '#',
           

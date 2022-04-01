@@ -26,17 +26,17 @@ get_header();
         'name' => 'Your email is a part of the <strong>seamless journey</strong>.',
         'nameClass' => 'f-b f-40',
         'classExtend' => 'mr-t-150',
-        'desc' => '<p>Email Marketing is crucial but email alone can’t be enough. Email Marketing will work best when it’s a part of the entire journey and combine with other channel to interact with customer. We here provide you a complete solution for your email marketing, and let it harmonize with the marketing master campaign.</p>',
+        'desc' => '<p>Email Marketing is crucial but email alone can’t be enough. Email Marketing will work best when it’s a part of the entire journey and combine with other channels to interact with customers. We here provide you with a complete solution for your email marketing and let it harmonize with the marketing master campaign.</p>',
         'next' => 'See journey Builder >>',
         'img-src' => get_template_directory_uri(). '/images/product/marketing/email-builder-header.png',
-        'next_url' => '#'
+        'next_url' => get_site_url(). '/mkt-journey-builder'
       )); ?>
 
   <?php get_template_part('template-parts/section-title',null,
       array( 
         'classExtend' => 'mr-t-150',
         'title' => 'Create email in your own style',
-        'desc' => 'Build email template in your unique style with our drag-and-drop interface. We are confident that everything you need in an email campaign, we have it all, and even exceed your expectations.'
+        'desc' => 'Build email templates in your unique style with our drag-and-drop interface. We are confident that everything you need in an email campaign, we have it all, and even exceed your expectations.'
       )); ?>
   
   <?php get_template_part('template-parts/feature-image',null,
@@ -48,19 +48,19 @@ get_header();
       array( 
         'classExtend' => 'mr-t-150',
         'title' => 'Or start with our Premade Templates',
-        'desc' => 'Our templates are trusted by top enterprises and proven to be user-friendly and effective, <br>help you to optimize open and conversion rate'
+        'desc' => 'Our templates are trusted by marketers from various industries and have proven to be user-friendly and effective,<br>helping you optimize open and conversion rates.'
       )); ?>
   
   <?php get_template_part('template-parts/feature-image',null,
     array(
-      'img-src' => get_template_directory_uri(). '/images/product/marketing/email-builder-2.png'
+      'img-src' => get_template_directory_uri(). '/images/product/marketing/prebuilt-email.png'
     )); ?>
   
   <?php get_template_part('template-parts/section-title',null,
       array( 
         'classExtend' => 'mr-t-150',
         'title-sm' => 'why email builder?',
-        'title' => 'There are so many other email platform. Why choose us?',
+        'title' => 'There are so many other email platforms. Why choose us?',
         //'desc-top' => 'There are so many other email platform.'
       )); ?>
 

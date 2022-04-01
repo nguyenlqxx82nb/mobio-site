@@ -14,7 +14,7 @@ get_header();
 <?php get_template_part('template-parts/header-product',null,
   array(
     'title-sub' => 'Mobio marketing management',
-    'title' => 'A Comprehensive Platform to meets the Goals of every Marketers',
+    'title' => 'A Comprehensive Platform to meets the Goals of every Marketer',
     'contact' => '1',
     'header-img' => get_template_directory_uri(). '/images/Mobio-platform-cdp-cem.png',
     'title-width' => 'w-750'
@@ -26,7 +26,7 @@ get_header();
   get_template_part('template-parts/top-tenant-enterprise', null, 
     array(
       'classExtend' => 'mr-t-120',
-      'title' => 'trusted by top enterprises in Vietnam', 
+      'title' => 'trusted by large enterprises in Vietnam', 
     )
   );
 ?>
@@ -36,7 +36,7 @@ get_header();
     array(
       'classExtend' => 'mr-t-150',
       'title-sm' => 'how it helps',
-      'title' => 'Create A Marketing Campaign That <span class="hl-text">Actually Works</span>', 
+      'title' => 'Create a marketing campaign that <span class="hl-text">actually works</span>', 
     )
   );
 ?>
@@ -47,14 +47,14 @@ get_header();
     // 'icon' => get_template_directory_uri(). '/images/item-icon.png',
     'title' => 'Journey Builder',
     // 'title-class' => 'f-18 c-1-b',
-    'name' => 'Create end-to-end customer journey with <strong>Journey Builder</strong>',
+    'name' => 'Create end-to-end customer journeys with <strong>Journey Builder</strong>',
     'nameClass' => 'f-n',
     // 'classImage' => 'b-r-10',
     'classImageContainer' => 'pa-0',
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/product/marketing/overview-journey_builder.png',
-    'desc' => "<p>Drag-and-drop, one-to-one interface to help you create a personalized journey for your customer. Connect every interaction across website, mobile, email, social media channel, 
+    'desc' => "<p>A drag-and-drop, one-to-one interface to help you create a personalized journey for your customer. Connect every interaction across websites, mobile, email, social media channels, 
       and advertising — along with Sales and Service — into a seamless customer experience. </p>",
     'next-button' => 'Learn More',
     'next-url' => '#'
@@ -74,8 +74,7 @@ get_header();
     'classImageRatio' => 'rt-3-4',
     'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/product/marketing/overview-email.png',
-    'desc' => "<p>Easy-to-use email marketing tool to engage your customers list and boost conversion rate. We also provide advanced features and step-by-step 
-      guideline to help increase your email sender reputation and let your message goes straight to your customers’ main mailbox. </p>",
+    'desc' => "<p>Easy-to-use email marketing tool to engage your customers' list and boost conversion rate. We also provide advanced features and step-by-step guideline to help increase your email sender reputation and let your message goes straight to your customers’ main mailbox.</p>",
     'next-button' => 'Learn More',
     'next-url' => get_site_url().'/mkt-email-builder'
   )); ?>
@@ -158,8 +157,7 @@ get_header();
     'classImageRatio' => 'rt-1-1',
     'divider' => 1,
     'img-src' => get_template_directory_uri(). '/images/product/marketing/overview-report.png',
-    'desc' => "<p>Comprehensive and holistic reports that show real-time data of every customer touchpoint, number of leads from the top-to-bot funnel, 
-        ROI, CTR, CTOR indicate, so you can get deeper insights of your marketing campaign and your customer behavior.</p>",
+    'desc' => "<p>Comprehensive and holistic reports that show real-time data of every customer touchpoint, numbers of leads from the top-to-bot funnel, ROI, CTR, CTOR indicate, so you can get deeper insights into your marketing campaign and your customer behavior.</p>",
     // 'next-button' => 'Learn More',
     // 'next-url' => '#'
   )); ?>
@@ -183,7 +181,7 @@ get_header();
 <?php 
   get_template_part('template-parts/footer-contact', null,
     array(
-      'title' => 'Curious about MMM? There’re lots more to explore!'
+      'title' => 'Curious about Mobio Marketing Management? There’re lots more to explore!'
     ))
 
 ?>

@@ -15,7 +15,7 @@ get_header();
 <?php get_template_part('template-parts/header-page',null,
   array( 
     'title' => 'customer industries',
-    'name' => 'Create Frictionless Customer Experience in Every Industry',
+    'name' => 'Create frictionless Customer Experience in every industry',
     'name-class' => 'w-650 f-b f-60 mr-t-25',
   ));
 ?>
@@ -26,10 +26,11 @@ get_header();
     array(
       'classExtend' => 'mr-t-70',
       'title-sm' => 'customer industries',
-      'title' => 'Gain New Insights about your Customers',
-      'desc' => 'MOBIO CDP is designed to conquer to challenges of every industry and company has to deal with. 
-      We understand that each business has its problems and requires different solutions. 
-      Our experimental experts are here to help you get deeper insights about your industry and customers and how Mobio Platform can resolve your current and future business needs.',
+      'title' => 'Gain new insights about your customers',
+      'desc' => 'MOBIO CDP is designed to conquer challenges every industry and company has to deal with. 
+      We understand that each business has its problems and requires different solutions. Our experimental 
+      experts are here to help you get deeper insights into your industry and customers and how Mobio Platform 
+      can resolve your current and future business needs.',
       'desc-w' => 'w-1200 w-850-s4'
     )
   );
@@ -100,7 +101,7 @@ get_header();
       'classImageRatio' => 'rt-3-4',
       // 'divider' => 1,
       'img-src' => get_template_directory_uri(). '/images/industry/retail-industry.png',
-      'desc' => '<p>Increase your AOV, upsell and cross-sell efficiently, boost your customer engagement, perfect timing to offer deals and promotion, track every behavior and digital footprint. 
+      'desc' => '<p>Increase your AOV, upsell and cross-sell efficiently, boost your customer engagement, perfect timing to offer deals and promotions, track every behavior and digital footprint. 
       <br><br>Designed solutions for Retailers to increase revenue and reduce customer churn rate.</p>',
       // 'next' => 'learn how to manage your workspace >>',
       'next-button' => 'Learn More',
@@ -142,8 +143,8 @@ get_header();
       'classImageRatio' => 'rt-3-4',
       // 'divider' => 1,
       'img-src' => get_template_directory_uri(). '/images/industry/real-estate.png',
-      'desc' => '<p>Help Real Estate Agents to run marketing campaigns and close deals faster, as weel as manage deep connection with customers.
-      <br><br>Complete solutions for Real Estate agents to boost sales and increase customer engagement. </p>',
+      'desc' => '<p>Help Real Estate Agents to run marketing campaigns and close deals faster, as well as manage deep connections with customers.
+      <br><br>Complete solutions for Real Estate agents to boost sales and increase customer engagement.</p>',
       // 'next' => 'learn how to manage your workspace >>',
       'next-button' => 'Learn More',
       'next-url' => '#'

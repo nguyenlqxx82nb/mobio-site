@@ -27,7 +27,8 @@
 				'classMedia' => 'mr-t-120-s1',
 				'title-sm' => 'Core Value',
 				'title' => 'Customer Data Platform',
-				'desc' => 'CDP is the heart of our products. As a tech consulting company, we know that data is treasure to build customer journey and leading business decisions along the way.',
+				'desc' => 'CDP is the heart of our products. As a tech consulting company, we know that data is a real 
+				treasure to build frictionless customer journeys and lead business decisions along the way.',
 				'desc-w' => 'w-800'
 			));
 	?>
@@ -75,7 +76,7 @@
 						'tab-title' => 'Journey Builder',
 						'title' => '<p>Marketing Management</p>',
 						'name' => '<p>End-to-end Customer Journey</p>',
-						'desc' => '<p>Journey Builder is our highlight marketing feature that designed to help marketers build a cross-cutting script for digital marketing campaigns and capture every customer touchpoint along the way.</p>',
+						'desc' => '<p>Journey Builder is our highlight marketing feature that is designed to help marketers build a cross-cutting script for digital marketing campaigns and capture every customer touchpoint along the way.</p>',
 						'url' => get_site_url().'/mkt-journey-builder',
 						'img-src' => get_template_directory_uri() . '/images/home/marketing-journey-builder-visual.png',
 						'classImgRatio' => 'rt-3-4'
@@ -84,7 +85,7 @@
 						'tab-title' => 'Email Marketing',
 						'title' => '<p>Marketing Management</p>',
 						'name' => '<p>Personalized Messages Direct to Mailbox</p>',
-						'desc' => '<p>Create unique email style for your brand and deliver 1-to-1 messages to your customers. Upgrade your email sender reputation with our email strategy toolkit.</p>',
+						'desc' => '<p>Create unique email styles for your brand and deliver 1-to-1 messages to your customers. Upgrade your email sender reputation with our email strategy toolkit.</p>',
 						'url' => get_site_url().'/mkt-email-builder',
 						'img-src' => get_template_directory_uri() . '/images/home/marketing-email-builder.png',
 						'classImgRatio' => 'rt-3-4'
@@ -93,7 +94,7 @@
 						'tab-title' => 'Trigger Campaign',
 						'title' => '<p>Marketing Management</p>',
 						'name' => '<p>Meaningful Reaction for all User Interaction</p>',
-						'desc' => '<p>Engage customer at every step of user lifecycle and deliver the right messages, at the right time in an one-to-one journey. </p>',
+						'desc' => '<p>Engage customers at every step of the user lifecycle and deliver the right messages, at the right time in a one-to-one journey.</p>',
 						'url' => get_site_url().'/mkt-trigger-campaign',
 						'img-src' => get_template_directory_uri() . '/images/home/marketing-trigger-campaign.png',
 						'classImgRatio' => 'rt-3-4'
@@ -115,7 +116,7 @@
 						'tab-title' => 'Lead Distribution',
 						'title' => '<p>Sales Management</p>',
 						'name' => '<p>The Right Leads to the Right Reps</p>',
-						'desc' => '<p>Rule-based platform that automates generate qualify leads to suitable salesman in the team. </p>',
+						'desc' => '<p>A rule-based platform that automates generating quality leads to a suitable salesman in the team.</p>',
 						'url' => get_site_url().'/sales-lead-distribution',
 						'img-src' => get_template_directory_uri() . '/images/home/sales-lead-distribution.png',
 						'classImgRatio' => 'rt-3-4'
@@ -133,7 +134,7 @@
 						'tab-title' => 'Task Management',
 						'title' => '<p>Sales Management</p>',
 						'name' => '<p>Keep track every step of your work </p>',
-						'desc' => '<p>Contact customer via every channel, book meetings and appointments, remind any task you missed and any other sales task so you can focus on closing deals</p>',
+						'desc' => '<p>Contact customers via every channel, book meetings, and appointments, remind any tasks you missed and any other sales tasks so you can focus on closing deals.</p>',
 						'url' => get_site_url().'/sales-task-manger',
 						'img-src' => get_template_directory_uri() . '/images/home/sales-task-management.png',
 						'classImgRatio' => 'rt-3-4'
@@ -154,7 +155,7 @@
 						'tab-title' => 'Social & Chat',
 						'title' => '<p>Service Management</p>',
 						'name' => '<p>Connect on Time, on Target</p>',
-						'desc' => '<p>Respond to customer via every social channel and the website on real-time and improve customer response times by our smart algorithm.</p>',
+						'desc' => '<p>Respond to customers via every social channel and the website in real-time and improve customer response times with our smart algorithm.</p>',
 						'url' => get_site_url().'/service-customer-response',
 						'img-src' => get_template_directory_uri() . '/images/home/service-social-chat.png',
 						'classImgRatio' => 'rt-3-4',
@@ -207,42 +208,43 @@
 				'items' => array(
 						array(
 							'text-tab' => 'Guardian',
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/guardian.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/guardian-50.png',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/guardian.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/guardian-white.png',
 							'title' => 'Guardian',
 							'title-sub' => 'Boost customer engagement <br>through loyalty programs',
-							'desc' => 'Guardian is one of the biggest cosmetic retail chain in Vietnam with more than 90 brick-and-mortal stores 
-							across the country. How did they succeed in managing operations and optimizing customer experience with Mobio Platform?',
+							'desc' => 'Guardian is one of the biggest cosmetic retail chains in Vietnam with more than 90 
+							brick-and-mortar stores across the country. How did they succeed in managing operations and 
+							optimizing customer experience with Mobio Platform?',
 							'url' => get_site_url(). '/customer-cases',
 							'img-src' => get_template_directory_uri().'/images/home/guardian.png'
 						),
 						array(
 							'text-tab' => 'VNShop',
 							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/vnshop.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/vnshop-50.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/vnshop-white.png',
 							'title' => 'VNShop',
 							'title-sub' => 'Optimize conversion rate <br>through personalized campaign',
-							'desc' => 'Increase the conversion rate of using vouchers through Landing Page campaigns by personalizing messages and 
-							reminding customers to use vouchers at the right time.',
+							'desc' => 'Increase the conversion rate of using vouchers through Landing Page campaigns by 
+							personalizing messages and reminding customers to use vouchers at the right time.',
 							'url' => get_site_url(). '/customer-cases',
 							'img-src' => get_template_directory_uri().'/images/home/vnshop-case-2.png'
 						),
 						array(
 							'text-tab' => 'Sun Group',
 							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/sungroup.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/sungroup-50.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/sungroup-white.png',
 							'title' => 'Sun Group',
 							'title-sub' => 'Manage customer data to build<br>a single source of truth',
-							'desc' => 'Unify and manage of corporate data in 3 layers to create a 360-degree customer view. 
-							Optimize employee operations by coordinating the use of social media management and sales process management on the same 
-							platform.',
+							'desc' => 'Unify and manage corporate data in 3 layers to create a 360-degree customer view. 
+							Optimize employee operations by coordinating the use of social media management and sales process
+							 management on the same platform.',
 							'url' => get_site_url(). '/customer-cases',
 							'img-src' => get_template_directory_uri().'/images/home/sun-group-case-2.png'
 						),
 						array(
 							'text-tab' => 'Phong Vu',
 							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/phongvu.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/phongvu-50.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/phongvu-white.png',
 							'title' => 'Phong Vu',
 							'title-sub' => 'Leverage digital strategy in the age of COVID-19',
 							'desc' => 'Phong Vu is known for its chain of retail stores spread across the North, Central, and South regions in Vietnam. 
@@ -254,7 +256,7 @@
 						array(
 							'text-tab' => 'Galle Watch',
 							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/galle.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/galle-50.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/galle-white.png',
 							'title' => 'Galle Watch',
 							'title-sub' => 'Optimize customer satisfaction at scale',
 							'desc' => 'Galle has successfully coordinated Marketing, Sales, and CS Teams all in one platform and built an effective 
@@ -309,7 +311,10 @@
       'classExtend' => 'mr-t-50 mr-b-300 mr-b-70-s1 mr-b-200-s4',
 			'title' => 'Banking cases',
 			'title-sub' => 'CDP use case: Banking sector',
-			'desc' => '<p>In Banking industry, data security and privacy are top of mind. Banks hold the most sensitive data and have the highest security requirements. Even sharing data accross organization could be a challenge as its stricted surrounding regulations. <br> <br>To learn how banks use MOBIO CDP to deal with their data complexity challenges, please contact us for private documents and consulting.</p>',
+			'desc' => '<p>In the Banking industry, data security and privacy are top of mind. Banks hold the most sensitive 
+			data and have the highest security requirements. Even sharing data across organizations could be a challenge as 
+			its restricted surrounding regulations. <br> <br>To learn how banks use MOBIO CDP to deal with their data 
+			complexity challenges, please contact us for private documents and consulting.</p>',
 			'img-src' => get_template_directory_uri(). '/images/home/banking-cases.png'
     )); ?>
 

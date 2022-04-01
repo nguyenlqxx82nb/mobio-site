@@ -15,7 +15,7 @@ get_header();
       array( 
         'title' => 'Mobio sales management',
         'name' => 'Meet Lead Distribution',
-        'desc' => 'Save up to 75% on development time — without additional headcount. Build more effective emails, faster to scale efforts and drive better results.',
+        'desc' => 'Deliver leads faster, smarter, and automatically to the right sales teams.',
         'img-src' => get_template_directory_uri() . '/images/product/sales/lead-distribution-header.png'
       )); ?>
 

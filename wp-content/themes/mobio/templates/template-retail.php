@@ -14,7 +14,7 @@ get_header();
 <?php get_template_part('template-parts/header-product',null,
   array( 
     'title-sub' => 'industry | retail',
-    'title' => 'Grow Customer Loyalty and Build Brand Love for your Business',
+    'title' => 'Grow Customer Loyalty and build Brand Love for your Business',
     'desc' => "Do you know that Retailers are those benefit most from customer data. Mastering the data flow, Retailers can create a seamless customer experience that increases revenue and embraces customer loyalty.",
     'header-img' => get_template_directory_uri(). '/images/industry-retail/header.png'
   ));
@@ -38,24 +38,24 @@ get_header();
       PwC, and opinions of C-suite leaders and experts in the fields. ',
       'items' => array(
         array(
-          'icon' => get_template_directory_uri().'/images/icon-digital.png',
+          'icon' => get_template_directory_uri().'/images/industry-retail/retail-digital.svg',
           'title' => 'Digital & <br> Omnichannel',
           'desc' => 'Go to digital or go bust.  Now it’s time to invest more in e-commerce and online channels.'
         ),
         array(
-          'icon' => get_template_directory_uri().'/images/icon-loyalty.png',
+          'icon' => get_template_directory_uri().'/images/industry-retail/retail-loyalty.svg',
           'title' => 'Loyalty <br> is key',
-          'desc' => 'Since the pandemic, brands are now focus stronger on building their loyalty army.'
+          'desc' => 'Since the pandemic, brands are now focus stronger on building their loyal army.'
         ),
         array(
-          'icon' => get_template_directory_uri().'/images/item-icon.png',
+          'icon' => get_template_directory_uri().'/images/industry-retail/retail-o2o.svg',
           'title' => 'O2O Customer<br> experience',
-          'desc' => 'From mortal store to online channel, customers today are expecting an end-to-end experience and service.'
+          'desc' => 'From mortar stores to online channels, customers today are expecting an end-to-end experience and service.'
         ),
         array(
-          'icon' => get_template_directory_uri().'/images/icon-personal.png',
+          'icon' => get_template_directory_uri().'/images/industry-retail/retail-realtime.svg',
           'title' => 'Everything<br> real-time',
-          'desc' => 'For retailer, customer behavior, digital footprint, lastest trends, everything must be updated constantly.'
+          'desc' => 'For retailers, customer behavior, digital footprint, latest trends, everything must be updated constantly.'
         )
       ),
       'next-url' => '#'
@@ -168,8 +168,8 @@ get_header();
         'name' => 'See how Retailers benefit from Mobio',
 				'items' => array(
 						array(
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/guardian.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/guardian-50.png',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/guardian.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/guardian-white.png',
 							'title' => 'Guardian',
               'text-tab' => 'Guardian',
 							'title-sub' => 'Boost customer engagement <br>through loyalty programs',
@@ -180,7 +180,7 @@ get_header();
 						),
 						array(
 							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/galle-tim.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/galle-50.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/galle-white-in.png',
 							'title' => 'Galle Watch',
               'text-tab' => 'Galle Watch',
 							'title-sub' => 'Optimize customer satisfaction at scale',
@@ -191,7 +191,7 @@ get_header();
 						),
 						array(
 							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/vnshop.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/vnshop-50.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/vnshop-white.png',
 							'title' => 'VNShop',
               'text-tab' => 'VNShop',
 							'title-sub' => 'Optimize conversion rate <br>through personalized campaign',
@@ -202,7 +202,7 @@ get_header();
 						),
 						array(
 							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/phongvu.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/phongvu-50.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/phongvu-white.png',
 							'title' => 'Phong Vu',
               'text-tab' => 'Phong Vu',
 							'title-sub' => 'Leverage digital strategy in the age of COVID-19',
@@ -218,7 +218,7 @@ get_header();
 							'title' => 'Sapporo',
               'text-tab' => 'Sapporo',
 							'title-sub' => 'Optimize marketing execution',
-							'desc' => 'Sapporo is the oldest beer brand in Japan and became well known in Vietnam since 2010.
+							'desc' => 'Sapporo is the oldest beer brand in Japan and has become well known in Vietnam since 2010.
               How did Mobio help them adapt to digital transformation in the era of online purchasing?',
 							'url' => get_site_url(). '/customer-cases',
 							'img-src' => get_template_directory_uri().'/images/home/sapporo-case-1.jpg'

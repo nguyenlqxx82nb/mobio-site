@@ -21,7 +21,7 @@
       array(
         'icon-src' => get_template_directory_uri(). '/images/why-us-all-in-one.svg',
         'name' => 'All-in-one Platform',
-        'desc' => 'We involve every operation tools for your business and a CDP at core to store and manage data efficently. Intergrate all data sources and activation tools at ease. '
+        'desc' => 'We involve every operation tool for your business and a CDP at the core to store and manage data efficiently. Integrate all data sources and activation tools at ease.'
       ),
       array(
         'icon-src' =>get_template_directory_uri(). '/images/why-us-customize.svg',
@@ -31,7 +31,7 @@
       array(
         'icon-src' =>get_template_directory_uri(). '/images/why-us-flex.svg',
         'name' => 'Flexibility',
-        'desc' => 'We offer flexible deployment plan, ensure every company data security policy. You can store your data on Mobio Cloud or On-premises of your own Data Center.'
+        'desc' => 'We offer a flexible deployment plan to ensure every company’s data security policy. You can store your data on Mobio Cloud or On-premises of your own Data Center.'
       ),
     )
   )); ?>

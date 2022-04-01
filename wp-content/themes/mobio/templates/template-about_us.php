@@ -39,7 +39,7 @@ get_header();
       'classImage' => '',
       'divider' => 1,
       'desc' => '<p>Catching up with global digital trends, 
-      Mobio was established to create a comprehensive CDP & CEM Platform, enable businesses to effectively implement marketing campaigns and optimize the customer experience.</p> 
+      Mobio was established to create a comprehensive CDP & CEM Platform, enabling businesses to effectively implement marketing campaigns and optimize the customer experience.</p> 
       <p class="mr-t-10">Our goals are to help customers get the most from their data and operate business activation <strong>all in one place:</strong> A comprehensive platform that meets the goals of all Marketing, Sales, Services team. We’re just getting started, and we’re so grateful for all our trusted tenants and partners that are joining in this journey with us.   
       </p>',
       'img-src'=> get_template_directory_uri().'/images/Mobio-platform-cdp-cem.png',
@@ -62,7 +62,7 @@ get_header();
       array(
         'classExtend' => 'mr-t-250 mr-t-150-s4',
         'title-sm' => 'our milestone',
-        'title' => 'A Journey that means The World to us',
+        'title' => 'A Journey that means <br>The World to us',
         'items' => array(
           array(
             'members' => 6,
@@ -103,8 +103,8 @@ get_header();
           array(
             'members' => 83,
             'years' => '2021',
-            'desc' => 'Go deep with FSI <br><br>
-                  Focus on product, service, human and operation.'
+            'desc' => 'Go deep with BFSI <br><br>
+                  Focus on product, service, people and operation.'
           )
         )
       ));
@@ -163,7 +163,7 @@ get_header();
           get_template_directory_uri(). '/images/about-us/6.jpg',
           get_template_directory_uri(). '/images/about-us/7.jpg',
           get_template_directory_uri(). '/images/about-us/8.jpg',
-          get_template_directory_uri(). '/images/about-us/9.jpg',
+          //get_template_directory_uri(). '/images/about-us/9.jpg',
           get_template_directory_uri(). '/images/about-us/10.jpg',
           get_template_directory_uri(). '/images/about-us/11.jpg',
           get_template_directory_uri(). '/images/about-us/12.jpg',

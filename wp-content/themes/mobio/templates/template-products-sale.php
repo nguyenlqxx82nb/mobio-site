@@ -15,7 +15,7 @@ get_header();
 get_template_part('template-parts/header-product',null,
   array( 
     'title-sub'=> 'Mobio sales management',
-    'title' => 'Growing Relationships and <br> Closing Deals - Anytime, Anywhere',
+    'title' => 'Growing relationships and <br> closing deals - anytime, anywhere',
     'contact' => "1",
     'header-img' => get_template_directory_uri(). '/images/product/sales/sales-header.png'
   ));
@@ -30,13 +30,13 @@ get_template_part('template-parts/header-product',null,
                         array( 
                           'classExtend' => 'mr-t-150',
                           'title-sm' => 'how it helps',
-                          'title' => 'Sales Toolkit that focus on <span class="hl-text">what matters most</span>',
+                          'title' => 'Sales toolkit that focuses on <span class="hl-text">what matters most</span>',
                         )); ?>
 
   <?php get_template_part('template-parts/row-content-two',null,
                         array( 
                           'title' => 'lead distribution',
-                          'name' => 'Auto <strong>distribute qualify leads</strong> to the right sales team ',
+                          'name' => 'Auto <strong>distribute qualify leads</strong> to the right sales team',
                           'nameClass' => 'f-n f-40',
                           'classExtend' => 'mr-t-100',
                           'classImageRatio' => 'rt-3-4',
@@ -92,12 +92,12 @@ get_template_part('template-parts/header-product',null,
   <?php get_template_part('template-parts/row-content-two',null,
                         array( 
                           'title' => 'product library',
-                          'name' => 'Store all your files and agreements <strong>in one place</strong>',
+                          'name' => 'Every product <strong>in one place</strong>',
                           'nameClass' => 'f-n f-40',
                           'classExtend' => 'mr-t-150',
                           'classImageRatio' => 'rt-3-4',
                           'divider' => 1,
-                          'desc' => '<p>Every deal and process are attached to one or many products or services. Imagine salesman land a deal something and couldn’t find the right contact for your deal. // There are plenty of document for each type of contract and it’s hard to manage them all by yourself</p>',
+                          'desc' => '<p>Product library helps businesses manage comprehensive products, and is also a place to store records and contracts for sales to easily manipulate and use.</p>',
                           'img-src' => get_template_directory_uri(). '/images/product/sales/overview-product-library.png',
                         )); ?>
 
@@ -133,7 +133,7 @@ get_template_part('template-parts/header-product',null,
 
   <?php get_template_part('template-parts/footer-contact', null,
       array( 
-        'title' => 'Curious about Mobio Sales Management? There are lots more to explore!'
+        'title' => 'Curious about Mobio Sales Management? There’re lots more to explore!'
       )
     ); ?>
 

@@ -37,7 +37,7 @@ get_header();
           'name' => 'Banking Cases',
           'desc' => 'How Asian Banks are taking advantages in the digital transaction world and leading their way in this customer-obsessed era.',
           'next' => 'contact us for more information >>',
-          'next-url' => '#',
+          'next-url' => get_site_url(). '/contact',
           'img-src' => get_template_directory_uri() . '/images/home/banking-cases.png',
         ),
       )
@@ -99,9 +99,9 @@ get_header();
           'title-sub' => 'Retail',
           'img-top' => get_template_directory_uri(). '/images/tenant/phongvu.png',
           'img-top-class' => 'h-40',
-          'desc' => 'Optimize customer experience and leverage their digital strategy using MOBIO Journey Builder
-           and Social Management tools. During social isolation, the Online Sales team keeps their pace and
-            maintains collaboration efficiently with MOBIO reporting system.',
+          'desc' => 'Optimize customer experience and leverage their digital strategy using MOBIO Journey Builder and 
+          Social Management tools. During social isolation, the Online Sales team keeps its pace and maintains collaboration 
+          efficiently with MOBIO reporting system.',
           'next-url' => '/coming-soon',
           'img-src' => get_template_directory_uri() . '/images/customers/phong-vu.png',
         ),
@@ -120,14 +120,14 @@ get_header();
           'colClass' => 'mo-col-8',
           'title-sub' => 'Travel and Tourism',
           'img-top' => get_template_directory_uri(). '/images/tenant/tenants/sunhospitality.png',
-          'desc' => 'Integrate all platforms to create a single source of truth, meanwhile, improve social connection and manage sales performance efficiency.',
+          'desc' => 'Integrate all platforms to create a single source of truth, meanwhile, improving social connection and managing sales performance efficiency.',
           'next-url' => '/coming-soon',
         ),
         array(
           'colClass' => 'mo-col-4',
           'title-sub' => 'entertainment',
           'img-top' => get_template_directory_uri(). '/images/tenant/tenants/sunworld.png',
-          'desc' => 'Achieve customer 360-degree profile by mapping customer journey and collect data from every digital touchpoints.',
+          'desc' => 'Achieve customer 360-degree profile by mapping the customer journey and collecting data from every digital touchpoints.',
           'next-url' => '/coming-soon',
         ),
       )
@@ -144,7 +144,7 @@ get_header();
         array(
           'title-sub' => 'Retail',
           'img-top' => get_template_directory_uri(). '/images/tenant/tenants/sapporo.png',
-          'desc' => 'Collect data in real-time from mortal-and-brick stores, to every online channels you own. Never miss a customer touchpoint.',
+          'desc' => 'Collect data in real-time from mortal-and-brick stores to every online channel you own. Never miss a customer touchpoint.',
           'next-url' => '/coming-soon',
         ),
         array(
@@ -168,7 +168,7 @@ get_header();
           'title-sub' => 'education',
           'img-top' => get_template_directory_uri(). '/images/tenant/tenants/samsung.png',
           //'img-top-class' => 'h-40',
-          'desc' => 'Keep track and appraise trainees performance through online evaluation system. Empower their trainees learning outcomes. ',
+          'desc' => 'Keep track and appraise trainees’ performance through an online evaluation system. Empower their trainees learning outcomes.',
           'next-url' => '/coming-soon',
         ),
         array(
@@ -181,7 +181,7 @@ get_header();
         array(
           'title-sub' => 'technology',
           'img-top' => get_template_directory_uri(). '/images/tenant/tenants/hpt.png',
-          'desc' => 'Collect data in real-time and create frictionless online customer experience to deliver the best service.',
+          'desc' => 'Collect data in real-time and create a frictionless online customer experience to deliver the best service.',
           'next-url' => '/coming-soon',
         ),
       )

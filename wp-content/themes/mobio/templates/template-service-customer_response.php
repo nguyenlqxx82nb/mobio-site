@@ -16,7 +16,7 @@ get_header();
         'title' => 'Mobio service management',
         'name' => 'Meet Social & Chat',
         'desc' => 'Add messaging to your website, mobile apps, and social channels so customers can reach you instantly. 
-          Your team won’t miss a single thing when all interactions are place in one. ',
+          Your team won’t miss a single thing when all interactions are placed in one. ',
         'img-src' => get_template_directory_uri(). '/images/product/service/social-header.png'
       )); ?>
 
@@ -24,7 +24,7 @@ get_header();
   array( 
     'classExtend' => 'mr-t-150 mr-t-300-s2',
     'title-sm' => 'social & chat',
-    'title' => 'Deliver Rich Conversational Experiences',
+    'title' => 'Deliver rich conversational experiences',
     'desc' => 'Customers expect great service across all channels. Messaging makes it easy to stay in touch with personalized and engaging interactions. With Mobio, get messaging right out of the box or fully customize it to meet your needs.',
     'desc-w' => 'w-1100 w-900'
   )); ?>
@@ -39,7 +39,7 @@ get_header();
   array( 
     'classExtend' => 'mr-t-250 mr-t-150-s4',
     'title-sm' => 'what we offer?',
-    'title' => '<p>Complete messaging solution to meet your customers’ need</p>',
+    'title' => '<p>Complete messaging solution to meet your customers’ needs</p>',
   )); ?>
 
 
@@ -49,7 +49,7 @@ get_header();
     'title-class' => 'c-4-b f-20',
     'items' => array(
       array(
-        'name' => '<strong>Conveniece</strong>',
+        'name' => '<strong>Convenience</strong>',
         'desc' => 'Have a continuous conversation across channels, so customers never have to repeat themselves.'
       ),
       array(
@@ -68,13 +68,13 @@ get_header();
       array( 
         'classExtend' => 'mr-t-150',
         'title-sm' => 'how it helps',
-        'title' => '<p>Messaging Solution and Omnichannel CX</p>',
+        'title' => '<p>Messaging solution and omnichannel CX</p>',
       )); ?>
 
 <?php get_template_part('template-parts/row-content-two',null,
     array( 
       'title' => 'social channels and website',
-      'name' => 'Stay connected  on <br> <strong>any channel</strong>',
+      'name' => 'Stay connected on <br> <strong>any channel</strong>',
       'nameClass' => 'f-n f-40',
       'classExtend' => 'mr-t-100',
       'classImageRatio' => 'rt-3-4',
@@ -91,7 +91,7 @@ get_header();
         array( 
           'imageLeft' => 1,
           'title' => 'staff workspace',
-          'name' => 'All interactions in <br> <strong>one place</strong>',
+          'name' => 'All interactions <br> <strong>in one place</strong>',
           'nameClass' => 'f-n f-40',
           'classExtend' => 'mr-t-150',
           'classImageRatio' => 'rt-3-4',
@@ -101,8 +101,7 @@ get_header();
           'classContent' => 'pa-l-80 pa-r-20', 
           'divider' => 1,
           'img-src' => get_template_directory_uri(). '/images/product/service/overview-chat.png',
-          'desc' => '<p>Customers conversations and inforamtion live in a centralized workspace so services team can get all the context they need to support customers. 
-            They can switch between many channels and add notes, tickets, tags or create deals as needed.</p>',
+          'desc' => '<p>Customers’ conversations and information live in a centralized workspace so the services team can get all the context they need to support customers. They can switch between many channels and add notes, tickets, tags, or create deals as needed.</p>',
           //'next' => 'learn how to manage your workspace >>',
           //'next-url' => '#'
         )); ?>
@@ -120,7 +119,7 @@ get_header();
           'img-src' => get_template_directory_uri(). '/images/product/service/social-response.png',
           'desc' => '<p>You can create quick <strong>answer library</strong> for basic customer questions and requirements so 
             customers don’t have to wait everytime they text. Divide your auto-response into groups and apply based on preset conditions or time frame. 
-            Thus, you can lessen your workload and focus on only critical customer issues or closing deals.  </p>',
+            Thus, you can lessen your workload and focus on only critical customer issues or closing deals.</p>',
           //'next' => 'see how quick response can boost your cx >>',
           //'next-url' => '#'
         )); ?>
@@ -147,7 +146,7 @@ get_header();
       'classImage' => 'b-r-10',
       // 'divider' => 1,
       'img-src' => get_template_directory_uri(). '/images/product/service/social-smart-rules.png',
-      'desc' => '<p>Rule-based assignment system helps your team respond to customers faster and more efficient. This is our top performer feature voted by our customers since it helps each team increase response time to 300% and optimize productivity of all staff.  </p>',
+      'desc' => '<p>Rule-based assignment system helps your team respond to customers faster and more efficiently. This is our top performer feature voted by our customers since it helps each team increase response time to 300% and optimize the productivity of all staff.</p>',
       //'next-button' => 'see how it works',
       //'next-url' => '#'
     )); ?>
@@ -170,7 +169,7 @@ get_header();
 
   <?php get_template_part('template-parts/footer-contact', null,
       array (
-        'title' => 'Curious about Customer Response? There’re lots more to explore!'
+        'title' => 'Curious about Social and Chat? There’re lots more to explore!'
       )
     ); ?>
 
