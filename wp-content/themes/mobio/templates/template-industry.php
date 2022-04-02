@@ -31,7 +31,7 @@ get_header();
       We understand that each business has its problems and requires different solutions. Our experimental 
       experts are here to help you get deeper insights into your industry and customers and how Mobio Platform 
       can resolve your current and future business needs.',
-      'desc-w' => 'w-1200 w-850-s4'
+      'desc-w' => 'w-850'
     )
   );
 ?>
@@ -63,7 +63,7 @@ get_header();
 
 <?php get_template_part('template-parts/top-tenant-enterprise',null,
   	array(
-			'classExtend' => 'mr-t-175 mr-t-150-s4'
+			'classExtend' => 'mr-t-150'
 		)); ?>
 
 <?php get_template_part('template-parts/row-content-two',null,
@@ -74,7 +74,7 @@ get_header();
       'title-class' => 'f-18 c-1-b',
       'name' => 'Financial Services',
       'nameClass' => 'f-b f-40',
-      'classExtend' => 'mr-t-250 mr-t-150-s4',
+      'classExtend' => 'mr-t-150',
       'classImageContainer' => 'b-sd-n',
       'classImageRatio' => 'rt-9-16',
       // 'classImageContainer' => 'pa-0',
@@ -96,7 +96,7 @@ get_header();
       'title-class' => 'f-18 c-1-b',
       'name' => 'Retail',
       'nameClass' => 'f-b f-40',
-      'classExtend' => 'mr-t-250  mr-t-150-s4',
+      'classExtend' => ' mr-t-150',
       'classImageContainer' => 'b-sd-n',
       'classImageRatio' => 'rt-3-4',
       // 'divider' => 1,
@@ -116,7 +116,7 @@ get_header();
       'title-class' => 'f-18 c-1-b',
       'name' => 'Healthcare',
       'nameClass' => 'f-b f-40',
-      'classExtend' => 'mr-t-250 mr-t-150-s4',
+      'classExtend' => 'mr-t-150',
       'classImageContainer' => 'b-sd-n',
       'classImageRatio' => 'rt-3-4',
       // 'classImageContainer' => 'pa-0',
@@ -138,7 +138,7 @@ get_header();
       'title-class' => 'f-18 c-1-b',
       'name' => 'Real Estate',
       'nameClass' => 'f-b f-40',
-      'classExtend' => 'mr-t-250  mr-t-150-s4',
+      'classExtend' => 'mr-t-150',
       'classImageContainer' => 'b-sd-n',
       'classImageRatio' => 'rt-3-4',
       // 'divider' => 1,
@@ -153,14 +153,14 @@ get_header();
 <?php 
   get_template_part('template-parts/customer-stories', null,
     array(
-      'classExtend' => 'mr-t-250  mr-t-150-s4'
+      'classExtend' => 'mr-t-150'
     ));
 ?>
 
 <?php 
   get_template_part('template-parts/footer-connect', null,
   array(
-    'classExtend' => 'mr-t-250  mr-t-150-s4'
+    'classExtend' => 'mr-t-150'
   ));
 ?>
 

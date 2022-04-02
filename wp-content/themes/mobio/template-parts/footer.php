@@ -9,7 +9,7 @@
 					<div class="talk-to-container pa-l-0-s0 pa-r-0-s0 mo-row row pa-l-100-s3 pa-r-100-s3 pa-l-20-s2 pa-r-20-s2">
 						<div class="mo-col-6 mo-col-12-s0 d-none-s1">
 							<div class="talk-to-info d-flex flex-column justify-content-center h-100">
-								<p class="f-b f-18 f-16-s4 c-fff opa-5 mr-t-20 upper-case">Start with us</p>
+								<p class="f-b f-16 c-fff opa-5 mr-t-20 upper-case">Start with us</p>
 								<h3 class="c-fff mr-t-20">Start manage customer data and elevate your business today.</h3>
 								<a href="<?php echo get_site_url() . '/contact' ?>"><button class="btn-small btn-white mr-t-35">REQUEST A DEMO</button></a>
 							</div>
@@ -100,7 +100,7 @@
 					</div>
 					<!-- divider -->
 					<div class="footer-divider mr-t-20 opa-4"></div>
-					<div class="mr-t-25 d-flex justify-content-between pa-l-10 pa-r-10 f-n f-15 f-14-s4 ">
+					<div class="mr-t-25 d-flex justify-content-between pa-l-10 pa-r-10 f-n f-14 ">
 						<p class="c-fff opa-8">© 2022 Mobio</p>
 						<div class="d-flex align-items-center">
 							<a href="<?php echo get_site_url()."/coming-soon"?>" class="c-fff opa-8 mr-r-25">Privacy policy</a>

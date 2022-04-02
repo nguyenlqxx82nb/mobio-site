@@ -3,7 +3,7 @@
 
   <div class="auto-container">
     <?php if ( $args['cols'] === 1 ) { ?>
-      <div class="customer-case b-sd b-r-10 pa-l-100 pa-r-100 pa-t-75 pa-b-75 pa-l-80-s4 pa-r-80-s4 pa-t-50-s4 pa-b-50-s4 mr-r-40 mr-l-40 mr-l-20-s0 mr-r-20-s0 pa-30-s0">
+      <div class="customer-case b-sd b-r-10 pa-l-80 pa-r-80 pa-t-50 pa-b-50 mr-r-40 mr-l-40 mr-l-20-s0 mr-r-20-s0 pa-30-s0">
         <div class="mo-row row">
           <div class="mo-col-6 pa-r-20 pa-r-0-s2 mo-col-12-s2">
             <div class="d-flex flex-column justify-content-center h-100">

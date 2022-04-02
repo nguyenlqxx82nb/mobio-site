@@ -12,14 +12,14 @@
                 </div>
               </div>
               
-              <div class="col-container-info pa-50-n pa-30-s4  pa-b-0 pa-30-s0 ">
-                <div class="f-b f-18-s0 f-18-s4 <?php echo $args['title-class'] ? $args['title-class'] : 'f-25' ?>"><p><?php echo $item['title'] ?></p></div>
-                <div class="f-n f-20 f-16-s0 f-16-s4 f mr-t-25 mr-t-20-s0 <?php echo $args['desc-w'] ?>">
+              <div class="col-container-info pa-30  pa-b-0 pa-30-s0 ">
+                <div class="f-b f-18-s0 f-18 <?php echo $args['title-class'] ? $args['title-class'] : 'f-25' ?>"><p><?php echo $item['title'] ?></p></div>
+                <div class="f-n f-16-s0 f-16 f mr-t-25 mr-t-20-s0 <?php echo $args['desc-w'] ?>">
                   <p><?php echo $item['desc'] ?></p>
                 </div>
               </div>
             </div>
-            <a href="<?php echo $item['next-url'] ?>" class="c-1"><p class="f-b f-20 f-16-s4 f-16-s0 pa-l-50 pa-b-50 pa-l-40-s4 pa-b-30-s4 pa-l-30-s0 pa-b-30-s0  mr-t-0 mr-t-0-s0 mr-t-0-s0 c-1 <?php echo $args['next-class'] ? $args['next-class'] : '' ?>"><?php echo $item['next'] ?></p></a>
+            <a href="<?php echo $item['next-url'] ?>" class="c-1"><p class="f-b f-16 f-16-s0 pa-l-40 pa-b-30 pa-l-30-s0 pa-b-30-s0  mr-t-0 mr-t-0-s0 mr-t-0-s0 c-1 <?php echo $args['next-class'] ? $args['next-class'] : '' ?>"><?php echo $item['next'] ?></p></a>
           </div>
         </div>
       <?php } ?>

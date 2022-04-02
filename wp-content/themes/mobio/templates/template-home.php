@@ -16,14 +16,14 @@
 
 	<?php get_template_part('template-parts/top-tenant-enterprise',null,
   	array(
-			'classExtend' => 'mr-t-175 mr-t-200-s4',
+			'classExtend' => 'mr-t-200',
 			'title' => 'We help Enterprises achieve their goals!'
 		)); ?>
 
 	<?php 
 		get_template_part('template-parts/section-title',null,
 			array(
-				'classExtend' => 'mr-t-175 mr-t-200-s4',
+				'classExtend' => 'mr-t-200',
 				'classMedia' => 'mr-t-120-s1',
 				'title-sm' => 'Core Value',
 				'title' => 'Customer Data Platform',
@@ -57,7 +57,7 @@
 	<?php 
 		get_template_part('template-parts/section-title',null,
 			array(
-				'classExtend' => 'mr-t-250 mr-t-200-s4',
+				'classExtend' => 'mr-t-200',
 				'title-sm' => 'Product',
 				'title' => 'Our Operating System',
 				'desc' => 'We know the right solutions for your business problems.',
@@ -107,7 +107,7 @@
 	<?php 
 		get_template_part('template-parts/home-row-tab',null,
 			array(
-				'classExtend' => 'mr-t-300 mr-t-250-s4',
+				'classExtend' => 'mr-t-200',
 				'img-left' => 1,
 				'anchor' => 'tab-sales',
 				'icon-top' => get_template_directory_uri() . '/images/home/homepage-sales.svg',
@@ -147,7 +147,7 @@
 	<?php 
 		get_template_part('template-parts/home-row-tab',null,
 			array(
-				'classExtend' => 'mr-t-300 mr-t-250-s4',
+				'classExtend' => 'mr-t-250',
 				'anchor' => 'tab-service',
 				'icon-top' => get_template_directory_uri() . '/images/home/homepage-service.svg',
 				'items' => array(
@@ -272,7 +272,7 @@
 
 <?php get_template_part('template-parts/section-title',null,
     array( 
-      'classExtend' => 'mr-t-175 mr-t-200-s4',
+      'classExtend' => 'mr-t-200',
       'title-sm' => 'library',
       'title' => 'Most Helpful Paper selected by our Customers',
     )); ?>
@@ -308,7 +308,7 @@
 
 	<?php get_template_part('template-parts/breaking-case',null,
     array( 
-      'classExtend' => 'mr-t-50 mr-b-300 mr-b-70-s1 mr-b-200-s4',
+      'classExtend' => 'mr-t-50 mr-b-70-s1 mr-b-200',
 			'title' => 'Banking cases',
 			'title-sub' => 'CDP use case: Banking sector',
 			'desc' => '<p>In the Banking industry, data security and privacy are top of mind. Banks hold the most sensitive 

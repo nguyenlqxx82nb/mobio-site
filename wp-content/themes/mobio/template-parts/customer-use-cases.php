@@ -1,5 +1,5 @@
 
-<div class="use-case-wrapper <?php echo $args['classExtend'] ? $args['classExtend'] : 'mr-t-250 mr-t-150-s4' ?> b-g-b mr-t-70-s0">
+<div class="use-case-wrapper <?php echo $args['classExtend'] ? $args['classExtend'] : 'mr-t-150' ?> b-g-b mr-t-70-s0">
 	<div class="auto-container auto">
 		<div class="pa-l-10 pa-r-10">
 			<p class="title-sm c-fff text-center mr-t-60 opa-5 mr-t-40-s0 f-18 f-14-s1"><?php echo $args['title'] ?></p>

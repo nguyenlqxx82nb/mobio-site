@@ -580,7 +580,7 @@ button {
 	border: none;
 	outline: none !important;
 	background-color: #55CBF5;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 150%;
 	font-weight: 700;
 	box-shadow: 4px 10px 50px 4px rgba(23, 163, 219, 0.1);
@@ -589,8 +589,8 @@ button {
 	cursor: pointer;
 	padding-top: 12px;
 	padding-bottom: 12px;
-	padding-left: 43px;
-	padding-right: 43px;
+	padding-left: 30px;
+	padding-right: 30px;
 	color: #fff;
 }
 
@@ -1018,3 +1018,8 @@ h6, .h6 {font-size: 16px;}
 }
 
 .mr-auto{ margin: 0 auto;}
+
+.tenant-top-item {
+	height: 45px;
+	width: 180px;
+}

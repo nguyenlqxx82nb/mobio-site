@@ -21,7 +21,7 @@ get_header();
     'desc' => 'You might have heard a lot about CDP. But have you ever heard of Operation CDP, and did you ever try it? 
                 Mobio CDP is an Operation CDP that provides all business operation tools, from collecting data from various sources to 
                 activating data for marketing, sales, and service activities.',
-    'desc-class' => 'f-n f-18 f-16-s4',
+    'desc-class' => 'f-n f-16',
     'desc-w' => 'w-600'
   )); ?>
 

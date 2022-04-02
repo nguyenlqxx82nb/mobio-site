@@ -33,7 +33,7 @@
         <?php } ?>
         <h2 class="<?php echo $args['class-name'] ? $args['class-name'] : 'f-b f-40 mr-t-20' ?> f-30-s3  mr-t-10-s0 f-32-s0 c-fff"><?php echo $args['name'] ?></h2>
         <div class="c-fff mr-t-10 f-n f-16 f-14-s0 opa-8  <?php echo $args['desc-class'] ? $args['desc-class'] : '' ?> 
-          <?php echo $args['desc-w'] ? $args['desc-w'] : 'w-600 w-450-s4' ?>">
+          <?php echo $args['desc-w'] ? $args['desc-w'] : 'w-450' ?>">
           <?php
             if ($args['desc']) {
           ?>  
@@ -49,7 +49,7 @@
           if (!$args['ignoreContact']) {
         ?>
           <div class="email-submit">
-            <div class="input-wrap mr-t-20 w-500 w-400-s4 mr-t-30-s0">
+            <div class="input-wrap mr-t-20 w-400 mr-t-30-s0">
               <input class="" placeholder="Enter your email address" />
             </div>
             <div class="c-red mr-t-5 f-12 mr-l-20 msg-error d-none">This email cannot be blank</div>

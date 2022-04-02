@@ -10,7 +10,7 @@
   </div>
   
   <div class="auto-container insight-col-container" style="margin-top: -170px">
-    <div class="mr-l-30-s0 mr-r-30-s0 b-fff b-sd b-r-10 pa-50 pa-40-s4 pa-t-15-s0 pa-b-15-s0 pa-l-5-s0 pa-r-5-s0 auto mr-b-40">
+    <div class="mr-l-30-s0 mr-r-30-s0 b-fff b-sd b-r-10 pa-40 pa-t-15-s0 pa-b-15-s0 pa-l-5-s0 pa-r-5-s0 auto mr-b-40">
       <?php 
         foreach($args['items'] as $item) {
       ?>

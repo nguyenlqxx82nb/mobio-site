@@ -72,7 +72,6 @@
 		<link rel="stylesheet" id="base-styles-css" href="<?php echo get_site_url() ?>/wp-content/themes/mobio/styles-base.css?v=<?php echo $version ?>" media="all">
 		<link rel="stylesheet" id="wp-block-library-css" href="<?php echo get_site_url() ?>/wp-content/themes/mobio/style.css?v=<?php echo $version ?>" media="all">
 		<link rel="stylesheet" id="header-styles-css" href="<?php echo get_site_url() ?>/wp-content/themes/mobio/styles-header.css?v=<?php echo $version ?>" media="all">
-		<link rel="stylesheet" id="media-styles-css" href="<?php echo get_site_url() ?>/wp-content/themes/mobio/styles-media-s4.css?v=<?php echo $version ?>" media="all">
 		<link rel="stylesheet" id="media-styles-css" href="<?php echo get_site_url() ?>/wp-content/themes/mobio/styles-media-s3.css?v=<?php echo $version ?>" media="all">
 		<link rel="stylesheet" id="media-styles-css" href="<?php echo get_site_url() ?>/wp-content/themes/mobio/styles-media-s2.css?v=<?php echo $version ?>" media="all">
 		<link rel="stylesheet" id="media-styles-css" href="<?php echo get_site_url() ?>/wp-content/themes/mobio/styles-media-s1.css?v=<?php echo $version ?>" media="all">

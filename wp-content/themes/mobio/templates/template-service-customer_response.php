@@ -22,7 +22,7 @@ get_header();
 
 <?php get_template_part('template-parts/section-title',null,
   array( 
-    'classExtend' => 'mr-t-150 mr-t-300-s2',
+    'classExtend' => 'mr-t-150',
     'title-sm' => 'social & chat',
     'title' => 'Deliver rich conversational experiences',
     'desc' => 'Customers expect great service across all channels. Messaging makes it easy to stay in touch with personalized and engaging interactions. With Mobio, get messaging right out of the box or fully customize it to meet your needs.',
@@ -37,7 +37,7 @@ get_header();
 
 <?php get_template_part('template-parts/section-title',null,
   array( 
-    'classExtend' => 'mr-t-250 mr-t-150-s4',
+    'classExtend' => 'mr-t-150',
     'title-sm' => 'what we offer?',
     'title' => '<p>Complete messaging solution to meet your customers’ needs</p>',
   )); ?>

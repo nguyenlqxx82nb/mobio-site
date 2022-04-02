@@ -17,14 +17,14 @@ get_header();
         <img class="menu-logo mr-t-50 mr-t-20-s0" src="<?php  echo get_template_directory_uri() . '/images/logo-gray.svg' ?>" />
       </a>
 
-      <div class="upper-case c-fff f-b f-120 f-70-s4 mr-t-200 mr-t-100-s4  mr-t-80-s0 f-44-s0"><p>coming soon</p></div>
-      <div class="w-600 f-n f-22 f-20-s4 c-fff mr-t-30 mr-auto mr-t-30-s0 f-16-s0 mr-auto w-300-s0"><p>We will be landing this site soon. Add your email below and be among the first to know when we officially take fight.</p></div>
+      <div class="upper-case c-fff f-b f-70 mr-t-100  mr-t-80-s0 f-44-s0"><p>coming soon</p></div>
+      <div class="w-600 f-n f-20 c-fff mr-t-30 mr-auto mr-t-30-s0 f-16-s0 mr-auto w-300-s0"><p>We will be landing this site soon. Add your email below and be among the first to know when we officially take fight.</p></div>
       <div class="input-wrap email-submit input-border-left input-wrap-action w-600 w-350-s0 mr-auto mr-t-45">
         <input placeholder="Enter your email address" /> 
-        <div class="input-action f-b f-20 f-18-s4 c-fff h-100 d-flex justify-content-center align-items-center"><p>Submit</p></div>
+        <div class="input-action f-b f-18 c-fff h-100 d-flex justify-content-center align-items-center"><p>Submit</p></div>
       </div>
       <!-- socials -->
-      <div class="d-flex justify-content-center mr-t-120 mr-t-80-s4  mr-t-50-s0">
+      <div class="d-flex justify-content-center mr-t-80  mr-t-50-s0">
         <a href="#" class="social-link mr-r-15">
           <img src="<?php  echo get_template_directory_uri() ?>/images/facebook.png" />
         </a>

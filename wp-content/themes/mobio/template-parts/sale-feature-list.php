@@ -1,7 +1,7 @@
 <div class="tab-wrapper <?php echo $args['classExtend']; ?>  mr-t-30-s0">
   <div class="auto-container">
     <div class="b-sd b-fff auto mr-b-40 pa-l-100 pa-r-100 b-r-10 tab-feature mr-l-20-s0 mr-r-20-s0 pa-l-15-s0 pa-r-15-s0 mr-t-0-s0">
-      <div class="scroll-tab f-b f-22 f-18-s4 c-2 f-16-s0 mr-t-45 mr-b-45 justify-content-between mr-t-25-s0 mr-b-25-s0">
+      <div class="scroll-tab f-b f-18 c-2 f-16-s0 mr-t-45 mr-b-45 justify-content-between mr-t-25-s0 mr-b-25-s0">
         <?php 
           for ($i = 0; $i < count($args['items']); $i++) {
         ?>

@@ -10,7 +10,7 @@
         <img class="menu-logo menu-logo-fixed d-n mr-l-25-s0" src="<?php  echo get_template_directory_uri() . "/images/logo-blue.svg" ?>">
       </a>
 
-      <div class="d-flex d-none-s2 flex-grow-1 justify-content-center f-b  f-16 f-14-s4">
+      <div class="d-flex d-none-s2 flex-grow-1 justify-content-center f-b f-14">
         <div class="menu-item customer-menu d-flex align-items-center">
           <div class="d-flex align-items-center menu-top-item">	
             <p class="c-fff">Customer</p>

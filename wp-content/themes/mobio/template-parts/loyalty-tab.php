@@ -17,7 +17,7 @@
         </div>
       </div>  
       <div class="d-n d-block-s0 w-100">
-        <div class="scroll-tab f-b c-2 f-16-s4 f-16-s0 justify-content-between mr-t-25-s0 mr-b-25-s0">
+        <div class="scroll-tab f-b c-2 f-16 f-16-s0 justify-content-between mr-t-25-s0 mr-b-25-s0">
           <?php 
             for ($i = 0; $i < count($args['items']); $i++) {
           ?>
@@ -39,7 +39,7 @@
               <div class="mo-row row slide-item "> 
                 <div class="mo-col-6 pa-l-40 pa-r-60 mo-col-12-s2 pa-20-s2">
                   <div class="h-100 d-flex flex-column justify-content-center">
-                    <p class="f-n f-20 f-16-s4 f-14-s0"><?php echo $args["items"][$i]['desc'] ?></p>
+                    <p class="f-n f-16 f-14-s0"><?php echo $args["items"][$i]['desc'] ?></p>
                   </div>
                 </div>
                 <div class="mo-col-6 pa-l-40  mo-col-12-s2 pa-20-s2">

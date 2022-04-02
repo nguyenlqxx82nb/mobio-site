@@ -13,7 +13,7 @@
   <?php if (!$args['isMobile']) { ?>
     <div class="input-wrap w-100 input-wrap-action d-none-s1 <?php echo $args['classExtend'] ?>">
       <input placeholder="Enter your email address" /> 
-      <div class="<?php echo $args['btnClass'] ? $args['btnClass'] : 'btn-submit' ?> input-action f-b f-20 c-fff f-16-s4 d-flex align-items-center justify-content-center h-100 cursor-pointer"><p>
+      <div class="<?php echo $args['btnClass'] ? $args['btnClass'] : 'btn-submit' ?> input-action f-b c-fff f-16 d-flex align-items-center justify-content-center h-100 cursor-pointer"><p>
         <?php echo $args['submit'] ?  $args['submit'] : 'Submit' ?></p></div>
     </div>
     <div class="c-red mr-t-5 f-12 mr-l-20 msg-error d-none">This email cannot be blank</div>
