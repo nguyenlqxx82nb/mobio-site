@@ -30,7 +30,7 @@ get_header();
       </div>
     </div>
 
-    <div class="w-100" style="height: 560px;">
+    <div class="w-100 d-none-s1" style="height: 560px;">
       <div class="auto-container"> 
         <div class="mo-col-6 pa-t-60 pa-l-50 mo-col-12-s0 pa-20-s0">
           <div class="pa-l-40 upper-case f-20 c-fff w-500">MOBIO Vietnam Application Software Join Stock Company</div>

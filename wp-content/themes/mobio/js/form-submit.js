@@ -85,12 +85,12 @@
     let loading = false;
     $('.email-submit').each(function(){
       const $email = $(this);
-      $email.find('input').on('keyup', function(e){
-        // console.log('key code = ', e.keyCode);
-        if (!validateInputEmail($email)) {
-          return;
-        }
-      });
+      // $email.find('input').on('keyup', function(e){
+      //   // console.log('key code = ', e.keyCode);
+      //   if (!validateInputEmail($email)) {
+      //     return;
+      //   }
+      // });
 
       $email.find('.btn-submit').on('click', function(e) {
         if (loading) {

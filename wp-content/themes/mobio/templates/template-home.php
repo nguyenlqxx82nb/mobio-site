@@ -255,8 +255,8 @@
 						),
 						array(
 							'text-tab' => 'Galle Watch',
-							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/galle.png',
-							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/galle-white.png',
+							'tab-img-s' => get_template_directory_uri() . '/images/tenant/tenants/galle-tim-1.png',
+							'tab-img-n' => get_template_directory_uri() . '/images/tenant/tenants/galle-white-1.png',
 							'title' => 'Galle Watch',
 							'title-sub' => 'Optimize customer satisfaction at scale',
 							'desc' => 'Galle has successfully coordinated Marketing, Sales, and CS Teams all in one platform and built an effective 
