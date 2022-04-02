@@ -24,7 +24,7 @@
               <div class="f-n f-16 f-14-s0 mr-t-20 w-450"><p><?php echo $args["items"][0]['desc'] ?></p></div>
               <?php if($args['items'][0]['next']) { ?>
                 <a href="<?php echo $args["items"][0]["next-url"] ?>" class="c-4-b">
-                  <p class="mr-t-20 f-b f-16 f-14-s0 upper-case c-4-b"><?php echo $args['items'][0]['next'] ?></p>
+                  <p class="mr-t-20 f-b f-16 f-13-s0 upper-case c-4-b"><?php echo $args['items'][0]['next'] ?></p>
                 </a>
               <?php } else { ?>
                 <a href="<?php echo $args["items"][$i]["next-url"] ?>" class="c-4-b">

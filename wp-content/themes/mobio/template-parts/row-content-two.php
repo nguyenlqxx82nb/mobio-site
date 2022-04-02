@@ -17,7 +17,7 @@
       
       
 
-      <div class="mo-col-12-s0 col-info mo-col info-container d-flex flex-column justify-content-center ">
+      <div class="mo-col-12-s0 pa-l-20-s0 pa-r-20-s0 col-info mo-col info-container d-flex flex-column justify-content-center ">
         <?php
           if ($args["icon"]) {
         ?>

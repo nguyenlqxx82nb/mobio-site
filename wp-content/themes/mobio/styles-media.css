@@ -450,7 +450,7 @@
   }
 
   .header-bg, .header-page {
-    height: 540px !important;
+    height: 500px !important;
   }
 
   .header-bg {
@@ -700,5 +700,9 @@
   .menu-top {
     top: 0px !important;
     position: fixed !important;
+  }
+
+  .header-bg-products {
+    height: 600px !important;
   }
 }

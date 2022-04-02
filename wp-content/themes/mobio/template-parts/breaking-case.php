@@ -10,6 +10,11 @@
             array(
               'classExtend' => 'mr-t-45 mr-t-30'
             )) ?>
+          <?php get_template_part('template-parts/input-submit', null,
+            array(
+              'classExtend' => 'mr-t-20 mr-l-20 mr-r-20',
+              'isMobile' => 1
+            )) ?>
         </div>
       </div>
       <div class="mo-col-6 mo-col pa-l-40 pa-r-40 mo-col-12-s2 pa-l-30-s0 pa-r-30-s0 mr-t-20-s0"> 
@@ -17,11 +22,7 @@
           <img class="img-full object-fit-contain" src="<?php echo $args['img-src'] ?>" />
         </div>
         
-        <?php get_template_part('template-parts/input-submit', null,
-            array(
-              'classExtend' => 'mr-t-20',
-              'isMobile' => 1
-            )) ?>
+       
       </div>
     </div>
   </div>

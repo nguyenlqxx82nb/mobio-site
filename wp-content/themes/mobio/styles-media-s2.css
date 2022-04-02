@@ -477,4 +477,9 @@ h6, .h6 {font-size: 14px;}
   }
 
   .mr-auto-s2{ margin: 0 auto;}
+
+  .tenant-top-item {
+    height: 40px;
+    width: 100px;
+  }
 }

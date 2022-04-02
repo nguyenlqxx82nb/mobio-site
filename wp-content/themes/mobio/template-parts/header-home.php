@@ -23,8 +23,8 @@
 			get_template_part('template-parts/menu-top', null, array('classExtend'=> ''));
 		?>
 		<div class="auto-container auto pa-t-50 pa-t-0-s2">
-			<h2 class="c-fff text-center pa-l-0 pa-r-0 f-30-s2 f-25-s1">How can we help leverage your business?</h2>
-			<div class="f-n f-18 f-16-s3 f-14-s1 c-fff text-center mr-t-20 opa-7 f-14-s0 mr-t-5-s0 pa-l-60 pa-r-60 pa-l-0-s2 pa-r-0-s2 "><p>Mobio is an all-in-one platform for the Marketing, Sales, and Service team with CDP at the heart.
+			<h2 class="c-fff text-center pa-l-20 pa-r-20 f-30-s2 f-25-s1">How can we help leverage your business?</h2>
+			<div class="f-n f-18 f-16-s3 f-14-s1 c-fff text-center mr-t-20 opa-9 f-14-s0 mr-t-20-s0 pa-l-60 pa-r-60 pa-l-20-s2 pa-r-20-s2 "><p>Mobio is an all-in-one platform for the Marketing, Sales, and Service team with CDP at the heart.
 				<br>Our product was designed to address daily business challenges and create true value for our customers.</p>
 			</div>
 

@@ -32,7 +32,7 @@
         </div>
         <?php } ?>
         <h2 class="<?php echo $args['class-name'] ? $args['class-name'] : 'f-b f-40 mr-t-20' ?> f-30-s3  mr-t-10-s0 f-32-s0 c-fff"><?php echo $args['name'] ?></h2>
-        <div class="c-fff mr-t-10 f-n f-16 f-14-s0 opa-8  <?php echo $args['desc-class'] ? $args['desc-class'] : '' ?> 
+        <div class="c-fff mr-t-10 f-n f-16 f-14-s0 opa-9  <?php echo $args['desc-class'] ? $args['desc-class'] : '' ?> 
           <?php echo $args['desc-w'] ? $args['desc-w'] : 'w-450' ?>">
           <?php
             if ($args['desc']) {
@@ -76,7 +76,7 @@
         <?php 
           if ($args['img-src']) {
         ?>
-          <div class="h-100 w-100 pa-l-40 pa-r-0">
+          <div class="h-100 w-100 pa-l-40 pa-r-0 d-none-s1">
             <div class="rt-3-4 position-relative w-100"> 
               <div class="full-container">
                 <img class="w-100 h-100 object-fit-contain" src="<?php echo $args['img-src'] ? $args['img-src']: get_template_directory_uri().'/images/empty-image.png'; ; ?>" />
@@ -91,7 +91,7 @@
   </div>
 
   <div class="auto-container w-100 h-100 d-block-s2 d-n">
-    <div class="pa-t-100-s2 pa-t-50-s2">
+    <div class="pa-t-80-s2">
       <div class="d-flex flex-column align-items-center">
         <?php if ($args['title']) { ?>
           <div class="f-b f-16 f-12-s0 c-fff opa-5 upper-case text-center">
@@ -100,8 +100,8 @@
 
         <?php } ?>
 
-        <h2 class="<?php echo $args['class-name'] ? $args['class-name'] : 'f-b f-40 mr-t-20' ?> f-30-s3  mr-t-10-s0 f-32-s0 c-fff text-center"><?php echo $args['name'] ?></h2>
-        <div class="c-fff mr-t-10 f-n f-16 f-14-s0 opa-8 text-center w-600-s2 w-100-s2">
+        <h2 class="<?php echo $args['class-name'] ? $args['class-name'] : 'f-b f-40 mr-t-20' ?> f-30-s3  mr-t-10-s0 f-32-s0 c-fff text-center pa-l-5 pa-r-5"><?php echo $args['name'] ?></h2>
+        <div class="c-fff mr-t-10 f-n f-16 f-14-s0 opa-9 text-center w-600-s2 w-100-s2 pa-l-10-s1 pa-r-10-s1">
           <?php
             if ($args['desc']) {
           ?>  
@@ -117,16 +117,16 @@
           if (!$args['ignoreContact']) {
         ?>
           <div class="email-submit">
-            <div class="input-wrap mr-t-20 w-450-s2 w-100-s2">
+            <div class="input-wrap mr-t-20 w-450-s2 w-350-s1 w-100-s2 mr-auto">
               <input class=" w-500 " placeholder="Enter your email address" />
             </div>
-            <button class="btn-submit btn-small mr-t-10 upper-case w-450-s2  w-100-s2">get started</button>
+            <button class="btn-submit btn-small mr-t-10 upper-case w-450-s2 w-350-s1  w-100-s2">get started</button>
           </div>
         <?php } ?>
         <?php
           if ($args['img-src']) {
         ?>  
-          <div class="w-500 mr-t-30">
+          <div class="w-500 mr-t-30 d-none-s1">
             <img class="w-100 h-100 object-fit-contain" src="<?php echo $args['img-src'] ? $args['img-src']: get_template_directory_uri().'/images/empty-image.png'; ?>" />
           </div>
         <?php } ?>

@@ -19,7 +19,7 @@ get_header();
 <?php 
   get_template_part('template-parts/partner-list',null,
     array(
-      'classExtend' => 'mr-t-10 mr-t-80-s0',
+      'classExtend' => 'mr-t-20 mr-t-0-s0',
       'title' => 'Consultation Partners',
       'partners' => array(
         array(
