@@ -1,7 +1,7 @@
 
 <div class="<?php echo $args['classExtend'] ?> mr-t-80-s0">
-  <div class="auto-container">
-    <div class="b-sd bd-c-fff b-r-10 pa-40-n pa-t-40-s1 pa-b-40-s1 pa-l-20-s1 pa-r-20-s1 pa-l-0 mo-row row">
+  <div class="auto-container pa-20-s0 pa-20-s0">
+    <div class="b-sd b-fff b-r-10 pa-40-n pa-t-40-s1 pa-b-40-s1 pa-l-20-s1 pa-r-20-s1 pa-l-0 mo-row row ">
       <div class=" mo-col-4 d-flex align-items-center justify-content-center mo-col-12-s1 ">
         <div class="mr-auto text-center">
           <div class="avatar-container">

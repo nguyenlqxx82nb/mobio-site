@@ -54,7 +54,7 @@
             </div>
             <div class="c-red mr-t-5 f-12 mr-l-20 msg-error d-none">This email cannot be blank</div>
             <div class="d-flex align-items-center mr-t-15">
-              <button class="btn-subscript btn-small upper-case">Subcribe</button>
+              <button class="btn-subscript btn-small upper-case">Subscribe</button>
               <div class="pa-l-20 d-none-s2 f-14 c-fff">
                 Get in touch with us <br> for the latest industry news!
               </div>
@@ -120,7 +120,7 @@
             <div class="input-wrap mr-t-20 w-450-s2 w-350-s1 w-100-s2 mr-auto">
               <input class=" w-500 " placeholder="Enter your email address" />
             </div>
-            <button class="btn-submit btn-small mr-t-10 upper-case w-450-s2 w-350-s1  w-100-s2">get started</button>
+            <button class="btn-subscript btn-small mr-t-10 upper-case w-450-s2 w-350-s1  w-100-s2">subscribe</button>
           </div>
         <?php } ?>
         <?php
