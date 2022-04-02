@@ -21,7 +21,7 @@ get_header();
       <div class="w-600 f-n f-20 c-fff mr-t-30 mr-auto mr-t-30-s0 f-16-s0 mr-auto w-300-s0"><p>We will be landing this site soon. Add your email below and be among the first to know when we officially take fight.</p></div>
       <div class="input-wrap email-submit input-border-left input-wrap-action w-600 w-350-s0 mr-auto mr-t-45">
         <input placeholder="Enter your email address" /> 
-        <div class="input-action f-b f-18 c-fff h-100 d-flex justify-content-center align-items-center"><p>Submit</p></div>
+        <div class="input-action f-b f-18 c-fff h-100 d-flex justify-content-center align-items-center cursor-pointer"><p>Submit</p></div>
       </div>
       <!-- socials -->
       <div class="d-flex justify-content-center mr-t-80  mr-t-50-s0">

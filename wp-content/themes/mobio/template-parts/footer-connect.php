@@ -13,7 +13,7 @@
           <div class="email-submit w-100">
             <div class=" w-100 input-wrap input-border-left input-wrap-action mw-100">
               <input placeholder="Enter your email address" /> 
-              <div class="btn-subscript input-action f-b f-16 c-fff h-100 d-flex justify-content-center align-items-center upper-case"><p>subscribe</p></div>
+              <div class="btn-subscript input-action cursor-pointer f-b f-16 c-fff h-100 d-flex justify-content-center align-items-center upper-case"><p>subscribe</p></div>
             </div>
             <div class="c-red mr-t-5 f-12 mr-l-20 msg-error d-none">This email cannot be blank</div>
           </div>
