@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="mo-col-8  mo-col-12-s1 mr-t-30-s1">
-        <div class="f-n f-18 f-16-s2 ">
+        <div class="f-n f-18 f-16-s2 f-14-s1 ">
           <?php echo $args['desc']  ?>
         </div>
       </div>

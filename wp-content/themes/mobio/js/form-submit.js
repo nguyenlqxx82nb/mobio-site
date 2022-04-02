@@ -3,7 +3,7 @@
   jQuery(function(){ 
     console.log('contact-form');
     $('.contact-form').find('.btn-submit').on('click', function(e) {
-      console.log('contact-form submit click');
+      // console.log('contact-form submit click');
       e.preventDefault();
       const $form = $('.contact-form');
       const $firstName = $form.find('.first-name');
@@ -51,7 +51,7 @@
 
       const formData = {
         '_dyn_country_1648092062550': $country.find('select').val(),
-        '_dyn_job_position_1648091495100': $industry.find('select').val(),
+        '_dyn_industry_1648885261804': $industry.find('select').val(),
         '_dyn_request_1648091548465': $request.val(),
         'primary_phone': $phone.find('input').val(),
         'primary_email': $email.find('input').val(),
@@ -61,7 +61,7 @@
       // console.log('form data=', formData);
       $.ajax({
         url: "https://api-test1.mobio.vn/landingpage/api/v2.0/ladipage/profiles/actions/submit", 
-        headers: {"X-Merchant-ID": "1b99bdcf-d582-4f49-9715-1b61dfff3924"},
+        headers: {"X-Merchant-ID": "abbb85b9-d1c0-4063-9a78-3397eefb5993"},
         type: 'POST',
         data: formData,
         success: function(result){
@@ -101,14 +101,13 @@
         }
         loading = true;
         const formData = {
-          'primary_phone': '',
           'primary_email': $email.find('input').val(),
           'tags': 'mkt_leads'
         };
         // console.log('form data=', formData);
         $.ajax({
           url: "https://api-test1.mobio.vn/landingpage/api/v2.0/ladipage/profiles/actions/submit", 
-          headers: {"X-Merchant-ID": "1b99bdcf-d582-4f49-9715-1b61dfff3924"},
+          headers: {"X-Merchant-ID": "abbb85b9-d1c0-4063-9a78-3397eefb5993"},
           type: 'POST',
           data: formData,
           success: function(result){
@@ -145,7 +144,7 @@
         // console.log('form data=', formData);
         $.ajax({
           url: "https://api-test1.mobio.vn/landingpage/api/v2.0/ladipage/profiles/actions/submit", 
-          headers: {"X-Merchant-ID": "1b99bdcf-d582-4f49-9715-1b61dfff3924"},
+          headers: {"X-Merchant-ID": "abbb85b9-d1c0-4063-9a78-3397eefb5993"},
           type: 'POST',
           data: formData,
           success: function(result){
