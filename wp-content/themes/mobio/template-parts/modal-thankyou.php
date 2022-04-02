@@ -14,7 +14,7 @@
 <div class="modal-container-2 pa-30 d-none w-350-s1">
   <div class="d-flex flex-column align-items-center justify-content-center">
     <div class="f-b f-30 c-1-b mr-t-20 upper-case text-center">Glad to have you!</div>
-    <div class="f-16 mr-t-20 text-center w-350 pa-l-20 pa-r-20 desc lh4">
+    <div class="f-16 mr-t-20 text-center w-350 pa-l-10 pa-r-10 desc lh4">
     <p>Thank you for subscribing! From now on you’re the first to receive our newsletter and up-to-date industry news!</p>
     <p class="mr-t-15">Feel free to request a demo to see how our product works!</p>
     </div>
