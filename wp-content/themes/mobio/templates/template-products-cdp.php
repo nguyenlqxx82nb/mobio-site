@@ -181,7 +181,7 @@ get_header();
 <?php 
   get_template_part('template-parts/cdp-guideline', null, 
     array(
-      'classExtend' => 'mr-t-150',
+      'classExtend' => 'mr-t-150 d-n',
       'title' => 'guideline',
       'name' => '2022 Ultimate Guide to CDP: Every Marketers need to know',
       'desc' => 'Before you invest in a CDP, read this handy guide to discover the true definition of a CDP, 

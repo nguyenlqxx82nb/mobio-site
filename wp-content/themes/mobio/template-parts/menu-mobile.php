@@ -21,7 +21,7 @@
             <a href="<?php echo get_site_url()."/customer-cases" ?>"><div class="f-b f-16 upper-case pa-b-10"><p>Use Cases</p></div></a>
             <div class="menu-mobile-divider mr-t-10 mr-b-10"></div>
             <a href="<?php  echo get_site_url() ?>/industry"><div class="f-b f-16 upper-case"><p class="pa-t-10 pa-b-10 c-000">industries</p></div></a>
-            <a href="<?php  echo get_site_url() ?>/industry-fsi"><div class="c-000"><p class="pa-t-10 pa-b-10">Financial Services</p></div></a>
+            <a href="<?php  echo get_site_url() ?>/industry-fsi"><div class="c-000"><p class="pa-t-10 pa-b-10">BFSI</p></div></a>
             <a href="<?php  echo get_site_url() ?>/industry-retail"><div class="c-000"><p class="pa-t-10 pa-b-10">Retail</p></div></a>
             <a href="<?php  echo get_site_url() ?>/real-estate"><div class="c-000"><p class="pa-t-10 pa-b-10">Real Estate</p></div></a>
             <a href="<?php  echo get_site_url() ?>/healthcare"><div class="c-000"><p class="pa-t-10 pa-b-20">Healthcare</p></div></a>

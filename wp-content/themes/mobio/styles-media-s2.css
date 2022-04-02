@@ -482,4 +482,16 @@ h6, .h6 {font-size: 14px;}
     height: 40px;
     width: 100px;
   }
+
+  .avatar-container {
+    width: 151px;
+    height: 151px;
+    border-radius: 75px;
+  }
+
+  .avatar-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+  }
 }

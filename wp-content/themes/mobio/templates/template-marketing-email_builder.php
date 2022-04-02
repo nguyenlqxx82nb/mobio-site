@@ -128,14 +128,6 @@ get_header();
       'img-src' => get_template_directory_uri() .'/images/product/marketing/email-builder-5.png',
     )); ?>
 
-  <?php get_template_part('template-parts/quote-site',null,
-    array(
-      'classExtend' => 'mr-t-150',
-      'color' => 'c-000',
-      'classContainer' => 'b-sd auto b-fff b-r-10',
-      'desc' => '“Mobio Email Builder is my dream tool."',
-      'name' => 'Mr. Nguyen Van Dzung - Marketing Executive at BIDV',
-    )); ?>
   <!-- <div class="mo-row mr-t-250 mr-b-160 mr-l-40 mr-r-40 b-sd auto pa-t-80 pa-b-80 b-r-15">
     <div class="mr-auto avatar-container">
       <img src="<?php echo get_template_directory_uri() . '/images/product/marketing/avatar.png' ?>" />

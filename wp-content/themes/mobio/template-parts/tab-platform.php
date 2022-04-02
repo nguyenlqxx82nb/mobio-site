@@ -27,7 +27,7 @@
                 <div class="upper-case f-b f-16 f-14-s0 c-4 opa-5 mr-b-15"><p><?php echo $args['items'][$i]['content']['title'] ?></p></div>
                 <div class="f-b f-40 f-30-s1 mr-b-20-s1 mr-b-25"><p><?php echo $args['items'][$i]['content']['name'] ?></p></div>
                 <div class="divider-item mr-b-30  mr-b-20-s1 b-pri b-r-5"></div>
-                <div class="f-n f-18 w-550 w-350-s1 f-14-s1"><p><?php echo $args['items'][$i]['content']['desc'] ?></p></div>
+                <div class="f-n f-18 f-16-s2 w-550 w-350-s1 f-14-s1"><p><?php echo $args['items'][$i]['content']['desc'] ?></p></div>
                 <a href="<?php echo $args['items'][$i]['content']['next-url'] ?>"><button class="btn-small upper-case mr-t-30 mr-t-15-s0"><?php echo $args['items'][$i]['content']['next'] ?></button></a>
               </div>
               <div class="mo-col-6 mo-col-12-s2 pa-l-20-s2 pa-r-20-s2 pa-t-5-s2 pa-b-10-s2">

@@ -141,6 +141,7 @@ get_header();
   <?php get_template_part('template-parts/quote-site',null,
         array( 
           'classExtend' => 'mr-t-150',
+          'avatar' => get_template_directory_uri() . '/images/anh-Hung-CEO.jpg',
           'desc' => '“At MOBIO, we always care about the Value! <br><br>
  
           The Value we make, the Value we bring to our customers.<br><br> 
@@ -151,7 +152,8 @@ get_header();
           push the digital transformation process of Enterprise 2-3 time faster.<br><br> 
            
           That is the Value we offer!"',
-          'name' => 'Le Hung - Mobio CEO'
+          'name' => 'Le Hung',
+          'subTitle' => 'CEO, Mobio JSC'
         )
     ); ?>
   

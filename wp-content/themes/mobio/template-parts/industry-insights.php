@@ -24,7 +24,7 @@
     </div>
   </div>
 
-  <div class="text-center mr-t-50 mr-t-0-s0">
+  <div class="text-center mr-t-50 mr-t-0-s0 d-n">
     <a href="<?php echo $args['next-url'] ?>">
       <button class="">READ MORE</button>
     </a>

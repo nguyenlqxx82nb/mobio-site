@@ -32,7 +32,7 @@
                 <div class="mo-col-8">
                   <a href="<?php echo get_site_url() ?>/industry-fsi" class="d-b mr-b-20">
                     <div class="d-flex align-items-center">
-                      <img src="<?php  echo get_template_directory_uri() ?>/images/menu/customer-bank.png" class="menu-list-item-img mr-r-5" /> <p class="f-n f-13 c-000 opa-5">Financial Services</p>
+                      <img src="<?php  echo get_template_directory_uri() ?>/images/menu/customer-bank.png" class="menu-list-item-img mr-r-5" /> <p class="f-n f-13 c-000 opa-5">BFSI</p>
                     </div>
                   </a>
                   <a href="<?php  echo get_site_url() ?>/real-estate" class="d-b mr-b-20">
@@ -111,7 +111,7 @@
                   </a>
                   <a href="<?php echo get_site_url() ?>/sales-pipeline" class="d-b mr-b-20">
                     <div class="d-flex align-items-center">
-                      <img src="<?php  echo get_template_directory_uri() ?>/images/menu/product-MKT-email-builder.png" class="menu-list-item-img mr-r-5" /><p class="f-n f-13 c-000 opa-5">Sales Pipeline</p>
+                      <img src="<?php  echo get_template_directory_uri() ?>/images/menu/product-sales-sales-pipeline.png" class="menu-list-item-img mr-r-5" /><p class="f-n f-13 c-000 opa-5">Sales Pipeline</p>
                     </div>
                   </a>
                   <a  href="<?php echo get_site_url() ?>/sales-task-manger" class="d-b mr-b-20">

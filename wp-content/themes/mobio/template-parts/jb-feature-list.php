@@ -29,7 +29,7 @@
                     </div>
                   </div>
                   <div class="mo-col-7 mo-col-12-s3">
-                    <div class="h-100 <?php echo $args['items'][$i]['class-image-wrapper'] ? $args['items'][$i]['class-image-wrapper'] : 'b-g-1 b-r-10 pa-30 pa-0-s0 b-fff-s0'  ?>">
+                    <div class="h-100 <?php echo $args['items'][$i]['class-image-wrapper'] ? $args['items'][$i]['class-image-wrapper'] : ' b-r-10 pa-0 pa-0-s0 b-fff-s0'  ?>">
                       <div class="h-100 rt-9-16 position-relative">
                         <img class="img-full object-fit-contain" src="<?php echo $args['items'][$i]['img-src']; ?>" />
                       </div>
